@@ -11,6 +11,18 @@ El abordaje metodológico del proyecto se rige por un enfoque estrictamente cuan
 
 La instrumentación electrónica implementada, tales como la medición de luxes mediante el protocolo I2C o la conversión analógico-digital de la permitividad dieléctrica del sustrato, transforma fenómenos físicos continuos en magnitudes discretas cuantificables. Este paradigma numérico es el que permite establecer umbrales lógicos de actuación para los algoritmos de control local. Asimismo, el enfoque cuantitativo se extiende a la capa de telemetría del proyecto, donde las series temporales de datos son enviadas a la plataforma IoT para su almacenamiento, graficación y evaluación estadística, permitiendo auditar empíricamente el desempeño del prototipo a lo largo del tiempo.
 
+\section{Cronograma de ejecución}
+Para garantizar el seguimiento ordenado y auditar la evolución del proyecto, se implementó el cronograma de actividades estructurado originalmente en la solicitud de aprobación de tema. Esta herramienta de planificación temporal, representada mediante el diagrama de Gantt que se expone a continuación, detalla la distribución cronológica y la simultaneidad de las fases operativas, permitiendo contrastar los plazos previstos en la formulación inicial con el progreso real de las tareas de diseño, manufactura y validación del prototipo.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Imagenes/Gantt.png}
+    \caption{Diagrama de Gantt.}
+    \label{fig:prueba2_10mar}
+\end{figure}
+
+\section{Protocolo de validacion}
+El protocolo de verificación y validación global del Proyecto Integrador se estructuró bajo un enfoque sistémico multivariable, considerando que el éxito del prototipo se demuestra a través de la convergencia armónica de sus diferentes etapas tecnológicas y biológicas. El indicador definitivo de validación lo constituye el rendimiento agronómico y la evolución saludable de los cultivos seleccionados, al ser el objetivo final hacia el cual se orienta la automatización de la granja inteligente. No obstante, para fundamentar analíticamente este resultado, el proceso de comprobación requiere evaluar de forma independiente los siguientes eslabones críticos: en primer lugar, la etapa de adquisición y acondicionamiento digital de las señales físicas; en segundo lugar, la estabilidad dinámica de los lazos de control encargados de regular variables críticas como el fotoperíodo artificial y los ciclos de irrigación hídrica; y en tercer lugar, la interoperabilidad del ecosistema informático en conjunto, auditando la tasa de éxito en la transmisión telemétrica hacia la nube, la disponibilidad de la interfaz gráfica de usuario y la capacidad de escalabilidad topológica para la adición de futuros módulos periféricos de cultivo.
+
 \subsection{Diseño Experimental y Metodología Iterativa}
 En cuanto al diseño de la investigación, el trabajo clasifica como experimental de tipo proyectivo. No se limitó a la observación pasiva de un fenómeno, sino que requirió la concepción, dimensionamiento y construcción física de un objeto de estudio original: el prototipo de cultivo vertical modular. Se manipularon intencionalmente variables independientes (ciclos de encendido lumínico, tiempos de inyección hídrica) para analizar sus efectos sobre las variables dependientes (estabilidad del entorno radicular y crecimiento vegetal).
 
@@ -18,7 +30,7 @@ Cabe destacar que el desarrollo metodológico adoptó un modelo de ingeniería c
 
 Esta capacidad de retroalimentación y ajuste metodológico permitió converger hacia una arquitectura final robusta, sentando bases procedimentales replicables para futuras investigaciones en el marco de las ciudades inteligentes (\textit{Smart Cities}).
 
-\section{Fases de Desarrollo del Proyecto}
+\section{Fases de Desaxrrollo del Proyecto}
 El desarrollo de este proyecto se dividio en varias fases:
 \subsection{Fase 1: Investigacion y Definición de Requisitos}
 La etapa inicial del proyecto consistió en llevar a cabo una investigación exhaustiva sobre las necesidades específicas de los cultivos vegetales. El propósito central de este estudio fue traducir dichos requerimientos biológicos en parámetros técnicos concretos, estableciendo así las bases operativas indispensables para definir las especificaciones de los sensores y actuadores del sistema.
@@ -55,6 +67,9 @@ Desde la perspectiva de los criterios de diseño, las ventajas operativo-tecnol�
 Se reconoce que, en la etapa actual de desarrollo del prototipo, no se está explotando al máximo la capacidad nominal de procesamiento de este dispositivo. No obstante, este sobredimensionamiento controlado constituye un criterio de diseño defensivo y escalable. La integración futura de algoritmos complejos de optimización hídrica o rutinas de visión computacional para el análisis foliar no requerirá una reestructuración del hardware de control ni modificaciones en la infraestructura física del sistema.
 
 Más allá de los límites físicos del presente prototipo, esta elección de hardware traza el inicio del camino hacia el paradigma de las ciudades inteligentes. La arquitectura de software concebida permite estructurar este desarrollo no como un elemento aislado, sino como un nodo genérico de una red distribuida. Esta visión metodológica facilita la interconexión e interoperabilidad con otras granjas inteligentes y proyectos de investigación complementarios, permitiendo que futuros trabajos puedan tejer una red de monitoreo y producción automatizada a escala urbana, coordinada mediante protocolos robustos de comunicación industrial e Internet de las Cosas.
+
+\subsection{Alimentacion complementaria}
+El dimensionamiento de la etapa de potencia del prototipo se rigió por un criterio metodológico defensivo, orientado al aprovechamiento de recursos preexistentes y la reducción de costos de implementación. En lugar de adquirir un módulo de alimentación comercial dedicado, se determinó la viabilidad técnica de reciclar e integrar una fuente conmutada de factor de forma extendido. Esta decisión responde a los principios de la ingeniería aplicada, donde las restricciones financieras se abordan como variables de diseño obligatorias para consolidar arquitecturas eficientes y reproducibles sin incurrir en erogaciones innecesarias. A nivel metodológico, el aparente sobredimensionamiento de la potencia nominal del dispositivo se asume como una redundancia controlada que beneficia la estabilidad del sistema, garantizando la disponibilidad de múltiples canales de tensión independientes y conmutaciones limpias que protegen la lógica de control principal de las perturbaciones eléctricas generadas por los actuadores.
 
 \subsection{Metodología de Manufactura Aditiva}
 Durante el transcurso del proyecto, el desarrollo del sistema requirió la integración de múltiples componentes mecánicos y estructurales para garantizar su correcto funcionamiento. Si bien una parte de estos elementos pudo ser adquirida de manera directa en el mercado de suministros comerciales convencionales, tales como los conductos de mangueras, los dispositivos de goteo y los racores estándar, existieron otros componentes que presentaron restricciones geométricas y operativas muy específicas. Para resolver la fijación de la instrumentación y los sistemas de evacuación hídrica, tales como los soportes de los sensores o los mecanismos de filtrado y desagüe a medida, se recurrió a la manufactura aditiva mediante impresión tridimensional, debido a su alta factibilidad técnica y económica.

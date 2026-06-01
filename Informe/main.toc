@@ -28,73 +28,77 @@
 \contentsline {chapter}{\numberline {3}Marco metodológico}{6}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Tipo y Enfoque de la Investigación}{6}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Enfoque Cuantitativo}{6}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Diseño Experimental y Metodología Iterativa}{7}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Fases de Desarrollo del Proyecto}{7}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Fase 1: Investigacion y Definición de Requisitos}{7}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Fase 2: Diseño Estructural, Hardware y Software}{7}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Fase 3: Mejoras de diseño, diseño 3D y optimizacion del codigo}{8}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Fase 4: Pruebas Experimentales y Validación}{8}{subsection.3.2.4}%
-\contentsline {section}{\numberline {3.3}Criterios Metodológicos de Selección Tecnológica}{9}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Arquitectura de Procesamiento Central}{9}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Metodología de Manufactura Aditiva}{10}{subsection.3.3.2}%
-\contentsline {section}{\numberline {3.4}Variables e Instrumentos de Medición}{10}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Desarrollo experimental}{12}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Diseño del sistema}{12}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Variables de control}{12}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Simulación}{13}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Implementación física}{13}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Mediciones}{13}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Prototipos}{14}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Prototipo Inicial}{14}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}Prototipo Final}{15}{subsection.4.6.2}%
-\contentsline {subsubsection}{Impermeabilizacion y drenaje}{16}{figure.caption.16}%
-\contentsline {subsubsection}{Arquitectura mecánica modular y acoplamiento estructural}{20}{figure.caption.20}%
-\contentsline {section}{\numberline {4.7}Unidad Central de Procesamiento: Raspberry Pi 4}{20}{section.4.7}%
-\contentsline {section}{\numberline {4.8}Selección de componentes}{22}{section.4.8}%
-\contentsline {subsection}{\numberline {4.8.1}Sustrato}{22}{subsection.4.8.1}%
-\contentsline {subsection}{\numberline {4.8.2}Sensores y conversor}{22}{subsection.4.8.2}%
-\contentsline {subsubsection}{Sensor de humedad ambiente y temperatura}{22}{subsection.4.8.2}%
-\contentsline {subsubsection}{Sensor de iluminancia}{23}{subsection.4.8.2}%
-\contentsline {subsubsection}{Higrómetro de suelo}{23}{subsection.4.8.2}%
-\contentsline {subsubsection}{Modulo de conversion Analogico a Digital}{23}{subsection.4.8.2}%
-\contentsline {subsection}{\numberline {4.8.3}Actuadores}{24}{subsection.4.8.3}%
-\contentsline {subsubsection}{Luces para el cultivo}{24}{subsection.4.8.3}%
-\contentsline {subsubsection}{Bomba para riego}{24}{subsection.4.8.3}%
-\contentsline {subsubsection}{Valvulas solenoides}{25}{subsection.4.8.3}%
-\contentsline {subsection}{\numberline {4.8.4}Etapa de Potencia: Relés Electromecánicos y de Estado Sólido}{25}{subsection.4.8.4}%
-\contentsline {section}{\numberline {4.9}Diseños de piezas en 3D}{25}{section.4.9}%
-\contentsline {subsubsection}{Soporte para sensores}{26}{section.4.9}%
-\contentsline {subsubsection}{Soporte para manguera}{27}{figure.caption.23}%
-\contentsline {subsubsection}{Acople Y}{28}{figure.caption.24}%
-\contentsline {subsubsection}{Filtro de desagüe v1}{28}{figure.caption.25}%
-\contentsline {subsubsection}{Filtro de desagüe v2}{29}{figure.caption.26}%
-\contentsline {subsubsection}{Soporte para ventilador}{29}{figure.caption.27}%
-\contentsline {subsubsection}{Soporte para sensor de humedad y temperatura}{30}{figure.caption.28}%
-\contentsline {subsubsection}{Soporte para sensor de iluminancia}{31}{figure.caption.29}%
-\contentsline {subsubsection}{Covertor de proteccion para higrómetros}{32}{figure.caption.30}%
-\contentsline {section}{\numberline {4.10}Codigo}{33}{section.4.10}%
-\contentsline {subsection}{\numberline {4.10.1}Telemetría y Visualización en la Nube: Integración con ThingSpeak}{33}{subsection.4.10.1}%
-\contentsline {subsubsection}{Arquitectura de Transmisión de Datos}{33}{subsection.4.10.1}%
-\contentsline {section}{\numberline {4.11}UI: Interfaz de Usuario}{34}{section.4.11}%
-\contentsline {section}{\numberline {4.12}Esquemas de conexion}{34}{section.4.12}%
-\contentsline {part}{PARTE III - RESULTADOS Y CONCLUSIONES}{37}{part*.34}%
-\contentsline {chapter}{Resultados}{37}{chapter*.35}%
-\contentsline {section}{\numberline {4.13}Resultados del prototipo preliminar}{37}{section.4.13}%
-\contentsline {subsection}{\numberline {4.13.1}Primera prueba}{37}{subsection.4.13.1}%
-\contentsline {subsection}{\numberline {4.13.2}Segunda prueba}{42}{subsection.4.13.2}%
-\contentsline {section}{\numberline {4.14}Resultados del prototipo final}{54}{section.4.14}%
-\contentsline {subsection}{\numberline {4.14.1}Tercera prueba}{54}{subsection.4.14.1}%
-\contentsline {chapter}{Conclusiones}{55}{chapter*.55}%
-\contentsline {section}{Resultados obtenidos en relación con la SAT}{55}{section*.56}%
-\contentsline {section}{Conclusión general}{55}{section*.56}%
-\contentsline {section}{Aporte a la ingeniería o al campo de conocimiento}{55}{section*.56}%
-\contentsline {section}{Limitaciones y trabajos futuros}{55}{section*.56}%
-\contentsline {chapter}{Bibliografía}{56}{chapter*.57}%
-\contentsline {chapter}{Referencias}{58}{chapter*.59}%
-\contentsline {chapter}{\numberline {A}Anexo I}{60}{appendix.Alph1}%
-\contentsline {section}{Anexo I - Título}{60}{section*.61}%
-\contentsline {chapter}{\numberline {B}Anexo II}{61}{appendix.Alph2}%
-\contentsline {section}{Anexo II - Título}{61}{section*.62}%
-\contentsline {chapter}{\numberline {C}Anexo del Proyecto Integrador}{62}{appendix.Alph3}%
-\contentsline {section}{Solicitud de Aprobación de Tema}{62}{section*.63}%
-\contentsline {section}{Informes mensuales}{62}{section*.63}%
+\contentsline {section}{\numberline {3.2}Cronograma de ejecución}{7}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Protocolo de validacion}{7}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Diseño Experimental y Metodología Iterativa}{8}{subsection.3.3.1}%
+\contentsline {section}{\numberline {3.4}Fases de Desaxrrollo del Proyecto}{8}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Fase 1: Investigacion y Definición de Requisitos}{8}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Fase 2: Diseño Estructural, Hardware y Software}{8}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Fase 3: Mejoras de diseño, diseño 3D y optimizacion del codigo}{9}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Fase 4: Pruebas Experimentales y Validación}{9}{subsection.3.4.4}%
+\contentsline {section}{\numberline {3.5}Criterios Metodológicos de Selección Tecnológica}{10}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Arquitectura de Procesamiento Central}{10}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Alimentacion complementaria}{11}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Metodología de Manufactura Aditiva}{11}{subsection.3.5.3}%
+\contentsline {section}{\numberline {3.6}Variables e Instrumentos de Medición}{12}{section.3.6}%
+\contentsline {chapter}{\numberline {4}Desarrollo experimental}{13}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Diseño del sistema}{13}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Variables de control}{13}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Simulación}{14}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Implementación física}{14}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Mediciones}{14}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Prototipos}{15}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Prototipo Inicial}{15}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Prototipo Final}{16}{subsection.4.6.2}%
+\contentsline {subsubsection}{Impermeabilizacion y drenaje}{17}{figure.caption.17}%
+\contentsline {subsubsection}{Arquitectura mecánica modular y acoplamiento estructural}{21}{figure.caption.21}%
+\contentsline {section}{\numberline {4.7}Unidad Central de Procesamiento: Raspberry Pi 4}{21}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Selección de componentes}{23}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Sustrato}{23}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}Sensores y conversor}{23}{subsection.4.8.2}%
+\contentsline {subsubsection}{Sensor de humedad ambiente y temperatura}{23}{subsection.4.8.2}%
+\contentsline {subsubsection}{Sensor de iluminancia}{24}{subsection.4.8.2}%
+\contentsline {subsubsection}{Higrómetro de suelo}{24}{subsection.4.8.2}%
+\contentsline {subsubsection}{Modulo de conversion Analogico a Digital}{24}{subsection.4.8.2}%
+\contentsline {subsection}{\numberline {4.8.3}Alimentacion complementaria}{25}{subsection.4.8.3}%
+\contentsline {subsection}{\numberline {4.8.4}Actuadores}{25}{subsection.4.8.4}%
+\contentsline {subsubsection}{Luces para el cultivo}{25}{subsection.4.8.4}%
+\contentsline {subsubsection}{Bomba para riego}{25}{subsection.4.8.4}%
+\contentsline {subsubsection}{Valvulas solenoides}{26}{subsection.4.8.4}%
+\contentsline {subsection}{\numberline {4.8.5}Etapa de Potencia: Relés Electromecánicos y de Estado Sólido}{26}{subsection.4.8.5}%
+\contentsline {section}{\numberline {4.9}Diseños de piezas en 3D}{27}{section.4.9}%
+\contentsline {subsubsection}{Soporte para sensores}{27}{section.4.9}%
+\contentsline {subsubsection}{Soporte para manguera}{28}{figure.caption.24}%
+\contentsline {subsubsection}{Acople Y}{29}{figure.caption.25}%
+\contentsline {subsubsection}{Filtro de desagüe v1}{30}{figure.caption.26}%
+\contentsline {subsubsection}{Filtro de desagüe v2}{30}{figure.caption.27}%
+\contentsline {subsubsection}{Soporte para ventilador}{31}{figure.caption.28}%
+\contentsline {subsubsection}{Soporte para sensor de humedad y temperatura}{31}{figure.caption.29}%
+\contentsline {subsubsection}{Soporte para sensor de iluminancia}{32}{figure.caption.30}%
+\contentsline {subsubsection}{Covertor de proteccion para higrómetros}{33}{figure.caption.31}%
+\contentsline {section}{\numberline {4.10}Codigo}{35}{section.4.10}%
+\contentsline {subsection}{\numberline {4.10.1}Telemetría y Visualización en la Nube: Integración con ThingSpeak}{35}{subsection.4.10.1}%
+\contentsline {subsubsection}{Arquitectura de Transmisión de Datos}{35}{subsection.4.10.1}%
+\contentsline {section}{\numberline {4.11}UI: Interfaz de Usuario}{36}{section.4.11}%
+\contentsline {section}{\numberline {4.12}Esquemas de conexion}{36}{section.4.12}%
+\contentsline {part}{PARTE III - RESULTADOS Y CONCLUSIONES}{39}{part*.35}%
+\contentsline {chapter}{Resultados}{39}{chapter*.36}%
+\contentsline {section}{\numberline {4.13}Resultados del prototipo preliminar}{39}{section.4.13}%
+\contentsline {subsection}{\numberline {4.13.1}Primera prueba}{39}{subsection.4.13.1}%
+\contentsline {subsection}{\numberline {4.13.2}Segunda prueba}{44}{subsection.4.13.2}%
+\contentsline {section}{\numberline {4.14}Resultados del prototipo final}{52}{section.4.14}%
+\contentsline {subsection}{\numberline {4.14.1}Tercera prueba}{52}{subsection.4.14.1}%
+\contentsline {chapter}{Conclusiones}{53}{chapter*.56}%
+\contentsline {section}{Resultados obtenidos en relación con la SAT}{53}{section*.57}%
+\contentsline {section}{Conclusión general}{53}{section*.57}%
+\contentsline {section}{Aporte a la ingeniería o al campo de conocimiento}{53}{section*.57}%
+\contentsline {section}{Limitaciones y trabajos futuros}{53}{section*.57}%
+\contentsline {chapter}{Bibliografía}{54}{chapter*.58}%
+\contentsline {chapter}{Referencias}{56}{chapter*.60}%
+\contentsline {chapter}{\numberline {A}Anexo I}{58}{appendix.Alph1}%
+\contentsline {section}{Anexo I - Título}{58}{section*.62}%
+\contentsline {chapter}{\numberline {B}Anexo II}{59}{appendix.Alph2}%
+\contentsline {section}{Anexo II - Título}{59}{section*.63}%
+\contentsline {chapter}{\numberline {C}Anexo del Proyecto Integrador}{60}{appendix.Alph3}%
+\contentsline {section}{Solicitud de Aprobación de Tema}{60}{section*.64}%
+\contentsline {section}{Informes mensuales}{60}{section*.64}%
