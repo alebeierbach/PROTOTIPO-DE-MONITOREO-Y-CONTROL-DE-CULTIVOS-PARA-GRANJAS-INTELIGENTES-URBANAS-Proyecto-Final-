@@ -48,52 +48,53 @@
 \contentsline {subsection}{\numberline {4.6.1}Prototipo Inicial}{14}{subsection.4.6.1}%
 \contentsline {subsection}{\numberline {4.6.2}Prototipo Final}{15}{subsection.4.6.2}%
 \contentsline {subsubsection}{Impermeabilizacion y drenaje}{16}{figure.caption.16}%
+\contentsline {subsubsection}{Arquitectura mecánica modular y acoplamiento estructural}{20}{figure.caption.20}%
 \contentsline {section}{\numberline {4.7}Unidad Central de Procesamiento: Raspberry Pi 4}{20}{section.4.7}%
-\contentsline {section}{\numberline {4.8}Selección de componentes}{21}{section.4.8}%
-\contentsline {subsection}{\numberline {4.8.1}Sustrato}{21}{subsection.4.8.1}%
+\contentsline {section}{\numberline {4.8}Selección de componentes}{22}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Sustrato}{22}{subsection.4.8.1}%
 \contentsline {subsection}{\numberline {4.8.2}Sensores y conversor}{22}{subsection.4.8.2}%
 \contentsline {subsubsection}{Sensor de humedad ambiente y temperatura}{22}{subsection.4.8.2}%
-\contentsline {subsubsection}{Sensor de iluminancia}{22}{subsection.4.8.2}%
-\contentsline {subsubsection}{Higrómetro de suelo}{22}{subsection.4.8.2}%
+\contentsline {subsubsection}{Sensor de iluminancia}{23}{subsection.4.8.2}%
+\contentsline {subsubsection}{Higrómetro de suelo}{23}{subsection.4.8.2}%
 \contentsline {subsubsection}{Modulo de conversion Analogico a Digital}{23}{subsection.4.8.2}%
-\contentsline {subsection}{\numberline {4.8.3}Actuadores}{23}{subsection.4.8.3}%
-\contentsline {subsubsection}{Luces para el cultivo}{23}{subsection.4.8.3}%
-\contentsline {subsubsection}{Bomba para riego}{23}{subsection.4.8.3}%
-\contentsline {subsubsection}{Valvulas solenoides}{24}{subsection.4.8.3}%
-\contentsline {subsection}{\numberline {4.8.4}Etapa de Potencia: Relés Electromecánicos y de Estado Sólido}{24}{subsection.4.8.4}%
+\contentsline {subsection}{\numberline {4.8.3}Actuadores}{24}{subsection.4.8.3}%
+\contentsline {subsubsection}{Luces para el cultivo}{24}{subsection.4.8.3}%
+\contentsline {subsubsection}{Bomba para riego}{24}{subsection.4.8.3}%
+\contentsline {subsubsection}{Valvulas solenoides}{25}{subsection.4.8.3}%
+\contentsline {subsection}{\numberline {4.8.4}Etapa de Potencia: Relés Electromecánicos y de Estado Sólido}{25}{subsection.4.8.4}%
 \contentsline {section}{\numberline {4.9}Diseños de piezas en 3D}{25}{section.4.9}%
-\contentsline {subsubsection}{Soporte para sensores}{25}{section.4.9}%
-\contentsline {subsubsection}{Soporte para manguera}{26}{figure.caption.22}%
-\contentsline {subsubsection}{Acople Y}{27}{figure.caption.23}%
-\contentsline {subsubsection}{Filtro de desagüe v1}{28}{figure.caption.24}%
-\contentsline {subsubsection}{Filtro de desagüe v2}{28}{figure.caption.25}%
-\contentsline {subsubsection}{Soporte para ventilador}{29}{figure.caption.26}%
-\contentsline {subsubsection}{Soporte para sensor de humedad y temperatura}{29}{figure.caption.27}%
-\contentsline {subsubsection}{Soporte para sensor de iluminancia}{30}{figure.caption.28}%
-\contentsline {subsubsection}{Covertor de proteccion para higrómetros}{31}{figure.caption.29}%
+\contentsline {subsubsection}{Soporte para sensores}{26}{section.4.9}%
+\contentsline {subsubsection}{Soporte para manguera}{27}{figure.caption.23}%
+\contentsline {subsubsection}{Acople Y}{28}{figure.caption.24}%
+\contentsline {subsubsection}{Filtro de desagüe v1}{28}{figure.caption.25}%
+\contentsline {subsubsection}{Filtro de desagüe v2}{29}{figure.caption.26}%
+\contentsline {subsubsection}{Soporte para ventilador}{29}{figure.caption.27}%
+\contentsline {subsubsection}{Soporte para sensor de humedad y temperatura}{30}{figure.caption.28}%
+\contentsline {subsubsection}{Soporte para sensor de iluminancia}{31}{figure.caption.29}%
+\contentsline {subsubsection}{Covertor de proteccion para higrómetros}{32}{figure.caption.30}%
 \contentsline {section}{\numberline {4.10}Codigo}{33}{section.4.10}%
 \contentsline {subsection}{\numberline {4.10.1}Telemetría y Visualización en la Nube: Integración con ThingSpeak}{33}{subsection.4.10.1}%
 \contentsline {subsubsection}{Arquitectura de Transmisión de Datos}{33}{subsection.4.10.1}%
 \contentsline {section}{\numberline {4.11}UI: Interfaz de Usuario}{34}{section.4.11}%
 \contentsline {section}{\numberline {4.12}Esquemas de conexion}{34}{section.4.12}%
-\contentsline {part}{PARTE III - RESULTADOS Y CONCLUSIONES}{36}{part*.32}%
-\contentsline {chapter}{Resultados}{36}{chapter*.33}%
-\contentsline {section}{\numberline {4.13}Resultados del prototipo preliminar}{36}{section.4.13}%
-\contentsline {subsection}{\numberline {4.13.1}Primera prueba}{36}{subsection.4.13.1}%
-\contentsline {subsection}{\numberline {4.13.2}Segunda prueba}{41}{subsection.4.13.2}%
-\contentsline {section}{\numberline {4.14}Resultados del prototipo final}{53}{section.4.14}%
-\contentsline {subsection}{\numberline {4.14.1}Tercera prueba}{53}{subsection.4.14.1}%
-\contentsline {chapter}{Conclusiones}{54}{chapter*.53}%
-\contentsline {section}{Resultados obtenidos en relación con la SAT}{54}{section*.54}%
-\contentsline {section}{Conclusión general}{54}{section*.54}%
-\contentsline {section}{Aporte a la ingeniería o al campo de conocimiento}{54}{section*.54}%
-\contentsline {section}{Limitaciones y trabajos futuros}{54}{section*.54}%
-\contentsline {chapter}{Bibliografía}{55}{chapter*.55}%
-\contentsline {chapter}{Referencias}{57}{chapter*.57}%
-\contentsline {chapter}{\numberline {A}Anexo I}{59}{appendix.Alph1}%
-\contentsline {section}{Anexo I - Título}{59}{section*.59}%
-\contentsline {chapter}{\numberline {B}Anexo II}{60}{appendix.Alph2}%
-\contentsline {section}{Anexo II - Título}{60}{section*.60}%
-\contentsline {chapter}{\numberline {C}Anexo del Proyecto Integrador}{61}{appendix.Alph3}%
-\contentsline {section}{Solicitud de Aprobación de Tema}{61}{section*.61}%
-\contentsline {section}{Informes mensuales}{61}{section*.61}%
+\contentsline {part}{PARTE III - RESULTADOS Y CONCLUSIONES}{37}{part*.34}%
+\contentsline {chapter}{Resultados}{37}{chapter*.35}%
+\contentsline {section}{\numberline {4.13}Resultados del prototipo preliminar}{37}{section.4.13}%
+\contentsline {subsection}{\numberline {4.13.1}Primera prueba}{37}{subsection.4.13.1}%
+\contentsline {subsection}{\numberline {4.13.2}Segunda prueba}{42}{subsection.4.13.2}%
+\contentsline {section}{\numberline {4.14}Resultados del prototipo final}{54}{section.4.14}%
+\contentsline {subsection}{\numberline {4.14.1}Tercera prueba}{54}{subsection.4.14.1}%
+\contentsline {chapter}{Conclusiones}{55}{chapter*.55}%
+\contentsline {section}{Resultados obtenidos en relación con la SAT}{55}{section*.56}%
+\contentsline {section}{Conclusión general}{55}{section*.56}%
+\contentsline {section}{Aporte a la ingeniería o al campo de conocimiento}{55}{section*.56}%
+\contentsline {section}{Limitaciones y trabajos futuros}{55}{section*.56}%
+\contentsline {chapter}{Bibliografía}{56}{chapter*.57}%
+\contentsline {chapter}{Referencias}{58}{chapter*.59}%
+\contentsline {chapter}{\numberline {A}Anexo I}{60}{appendix.Alph1}%
+\contentsline {section}{Anexo I - Título}{60}{section*.61}%
+\contentsline {chapter}{\numberline {B}Anexo II}{61}{appendix.Alph2}%
+\contentsline {section}{Anexo II - Título}{61}{section*.62}%
+\contentsline {chapter}{\numberline {C}Anexo del Proyecto Integrador}{62}{appendix.Alph3}%
+\contentsline {section}{Solicitud de Aprobación de Tema}{62}{section*.63}%
+\contentsline {section}{Informes mensuales}{62}{section*.63}%

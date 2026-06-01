@@ -154,6 +154,10 @@ Con el objetivo de minimizar la cantidad de insumos requeridos (metros de mangue
     \caption{Instalacion de desagüe.}
 \end{figure}
 
+\subsubsection{Arquitectura mecánica modular y acoplamiento estructural}
+Con el propósito de optimizar la portabilidad y simplificar las tareas de mantenimiento, se proyectó un sistema de desacoplamiento estructural en los contenedores de cultivo. Cada módulo posee la capacidad de separarse de la sección inmediatamente inferior mediante uniones por encastre geométrico, una solución de diseño que confiere una elevada estabilidad estática ante las cargas nominales del sustrato y, simultáneamente, agiliza los procedimientos de desarmado. Asimismo, el módulo posicionado en el estrato superior incorpora ruedas que facilitan el desplazamiento independiente de la estructura dentro del espacio de laboratorio. A continuación, se ilustra la implementación física de la arquitectura modular diseñada para los contenedores:
+imagen 
+
 \section{Unidad Central de Procesamiento: Raspberry Pi 4}
 La selección de la unidad de procesamiento central constituyó una decisión estratégica orientada a garantizar la modularidad, la robustez informática y la proyección a largo plazo del sistema. En lugar de optar por microcontroladores tradicionales de arquitectura básica (como las familias ATmega o los módulos ESP), se seleccionó la computadora de placa única (\textit{Single Board Computer} o SBC) Raspberry Pi 4. Esta determinación se fundamentó en la previsión de un crecimiento modular del sistema, el cual contempla la adición de múltiples módulos de cultivo y macetas automatizadas sin un límite predefinido, asegurando que la capacidad de cómputo y el procesamiento de datos concurrentes no representen un cuello de botella tecnológico.
 
@@ -162,6 +166,12 @@ Frente a los microcontroladores estándar del mercado, la Raspberry Pi 4 present
 Se reconoce que, en la etapa actual de desarrollo del prototipo, no se está explotando al máximo la capacidad nominal de procesamiento de este dispositivo. No obstante, este sobredimensionamiento controlado constituye un criterio de diseño defensivo y escalable. La integración futura de algoritmos de optimización hídrica o rutinas de visión computacional para el análisis foliar no requerirá una reestructuración del hardware de control. 
 
 Más allá de los límites físicos del presente proyecto, esta elección de hardware traza el inicio del camino hacia el paradigma de las ciudades inteligentes (\textit{Smart Cities}). La arquitectura de software desplegada sobre la Raspberry Pi 4 permite concebir este prototipo no como un elemento aislado, sino como un nodo genérico de una red distribuida. Esta visión de diseño facilita la interconexión e interoperabilidad con otras granjas inteligentes y proyectos de investigación complementarios, permitiendo que futuras tesis puedan tejer una red de monitoreo y producción automatizada a escala urbana, coordinada mediante protocolos robustos de comunicación industrial e Internet de las Cosas (IoT).
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/raspberrypi4sf.png}
+    \caption{Raspberry Pi 4.}
+\end{figure}
+
 \section{Selección de componentes}
 
 \subsection{Sustrato}
@@ -455,4 +465,8 @@ agregar fotos
 agregar fotos
 
 \section{Esquemas de conexion}
-
+A continuación, se detalla el esquema de conexionado adoptado para el prototipo, describiendo la asignación de señales para cada puerto de propósito general de la unidad central. Por criterios de diseño orientados a la robustez electromecánica, se proyectó una interfaz intermedia mediante una placa de circuito impreso perforada de uso general, la cual actúa como un nodo centralizador de conexiones. Esta implementación previene la necesidad de efectuar uniones soldadas directas sobre la computadora de placa única, resguardando la integridad física de sus terminales y flexibilizando la modularidad del sistema ante tareas de mantenimiento o sustitución de periféricos. En el diagrama esquemático, la denominación de "Componentes i2c" identifica el nodo de acoplamiento para el bus de datos compartido, donde coexisten bajo el mismo direccionamiento el sensor de iluminancia y el módulo de conversión analógico digital, el cual gestiona de forma dedicada los canales de los higrómetros capacitivos de suelo.\begin{figure}[H]
+    \centering
+    \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/RaspberryPi4Schematic.png}
+    \caption{Esquema de conexiones.}
+\end{figure}
