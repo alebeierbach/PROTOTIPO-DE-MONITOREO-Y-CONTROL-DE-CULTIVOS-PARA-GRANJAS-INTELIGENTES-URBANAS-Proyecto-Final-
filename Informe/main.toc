@@ -65,40 +65,43 @@
 \contentsline {subsubsection}{Luces para el cultivo}{25}{subsection.4.8.4}%
 \contentsline {subsubsection}{Bomba para riego}{25}{subsection.4.8.4}%
 \contentsline {subsubsection}{Valvulas solenoides}{26}{subsection.4.8.4}%
-\contentsline {subsection}{\numberline {4.8.5}Etapa de Potencia: Relés Electromecánicos y de Estado Sólido}{26}{subsection.4.8.5}%
+\contentsline {subsubsection}{Goteros}{26}{subsection.4.8.4}%
+\contentsline {subsection}{\numberline {4.8.5}Etapa de Potencia: Relés Electromecánicos y de Estado Sólido}{27}{subsection.4.8.5}%
 \contentsline {section}{\numberline {4.9}Diseños de piezas en 3D}{27}{section.4.9}%
-\contentsline {subsubsection}{Soporte para sensores}{27}{section.4.9}%
-\contentsline {subsubsection}{Soporte para manguera}{28}{figure.caption.24}%
-\contentsline {subsubsection}{Acople Y}{29}{figure.caption.25}%
-\contentsline {subsubsection}{Filtro de desagüe v1}{30}{figure.caption.26}%
-\contentsline {subsubsection}{Filtro de desagüe v2}{30}{figure.caption.27}%
-\contentsline {subsubsection}{Soporte para ventilador}{31}{figure.caption.28}%
-\contentsline {subsubsection}{Soporte para sensor de humedad y temperatura}{31}{figure.caption.29}%
-\contentsline {subsubsection}{Soporte para sensor de iluminancia}{32}{figure.caption.30}%
-\contentsline {subsubsection}{Covertor de proteccion para higrómetros}{33}{figure.caption.31}%
-\contentsline {section}{\numberline {4.10}Codigo}{35}{section.4.10}%
-\contentsline {subsection}{\numberline {4.10.1}Telemetría y Visualización en la Nube: Integración con ThingSpeak}{35}{subsection.4.10.1}%
-\contentsline {subsubsection}{Arquitectura de Transmisión de Datos}{35}{subsection.4.10.1}%
-\contentsline {section}{\numberline {4.11}UI: Interfaz de Usuario}{36}{section.4.11}%
-\contentsline {section}{\numberline {4.12}Esquemas de conexion}{36}{section.4.12}%
-\contentsline {part}{PARTE III - RESULTADOS Y CONCLUSIONES}{39}{part*.35}%
-\contentsline {chapter}{Resultados}{39}{chapter*.36}%
-\contentsline {section}{\numberline {4.13}Resultados del prototipo preliminar}{39}{section.4.13}%
-\contentsline {subsection}{\numberline {4.13.1}Primera prueba}{39}{subsection.4.13.1}%
-\contentsline {subsection}{\numberline {4.13.2}Segunda prueba}{44}{subsection.4.13.2}%
-\contentsline {section}{\numberline {4.14}Resultados del prototipo final}{52}{section.4.14}%
-\contentsline {subsection}{\numberline {4.14.1}Tercera prueba}{52}{subsection.4.14.1}%
-\contentsline {chapter}{Conclusiones}{53}{chapter*.56}%
-\contentsline {section}{Resultados obtenidos en relación con la SAT}{53}{section*.57}%
-\contentsline {section}{Conclusión general}{53}{section*.57}%
-\contentsline {section}{Aporte a la ingeniería o al campo de conocimiento}{53}{section*.57}%
-\contentsline {section}{Limitaciones y trabajos futuros}{53}{section*.57}%
-\contentsline {chapter}{Bibliografía}{54}{chapter*.58}%
-\contentsline {chapter}{Referencias}{56}{chapter*.60}%
-\contentsline {chapter}{\numberline {A}Anexo I}{58}{appendix.Alph1}%
-\contentsline {section}{Anexo I - Título}{58}{section*.62}%
-\contentsline {chapter}{\numberline {B}Anexo II}{59}{appendix.Alph2}%
-\contentsline {section}{Anexo II - Título}{59}{section*.63}%
-\contentsline {chapter}{\numberline {C}Anexo del Proyecto Integrador}{60}{appendix.Alph3}%
-\contentsline {section}{Solicitud de Aprobación de Tema}{60}{section*.64}%
-\contentsline {section}{Informes mensuales}{60}{section*.64}%
+\contentsline {subsubsection}{Soporte para sensores}{28}{section.4.9}%
+\contentsline {subsubsection}{Soporte para manguera}{29}{figure.caption.25}%
+\contentsline {subsubsection}{Acople Y}{30}{figure.caption.26}%
+\contentsline {subsubsection}{Filtro de desagüe v1}{30}{figure.caption.27}%
+\contentsline {subsubsection}{Filtro de desagüe v2}{31}{figure.caption.28}%
+\contentsline {subsubsection}{Soporte para ventilador}{31}{figure.caption.29}%
+\contentsline {subsubsection}{Soporte para sensor de humedad y temperatura}{32}{figure.caption.30}%
+\contentsline {subsubsection}{Soporte para sensor de iluminancia}{33}{figure.caption.31}%
+\contentsline {subsubsection}{Covertor de proteccion para higrómetros}{34}{figure.caption.32}%
+\contentsline {section}{\numberline {4.10}Disposicion de las luminarias}{36}{section.4.10}%
+\contentsline {section}{\numberline {4.11}Sistema de riego}{37}{section.4.11}%
+\contentsline {section}{\numberline {4.12}Codigo}{37}{section.4.12}%
+\contentsline {subsection}{\numberline {4.12.1}Telemetría y Visualización en la Nube: Integración con ThingSpeak}{37}{subsection.4.12.1}%
+\contentsline {subsubsection}{Arquitectura de Transmisión de Datos}{38}{subsection.4.12.1}%
+\contentsline {section}{\numberline {4.13}UI: Interfaz de Usuario}{38}{section.4.13}%
+\contentsline {section}{\numberline {4.14}Esquemas de conexion}{38}{section.4.14}%
+\contentsline {part}{PARTE III - RESULTADOS Y CONCLUSIONES}{41}{part*.38}%
+\contentsline {chapter}{Resultados}{41}{chapter*.39}%
+\contentsline {section}{\numberline {4.15}Resultados del prototipo preliminar}{41}{section.4.15}%
+\contentsline {subsection}{\numberline {4.15.1}Primera prueba}{41}{subsection.4.15.1}%
+\contentsline {subsection}{\numberline {4.15.2}Segunda prueba}{46}{subsection.4.15.2}%
+\contentsline {section}{\numberline {4.16}Resultados del prototipo final}{54}{section.4.16}%
+\contentsline {subsection}{\numberline {4.16.1}Tercera prueba}{54}{subsection.4.16.1}%
+\contentsline {chapter}{Conclusiones}{55}{chapter*.59}%
+\contentsline {section}{Resultados obtenidos en relación con la SAT}{55}{section*.60}%
+\contentsline {section}{Conclusión general}{55}{section*.60}%
+\contentsline {section}{Aporte a la ingeniería o al campo de conocimiento}{55}{section*.60}%
+\contentsline {section}{Limitaciones y trabajos futuros}{55}{section*.60}%
+\contentsline {chapter}{Bibliografía}{56}{chapter*.61}%
+\contentsline {chapter}{Referencias}{58}{chapter*.63}%
+\contentsline {chapter}{\numberline {A}Anexo I}{60}{appendix.Alph1}%
+\contentsline {section}{Anexo I - Título}{60}{section*.65}%
+\contentsline {chapter}{\numberline {B}Anexo II}{61}{appendix.Alph2}%
+\contentsline {section}{Anexo II - Título}{61}{section*.66}%
+\contentsline {chapter}{\numberline {C}Anexo del Proyecto Integrador}{62}{appendix.Alph3}%
+\contentsline {section}{Solicitud de Aprobación de Tema}{62}{section*.67}%
+\contentsline {section}{Informes mensuales}{62}{section*.67}%

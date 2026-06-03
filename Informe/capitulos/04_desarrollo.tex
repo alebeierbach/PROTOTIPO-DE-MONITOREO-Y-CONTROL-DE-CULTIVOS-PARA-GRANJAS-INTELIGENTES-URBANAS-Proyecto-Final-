@@ -215,7 +215,23 @@ Para el sistema de iluminación artificial y estimulación del desarrollo vegeta
 Para el accionamiento del sistema de riego, se seleccionó una bomba periférica presurizadora de corriente continua (modelo Kushiro BPYK12). El parámetro determinante para esta elección fue su altura máxima de elevación de 2 metros, magnitud hidrodinámica que supera con holgura el nivel físico de la maceta, garantizando un suministro hídrico eficiente y sin caídas de presión hasta el estrato superior del cultivo. Desde la perspectiva de la integración electrónica y la seguridad, su operación a una tensión nominal de $12\text{ V}$ resulta fundamental para minimizar los riesgos de electrocución en un entorno caracterizado por alta humedad, facilitando además su control lógico mediante etapas de potencia estándar (relé) comandadas por el microcontrolador. Asimismo, su capacidad para entregar un caudal máximo de $3{,}8\text{ l/min}$ a una presión de trabajo de $2{,}5\text{ bar}$ es idónea para presurizar las líneas de riego sin generar caudales excesivos que inunden la zona radicular. Por último, su arquitectura mecánica, que incorpora un impulsor de bronce y un cuerpo de aluminio, proporciona una alta resistencia a la oxidación, asegurando la vida útil del actuador al operar con agua limpia.
 
 \subsubsection{Valvulas solenoides}
-Para el control automatizado del flujo hídrico, se implementó una electroválvula solenoide de $1/2$ pulgada operada por corriente continua. A diferencia de actuadores más complejos, la elección de este componente se fundamentó puramente en su capacidad para cumplir con la necesidad básica del sistema: habilitar o interrumpir el paso de agua de manera directa y efectiva mediante una señal de control discreta (On/Off). Un aspecto determinante para su selección fue su configuración mecánica ``Normalmente Cerrada'' (NC). Esta característica actúa como un mecanismo de seguridad pasiva o \textit{fail-safe} para el cultivo; ante cualquier eventualidad, como un corte de suministro eléctrico o una pérdida de señal del microcontrolador, la válvula bloquea el paso del agua por defecto, previniendo inundaciones accidentales. Finalmente, su operación a $12\text{ V}$ resulta idónea, ya que permite unificar la fuente de alimentación con la etapa de la bomba principal manteniendo un entorno de baja tensión, siendo fácilmente comandada a través de un relé.
+Con el propósito de ejecutar la dosificación hídrica de manera precisa y dar cumplimiento al criterio de gestión sustentable del recurso hídrico, se implementaron emisores de riego localizado con una capacidad nominal máxima de 80 litros por hora. La integración física de estos componentes en la red de distribución se realiza de forma directa sobre la línea de conducción principal, efectuando un punzonado calibrado en la pared de la manguera de polietileno. Los goteros se introducen a presión dentro de esta perforación mediante un acoplamiento por interferencia mecánica, aprovechando las propiedades elásticas del material polimérico para asegurar la estanqueidad total del nodo y prevenir caídas de presión en el circuito. Estos dispositivos operan como actuadores pasivos finales y cuentan con un mecanismo de regulación helicoidal que permite modificar la sección transversal del conducto interno mediante obturación mecánica, optimizando la respuesta del lazo de irrigación automatizado.
+
+\subsubsection{Goteros}
+Con el propósito de ejecutar la dosificación hídrica de manera precisa y dar cumplimiento al criterio metodológico de gestión sustentable del recurso hídrico, se implementaron emisores de riego localizado con una capacidad nominal máxima de 80 litros por hora. Estos dispositivos operan como actuadores pasivos finales y cuentan con un mecanismo de regulación helicoidal que permite modificar la sección transversal del conducto interno mediante obturación mecánica. Esta capacidad de ajuste resulta crítica para la calibración del sistema, debido a que permite ecualizar la pérdida de carga en la red de distribución, garantizando que el coeficiente de descarga sea uniforme en todas las estaciones de cultivo y optimizando la respuesta del lazo de irrigación automatizado.
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/regador1.jpeg}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/regador2.jpeg}
+    \end{minipage}
+    \caption{Goteros.}
+\end{figure}
 
 \subsection{Etapa de Potencia: Relés Electromecánicos y de Estado Sólido}
 Para la gestión energética de los actuadores del sistema (luces, bomba hidráulica y válvulas solenoides), fue necesaria la implementación de módulos de relés, seleccionando tecnologías específicas según la naturaleza de la carga y el tipo de corriente a conmutar.
@@ -402,7 +418,7 @@ Para la correcta fijación del sensor de luz, se diseñaron soportes modulares b
     \hfill
     \begin{minipage}{0.48\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{Imagenes/soporteventilador1.png}
+        \includegraphics[width=\textwidth]{Imagenes/soportebh17502.jpeg}
     \end{minipage}
     \caption{Soporte para BH1750.}
     \label{fig:soporte_mangueras}
@@ -440,6 +456,17 @@ Posteriormente a la vinculación y calibración del sensor, se inició la etapa 
     \label{fig:soporte_mangueras}
 \end{figure}
 
+\section{Disposicion de las luminarias}
+Para la instalación física del panel de espectro completo, se acondicionó la viga transversal de madera posicionada en el estrato superior de la estación de cultivo, integrando armellas de sujeción cerrada conocidas comercialmente como tornillos ojo. A través de estos componentes mecánicos se enhebran las eslingas de acero que suspenden el artefacto lumínico, estableciendo una matriz de fijación redundante. La distribución geométrica de estos anclajes se calculó con el propósito operativo de regular de forma manual el distanciamiento vertical entre el foco y el ápice del dosel vegetal; esta modularidad posicional permite manipular de manera directa la densidad de flujo fotónico y la carga térmica por radiación que incide sobre las especies bajo ensayo. En la etapa de germinación, posterior a la siembra, las luminarias se configuran en su cota altimétrica mínima, optimizando la transferencia de energía electromagnética necesaria para estimular los fotorreceptores iniciales de las plántulas. A continuación, se ilustra la resolución constructiva descrita para el soporte lumínico:
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/luminaria.jpeg}
+    \caption{Disposicion de las luminarias.}
+\end{figure}
+
+\section{Sistema de riego}
+Para la realizacion del sistema de riego se utilizo manguera de jardin de 1/2 pulgada. completar...
+
 \section{Codigo}
 hubo que iniciar gpios en 0...
 
@@ -472,3 +499,9 @@ A continuación, se detalla el esquema de conexionado adoptado para el prototipo
     \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/RaspberryPi4Schematic.png}
     \caption{Esquema de conexiones.}
 \end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/placaperforada.jpeg}
+    \caption{Placa perforada de uso general.}
+\end{figure}
+
