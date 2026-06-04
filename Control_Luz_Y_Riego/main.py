@@ -10,8 +10,10 @@ from config_loader import cargar_configuracion
 from control import procesar_maceta
 from hardware import HardwareManager
 from models import MacetaEstado, SystemState
-# Variable global para que el riego inicie siempre apagado
+
+# Variable global para que el riego inicie siempre apagado y bloquee cruces
 sistema_regando = False
+
 
 def valor_csv(valor):
     return "" if valor is None else valor
@@ -19,11 +21,9 @@ def valor_csv(valor):
 
 def crear_estado_inicial(config) -> SystemState:
     estado = SystemState()
-
     for nombre_maceta, maceta in config.macetas.items():
         if maceta.enabled:
             estado.macetas[nombre_maceta] = MacetaEstado()
-
     return estado
 
 
@@ -41,7 +41,7 @@ def leer_maceta(hw: HardwareManager, maceta) -> Dict[str, Optional[float]]:
         raw2 = hw.leer_humedad_raw(maceta.sensor_humedad_2.adc, maceta.sensor_humedad_2.canal)
 
     if maceta.bh1750.enabled:
-        lux_ambiente= hw.leer_lux(maceta.nombre)
+        lux_ambiente = hw.leer_lux(maceta.nombre)
 
     if maceta.dht.enabled:
         temperatura_c, humedad_ambiente_pct = hw.leer_dht(maceta.nombre)
@@ -49,10 +49,11 @@ def leer_maceta(hw: HardwareManager, maceta) -> Dict[str, Optional[float]]:
     return {
         "humedad_raw_1": raw1,
         "humedad_raw_2": raw2,
-        "lux": lux_ambiente,    # Se usara para la logica
+        "lux": lux_ambiente,
         "temperatura_c": temperatura_c,
         "humedad_ambiente_pct": humedad_ambiente_pct,
     }
+
 
 def imprimir_estado_maceta(nombre_maceta: str, estado: MacetaEstado) -> None:
     print(f"\n--- {nombre_maceta} ---")
@@ -62,7 +63,6 @@ def imprimir_estado_maceta(nombre_maceta: str, estado: MacetaEstado) -> None:
     )
     print(f"Raw: {estado.humedad_suelo_raw_1} / {estado.humedad_suelo_raw_2}")
     
-    # <-- Actualizamos esta linea:
     print(
         f"Lux Amb: {estado.lux} | "
         f"Temp: {estado.temperatura_c} | HumAmb: {estado.humedad_ambiente_pct}"
@@ -77,9 +77,9 @@ def imprimir_estado_maceta(nombre_maceta: str, estado: MacetaEstado) -> None:
         print("Alertas:")
         for alerta in estado.alertas:
             print(f" - {alerta}")
-    print(
-        f"DLI Acumulado: {getattr(estado, 'dli_acumulado', 0.0):.2f} mol/m2/d"
-        )
+            
+    print(f"DLI Acumulado: {getattr(estado, 'dli_acumulado', 0.0):.2f} mol/m2/d")
+
 
 def guardar_csv(config, estados: Dict[str, MacetaEstado], ahora: datetime) -> None:
     archivo = config.global_config.archivo_csv
@@ -90,21 +90,12 @@ def guardar_csv(config, estados: Dict[str, MacetaEstado], ahora: datetime) -> No
 
         if not existe:
             writer.writerow([
-                "fecha",
-                "hora",
-                "maceta",
-                "humedad_raw_1",
-                "humedad_raw_2",
-                "humedad_pct_1",
-                "humedad_pct_2",
-                "humedad_pct_promedio",
-                "lux",          # (ambiente)
-                "dli_acumulado",  # <-- NUEVA Variable
-                "temperatura_c",
-                "humedad_ambiente_pct",
-                "luz_encendida",
-                "ventilador_encendido",
-                "riego_pendiente",
+                "fecha", "hora", "maceta",
+                "humedad_raw_1", "humedad_raw_2",
+                "humedad_pct_1", "humedad_pct_2", "humedad_pct_promedio",
+                "lux", "dli_acumulado",
+                "temperatura_c", "humedad_ambiente_pct",
+                "luz_encendida", "ventilador_encendido", "riego_pendiente",
                 "alertas",
             ])
 
@@ -119,6 +110,7 @@ def guardar_csv(config, estados: Dict[str, MacetaEstado], ahora: datetime) -> No
                 valor_csv(estado.humedad_suelo_2_pct),
                 valor_csv(estado.humedad_suelo_promedio_pct),
                 valor_csv(estado.lux),
+                valor_csv(getattr(estado, 'dli_acumulado', None)),
                 valor_csv(estado.temperatura_c),
                 valor_csv(estado.humedad_ambiente_pct),
                 int(estado.luz_encendida),
@@ -132,10 +124,7 @@ def subir_thingspeak(config, estados: Dict[str, MacetaEstado]) -> None:
     if not config.thingspeak.enabled:
         return
 
-    payload = {
-        "api_key": config.thingspeak.api_key,
-    }
-
+    payload = {"api_key": config.thingspeak.api_key}
     field_map = config.thingspeak.fields
 
     if "maceta1" in estados:
@@ -164,17 +153,14 @@ def subir_thingspeak(config, estados: Dict[str, MacetaEstado]) -> None:
         return
 
     try:
-        respuesta = requests.post(
-            config.thingspeak.url,
-            data=payload,
-            timeout=5
-        )
+        respuesta = requests.post(config.thingspeak.url, data=payload, timeout=5)
         if respuesta.status_code == 200:
             print(f"\nThingSpeak OK: {respuesta.text}")
         else:
             print(f"\nThingSpeak error HTTP: {respuesta.status_code}")
     except Exception as e:
         print(f"\nThingSpeak fallo: {e}")
+
 
 def ejecutar_riego_seguro(maceta_objetivo, config_sistema, estado_maceta, hw: HardwareManager):
     """
@@ -194,42 +180,42 @@ def ejecutar_riego_seguro(maceta_objetivo, config_sistema, estado_maceta, hw: Ha
     try:
         print(f"--- INICIANDO RIEGO SEGURO PARA: {maceta_objetivo.nombre} ---")
         
-        # --- 1. CIERRE PREVENTIVO ---
-        # Nos aseguramos de que TODAS las válvulas estén cerradas usando tu hw
+        # 1. CIERRE PREVENTIVO DE TODAS LAS VÁLVULAS
         for nombre, maceta_iter in config_sistema.macetas.items():
             if hasattr(maceta_iter, 'actuadores') and maceta_iter.actuadores.valvula.enabled:
                 hw.set_valvula_maceta(maceta_iter, False)
 
-        # --- 2. ABRIR SOLO LA VÁLVULA OBJETIVO ---
+        # 2. ABRIR SOLO LA VÁLVULA OBJETIVO
         hw.set_valvula_maceta(maceta_objetivo, True)
-        
-        # Le damos medio segundo a la válvula para que abra del todo (evita el golpe de ariete)
-        time.sleep(0.5) 
+        time.sleep(0.5) # Previene golpe de ariete
 
-        # --- 3. ENCENDER LA BOMBA  ---
+        # 3. ENCENDER LA BOMBA
         hw.set_bomba(True)
         print(f"Regando durante {tiempo_riego} segundos...")
 
-        # --- 4. DEJAR REGAR ---
+        # 4. DEJAR REGAR
         time.sleep(tiempo_riego)
 
     finally:
-        # --- 5. APAGADO SEGURO GARANTIZADO ---
-        # Apagamos la bomba primero
+        # Apagado de bomba
         hw.set_bomba(False)
         print("Bomba APAGADA.")
         
-        # Usamos tu delay inteligente del config.toml para liberar presión de la manguera
         time.sleep(config_sistema.global_config.delay_post_bomba_seg)
         
-        # Ahora sí, cerramos la válvula
         hw.set_valvula_maceta(maceta_objetivo, False)
         print(f"Válvula de {maceta_objetivo.nombre} CERRADA.")
 
         print(f"--- RIEGO FINALIZADO PARA: {maceta_objetivo.nombre} ---")
         
-        # Bajamos las banderas para liberar el sistema
+        # Bajar bandera
         estado_maceta.riego_pendiente = False
+        
+        # Limpio la memoria que promedia los valores de los sensores para activar el riego.
+        estado_maceta.historial_raw_1.clear()
+        estado_maceta.historial_raw_2.clear()
+        
+        # Liberar sistema global
         sistema_regando = False
 
 
@@ -237,9 +223,10 @@ def main():
     config = cargar_configuracion("config.toml")
     estado_sistema = crear_estado_inicial(config)
     hw = HardwareManager(config)
+    
     dli_acumulado_macetas = {
-    "maceta1": 0.0,
-    "maceta2": 0.0
+        "maceta1": 0.0,
+        "maceta2": 0.0
     }
     ultimo_tiempo_lectura = time.time()
     dia_actual = datetime.now().day
@@ -253,12 +240,12 @@ def main():
             print(f"\n===== Ciclo {ahora.strftime('%Y-%m-%d %H:%M:%S')} =====")
 
             estados_ciclo: Dict[str, MacetaEstado] = {}
-            # (Eliminamos macetas_a_regar = [])
             
-            tiempo_actual= time.time()
-            dt_segundos= tiempo_actual - ultimo_tiempo_lectura
+            tiempo_actual = time.time()
+            dt_segundos = tiempo_actual - ultimo_tiempo_lectura
             ultimo_tiempo_lectura = tiempo_actual
 
+            # Reseteo diario del DLI
             if ahora.day != dia_actual:
                 for key in dli_acumulado_macetas:
                     dli_acumulado_macetas[key] = 0.0
@@ -276,11 +263,12 @@ def main():
                     estado=estado_anterior,
                     lecturas=lecturas,
                     global_config=config.global_config,
-                    dli_acumulado_actual= dli_acumulado_macetas[nombre_maceta],
-                    dt_segundos= dt_segundos,
+                    dli_acumulado_actual=dli_acumulado_macetas[nombre_maceta],
+                    dt_segundos=dt_segundos,
                     ahora=ahora
                 )
-                dli_acumulado_macetas[nombre_maceta]=nuevo_dli
+                
+                dli_acumulado_macetas[nombre_maceta] = nuevo_dli
                 nuevo_estado.dli_acumulado = nuevo_dli
 
                 hw.set_luz_maceta(maceta, nuevo_estado.luz_encendida)
@@ -289,11 +277,9 @@ def main():
                 estados_ciclo[nombre_maceta] = nuevo_estado
                 estado_sistema.macetas[nombre_maceta] = nuevo_estado
 
-                # --- NUEVO GATILLO DE RIEGO DIRECTO ---
-                # Evalúa y ejecuta el riego inmediatamente para esta maceta si es necesario
+                # Accion de riego
                 if nuevo_estado.riego_pendiente and not sistema_regando:
                     ejecutar_riego_seguro(maceta, config, nuevo_estado, hw)
-                # --------------------------------------
 
                 imprimir_estado_maceta(nombre_maceta, nuevo_estado)
 
