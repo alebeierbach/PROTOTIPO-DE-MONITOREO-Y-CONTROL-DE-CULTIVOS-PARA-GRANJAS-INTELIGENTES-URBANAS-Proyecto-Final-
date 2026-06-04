@@ -48,7 +48,7 @@ umbral_temperatura_c = 30
 tiempo_riego_seg = 60
 hora_inicio_dia = 8       
 hora_fin_dia = 22           
-dli_objetivo = 14.0
+dli_objetivo = 16.0
 lux_foco = 6500            
 factor_luminaria = 0.0887  
 factor_luminaria_ambiente = 0.0185 
@@ -90,8 +90,8 @@ activa_bajo = false
 [macetas.maceta2]
 nombre = "maceta2"
 enabled = true
-umbral_humedad_suelo_pct = 80
-umbral_humedad_ambiente_raw= 155
+umbral_humedad_suelo_raw = 155
+umbral_humedad_ambiente_pct= 80
 umbral_temperatura_c = 30
 tiempo_riego_seg = 60
 hora_inicio_dia = 10       
@@ -112,12 +112,12 @@ adc = "adc1"
 canal = 0
 
 [macetas.maceta2.bh1750]
-enabled = false
+enabled = true
 direccion = 0x5C
 
 [macetas.maceta2.dht]
-enabled = false
-tipo = "DHT11"
+enabled = true
+tipo = "DHT22"
 gpio = 6
 
 [macetas.maceta2.actuadores.luz]
