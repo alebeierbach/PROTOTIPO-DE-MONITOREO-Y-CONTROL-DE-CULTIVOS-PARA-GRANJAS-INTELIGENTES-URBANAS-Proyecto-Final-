@@ -144,13 +144,13 @@ def decidir_ventilacion(
         estado.tiempo_ventilacion_restante_seg -= dt_segundos
         
         if estado.tiempo_ventilacion_restante_seg > 0:
-            return True, alertas  # Todavía le queda tiempo, sigue encendido
+            return True, alertas  # Mientras ventila, retorna True directo y no acumula historial
         else:
             estado.tiempo_ventilacion_restante_seg = 0.0  # El tiempo terminó
 
     # --- 2. FILTRADO Y MEMORIA ---
     if not lectura_dht_valida(temperatura_c, humedad_ambiente_pct):
-        alertas.append("Lectura inválida de DHT, se omite lógica de ventilación")
+        alertas.append("Lectura invalida de DHT, se omite logica de ventilacion")
         return False, alertas
 
     # Guardamos la lectura actual en la memoria
@@ -161,13 +161,13 @@ def decidir_ventilacion(
         estado.historial_humedad_ambiente.pop(0)
 
     # --- 3. DECISIÓN DE ENCENDIDO ---
-    # Parámetro configurable: Tiempo que estará encendido (Ej: 300 seg = 5 minutos)
-    tiempo_encendido = 180.0 
+    tiempo_encendido = 120.0 # Bloque mínimo de ventilación en segundos (2 minutos)
 
     # Condición A: Exceso de temperatura (Reacción inmediata)
     if temperatura_c > maceta.umbral_temperatura_c:
-        alertas.append(f"Temperatura alta ({temperatura_c:.1f}C). Ventilador activado.")
+        alertas.append(f"Temperatura alta ({temperatura_c:.1f} C). Ventilador activado.")
         estado.tiempo_ventilacion_restante_seg = tiempo_encendido
+        estado.historial_humedad_ambiente.clear()  # Vaciamos por seguridad
         return True, alertas
 
     # Condición B: Exceso de Humedad (Promedio de 5 mediciones)
@@ -177,9 +177,28 @@ def decidir_ventilacion(
         if promedio_humedad > maceta.umbral_humedad_ambiente_pct:
             alertas.append(f"Humedad alta prolongada (Promedio: {promedio_humedad:.1f}%). Ventilador activado.")
             estado.tiempo_ventilacion_restante_seg = tiempo_encendido
+            
+            # --- NUEVO: BARRIDO DE MEMORIA AMBIENTAL ---
+            # Borramos el historial para que empiece a recolectar de cero al apagarse
+            estado.historial_humedad_ambiente.clear()
+            # -------------------------------------------
             return True, alertas
 
     return False, alertas
+
+def decidir_riego(maceta: MacetaConfig, raw_promedio_suavizado: Optional[float]) -> Tuple[bool, List[str]]:
+    alertas = []
+    
+    if raw_promedio_suavizado is None:
+        return False, alertas
+        
+    # Lógica de riego en RAW (mayor o igual al umbral). Devuelve true o false para elegir el riego en booleano
+    riego = raw_promedio_suavizado >= maceta.umbral_humedad_suelo_raw
+    
+    if riego:
+        alertas.append(f"Tierra seca (Raw: {raw_promedio_suavizado:.1f} >= {maceta.umbral_humedad_suelo_raw}). Riego activado.")
+        
+    return riego, alertas
 
 def procesar_maceta(
     maceta: MacetaConfig,
