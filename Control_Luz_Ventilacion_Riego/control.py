@@ -37,7 +37,7 @@ def procesar_humedad_suelo(
     if val1 and val2:
         promedio = int((hum1 + hum2) / 2)
 
-        if abs(hum1 - hum2) > global_config.discrepancy_humedad_pct:
+        if abs(hum1 - hum2) > global_config.discrepancia_humedad_pct:
             alertas.append(f"Discrepancia alta entre sensores de humedad: {hum1}% vs {hum2}%")
 
         return hum1, hum2, promedio, alertas
