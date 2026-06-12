@@ -197,14 +197,22 @@ def procesar_maceta(
             nuevo_estado.historial_raw_2.pop(0)
 
     # --- 2. CALCULAR VALORES SUAVIZADOS ---
-    # Solo calculamos el promedio si tenemos la lista llena (3 mediciones completas)
-    raw1_suavizado = sum(nuevo_estado.historial_raw_1) / 3 if len(nuevo_estado.historial_raw_1) == 3 else None
-    raw2_suavizado = sum(nuevo_estado.historial_raw_2) / 3 if len(nuevo_estado.historial_raw_2) == 3 else None
+    raw1_suavizado = sum(nuevo_estado.historial_raw_1) / len(nuevo_estado.historial_raw_1) if nuevo_estado.historial_raw_1 else None
+    raw2_suavizado = sum(nuevo_estado.historial_raw_2) / len(nuevo_estado.historial_raw_2) if nuevo_estado.historial_raw_2 else None
 
     # Promedio unificado de la maceta para decidir el riego
     raws_validos = [r for r in (raw1_suavizado, raw2_suavizado) if r is not None]
     raw_promedio_suavizado = sum(raws_validos) / len(raws_validos) if raws_validos else None
-    
+    # --- NUEVO BLOQUE DE INTERCEPCIÓN ---
+    if raw1_suavizado is None and raw2_suavizado is None:
+        # Si no hay 3 lecturas en memoria, no calculamos el porcentaje para evitar el falso error
+        hum1, hum2, promedio_pct = None, None, None
+        alertas_humedad = ["Calibrando: llenando buffer de memoria (esperando 3 ciclos)..."]
+    else:
+        # Si la memoria está llena, procesamos normalmente
+        hum1, hum2, promedio_pct, alertas_humedad = procesar_humedad_suelo(
+            raw1_suavizado, raw2_suavizado, global_config
+        )
     # Convertimos el suavizado a porcentaje solo para registro/CSV
     hum1, hum2, promedio_pct, alertas_humedad = procesar_humedad_suelo(
         raw1_suavizado, raw2_suavizado, global_config
