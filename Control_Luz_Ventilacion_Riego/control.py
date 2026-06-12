@@ -37,7 +37,7 @@ def procesar_humedad_suelo(
     if val1 and val2:
         promedio = int((hum1 + hum2) / 2)
 
-        if abs(hum1 - hum2) > global_config.discrepancia_humedad_pct:
+        if abs(hum1 - hum2) > global_config.discrepancy_humedad_pct:
             alertas.append(f"Discrepancia alta entre sensores de humedad: {hum1}% vs {hum2}%")
 
         return hum1, hum2, promedio, alertas
@@ -69,6 +69,7 @@ def lectura_dht_valida(
 
     return True
 
+
 def calcular_y_controlar_dli(
     maceta: MacetaConfig, 
     lux_ambiente: Optional[float],
@@ -79,7 +80,7 @@ def calcular_y_controlar_dli(
 ) -> Tuple[bool, float, List[str]]:
     alertas = []
     
-    # chequeamos que este habilitada la luz antes de cualquier cosa
+    # Chequeamos que esté habilitada la luz antes de cualquier cosa
     if not maceta.luz.enabled:
         return False, dli_acumulado, alertas
 
@@ -90,6 +91,7 @@ def calcular_y_controlar_dli(
     lux_foco = maceta.lux_foco
     F_L = maceta.factor_luminaria
     F_L_ambiente = maceta.factor_luminaria_ambiente
+    
     # Cálculo dinámico de PPFD y suma
     ppfd_foco = lux_foco * F_L
     ppfd_ambiente = (lux_ambiente * F_L_ambiente) if lux_ambiente is not None else 0.0
@@ -112,12 +114,12 @@ def calcular_y_controlar_dli(
     if not en_horario:
         return False, nuevo_dli, alertas
 
-    # 4. Calculamos Ti restante y evaluamos cuanto le falta
+    # Calculamos Ti restante y evaluamos cuánto le falta
     Ti_restante = hora_fin - hora_actual_decimal
     dli_faltante = dli_objetivo - nuevo_dli
     
     if dli_faltante <= 0:
-        return False, nuevo_dli, alertas # Ya se cumplió la meta de hoy
+        return False, nuevo_dli, alertas  # Ya se cumplió la meta de hoy
         
     dli_potencial_foco = 0.0036 * ppfd_foco * Ti_restante
     
@@ -125,6 +127,7 @@ def calcular_y_controlar_dli(
     encender_foco = dli_potencial_foco <= dli_faltante
     
     return encender_foco, nuevo_dli, alertas
+
 
 def decidir_ventilacion(
     maceta: MacetaConfig,
@@ -161,7 +164,7 @@ def decidir_ventilacion(
         estado.historial_humedad_ambiente.pop(0)
 
     # --- 3. DECISIÓN DE ENCENDIDO ---
-    tiempo_encendido = 120.0 # Bloque mínimo de ventilación en segundos (2 minutos)
+    tiempo_encendido = 120.0  # Bloque mínimo de ventilación en segundos (2 minutos)
 
     # Condición A: Exceso de temperatura (Reacción inmediata)
     if temperatura_c > maceta.umbral_temperatura_c:
@@ -178,13 +181,13 @@ def decidir_ventilacion(
             alertas.append(f"Humedad alta prolongada (Promedio: {promedio_humedad:.1f}%). Ventilador activado.")
             estado.tiempo_ventilacion_restante_seg = tiempo_encendido
             
-            # --- NUEVO: BARRIDO DE MEMORIA AMBIENTAL ---
+            # --- BARRIDO DE MEMORIA AMBIENTAL ---
             # Borramos el historial para que empiece a recolectar de cero al apagarse
             estado.historial_humedad_ambiente.clear()
-            # -------------------------------------------
             return True, alertas
 
     return False, alertas
+
 
 def decidir_riego(maceta: MacetaConfig, raw_promedio_suavizado: Optional[float]) -> Tuple[bool, List[str]]:
     alertas = []
@@ -192,13 +195,14 @@ def decidir_riego(maceta: MacetaConfig, raw_promedio_suavizado: Optional[float])
     if raw_promedio_suavizado is None:
         return False, alertas
         
-    # Lógica de riego en RAW (mayor o igual al umbral). Devuelve true o false para elegir el riego en booleano
+    # Lógica de riego en RAW (mayor o igual al umbral)
     riego = raw_promedio_suavizado >= maceta.umbral_humedad_suelo_raw
     
     if riego:
         alertas.append(f"Tierra seca (Raw: {raw_promedio_suavizado:.1f} >= {maceta.umbral_humedad_suelo_raw}). Riego activado.")
         
     return riego, alertas
+
 
 def procesar_maceta(
     maceta: MacetaConfig,
@@ -217,6 +221,10 @@ def procesar_maceta(
     # --- 1. RECUPERAR MEMORIA Y FILTRAR ERRORES ---
     nuevo_estado.historial_raw_1 = estado.historial_raw_1.copy()
     nuevo_estado.historial_raw_2 = estado.historial_raw_2.copy()
+    
+    # --- MEMORIA PARA EL VENTILADOR TRASLADADA ---
+    nuevo_estado.historial_humedad_ambiente = estado.historial_humedad_ambiente.copy()
+    nuevo_estado.tiempo_ventilacion_restante_seg = estado.tiempo_ventilacion_restante_seg
 
     raw1_actual = lecturas.get("humedad_raw_1")
     raw2_actual = lecturas.get("humedad_raw_2")
@@ -233,26 +241,24 @@ def procesar_maceta(
             nuevo_estado.historial_raw_2.pop(0)
 
     # --- 2. CALCULAR VALORES SUAVIZADOS ---
-    raw1_suavizado = sum(nuevo_estado.historial_raw_1) / len(nuevo_estado.historial_raw_1) if nuevo_estado.historial_raw_1 else None
-    raw2_suavizado = sum(nuevo_estado.historial_raw_2) / len(nuevo_estado.historial_raw_2) if nuevo_estado.historial_raw_2 else None
+    # Obligamos lógicamente a tener las 3 lecturas completas
+    raw1_suavizado = sum(nuevo_estado.historial_raw_1) / 3 if len(nuevo_estado.historial_raw_1) == 3 else None
+    raw2_suavizado = sum(nuevo_estado.historial_raw_2) / 3 if len(nuevo_estado.historial_raw_2) == 3 else None
 
     # Promedio unificado de la maceta para decidir el riego
     raws_validos = [r for r in (raw1_suavizado, raw2_suavizado) if r is not None]
     raw_promedio_suavizado = sum(raws_validos) / len(raws_validos) if raws_validos else None
-    # --- NUEVO BLOQUE DE INTERCEPCIÓN ---
+    
+    # --- NUEVO BLOQUE DE INTERCEPCIÓN COHERENTE ---
     if raw1_suavizado is None and raw2_suavizado is None:
         # Si no hay 3 lecturas en memoria, no calculamos el porcentaje para evitar el falso error
         hum1, hum2, promedio_pct = None, None, None
-        alertas_humedad = ["Calibrando: llenando buffer de memoria (esperando 3 ciclos)..."]
+        alertas_humedad = ["Calibrando sensores: esperando 3 lecturas..."]
     else:
-        # Si la memoria está llena, procesamos normalmente
+        # Si la memoria está llena, procesamos normalmente y convertimos a porcentaje
         hum1, hum2, promedio_pct, alertas_humedad = procesar_humedad_suelo(
             raw1_suavizado, raw2_suavizado, global_config
         )
-    # Convertimos el suavizado a porcentaje solo para registro/CSV
-    hum1, hum2, promedio_pct, alertas_humedad = procesar_humedad_suelo(
-        raw1_suavizado, raw2_suavizado, global_config
-    )
 
     # Guardamos el estado para el programa
     nuevo_estado.humedad_suelo_raw_1 = raw1_actual  # Guardamos el real para ver si saltan los 128
@@ -269,7 +275,7 @@ def procesar_maceta(
 
     if lectura_dht_valida(temperatura_c, humedad_ambiente_pct):
         nuevo_estado.temperatura_c = temperatura_c
-        nuevo_estado.humedad_ambiente_pct = humedad_ambiente_pct
+        nuevo_estado.humedad_ambiente_pct = humidity_ambiente_pct = humedad_ambiente_pct
     else:
         nuevo_estado.temperatura_c = None
         nuevo_estado.humedad_ambiente_pct = None
@@ -289,10 +295,10 @@ def procesar_maceta(
 
     ventilador_encendido, alertas_vent = decidir_ventilacion(
         maceta=maceta,
-        estado=nuevo_estado, # Le pasamos el estado actual para que lea la memoria
+        estado=nuevo_estado, 
         temperatura_c=nuevo_estado.temperatura_c,
         humedad_ambiente_pct=nuevo_estado.humedad_ambiente_pct,
-        dt_segundos=dt_segundos # Le pasamos los segundos para el temporizador
+        dt_segundos=dt_segundos 
     )
 
     # --- 5. GATILLO DE RIEGO (Usando el Raw Suavizado) ---
