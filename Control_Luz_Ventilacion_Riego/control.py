@@ -240,8 +240,9 @@ def procesar_maceta(
         if len(nuevo_estado.historial_raw_2) > 3:
             nuevo_estado.historial_raw_2.pop(0)
 
-    # --- 2. CALCULAR VALORES SUAVIZADOS ---
-    # Obligamos lógicamente a tener las 3 lecturas completas
+    # --- CALCULO DE VALORES SUAVIZADOS ---
+    # Obtenemos 3 lecturas para sacar el promedio y tomar decisiones.
+    
     raw1_suavizado = sum(nuevo_estado.historial_raw_1) / 3 if len(nuevo_estado.historial_raw_1) == 3 else None
     raw2_suavizado = sum(nuevo_estado.historial_raw_2) / 3 if len(nuevo_estado.historial_raw_2) == 3 else None
 
@@ -251,10 +252,10 @@ def procesar_maceta(
     
     # --- NUEVO BLOQUE DE INTERCEPCIÓN COHERENTE ---
     if raw1_suavizado is None and raw2_suavizado is None:
-        # Si no hay 3 lecturas en memoria, no calculamos el porcentaje para evitar el falso error
+        # Si no hay 3 lecturas en memoria, no calculamos el porcentaje para evitar el error
         hum1, hum2, promedio_pct = None, None, None
-        alertas_humedad = ["Calibrando sensores: esperando 3 lecturas..."]
-    else:
+        alertas_humedad = ["Recolectando muestras del sensor. Esperando 3 lecturas..."]
+    else: 
         # Si la memoria está llena, procesamos normalmente y convertimos a porcentaje
         hum1, hum2, promedio_pct, alertas_humedad = procesar_humedad_suelo(
             raw1_suavizado, raw2_suavizado, global_config
