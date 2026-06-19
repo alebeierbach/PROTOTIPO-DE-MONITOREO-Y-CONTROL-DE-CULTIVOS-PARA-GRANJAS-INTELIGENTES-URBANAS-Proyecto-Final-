@@ -60,7 +60,6 @@ def imprimir_estado_maceta(nombre_maceta: str, estado: MacetaEstado) -> None:
     )
     print(f"Raw: {estado.humedad_suelo_raw_1} / {estado.humedad_suelo_raw_2}")
     
-    # <-- Actualizamos esta linea:
     print(
         f"Lux Amb: {estado.lux} | "
         f"Temp: {estado.temperatura_c} | HumAmb: {estado.humedad_ambiente_pct}"
@@ -96,8 +95,8 @@ def guardar_csv(config, estados: Dict[str, MacetaEstado], ahora: datetime) -> No
                 "humedad_pct_1",
                 "humedad_pct_2",
                 "humedad_pct_promedio",
-                "lux",          # (ambiente)
-                "dli_acumulado",  # <-- NUEVA Variable
+                "lux",          
+                "dli_acumulado",  
                 "temperatura_c",
                 "humedad_ambiente_pct",
                 "luz_encendida",
@@ -175,10 +174,7 @@ def subir_thingspeak(config, estados: Dict[str, MacetaEstado]) -> None:
         print(f"\nThingSpeak fallo: {e}")
 
 def ejecutar_riego_seguro(maceta_objetivo, config_sistema, estado_maceta, hw: HardwareManager):
-    """
-    Riego con enclavamiento de seguridad, prevención de golpe de ariete 
-    y apagado garantizado ante errores, usando HardwareManager.
-    """
+
     global sistema_regando
     
     if sistema_regando:
@@ -193,7 +189,7 @@ def ejecutar_riego_seguro(maceta_objetivo, config_sistema, estado_maceta, hw: Ha
         print(f"--- INICIANDO RIEGO SEGURO PARA: {maceta_objetivo.nombre} ---")
         
         # --- 1. CIERRE PREVENTIVO ---
-        # Nos aseguramos de que TODAS las válvulas estén cerradas usando tu hw
+        # Vemos si todas las valvulas estan cerradas
         for nombre, maceta_iter in config_sistema.macetas.items():
             if hasattr(maceta_iter, 'actuadores') and maceta_iter.actuadores.valvula.enabled:
                 hw.set_valvula_maceta(maceta_iter, False)
@@ -201,7 +197,7 @@ def ejecutar_riego_seguro(maceta_objetivo, config_sistema, estado_maceta, hw: Ha
         # --- 2. ABRIR SOLO LA VÁLVULA OBJETIVO ---
         hw.set_valvula_maceta(maceta_objetivo, True)
         
-        # Le damos medio segundo a la válvula para que abra del todo (evita el golpe de ariete)
+        # Aseguramos que se cierre la valvula
         time.sleep(0.5) 
 
         # --- 3. ENCENDER LA BOMBA  ---
@@ -213,20 +209,20 @@ def ejecutar_riego_seguro(maceta_objetivo, config_sistema, estado_maceta, hw: Ha
 
     finally:
         # --- 5. APAGADO SEGURO GARANTIZADO ---
-        # Apagamos la bomba primero
+        # Se apaga la bomba primero
         hw.set_bomba(False)
         print("Bomba APAGADA.")
         
-        # Usamos tu delay inteligente del config.toml para liberar presión de la manguera
+        # Usamos el delay del config.toml para liberar presión de la manguera
         time.sleep(config_sistema.global_config.delay_post_bomba_seg)
         
-        # Ahora sí, cerramos la válvula
+        # Cerramos la válvula
         hw.set_valvula_maceta(maceta_objetivo, False)
         print(f"Válvula de {maceta_objetivo.nombre} CERRADA.")
 
         print(f"--- RIEGO FINALIZADO PARA: {maceta_objetivo.nombre} ---")
         
-        # Bajamos las banderas para liberar el sistema
+        # Bajamos las flags para liberar el sistema
         estado_maceta.riego_pendiente = False
         sistema_regando = False
 
@@ -287,7 +283,7 @@ def main():
                 estados_ciclo[nombre_maceta] = nuevo_estado
                 estado_sistema.macetas[nombre_maceta] = nuevo_estado
 
-                # --- NUEVO GATILLO DE RIEGO DIRECTO ---
+                # --- GATILLO DE RIEGO DIRECTO ---
                 # Evalúa y ejecuta el riego inmediatamente para esta maceta si es necesario
                 if nuevo_estado.riego_pendiente and not sistema_regando:
                     ejecutar_riego_seguro(maceta, config, nuevo_estado, hw)
