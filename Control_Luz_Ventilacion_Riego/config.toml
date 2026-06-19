@@ -83,7 +83,7 @@ gpio = 22
 activa_bajo = true
 
 [macetas.maceta1.actuadores.ventilador]
-enabled = false
+enabled = true
 gpio = 23
 activa_bajo = false
 
@@ -112,12 +112,12 @@ adc = "adc1"
 canal = 0
 
 [macetas.maceta2.bh1750]
-enabled = false
+enabled = true
 direccion = 0x5C
 
 [macetas.maceta2.dht]
-enabled = false
-tipo = "DHT11"
+enabled = true
+tipo = "DHT22"
 gpio = 6
 
 [macetas.maceta2.actuadores.luz]
@@ -131,6 +131,6 @@ gpio = 17
 activa_bajo = true
 
 [macetas.maceta2.actuadores.ventilador]
-enabled = false
+enabled = true
 gpio = 25
 activa_bajo = false
