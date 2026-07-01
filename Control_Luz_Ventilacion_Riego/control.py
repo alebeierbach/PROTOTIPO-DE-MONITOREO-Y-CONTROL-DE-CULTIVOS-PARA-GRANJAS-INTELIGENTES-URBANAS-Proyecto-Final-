@@ -276,7 +276,7 @@ def procesar_maceta(
 
     if lectura_dht_valida(temperatura_c, humedad_ambiente_pct):
         nuevo_estado.temperatura_c = temperatura_c
-        nuevo_estado.humedad_ambiente_pct = humidity_ambiente_pct = humedad_ambiente_pct
+        nuevo_estado.humedad_ambiente_pct  = humedad_ambiente_pct
     else:
         nuevo_estado.temperatura_c = None
         nuevo_estado.humedad_ambiente_pct = None
