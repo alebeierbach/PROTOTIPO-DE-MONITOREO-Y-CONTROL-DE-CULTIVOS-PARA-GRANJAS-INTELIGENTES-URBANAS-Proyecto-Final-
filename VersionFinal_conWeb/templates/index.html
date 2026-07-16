@@ -6,17 +6,34 @@
     <title>Panel de Control IoT</title>
     <style>
         body { font-family: 'Segoe UI', Arial, sans-serif; background-color: #f4f6f9; color: #333; margin: 0; padding: 20px; }
-        .container { max-width: 600px; margin: auto; background: white; padding: 25px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+        /* Se amplió el max-width a 900px para que los gráficos entren mejor en PC */
+        .container { max-width: 900px; margin: auto; background: white; padding: 25px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
         h1 { text-align: center; color: #2c3e50; font-size: 24px; margin-bottom: 25px; }
         .maceta-card { border: 1px solid #e1e4e8; padding: 20px; margin-bottom: 20px; border-radius: 8px; background-color: #fafbfc; border-top: 4px solid #27ae60; }
+        /* Variante de color azul para la Maceta 2 (Espinaca) */
+        .maceta-card.m2 { border-top: 4px solid #2980b9; }
         .maceta-card h2 { margin-top: 0; color: #27ae60; font-size: 18px; border-bottom: 1px solid #eee; padding-bottom: 8px; }
+        .maceta-card.m2 h2 { color: #2980b9; }
+        
         label { font-weight: bold; display: block; margin-top: 15px; font-size: 13px; color: #4a5568; }
         input { width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #cbd5e0; border-radius: 6px; box-sizing: border-box; font-size: 15px; }
         input:focus { border-color: #27ae60; outline: none; box-shadow: 0 0 4px rgba(39, 174, 96, 0.2); }
+        
         .btn-submit { width: 100%; padding: 14px; background-color: #27ae60; color: white; border: none; border-radius: 6px; font-size: 16px; font-weight: bold; cursor: pointer; margin-top: 15px; transition: background 0.2s; }
         .btn-submit:hover { background-color: #219150; }
         .alert { padding: 15px; background-color: #d4edda; color: #155724; border-radius: 6px; margin-bottom: 25px; text-align: center; font-weight: bold; border: 1px solid #c3e6cb; }
-        .footer { text-align: center; margin-top: 25px; font-size: 11px; color: #a0aec0; }
+        
+        /* Estilos específicos para la sección de ThingSpeak */
+        .charts-section { margin-top: 40px; padding-top: 30px; border-top: 2px dashed #cbd5e0; }
+        .charts-section h1 { color: #2c3e50; font-size: 22px; margin-bottom: 20px; }
+        .charts-grid { display: grid; grid-template-columns: 1fr; gap: 20px; }
+        @media (min-width: 768px) {
+            .charts-grid { grid-template-columns: 1fr 1fr; } /* Dos columnas en PC */
+        }
+        .iframe-container { margin-bottom: 15px; }
+        .iframe-container iframe { border: 1px solid #cccccc; border-radius: 4px; background-color: white; }
+
+        .footer { text-align: center; margin-top: 35px; font-size: 11px; color: #a0aec0; }
     </style>
 </head>
 <body>
@@ -29,40 +46,89 @@
 
         <form method="POST" action="/">
             
-            <div class="maceta-card">
-                <h2>Maceta 1 (Rúcula)</h2>
-                
-                <label>Umbral Riego (Valor RAW en sensor)</label>
-                <input type="number" name="m1_suelo" value="{{ config.macetas.maceta1.umbral_humedad_suelo_raw }}" required>
+            <div class="charts-grid">
+                <!-- COLUMNA 1: FORMULARIO MACETA 1 -->
+                <div class="maceta-card">
+                    <h2>Maceta 1 (Rúcula)</h2>
+                    
+                    <label>Umbral Riego (Valor RAW en sensor)</label>
+                    <input type="number" name="m1_suelo" value="{{ config.macetas.maceta1.umbral_humedad_suelo_raw }}" required>
 
-                <label>Umbral Humedad Ambiente (%) - Ventilador</label>
-                <input type="number" step="1" name="m1_amb" value="{{ config.macetas.maceta1.umbral_humedad_ambiente_pct }}" required>
+                    <label>Umbral Humedad Ambiente (%) - Ventilador</label>
+                    <input type="number" step="1" name="m1_amb" value="{{ config.macetas.maceta1.umbral_humedad_ambiente_pct }}" required>
 
-                <label>Tiempo de Riego (Segundos)</label>
-                <input type="number" step="1" name="m1_riego" value="{{ config.macetas.maceta1.tiempo_riego_seg }}" required>
+                    <label>Tiempo de Riego (Segundos)</label>
+                    <input type="number" step="1" name="m1_riego" value="{{ config.macetas.maceta1.tiempo_riego_seg }}" required>
 
-                <label>DLI Objetivo (Luz Diaria Integrada)</label>
-                <input type="number" step="1" name="m1_dli" value="{{ config.macetas.maceta1.dli_objetivo }}" required>
-            </div>
+                    <label>DLI Objetivo (Luz Diaria Integrada)</label>
+                    <input type="number" step="1" name="m1_dli" value="{{ config.macetas.maceta1.dli_objetivo }}" required>
+                </div>
 
-            <div class="maceta-card">
-                <h2>Maceta 2 (Espinaca)</h2>
-                
-                <label>Umbral Riego (Valor RAW en sensor)</label>
-                <input type="number" name="m2_suelo" value="{{ config.macetas.maceta2.umbral_humedad_suelo_raw }}" required>
+                <!-- COLUMNA 2: FORMULARIO MACETA 2 -->
+                <div class="maceta-card m2">
+                    <h2>Maceta 2 (Espinaca)</h2>
+                    
+                    <label>Umbral Riego (Valor RAW en sensor)</label>
+                    <input type="number" name="m2_suelo" value="{{ config.macetas.maceta2.umbral_humedad_suelo_raw }}" required>
 
-                <label>Umbral Humedad Ambiente (%) - Ventilador</label>
-                <input type="number" step="1" name="m2_amb" value="{{ config.macetas.maceta2.umbral_humedad_ambiente_pct }}" required>
+                    <label>Umbral Humedad Ambiente (%) - Ventilador</label>
+                    <input type="number" step="1" name="m2_amb" value="{{ config.macetas.maceta2.umbral_humedad_ambiente_pct }}" required>
 
-                <label>Tiempo de Riego (Segundos)</label>
-                <input type="number" step="1" name="m2_riego" value="{{ config.macetas.maceta2.tiempo_riego_seg }}" required>
+                    <label>Tiempo de Riego (Segundos)</label>
+                    <input type="number" step="1" name="m2_riego" value="{{ config.macetas.maceta2.tiempo_riego_seg }}" required>
 
-                <label>DLI Objetivo (Luz Diaria Integrada)</label>
-                <input type="number" step="1" name="m2_dli" value="{{ config.macetas.maceta2.dli_objetivo }}" required>
+                    <label>DLI Objetivo (Luz Diaria Integrada)</label>
+                    <input type="number" step="1" name="m2_dli" value="{{ config.macetas.maceta2.dli_objetivo }}" required>
+                </div>
             </div>
 
             <button type="submit" class="btn-submit">💾 Aplicar Nuevos Valores</button>
         </form>
+
+        <!-- SECCIÓN DE GRÁFICOS THINGSPEAK -->
+        <div class="charts-section">
+            <h1>📊 Monitoreo Histórico en Tiempo Real</h1>
+            
+            <div class="charts-grid">
+                
+                <!-- GRÁFICOS MACETA 1 -->
+                <div class="maceta-card">
+                    <h2>Histórico Maceta 1 (Rúcula)</h2>
+                    
+                    <div class="iframe-container">
+                        <iframe width="100%" height="260" src="https://thingspeak.com/channels/3240012/charts/1?bgcolor=%23ffffff&color=%2327ae60&dynamic=true&results=30&type=line&title=Humedad+Suelo"></iframe>
+                    </div>
+                    <div class="iframe-container">
+                        <iframe width="100%" height="260" src="https://thingspeak.com/channels/3240012/charts/3?bgcolor=%23ffffff&color=%23f1c40f&dynamic=true&results=30&type=line&title=Intensidad+Luz+(Lux)"></iframe>
+                    </div>
+                    <div class="iframe-container">
+                        <iframe width="100%" height="260" src="https://thingspeak.com/channels/3240012/charts/5?bgcolor=%23ffffff&color=%23e74c3c&dynamic=true&results=30&type=line&title=Temperatura"></iframe>
+                    </div>
+                    <div class="iframe-container">
+                        <iframe width="100%" height="260" src="https://thingspeak.com/channels/3240012/charts/7?bgcolor=%23ffffff&color=%233498db&dynamic=true&results=30&type=line&title=Humedad+Ambiente"></iframe>
+                    </div>
+                </div>
+
+                <!-- GRÁFICOS MACETA 2 -->
+                <div class="maceta-card m2">
+                    <h2>Histórico Maceta 2 (Espinaca)</h2>
+                    
+                    <div class="iframe-container">
+                        <iframe width="100%" height="260" src="https://thingspeak.com/channels/3240012/charts/2?bgcolor=%23ffffff&color=%232980b9&dynamic=true&results=30&type=line&title=Humedad+Suelo"></iframe>
+                    </div>
+                    <div class="iframe-container">
+                        <iframe width="100%" height="260" src="https://thingspeak.com/channels/3240012/charts/4?bgcolor=%23ffffff&color=%23f1c40f&dynamic=true&results=30&type=line&title=Intensidad+Luz+(Lux)"></iframe>
+                    </div>
+                    <div class="iframe-container">
+                        <iframe width="100%" height="260" src="https://thingspeak.com/channels/3240012/charts/6?bgcolor=%23ffffff&color=%23e74c3c&dynamic=true&results=30&type=line&title=Temperatura"></iframe>
+                    </div>
+                    <div class="iframe-container">
+                        <iframe width="100%" height="260" src="https://thingspeak.com/channels/3240012/charts/8?bgcolor=%23ffffff&color=%233498db&dynamic=true&results=30&type=line&title=Humedad+Ambiente"></iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
 
         <div class="footer">LIADE-FCEFyN-PROTOTIPO DE MONITOREO Y CONTROL DE LAS CONDICIONES DE CULTIVOS PARA GRANJAS INTELIGENTES URBANAS</div>
     </div>
