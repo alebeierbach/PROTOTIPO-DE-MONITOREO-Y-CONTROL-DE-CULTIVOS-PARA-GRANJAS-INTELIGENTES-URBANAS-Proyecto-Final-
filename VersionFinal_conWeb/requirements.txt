@@ -1,0 +1,16 @@
+# Comunicacion HTTP con ThingSpeak
+requests
+
+# Capa de compatibilidad CircuitPython sobre Raspberry Pi (provee board, busio)
+Adafruit-Blinka
+
+# Sensores / ADC
+adafruit-circuitpython-dht
+adafruit-circuitpython-bh1750
+adafruit-circuitpython-pcf8591
+
+# GPIO (control de reles)
+RPi.GPIO
+
+# Solo necesario si la Raspberry corre Python < 3.11 (para leer config.toml).
+tomli ; python_version < "3.11"
