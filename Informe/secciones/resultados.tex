@@ -176,18 +176,128 @@ El análisis comparativo del crecimiento revela que la rúcula logró un desarro
 A continuación, se presentan las representaciones gráficas de las series temporales correspondientes a las variables críticas para el desarrollo y sostenimiento del cultivo. Estas ilustraciones permiten analizar el comportamiento dinámico del sistema y evaluar la estabilidad frente a las perturbaciones del entorno.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{Imagenes/GraficoSegundaMedicion.png}
+    \includegraphics[width=\textwidth]{Imagenes/GraficosSegundaMedicion.png}
     \caption{Series temporales de la telemetría del prototipo: variables lumínicas, ambientales, de suelo y estados de los actuadores.}
     \label{fig:graficos_telemetria}
 \end{figure}
 
+A partir de las series temporales obtenidas durante el período de marzo, es posible efectuar un análisis de los eventos operativos que caracterizaron el ensayo. En el espectro de iluminancia, se identifica una interrupción deliberada del canal de adquisición entre las jornadas del 9 y el 13 de marzo, este intervalo con registros nulos obedeció a la remoción temporal del transductor óptico para someterlo a ensayos de caracterización y calibración en banco de pruebas. Con posterioridad a dicho suceso, la reactivación del módulo documenta una atenuación progresiva en la amplitud de los picos de lux totales hacia el cierre del mes, un fenómeno físico que convalida el desarrollo del dosel biológico del cultivo, cuyas estructuras foliares en expansión interfirieron de forma directa en el cono de recepción del sensor. En lo que respecta a la dinámica del sustrato, la curva de humedad describe un gradiente de saturación estable y libre de oscilaciones críticas, confirmando que las propiedades retentivas de la mezcla de tierra preservaron el estado hídrico óptimo de la zona radicular. Por último, el diagrama de estados lógicos corrobora la inactividad persistente del lazo de potencia de la bomba hidráulica, identificándose únicamente un evento discreto en estado alto que responde a las pruebas de conmutación y validación algorítmica ejecutadas de forma manual sobre el sistema.
+
 \section{Resultados del prototipo final}
 
 \subsection{Tercera prueba}
-Una vez concluidas las fases preliminares de ensayo y habiendo validado la viabilidad funcional del modelo inicial, el desarrollo avanzó hacia la etapa de experimentación biológica en la infraestructura del prototipo final. Este entorno operativo consolidado presentó capacidades de acondicionamiento ambiental significativamente superiores, al integrar la bomba hidráulica para el riego automatizado, una configuración de doble luminaria por contenedor para optimizar el flujo fotónico, la red de sensores estabilizada y una mezcla de sustrato calculada para potenciar el desarrollo radicular. A continuación, se presenta el registro secuencial que documenta la evolución cronológica de las especies vegetales bajo estas condiciones optimizadas:
+Una vez concluidas las fases preliminares de ensayo y habiendo consolidado la validación empírica del modelo de hardware inicial, el desarrollo avanzó hacia la etapa de experimentación biológica en la infraestructura del prototipo definitivo. Este entorno operativo, acondicionado para el soporte de las mismas especies botánicas de la fase previa, presentó capacidades de control fitoambiental significativamente superiores. Dicha optimización se alcanzó mediante la integración sistémica de la electrobomba hidráulica para la automatización del riego, una configuración de redundancia lumínica simétrica por contenedor orientada a maximizar la densidad de flujo fotónico y una red de sensores estabilizada para la adquisición telemétrica. Asimismo, se incorporó una matriz edáfica calibrada específicamente para potenciar el desarrollo radicular y la conductividad del medio. Con el propósito de auditar la respuesta del sistema frente al material vivo, se detalla a continuación el registro secuencial que documenta la evolución cronológica de las especies vegetales(rucula del lado derecho y espinaca del lado izquierda), cuyo ciclo fundacional se inició formalmente con la siembra efectuada el 15 de abril.
 
-...fotos de las plantas...
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/Plantaciones/ Image 2026-04-25 at 12.35.26.jpeg}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/Plantaciones/ Image 2026-04-25 at 12.35.26 (1).jpeg}
+    \end{minipage}
+    \caption{Plantacion 25/04/2026}
+\end{figure}
 
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/Plantaciones/ Image 2026-04-30 at 19.00.55.jpeg}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/Plantaciones/ Image 2026-04-30 at 19.00.54.jpeg}
+    \end{minipage}
+    \caption{Plantacion 30/04/2026}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/Plantaciones/ Image 2026-05-15 at 15.17.28.jpeg}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/Plantaciones/ Image 2026-05-15 at 15.17.39.jpeg}
+    \end{minipage}
+    \caption{Plantacion 15/05/2026}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/Plantaciones/ Image 2026-05-26 at 18.50.06 (2).jpeg}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/Plantaciones/ Image 2026-05-26 at 18.50.34.jpeg}
+    \end{minipage}
+    \caption{Plantacion 26/05/2026}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/Plantaciones/ Image 2026-06-02 at 17.15.59 (1).jpeg}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/Plantaciones/ Image 2026-06-02 at 17.15.58.jpeg}
+    \end{minipage}
+    \caption{Plantacion 02/06/2026}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/Plantaciones/ Image 2026-06-09 at 17.31.48.jpeg}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/Plantaciones/ Image 2026-06-09 at 17.31.13.jpeg}
+    \end{minipage}
+    \caption{Plantacion 09/06/2026}
+\end{figure}
+A partir de la evidencia empírica recopilada en los registros visuales, es posible constatar un desarrollo fenológico óptimo en los ejemplares de espinaca, comportamiento atribuible a la estabilidad de las condiciones microclimáticas provistas por el prototipo, lo cual contrasta positivamente con los resultados de la campaña previa. En contraposición, la variedad de rúcula exhibió una tasa de bioacumulación marcadamente inhibida y un crecimiento ralentizado durante la primera etapa del ensayo. Este comportamiento anómalo se vinculó analíticamente con un déficit de irradiancia fotosintéticamente activa en ese estrato específico, al verificar que dicho cultivo había estado expuesto a una densidad de flujo fotónico significativamente mayor en la fase de laboratorio preliminar. Ante la detección de este retraso madurativo a principios del mes de junio, se ejecutó una acción correctiva dual: por un lado, se procedió a una nueva siembra de semillas de la misma especie y, por el otro, se redujo la cota altimétrica de los módulos de emisión lumínica para aproximar la fuente al plano foliar y maximizar la transferencia energética. Como consecuencia directa de esta intervención sobre el hardware, el cultivo revirtió su tendencia latente, evidenciando una evolución favorable y la emergencia exitosa de nuevos brotes basales.
 A continuación, se presentan las representaciones gráficas de las series temporales correspondientes a las variables críticas para el desarrollo y sostenimiento del cultivo. Estas ilustraciones permiten analizar el comportamiento dinámico del sistema y evaluar la estabilidad frente a las perturbaciones del entorno.
 
-...graficos y explicacion...
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/Graficos3raMaceta1.png}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/Graficos3raMaceta2.png}
+    \end{minipage}
+    \caption{Graficos de variables maceta 1 y 2.}
+\end{figure}
+Como se observa en las representaciones gráficas precedentes, el sistema posee ahora la capacidad de monitorear dos estaciones de cultivo diferenciadas, un avance que responde a la integración de canales de adquisición analógicos independientes para cada contenedor. Durante este intervalo específico, los registros telemétricos exhiben una marcada dispersión de datos no correlacionados y anomalías estructurales; este comportamiento responde a que el prototipo se encontraba en una fase crítica de caracterización, calibración y depuración en caliente. Entre los principales desafíos de hardware abordados en este período se destacan la deriva instrumental recurrente en los sensores de humedad de matriz de suelo, así como transitorios de ruido provocados por falsos contactos e intermitencias en las conexiones elásticas, anomalías que requirieron intervenciones directas sobre el cableado de señal para asegurar la estabilidad definitiva de la arquitectura electrónica.\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/grafico3raDLCmaceta1.png}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/grafico3raDLCmaceta2.png}
+    \end{minipage}
+    \caption{Graficos de variables maceta 1 y 2 con DLI implementado.}
+\end{figure}
+En las series temporales obtenidas a partir de junio se evidencia una notable convergencia y estabilidad asintótica en el comportamiento de las variables, un reflejo directo de la madurez tecnológica alcanzada por el prototipo en su etapa de consolidación final. La eliminación del ruido instrumental y la consistencia nominal de las adquisiciones permiten convalidar la integridad de la arquitectura electrónica y el firmware desarrollado, aportando una base de datos fidedigna para el análisis agronómico. Estos diagramas se incorporan con el propósito de ofrecer una validación empírica del correcto desempeño de los transductores ópticos, térmicos e higrométricos, así como de las transiciones de estado de las etapas de potencia. Cabe destacar que, aunque los actuadores hidráulicos de la bomba de irrigación se encontraban en un estadio operativo pasivo durante este registro particular, la correspondencia entre los estados lógicos de control y las respuestas del entorno demuestra la aptitud técnica del sistema para ingresar en una fase de lazo cerrado activo.
