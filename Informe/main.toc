@@ -85,24 +85,25 @@
 \contentsline {subsubsection}{Arquitectura de Transmisión de Datos}{43}{subsection.4.12.1}%
 \contentsline {section}{\numberline {4.13}UI: Interfaz de Usuario}{43}{section.4.13}%
 \contentsline {section}{\numberline {4.14}Esquemas de conexion}{43}{section.4.14}%
-\contentsline {part}{PARTE III - RESULTADOS Y CONCLUSIONES}{46}{part*.38}%
-\contentsline {chapter}{Resultados}{46}{chapter*.39}%
-\contentsline {section}{\numberline {4.15}Resultados del prototipo preliminar}{46}{section.4.15}%
-\contentsline {subsection}{\numberline {4.15.1}Primera prueba}{46}{subsection.4.15.1}%
-\contentsline {subsection}{\numberline {4.15.2}Segunda prueba}{51}{subsection.4.15.2}%
-\contentsline {section}{\numberline {4.16}Resultados del prototipo final}{60}{section.4.16}%
-\contentsline {subsection}{\numberline {4.16.1}Tercera prueba}{60}{subsection.4.16.1}%
-\contentsline {chapter}{Conclusiones}{65}{chapter*.67}%
-\contentsline {section}{Resultados obtenidos en relación con la SAT}{65}{section*.68}%
-\contentsline {section}{Conclusión general}{65}{section*.68}%
-\contentsline {section}{Aporte a la ingeniería o al campo de conocimiento}{65}{section*.68}%
-\contentsline {section}{Limitaciones y trabajos futuros}{65}{section*.68}%
-\contentsline {chapter}{Bibliografía}{66}{chapter*.69}%
-\contentsline {chapter}{Referencias}{68}{chapter*.71}%
-\contentsline {chapter}{\numberline {A}Anexo I}{70}{appendix.Alph1}%
-\contentsline {section}{Anexo I - Título}{70}{section*.73}%
-\contentsline {chapter}{\numberline {B}Anexo II}{71}{appendix.Alph2}%
-\contentsline {section}{Anexo II - Título}{71}{section*.74}%
-\contentsline {chapter}{\numberline {C}Anexo del Proyecto Integrador}{72}{appendix.Alph3}%
-\contentsline {section}{Solicitud de Aprobación de Tema}{72}{section*.75}%
-\contentsline {section}{Informes mensuales}{72}{section*.75}%
+\contentsline {section}{\numberline {4.15}Consumo de potencia}{44}{section.4.15}%
+\contentsline {part}{PARTE III - RESULTADOS Y CONCLUSIONES}{48}{part*.39}%
+\contentsline {chapter}{Resultados}{48}{chapter*.40}%
+\contentsline {section}{\numberline {4.16}Resultados del prototipo preliminar}{48}{section.4.16}%
+\contentsline {subsection}{\numberline {4.16.1}Primera prueba}{48}{subsection.4.16.1}%
+\contentsline {subsection}{\numberline {4.16.2}Segunda prueba}{53}{subsection.4.16.2}%
+\contentsline {section}{\numberline {4.17}Resultados del prototipo final}{62}{section.4.17}%
+\contentsline {subsection}{\numberline {4.17.1}Tercera prueba}{62}{subsection.4.17.1}%
+\contentsline {chapter}{Conclusiones}{67}{chapter*.68}%
+\contentsline {section}{Resultados obtenidos en relación con la SAT}{67}{section*.69}%
+\contentsline {section}{Conclusión general}{67}{section*.69}%
+\contentsline {section}{Aporte a la ingeniería o al campo de conocimiento}{67}{section*.69}%
+\contentsline {section}{Limitaciones y trabajos futuros}{67}{section*.69}%
+\contentsline {chapter}{Bibliografía}{68}{chapter*.70}%
+\contentsline {chapter}{Referencias}{70}{chapter*.72}%
+\contentsline {chapter}{\numberline {A}Anexo I}{72}{appendix.Alph1}%
+\contentsline {section}{Anexo I - Título}{72}{section*.74}%
+\contentsline {chapter}{\numberline {B}Anexo II}{73}{appendix.Alph2}%
+\contentsline {section}{Anexo II - Título}{73}{section*.75}%
+\contentsline {chapter}{\numberline {C}Anexo del Proyecto Integrador}{74}{appendix.Alph3}%
+\contentsline {section}{Solicitud de Aprobación de Tema}{74}{section*.76}%
+\contentsline {section}{Informes mensuales}{74}{section*.76}%

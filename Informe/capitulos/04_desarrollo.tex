@@ -516,7 +516,8 @@ agregar fotos
 agregar fotos
 
 \section{Esquemas de conexion}
-A continuación, se detalla el esquema de conexionado adoptado para el prototipo, describiendo la asignación de señales para cada puerto de propósito general de la unidad central. Por criterios de diseño orientados a la robustez electromecánica, se proyectó una interfaz intermedia mediante una placa de circuito impreso perforada de uso general, la cual actúa como un nodo centralizador de conexiones. Esta implementación previene la necesidad de efectuar uniones soldadas directas sobre la computadora de placa única, resguardando la integridad física de sus terminales y flexibilizando la modularidad del sistema ante tareas de mantenimiento o sustitución de periféricos. En el diagrama esquemático, la denominación de "Componentes i2c" identifica el nodo de acoplamiento para el bus de datos compartido, donde coexisten bajo el mismo direccionamiento el sensor de iluminancia y el módulo de conversión analógico digital, el cual gestiona de forma dedicada los canales de los higrómetros capacitivos de suelo.\begin{figure}[H]
+A continuación, se detalla el esquema de conexionado adoptado para el prototipo, describiendo la asignación de señales para cada puerto de propósito general de la unidad central. Por criterios de diseño orientados a la robustez electromecánica, se proyectó una interfaz intermedia mediante una placa de circuito impreso perforada de uso general, la cual actúa como un nodo centralizador de conexiones. Esta implementación previene la necesidad de efectuar uniones soldadas directas sobre la computadora de placa única, resguardando la integridad física de sus terminales y flexibilizando la modularidad del sistema ante tareas de mantenimiento o sustitución de periféricos. En el diagrama esquemático, la denominación de "Componentes i2c" identifica el nodo de acoplamiento para el bus de datos compartido, donde coexisten bajo el mismo direccionamiento el sensor de iluminancia y el módulo de conversión analógico digital, el cual gestiona de forma dedicada los canales de los higrómetros capacitivos de suelo.
+\begin{figure}[H]
     \centering
     \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/RaspberryPi4Schematic.png}
     \caption{Esquema de conexiones.}
@@ -528,4 +529,31 @@ A continuación, se detalla el esquema de conexionado adoptado para el prototipo
     \caption{Placa perforada de uso general.}
     \Fuente{propia.}
 \end{figure}
+
+\section{Consumo de potencia}
+Con el propósito de auditar la demanda energética máxima del prototipo y validar el correcto dimensionamiento de las etapas de alimentación, se llevó a cabo una prueba de caracterización bajo el régimen de operación a plena carga. Este ensayo consistió en la activación simultánea y continuada de la totalidad de los actuadores de potencia, incluyendo los paneles lumínicos, la electrobomba hidráulica, la red de ventilación forzada y la unidad central de procesamiento en estado de cómputo activo junto a la matriz de sensado. Mediante la inserción de una pinza amperimétrica en la línea principal de suministro, se registró el consumo de corriente pico instantáneo y en régimen permanente. La Figura descrita a continuación ilustra el procedimiento instrumental de medición, cuyo valor obtenido permite determinar la potencia activa total consumida por la granja inteligente en su punto de máxima exigencia operativa y verificar los márgenes de seguridad térmica en los conductores.
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/consumo.png}
+    \caption{Lectura del amperimetro en [A].}
+    \Fuente{propia.}
+\end{figure}
+A continuacion calculamos la potencia instantanea [W] consumida por el prototipo:
+\begin{align}
+    P &= V \cdot I \nonumber \\
+    P &= 220\text{ V} \cdot 0{,}92\text{ A} \nonumber \\
+    P &= 202{,}4\text{ W} \label{eq:desarrollo_potencia}
+\end{align}
+Luego, el calculo del consumo de potencia por hora [kWh] es:
+\begin{align}
+    P &= \frac{P \cdot t}{1000}\nonumber \\
+    P &= \frac{202,4W \cdot 1hs}{1000}\nonumber \\
+    P &= 0,202kWh \label{eq:calculo_kwh}
+\end{align}
+
+Desde la perspectiva electro-energética, el prototipo demostró un nivel de eficiencia que valida su implementación técnica en entornos urbanos y residenciales. El consumo máximo registrado a plena carga (donde ocurre la activación simultánea de los paneles LED, la electrobomba, las válvulas solenoides, la ventilación forzada y el procesamiento continuo de la Raspberry Pi 4) se estabilizó en $202{,}4\text{ W}$. Este valor nominal resulta sumamente acotado, siendo equivalente a la demanda de un equipo informático de escritorio estándar. 
+
+Es fundamental destacar que este consumo pico no representa la demanda sostenida del sistema. Gracias a la arquitectura de control implementada en la unidad central, los actuadores operan bajo ciclos de trabajo (\textit{duty cycles}) estrictamente optimizados. Mientras que la instrumentación lógica (Raspberry Pi y red de sensores) requiere alimentación ininterrumpida con un impacto energético marginal, las cargas de mayor potencia se gestionan de forma intermitente: el fotoperíodo de las luminarias limita su uso a una fracción del día, y la bomba junto con las válvulas solenoides se activan únicamente durante las breves ventanas de irrigación. 
+
+En conclusión, el balance energético del sistema confirma la viabilidad económica y ambiental del cultivo automatizado indoor. El diseño de hardware seleccionado permite mantener un ecosistema biológico complejo sin sobrecargar la infraestructura eléctrica domiciliaria, sentando las bases para escalar el proyecto añadiendo nuevos módulos de cultivo con un impacto energético predecible y sostenible.
 

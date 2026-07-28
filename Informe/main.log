@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.22)  27 JUL 2026 11:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.22)  28 JUL 2026 11:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1172,7 +1172,7 @@ Cap\'{\i }tulo 3.
 [9
 
 ]
-<Imagenes/Gantt.png, id=677, 762.85pt x 380.42125pt>
+<Imagenes/Gantt.png, id=684, 762.85pt x 380.42125pt>
 File: Imagenes/Gantt.png Graphic file (type png)
 <use Imagenes/Gantt.png>
 Package pdftex.def Info: Imagenes/Gantt.png  used on input line 18.
@@ -1188,68 +1188,68 @@ LaTeX Warning: Reference `fig:diag_general' on page 17 undefined on input line 2
 [17]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 45.
-<Imagenes/imagen14.png, id=714, 425.59pt x 555.07375pt>
+<Imagenes/imagen14.png, id=721, 425.59pt x 555.07375pt>
 File: Imagenes/imagen14.png Graphic file (type png)
 <use Imagenes/imagen14.png>
 Package pdftex.def Info: Imagenes/imagen14.png  used on input line 54.
 (pdftex.def)             Requested size: 220.50887pt x 287.59822pt.
  [18 <./Imagenes/imagen14.png>]
-<Imagenes/prototipo 2026-04-20 at 11.49.18 AM.png, id=720, 369.38pt x 531.9875pt>
+<Imagenes/prototipo 2026-04-20 at 11.49.18 AM.png, id=727, 369.38pt x 531.9875pt>
 File: Imagenes/prototipo 2026-04-20 at 11.49.18 AM.png Graphic file (type png)
 <use Imagenes/prototipo 2026-04-20 at 11.49.18 AM.png>
 Package pdftex.def Info: Imagenes/prototipo 2026-04-20 at 11.49.18 AM.png  used on input line 70.
 (pdftex.def)             Requested size: 211.68661pt x 304.87575pt.
-<Imagenes/prototipo 2026-04-20 at 11.49.25 AM.png, id=721, 344.28625pt x 447.6725pt>
+<Imagenes/prototipo 2026-04-20 at 11.49.25 AM.png, id=728, 344.28625pt x 447.6725pt>
 File: Imagenes/prototipo 2026-04-20 at 11.49.25 AM.png Graphic file (type png)
 <use Imagenes/prototipo 2026-04-20 at 11.49.25 AM.png>
 Package pdftex.def Info: Imagenes/prototipo 2026-04-20 at 11.49.25 AM.png  used on input line 75.
 (pdftex.def)             Requested size: 211.68661pt x 275.25206pt.
  [19]
-<Imagenes/prototipo 2026-04-20 at 11.49.04 AM.png, id=726, 707.64375pt x 501.875pt>
+<Imagenes/prototipo 2026-04-20 at 11.49.04 AM.png, id=733, 707.64375pt x 501.875pt>
 File: Imagenes/prototipo 2026-04-20 at 11.49.04 AM.png Graphic file (type png)
 <use Imagenes/prototipo 2026-04-20 at 11.49.04 AM.png>
 Package pdftex.def Info: Imagenes/prototipo 2026-04-20 at 11.49.04 AM.png  used on input line 85.
 (pdftex.def)             Requested size: 264.61333pt x 187.6666pt.
-<Imagenes/maceta1.jpeg, id=727, 1284.8pt x 963.6pt>
+<Imagenes/maceta1.jpeg, id=734, 1284.8pt x 963.6pt>
 File: Imagenes/maceta1.jpeg Graphic file (type jpg)
 <use Imagenes/maceta1.jpeg>
 Package pdftex.def Info: Imagenes/maceta1.jpeg  used on input line 94.
 (pdftex.def)             Requested size: 220.50887pt x 165.36838pt.
  [20 <./Imagenes/prototipo 2026-04-20 at 11.49.18 AM.png> <./Imagenes/prototipo 2026-04-20 at 11.49.25 AM.png> <./Imagenes/prototipo 2026-04-20 at 11.49.04 AM.png>]
-<Imagenes/imagen3.jpeg, id=735, 722.7pt x 1284.8pt>
+<Imagenes/imagen3.jpeg, id=743, 722.7pt x 1284.8pt>
 File: Imagenes/imagen3.jpeg Graphic file (type jpg)
 <use Imagenes/imagen3.jpeg>
 Package pdftex.def Info: Imagenes/imagen3.jpeg  used on input line 108.
 (pdftex.def)             Requested size: 160.0421pt x 284.5193pt.
-<Imagenes/imagen4.jpeg, id=736, 722.7pt x 1284.8pt>
+<Imagenes/imagen4.jpeg, id=744, 722.7pt x 1284.8pt>
 File: Imagenes/imagen4.jpeg Graphic file (type jpg)
 <use Imagenes/imagen4.jpeg>
 Package pdftex.def Info: Imagenes/imagen4.jpeg  used on input line 113.
 (pdftex.def)             Requested size: 160.0421pt x 284.5193pt.
  [21 <./Imagenes/maceta1.jpeg>]
-<Imagenes/imagen6.jpeg, id=742, 963.6pt x 1284.8pt>
+<Imagenes/imagen6.jpeg, id=749, 963.6pt x 1284.8pt>
 File: Imagenes/imagen6.jpeg Graphic file (type jpg)
 <use Imagenes/imagen6.jpeg>
 Package pdftex.def Info: Imagenes/imagen6.jpeg  used on input line 126.
 (pdftex.def)             Requested size: 211.68388pt x 282.24518pt.
-<Imagenes/imagen7.jpeg, id=743, 722.7pt x 1284.8pt>
+<Imagenes/imagen7.jpeg, id=750, 722.7pt x 1284.8pt>
 File: Imagenes/imagen7.jpeg Graphic file (type jpg)
 <use Imagenes/imagen7.jpeg>
 Package pdftex.def Info: Imagenes/imagen7.jpeg  used on input line 131.
 (pdftex.def)             Requested size: 160.0421pt x 284.5193pt.
  [22 <./Imagenes/imagen3.jpeg> <./Imagenes/imagen4.jpeg>]
-<Imagenes/imagen16.jpeg, id=749, 722.7pt x 1284.8pt>
+<Imagenes/imagen16.jpeg, id=756, 722.7pt x 1284.8pt>
 File: Imagenes/imagen16.jpeg Graphic file (type jpg)
 <use Imagenes/imagen16.jpeg>
 Package pdftex.def Info: Imagenes/imagen16.jpeg  used on input line 143.
 (pdftex.def)             Requested size: 160.0421pt x 284.5193pt.
-<Imagenes/imagen17.jpeg, id=750, 722.7pt x 1284.8pt>
+<Imagenes/imagen17.jpeg, id=757, 722.7pt x 1284.8pt>
 File: Imagenes/imagen17.jpeg Graphic file (type jpg)
 <use Imagenes/imagen17.jpeg>
 Package pdftex.def Info: Imagenes/imagen17.jpeg  used on input line 148.
 (pdftex.def)             Requested size: 160.0421pt x 284.5193pt.
  [23 <./Imagenes/imagen6.jpeg> <./Imagenes/imagen7.jpeg>]
-<Imagenes/desague1.jpeg, id=755, 903.375pt x 1606.0pt>
+<Imagenes/desague1.jpeg, id=762, 903.375pt x 1606.0pt>
 File: Imagenes/desague1.jpeg Graphic file (type jpg)
 <use Imagenes/desague1.jpeg>
 Package pdftex.def Info: Imagenes/desague1.jpeg  used on input line 160.
@@ -1260,7 +1260,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 6.1pt on input line 172.
  [25 <./Imagenes/desague1.jpeg>]
-<Imagenes/raspberrypi4sf.png, id=764, 602.25pt x 602.25pt>
+<Imagenes/raspberrypi4sf.png, id=771, 602.25pt x 602.25pt>
 File: Imagenes/raspberrypi4sf.png Graphic file (type png)
 <use Imagenes/raspberrypi4sf.png>
 Package pdftex.def Info: Imagenes/raspberrypi4sf.png  used on input line 179.
@@ -1273,12 +1273,12 @@ File: t1ntxtt.fd 2012/04/20 v3.1
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 (Font)              scaled to size 10.95pt on input line 213.
  [29] [30]
-<Imagenes/regador1.jpeg, id=788, 1606.0pt x 1276.77pt>
+<Imagenes/regador1.jpeg, id=795, 1606.0pt x 1276.77pt>
 File: Imagenes/regador1.jpeg Graphic file (type jpg)
 <use Imagenes/regador1.jpeg>
 Package pdftex.def Info: Imagenes/regador1.jpeg  used on input line 235.
 (pdftex.def)             Requested size: 211.67899pt x 168.28479pt.
-<Imagenes/regador2.jpeg, id=789, 1606.0pt x 1193.45876pt>
+<Imagenes/regador2.jpeg, id=796, 1606.0pt x 1193.45876pt>
 File: Imagenes/regador2.jpeg Graphic file (type jpg)
 <use Imagenes/regador2.jpeg>
 Package pdftex.def Info: Imagenes/regador2.jpeg  used on input line 240.
@@ -1290,76 +1290,76 @@ File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.95pt on input line 257.
-<Imagenes/imagen16.png, id=794, 445.665pt x 424.58624pt>
+<Imagenes/imagen16.png, id=801, 445.665pt x 424.58624pt>
 File: Imagenes/imagen16.png Graphic file (type png)
 <use Imagenes/imagen16.png>
 Package pdftex.def Info: Imagenes/imagen16.png  used on input line 267.
 (pdftex.def)             Requested size: 136.71306pt x 130.24689pt.
-<Imagenes/imagen17.png, id=795, 375.4025pt x 524.96124pt>
+<Imagenes/imagen17.png, id=802, 375.4025pt x 524.96124pt>
 File: Imagenes/imagen17.png Graphic file (type png)
 <use Imagenes/imagen17.png>
 Package pdftex.def Info: Imagenes/imagen17.png  used on input line 273.
 (pdftex.def)             Requested size: 136.71431pt x 191.18071pt.
-<Imagenes/imagen18.png, id=796, 456.70625pt x 572.1375pt>
+<Imagenes/imagen18.png, id=803, 456.70625pt x 572.1375pt>
 File: Imagenes/imagen18.png Graphic file (type png)
 <use Imagenes/imagen18.png>
 Package pdftex.def Info: Imagenes/imagen18.png  used on input line 279.
 (pdftex.def)             Requested size: 136.71327pt x 171.26717pt.
  [32{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
-<Imagenes/imagen3.png, id=802, 722.7pt x 1284.8pt>
+<Imagenes/imagen3.png, id=809, 722.7pt x 1284.8pt>
 File: Imagenes/imagen3.png Graphic file (type png)
 <use Imagenes/imagen3.png>
 Package pdftex.def Info: Imagenes/imagen3.png  used on input line 294.
 (pdftex.def)             Requested size: 136.7079pt x 243.03629pt.
-<Imagenes/imagen9.png, id=803, 722.7pt x 1284.8pt>
+<Imagenes/imagen9.png, id=810, 722.7pt x 1284.8pt>
 File: Imagenes/imagen9.png Graphic file (type png)
 <use Imagenes/imagen9.png>
 Package pdftex.def Info: Imagenes/imagen9.png  used on input line 300.
 (pdftex.def)             Requested size: 136.7079pt x 243.03629pt.
-<Imagenes/imagen10.png, id=804, 722.7pt x 1284.8pt>
+<Imagenes/imagen10.png, id=811, 722.7pt x 1284.8pt>
 File: Imagenes/imagen10.png Graphic file (type png)
 <use Imagenes/imagen10.png>
 Package pdftex.def Info: Imagenes/imagen10.png  used on input line 306.
 (pdftex.def)             Requested size: 136.7079pt x 243.03629pt.
-<Imagenes/imagen1.png, id=805, 208.78pt x 435.6275pt>
+<Imagenes/imagen1.png, id=812, 208.78pt x 435.6275pt>
 File: Imagenes/imagen1.png Graphic file (type png)
 <use Imagenes/imagen1.png>
 Package pdftex.def Info: Imagenes/imagen1.png  used on input line 321.
 (pdftex.def)             Requested size: 136.36163pt x 284.52382pt.
-<Imagenes/imagen8.png, id=806, 705.63625pt x 1606.0pt>
+<Imagenes/imagen8.png, id=813, 705.63625pt x 1606.0pt>
 File: Imagenes/imagen8.png Graphic file (type png)
 <use Imagenes/imagen8.png>
 Package pdftex.def Info: Imagenes/imagen8.png  used on input line 326.
 (pdftex.def)             Requested size: 125.00635pt x 284.50949pt.
  [33 <./Imagenes/imagen16.png> <./Imagenes/imagen17.png> <./Imagenes/imagen18.png> <./Imagenes/imagen3.png> <./Imagenes/imagen9.png> <./Imagenes/imagen10.png>]
-<Imagenes/imagen15.png, id=814, 253.94875pt x 282.05376pt>
+<Imagenes/imagen15.png, id=821, 253.94875pt x 282.05376pt>
 File: Imagenes/imagen15.png Graphic file (type png)
 <use Imagenes/imagen15.png>
 Package pdftex.def Info: Imagenes/imagen15.png  used on input line 338.
 (pdftex.def)             Requested size: 211.69188pt x 235.12024pt.
-<Imagenes/imagen1.jpeg, id=815, 722.7pt x 1284.8pt>
+<Imagenes/imagen1.jpeg, id=822, 722.7pt x 1284.8pt>
 File: Imagenes/imagen1.jpeg Graphic file (type jpg)
 <use Imagenes/imagen1.jpeg>
 Package pdftex.def Info: Imagenes/imagen1.jpeg  used on input line 343.
 (pdftex.def)             Requested size: 160.0421pt x 284.5193pt.
  [34 <./Imagenes/imagen1.png> <./Imagenes/imagen8.png>]
-<Imagenes/imagen2.png, id=822, 297.11pt x 228.855pt>
+<Imagenes/imagen2.png, id=829, 297.11pt x 228.855pt>
 File: Imagenes/imagen2.png Graphic file (type png)
 <use Imagenes/imagen2.png>
 Package pdftex.def Info: Imagenes/imagen2.png  used on input line 355.
 (pdftex.def)             Requested size: 211.6976pt x 163.06436pt.
-<Imagenes/imagen7.png, id=823, 292.09125pt x 237.88875pt>
+<Imagenes/imagen7.png, id=830, 292.09125pt x 237.88875pt>
 File: Imagenes/imagen7.png Graphic file (type png)
 <use Imagenes/imagen7.png>
 Package pdftex.def Info: Imagenes/imagen7.png  used on input line 360.
 (pdftex.def)             Requested size: 211.69164pt x 172.40865pt.
  [35 <./Imagenes/imagen15.png> <./Imagenes/imagen1.jpeg> <./Imagenes/imagen2.png> <./Imagenes/imagen7.png>]
-<Imagenes/imagen11.png, id=831, 457.71pt x 434.62375pt>
+<Imagenes/imagen11.png, id=838, 457.71pt x 434.62375pt>
 File: Imagenes/imagen11.png Graphic file (type png)
 <use Imagenes/imagen11.png>
 Package pdftex.def Info: Imagenes/imagen11.png  used on input line 374.
 (pdftex.def)             Requested size: 136.71342pt x 129.81778pt.
-<Imagenes/imagen13.png, id=832, 903.375pt x 1606.0pt>
+<Imagenes/imagen13.png, id=839, 903.375pt x 1606.0pt>
 File: Imagenes/imagen13.png Graphic file (type png)
 <use Imagenes/imagen13.png>
 Package pdftex.def Info: Imagenes/imagen13.png  used on input line 380.
@@ -1368,305 +1368,310 @@ File: Imagenes/imagen17.jpeg Graphic file (type jpg)
 <use Imagenes/imagen17.jpeg>
 Package pdftex.def Info: Imagenes/imagen17.jpeg  used on input line 386.
 (pdftex.def)             Requested size: 136.7079pt x 243.03629pt.
-<Imagenes/soporteventilador2.jpeg, id=833, 903.375pt x 1606.0pt>
+<Imagenes/soporteventilador2.jpeg, id=840, 903.375pt x 1606.0pt>
 File: Imagenes/soporteventilador2.jpeg Graphic file (type jpg)
 <use Imagenes/soporteventilador2.jpeg>
 Package pdftex.def Info: Imagenes/soporteventilador2.jpeg  used on input line 400.
 (pdftex.def)             Requested size: 211.68661pt x 376.33182pt.
-<Imagenes/soporteventilador1.png, id=834, 294.09875pt x 367.3725pt>
+<Imagenes/soporteventilador1.png, id=841, 294.09875pt x 367.3725pt>
 File: Imagenes/soporteventilador1.png Graphic file (type png)
 <use Imagenes/soporteventilador1.png>
 Package pdftex.def Info: Imagenes/soporteventilador1.png  used on input line 405.
 (pdftex.def)             Requested size: 211.68661pt x 264.4295pt.
  [36 <./Imagenes/imagen11.png> <./Imagenes/imagen13.png>]
-<Imagenes/soportedht1.jpeg, id=840, 1552.80125pt x 1606.0pt>
+<Imagenes/soportedht1.jpeg, id=847, 1552.80125pt x 1606.0pt>
 File: Imagenes/soportedht1.jpeg Graphic file (type jpg)
 <use Imagenes/soportedht1.jpeg>
 Package pdftex.def Info: Imagenes/soportedht1.jpeg  used on input line 420.
 (pdftex.def)             Requested size: 211.68661pt x 218.93263pt.
  [37 <./Imagenes/soporteventilador2.jpeg> <./Imagenes/soporteventilador1.png>]
-<Imagenes/soportebh17501.png, id=846, 265.99374pt x 349.305pt>
+<Imagenes/soportebh17501.png, id=853, 265.99374pt x 349.305pt>
 File: Imagenes/soportebh17501.png Graphic file (type png)
 <use Imagenes/soportebh17501.png>
 Package pdftex.def Info: Imagenes/soportebh17501.png  used on input line 434.
 (pdftex.def)             Requested size: 211.68661pt x 277.99461pt.
-<Imagenes/soportebh17502.jpeg, id=847, 903.375pt x 1606.0pt>
+<Imagenes/soportebh17502.jpeg, id=854, 903.375pt x 1606.0pt>
 File: Imagenes/soportebh17502.jpeg Graphic file (type jpg)
 <use Imagenes/soportebh17502.jpeg>
 Package pdftex.def Info: Imagenes/soportebh17502.jpeg  used on input line 439.
 (pdftex.def)             Requested size: 211.68661pt x 376.33182pt.
  [38 <./Imagenes/soportedht1.jpeg>]
-<Imagenes/soportehigrometro1.jpeg, id=852, 1204.5pt x 1606.0pt>
+<Imagenes/soportehigrometro1.jpeg, id=859, 1204.5pt x 1606.0pt>
 File: Imagenes/soportehigrometro1.jpeg Graphic file (type jpg)
 <use Imagenes/soportehigrometro1.jpeg>
 Package pdftex.def Info: Imagenes/soportehigrometro1.jpeg  used on input line 451.
 (pdftex.def)             Requested size: 211.68661pt x 282.23048pt.
-<Imagenes/soportehigrometro2.jpeg, id=853, 1204.5pt x 1606.0pt>
+<Imagenes/soportehigrometro2.jpeg, id=860, 1204.5pt x 1606.0pt>
 File: Imagenes/soportehigrometro2.jpeg Graphic file (type jpg)
 <use Imagenes/soportehigrometro2.jpeg>
 Package pdftex.def Info: Imagenes/soportehigrometro2.jpeg  used on input line 456.
 (pdftex.def)             Requested size: 211.68661pt x 282.23048pt.
  [39 <./Imagenes/soportebh17501.png> <./Imagenes/soportebh17502.jpeg>]
-<Imagenes/Imperm_Sensor1.jpeg, id=859, 1204.5pt x 1606.0pt>
+<Imagenes/Imperm_Sensor1.jpeg, id=866, 1204.5pt x 1606.0pt>
 File: Imagenes/Imperm_Sensor1.jpeg Graphic file (type jpg)
 <use Imagenes/Imperm_Sensor1.jpeg>
 Package pdftex.def Info: Imagenes/Imperm_Sensor1.jpeg  used on input line 468.
 (pdftex.def)             Requested size: 211.68661pt x 282.23048pt.
-<Imagenes/Imperm_Sensor2.jpeg, id=860, 1204.5pt x 1606.0pt>
+<Imagenes/Imperm_Sensor2.jpeg, id=867, 1204.5pt x 1606.0pt>
 File: Imagenes/Imperm_Sensor2.jpeg Graphic file (type jpg)
 <use Imagenes/Imperm_Sensor2.jpeg>
 Package pdftex.def Info: Imagenes/Imperm_Sensor2.jpeg  used on input line 473.
 (pdftex.def)             Requested size: 211.68661pt x 282.23048pt.
  [40 <./Imagenes/soportehigrometro1.jpeg> <./Imagenes/soportehigrometro2.jpeg>]
-<Imagenes/luminaria.jpeg, id=866, 903.375pt x 1606.0pt>
+<Imagenes/luminaria.jpeg, id=873, 903.375pt x 1606.0pt>
 File: Imagenes/luminaria.jpeg Graphic file (type jpg)
 <use Imagenes/luminaria.jpeg>
 Package pdftex.def Info: Imagenes/luminaria.jpeg  used on input line 484.
 (pdftex.def)             Requested size: 160.03659pt x 284.50949pt.
  [41 <./Imagenes/Imperm_Sensor1.jpeg> <./Imagenes/Imperm_Sensor2.jpeg>] [42 <./Imagenes/luminaria.jpeg>]
-<Imagenes/RaspberryPi4Schematic.png, id=875, 1048.91875pt x 401.5pt>
+<Imagenes/RaspberryPi4Schematic.png, id=882, 1048.91875pt x 401.5pt>
 File: Imagenes/RaspberryPi4Schematic.png Graphic file (type png)
 <use Imagenes/RaspberryPi4Schematic.png>
-Package pdftex.def Info: Imagenes/RaspberryPi4Schematic.png  used on input line 521.
+Package pdftex.def Info: Imagenes/RaspberryPi4Schematic.png  used on input line 522.
 (pdftex.def)             Requested size: 441.00702pt x 168.8065pt.
  [43]
-<Imagenes/placaperforada.jpeg, id=880, 1606.0pt x 1199.48125pt>
+<Imagenes/placaperforada.jpeg, id=888, 1606.0pt x 1199.48125pt>
 File: Imagenes/placaperforada.jpeg Graphic file (type jpg)
 <use Imagenes/placaperforada.jpeg>
-Package pdftex.def Info: Imagenes/placaperforada.jpeg  used on input line 527.
+Package pdftex.def Info: Imagenes/placaperforada.jpeg  used on input line 528.
 (pdftex.def)             Requested size: 380.93886pt x 284.5137pt.
-) [44 <./Imagenes/RaspberryPi4Schematic.png> <./Imagenes/placaperforada.jpeg>] [45
+<Imagenes/consumo.png, id=889, 1606.0pt x 1204.5pt>
+File: Imagenes/consumo.png Graphic file (type png)
+<use Imagenes/consumo.png>
+Package pdftex.def Info: Imagenes/consumo.png  used on input line 537.
+(pdftex.def)             Requested size: 379.3705pt x 284.52788pt.
+ [44 <./Imagenes/RaspberryPi4Schematic.png> <./Imagenes/placaperforada.jpeg>] [45 <./Imagenes/consumo.png>]) [46] [47
 
 
 ] (./secciones/resultados.tex
-<Imagenes/Plantaciones/PHOTO-2026-01-28-15-14-25 2.jpg, id=891, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-01-28-15-14-25 2.jpg, id=911, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-01-28-15-14-25 2.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-01-28-15-14-25 2.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-01-28-15-14-25 2.jpg  used on input line 15.
 (pdftex.def)             Requested size: 220.50887pt x 392.01537pt.
-<Imagenes/Plantaciones/PHOTO-2026-02-05-12-14-55.jpg, id=892, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-02-05-12-14-55.jpg, id=912, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-02-05-12-14-55.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-02-05-12-14-55.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-05-12-14-55.jpg  used on input line 24.
 (pdftex.def)             Requested size: 160.03659pt x 284.50949pt.
-<Imagenes/Plantaciones/PHOTO-2026-02-05-12-57-14.jpg, id=893, 1204.5pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-02-05-12-57-14.jpg, id=913, 1204.5pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-02-05-12-57-14.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-02-05-12-57-14.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-05-12-57-14.jpg  used on input line 29.
 (pdftex.def)             Requested size: 211.67285pt x 282.23048pt.
- [46
+ [48
 
-] [47 <./Imagenes/Plantaciones/PHOTO-2026-01-28-15-14-25 2.jpg>]
-<Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-15.jpg, id=903, 903.375pt x 1606.0pt>
+] [49 <./Imagenes/Plantaciones/PHOTO-2026-01-28-15-14-25 2.jpg>]
+<Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-15.jpg, id=922, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-15.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-15.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-15.jpg  used on input line 39.
 (pdftex.def)             Requested size: 160.03659pt x 284.50949pt.
-<Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-20.jpg, id=904, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-20.jpg, id=923, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-20.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-20.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-20.jpg  used on input line 44.
 (pdftex.def)             Requested size: 160.03659pt x 284.50949pt.
-<Imagenes/Plantaciones/PHOTO-2026-02-19-15-40-45.jpg, id=905, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-02-19-15-40-45.jpg, id=924, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-02-19-15-40-45.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-02-19-15-40-45.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-19-15-40-45.jpg  used on input line 52.
 (pdftex.def)             Requested size: 220.50887pt x 392.01537pt.
-<Imagenes/Plantaciones/PHOTO-2026-02-23-18-32-17.jpg, id=906, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-02-23-18-32-17.jpg, id=925, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-02-23-18-32-17.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-02-23-18-32-17.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-23-18-32-17.jpg  used on input line 62.
 (pdftex.def)             Requested size: 136.71342pt x 243.0461pt.
-<Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-37.jpg, id=907, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-37.jpg, id=926, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-37.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-37.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-37.jpg  used on input line 67.
 (pdftex.def)             Requested size: 136.71342pt x 243.0461pt.
-<Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-45.jpg, id=908, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-45.jpg, id=927, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-45.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-45.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-45.jpg  used on input line 72.
 (pdftex.def)             Requested size: 136.71342pt x 243.0461pt.
- [48 <./Imagenes/Plantaciones/PHOTO-2026-02-05-12-14-55.jpg> <./Imagenes/Plantaciones/PHOTO-2026-02-05-12-57-14.jpg> <./Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-15.jpg> <./Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-20.jpg>] [49 <./Imagenes/Plantaciones/PHOTO-2026-02-19-15-40-45.jpg>]
-<Imagenes/Plantaciones/Cosecha23-022.JPG, id=917, 4047.12pt x 3035.34pt>
+ [50 <./Imagenes/Plantaciones/PHOTO-2026-02-05-12-14-55.jpg> <./Imagenes/Plantaciones/PHOTO-2026-02-05-12-57-14.jpg> <./Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-15.jpg> <./Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-20.jpg>] [51 <./Imagenes/Plantaciones/PHOTO-2026-02-19-15-40-45.jpg>]
+<Imagenes/Plantaciones/Cosecha23-022.JPG, id=936, 4047.12pt x 3035.34pt>
 File: Imagenes/Plantaciones/Cosecha23-022.JPG Graphic file (type jpg)
 <use Imagenes/Plantaciones/Cosecha23-022.JPG>
 Package pdftex.def Info: Imagenes/Plantaciones/Cosecha23-022.JPG  used on input line 81.
 (pdftex.def)             Requested size: 220.50887pt x 165.34633pt.
- [50 <./Imagenes/Plantaciones/PHOTO-2026-02-23-18-32-17.jpg> <./Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-37.jpg> <./Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-45.jpg> <./Imagenes/Plantaciones/Cosecha23-022.JPG>]
-<Imagenes/GraficoPrimerMedicion.png, id=922, 1040.688pt x 516.0078pt>
+ [52 <./Imagenes/Plantaciones/PHOTO-2026-02-23-18-32-17.jpg> <./Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-37.jpg> <./Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-45.jpg> <./Imagenes/Plantaciones/Cosecha23-022.JPG>]
+<Imagenes/GraficoPrimerMedicion.png, id=942, 1040.688pt x 516.0078pt>
 File: Imagenes/GraficoPrimerMedicion.png Graphic file (type png)
 <use Imagenes/GraficoPrimerMedicion.png>
 Package pdftex.def Info: Imagenes/GraficoPrimerMedicion.png  used on input line 91.
 (pdftex.def)             Requested size: 441.01773pt x 218.67445pt.
- [51 <./Imagenes/GraficoPrimerMedicion.png>]
-<Imagenes/Plantaciones/PHOTO-2026-02-26-20-17-45.jpg, id=928, 903.375pt x 1606.0pt>
+ [53 <./Imagenes/GraficoPrimerMedicion.png>]
+<Imagenes/Plantaciones/PHOTO-2026-02-26-20-17-45.jpg, id=948, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-02-26-20-17-45.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-02-26-20-17-45.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-26-20-17-45.jpg  used on input line 103.
 (pdftex.def)             Requested size: 158.12056pt x 281.10323pt.
-<Imagenes/Plantaciones/PHOTO-2026-02-28-20-01-16.jpg, id=929, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-02-28-20-01-16.jpg, id=949, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-02-28-20-01-16.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-02-28-20-01-16.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-28-20-01-16.jpg  used on input line 111.
 (pdftex.def)             Requested size: 158.12056pt x 281.10323pt.
- [52 <./Imagenes/Plantaciones/PHOTO-2026-02-26-20-17-45.jpg>]
-<Imagenes/Plantaciones/PHOTO-2026-03-04-08-08-46.jpg, id=935, 722.7pt x 1284.8pt>
+ [54 <./Imagenes/Plantaciones/PHOTO-2026-02-26-20-17-45.jpg>]
+<Imagenes/Plantaciones/PHOTO-2026-03-04-08-08-46.jpg, id=954, 722.7pt x 1284.8pt>
 File: Imagenes/Plantaciones/PHOTO-2026-03-04-08-08-46.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-03-04-08-08-46.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-03-04-08-08-46.jpg  used on input line 119.
 (pdftex.def)             Requested size: 158.1233pt x 281.10812pt.
-<Imagenes/Plantaciones/PHOTO-2026-03-09-11-18-40.jpg, id=936, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-03-09-11-18-40.jpg, id=955, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-03-09-11-18-40.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-03-09-11-18-40.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-03-09-11-18-40.jpg  used on input line 127.
 (pdftex.def)             Requested size: 158.12056pt x 281.10323pt.
- [53 <./Imagenes/Plantaciones/PHOTO-2026-02-28-20-01-16.jpg> <./Imagenes/Plantaciones/PHOTO-2026-03-04-08-08-46.jpg>]
-<Imagenes/Plantaciones/PHOTO-2026-03-10-10-13-06.jpg, id=941, 903.375pt x 1606.0pt>
+ [55 <./Imagenes/Plantaciones/PHOTO-2026-02-28-20-01-16.jpg> <./Imagenes/Plantaciones/PHOTO-2026-03-04-08-08-46.jpg>]
+<Imagenes/Plantaciones/PHOTO-2026-03-10-10-13-06.jpg, id=960, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-03-10-10-13-06.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-03-10-10-13-06.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-03-10-10-13-06.jpg  used on input line 137.
 (pdftex.def)             Requested size: 158.12056pt x 281.10323pt.
- [54 <./Imagenes/Plantaciones/PHOTO-2026-03-09-11-18-40.jpg>]
-<Imagenes/Plantaciones/PHOTO-2026-03-14-17-08-35.jpg, id=946, 903.375pt x 1606.0pt>
+ [56 <./Imagenes/Plantaciones/PHOTO-2026-03-09-11-18-40.jpg>]
+<Imagenes/Plantaciones/PHOTO-2026-03-14-17-08-35.jpg, id=965, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-03-14-17-08-35.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-03-14-17-08-35.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-03-14-17-08-35.jpg  used on input line 147.
 (pdftex.def)             Requested size: 158.12056pt x 281.10323pt.
-<Imagenes/Plantaciones/PHOTO-2026-03-17-08-46-41.jpg, id=947, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-03-17-08-46-41.jpg, id=966, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-03-17-08-46-41.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-03-17-08-46-41.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-03-17-08-46-41.jpg  used on input line 155.
 (pdftex.def)             Requested size: 158.12056pt x 281.10323pt.
- [55 <./Imagenes/Plantaciones/PHOTO-2026-03-10-10-13-06.jpg> <./Imagenes/Plantaciones/PHOTO-2026-03-14-17-08-35.jpg>]
-<Imagenes/Plantaciones/PHOTO-2026-03-23-09-53-17.jpg, id=952, 903.375pt x 1606.0pt>
+ [57 <./Imagenes/Plantaciones/PHOTO-2026-03-10-10-13-06.jpg> <./Imagenes/Plantaciones/PHOTO-2026-03-14-17-08-35.jpg>]
+<Imagenes/Plantaciones/PHOTO-2026-03-23-09-53-17.jpg, id=971, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-03-23-09-53-17.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-03-23-09-53-17.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-03-23-09-53-17.jpg  used on input line 163.
 (pdftex.def)             Requested size: 158.12056pt x 281.10323pt.
-<Imagenes/Plantaciones/PHOTO-2026-03-26-09-30-48.jpg, id=953, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-03-26-09-30-48.jpg, id=972, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-03-26-09-30-48.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-03-26-09-30-48.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-03-26-09-30-48.jpg  used on input line 171.
 (pdftex.def)             Requested size: 158.12056pt x 281.10323pt.
- [56 <./Imagenes/Plantaciones/PHOTO-2026-03-17-08-46-41.jpg> <./Imagenes/Plantaciones/PHOTO-2026-03-23-09-53-17.jpg>]
-<Imagenes/Plantaciones/PHOTO-2026-03-30-07-52-15.jpg, id=958, 903.375pt x 1606.0pt>
+ [58 <./Imagenes/Plantaciones/PHOTO-2026-03-17-08-46-41.jpg> <./Imagenes/Plantaciones/PHOTO-2026-03-23-09-53-17.jpg>]
+<Imagenes/Plantaciones/PHOTO-2026-03-30-07-52-15.jpg, id=978, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-03-30-07-52-15.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-03-30-07-52-15.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-03-30-07-52-15.jpg  used on input line 179.
 (pdftex.def)             Requested size: 158.12056pt x 281.10323pt.
-<Imagenes/Plantaciones/PHOTO-2026-04-06-08-23-04.jpg, id=959, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-04-06-08-23-04.jpg, id=979, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-04-06-08-23-04.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-04-06-08-23-04.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-04-06-08-23-04.jpg  used on input line 188.
 (pdftex.def)             Requested size: 158.12056pt x 281.10323pt.
- [57 <./Imagenes/Plantaciones/PHOTO-2026-03-26-09-30-48.jpg> <./Imagenes/Plantaciones/PHOTO-2026-03-30-07-52-15.jpg>]
-<Imagenes/GraficosSegundaMedicion.png, id=964, 1606.0pt x 1329.96875pt>
+ [59 <./Imagenes/Plantaciones/PHOTO-2026-03-26-09-30-48.jpg> <./Imagenes/Plantaciones/PHOTO-2026-03-30-07-52-15.jpg>]
+<Imagenes/GraficosSegundaMedicion.png, id=984, 1606.0pt x 1329.96875pt>
 File: Imagenes/GraficosSegundaMedicion.png Graphic file (type png)
 <use Imagenes/GraficosSegundaMedicion.png>
 Package pdftex.def Info: Imagenes/GraficosSegundaMedicion.png  used on input line 197.
 (pdftex.def)             Requested size: 441.01773pt x 365.20476pt.
- [58 <./Imagenes/Plantaciones/PHOTO-2026-04-06-08-23-04.jpg>] [59 <./Imagenes/GraficosSegundaMedicion.png>]
-<Imagenes/Plantaciones/ Image 2026-04-25 at 12.35.26.jpeg, id=974, 1284.8pt x 722.7pt>
+ [60 <./Imagenes/Plantaciones/PHOTO-2026-04-06-08-23-04.jpg>] [61 <./Imagenes/GraficosSegundaMedicion.png>]
+<Imagenes/Plantaciones/ Image 2026-04-25 at 12.35.26.jpeg, id=993, 1284.8pt x 722.7pt>
 File: Imagenes/Plantaciones/ Image 2026-04-25 at 12.35.26.jpeg Graphic file (type jpg)
 <use Imagenes/Plantaciones/ Image 2026-04-25 at 12.35.26.jpeg>
 Package pdftex.def Info: Imagenes/Plantaciones/ Image 2026-04-25 at 12.35.26.jpeg  used on input line 214.
 (pdftex.def)             Requested size: 211.66917pt x 119.0639pt.
-<Imagenes/Plantaciones/ Image 2026-04-25 at 12.35.26 (1).jpeg, id=975, 1284.8pt x 722.7pt>
+<Imagenes/Plantaciones/ Image 2026-04-25 at 12.35.26 (1).jpeg, id=994, 1284.8pt x 722.7pt>
 File: Imagenes/Plantaciones/ Image 2026-04-25 at 12.35.26 (1).jpeg Graphic file (type jpg)
 <use Imagenes/Plantaciones/ Image 2026-04-25 at 12.35.26 (1).jpeg>
 Package pdftex.def Info: Imagenes/Plantaciones/ Image 2026-04-25 at 12.35.26 (1).jpeg  used on input line 219.
 (pdftex.def)             Requested size: 211.66917pt x 119.0639pt.
-<Imagenes/Plantaciones/ Image 2026-04-30 at 19.00.55.jpeg, id=976, 3854.4pt x 2168.1pt>
+<Imagenes/Plantaciones/ Image 2026-04-30 at 19.00.55.jpeg, id=995, 3854.4pt x 2168.1pt>
 File: Imagenes/Plantaciones/ Image 2026-04-30 at 19.00.55.jpeg Graphic file (type jpg)
 <use Imagenes/Plantaciones/ Image 2026-04-30 at 19.00.55.jpeg>
 Package pdftex.def Info: Imagenes/Plantaciones/ Image 2026-04-30 at 19.00.55.jpeg  used on input line 229.
 (pdftex.def)             Requested size: 211.66917pt x 119.0639pt.
-<Imagenes/Plantaciones/ Image 2026-04-30 at 19.00.54.jpeg, id=977, 3854.4pt x 2168.1pt>
+<Imagenes/Plantaciones/ Image 2026-04-30 at 19.00.54.jpeg, id=996, 3854.4pt x 2168.1pt>
 File: Imagenes/Plantaciones/ Image 2026-04-30 at 19.00.54.jpeg Graphic file (type jpg)
 <use Imagenes/Plantaciones/ Image 2026-04-30 at 19.00.54.jpeg>
 Package pdftex.def Info: Imagenes/Plantaciones/ Image 2026-04-30 at 19.00.54.jpeg  used on input line 234.
 (pdftex.def)             Requested size: 211.66917pt x 119.0639pt.
-<Imagenes/Plantaciones/ Image 2026-05-15 at 15.17.28.jpeg, id=978, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/ Image 2026-05-15 at 15.17.28.jpeg, id=997, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/ Image 2026-05-15 at 15.17.28.jpeg Graphic file (type jpg)
 <use Imagenes/Plantaciones/ Image 2026-05-15 at 15.17.28.jpeg>
 Package pdftex.def Info: Imagenes/Plantaciones/ Image 2026-05-15 at 15.17.28.jpeg  used on input line 244.
 (pdftex.def)             Requested size: 160.03659pt x 284.50949pt.
-<Imagenes/Plantaciones/ Image 2026-05-15 at 15.17.39.jpeg, id=979, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/ Image 2026-05-15 at 15.17.39.jpeg, id=998, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/ Image 2026-05-15 at 15.17.39.jpeg Graphic file (type jpg)
 <use Imagenes/Plantaciones/ Image 2026-05-15 at 15.17.39.jpeg>
 Package pdftex.def Info: Imagenes/Plantaciones/ Image 2026-05-15 at 15.17.39.jpeg  used on input line 249.
 (pdftex.def)             Requested size: 160.03659pt x 284.50949pt.
- [60 <./Imagenes/Plantaciones/ Image 2026-04-25 at 12.35.26.jpeg> <./Imagenes/Plantaciones/ Image 2026-04-25 at 12.35.26 (1).jpeg> <./Imagenes/Plantaciones/ Image 2026-04-30 at 19.00.55.jpeg> <./Imagenes/Plantaciones/ Image 2026-04-30 at 19.00.54.jpeg>]
-<Imagenes/Plantaciones/ Image 2026-05-26 at 18.50.06 (2).jpeg, id=984, 1606.0pt x 903.375pt>
+ [62 <./Imagenes/Plantaciones/ Image 2026-04-25 at 12.35.26.jpeg> <./Imagenes/Plantaciones/ Image 2026-04-25 at 12.35.26 (1).jpeg> <./Imagenes/Plantaciones/ Image 2026-04-30 at 19.00.55.jpeg> <./Imagenes/Plantaciones/ Image 2026-04-30 at 19.00.54.jpeg>]
+<Imagenes/Plantaciones/ Image 2026-05-26 at 18.50.06 (2).jpeg, id=1003, 1606.0pt x 903.375pt>
 File: Imagenes/Plantaciones/ Image 2026-05-26 at 18.50.06 (2).jpeg Graphic file (type jpg)
 <use Imagenes/Plantaciones/ Image 2026-05-26 at 18.50.06 (2).jpeg>
 Package pdftex.def Info: Imagenes/Plantaciones/ Image 2026-05-26 at 18.50.06 (2).jpeg  used on input line 259.
 (pdftex.def)             Requested size: 211.67899pt x 119.06943pt.
-<Imagenes/Plantaciones/ Image 2026-05-26 at 18.50.34.jpeg, id=985, 1606.0pt x 1204.5pt>
+<Imagenes/Plantaciones/ Image 2026-05-26 at 18.50.34.jpeg, id=1004, 1606.0pt x 1204.5pt>
 File: Imagenes/Plantaciones/ Image 2026-05-26 at 18.50.34.jpeg Graphic file (type jpg)
 <use Imagenes/Plantaciones/ Image 2026-05-26 at 18.50.34.jpeg>
 Package pdftex.def Info: Imagenes/Plantaciones/ Image 2026-05-26 at 18.50.34.jpeg  used on input line 264.
 (pdftex.def)             Requested size: 211.67899pt x 158.75923pt.
-<Imagenes/Plantaciones/ Image 2026-06-02 at 17.15.59 (1).jpeg, id=986, 1606.0pt x 787.94376pt>
+<Imagenes/Plantaciones/ Image 2026-06-02 at 17.15.59 (1).jpeg, id=1005, 1606.0pt x 787.94376pt>
 File: Imagenes/Plantaciones/ Image 2026-06-02 at 17.15.59 (1).jpeg Graphic file (type jpg)
 <use Imagenes/Plantaciones/ Image 2026-06-02 at 17.15.59 (1).jpeg>
 Package pdftex.def Info: Imagenes/Plantaciones/ Image 2026-06-02 at 17.15.59 (1).jpeg  used on input line 274.
 (pdftex.def)             Requested size: 211.67899pt x 103.855pt.
-<Imagenes/Plantaciones/ Image 2026-06-02 at 17.15.58.jpeg, id=987, 1606.0pt x 903.375pt>
+<Imagenes/Plantaciones/ Image 2026-06-02 at 17.15.58.jpeg, id=1006, 1606.0pt x 903.375pt>
 File: Imagenes/Plantaciones/ Image 2026-06-02 at 17.15.58.jpeg Graphic file (type jpg)
 <use Imagenes/Plantaciones/ Image 2026-06-02 at 17.15.58.jpeg>
 Package pdftex.def Info: Imagenes/Plantaciones/ Image 2026-06-02 at 17.15.58.jpeg  used on input line 279.
 (pdftex.def)             Requested size: 211.67899pt x 119.06943pt.
- [61 <./Imagenes/Plantaciones/ Image 2026-05-15 at 15.17.28.jpeg> <./Imagenes/Plantaciones/ Image 2026-05-15 at 15.17.39.jpeg> <./Imagenes/Plantaciones/ Image 2026-05-26 at 18.50.06 (2).jpeg> <./Imagenes/Plantaciones/ Image 2026-05-26 at 18.50.34.jpeg>]
-<Imagenes/Plantaciones/ Image 2026-06-09 at 17.31.48.jpeg, id=992, 1606.0pt x 903.375pt>
+ [63 <./Imagenes/Plantaciones/ Image 2026-05-15 at 15.17.28.jpeg> <./Imagenes/Plantaciones/ Image 2026-05-15 at 15.17.39.jpeg> <./Imagenes/Plantaciones/ Image 2026-05-26 at 18.50.06 (2).jpeg> <./Imagenes/Plantaciones/ Image 2026-05-26 at 18.50.34.jpeg>]
+<Imagenes/Plantaciones/ Image 2026-06-09 at 17.31.48.jpeg, id=1011, 1606.0pt x 903.375pt>
 File: Imagenes/Plantaciones/ Image 2026-06-09 at 17.31.48.jpeg Graphic file (type jpg)
 <use Imagenes/Plantaciones/ Image 2026-06-09 at 17.31.48.jpeg>
 Package pdftex.def Info: Imagenes/Plantaciones/ Image 2026-06-09 at 17.31.48.jpeg  used on input line 289.
 (pdftex.def)             Requested size: 211.67899pt x 119.06943pt.
-<Imagenes/Plantaciones/ Image 2026-06-09 at 17.31.13.jpeg, id=993, 1606.0pt x 903.375pt>
+<Imagenes/Plantaciones/ Image 2026-06-09 at 17.31.13.jpeg, id=1012, 1606.0pt x 903.375pt>
 File: Imagenes/Plantaciones/ Image 2026-06-09 at 17.31.13.jpeg Graphic file (type jpg)
 <use Imagenes/Plantaciones/ Image 2026-06-09 at 17.31.13.jpeg>
 Package pdftex.def Info: Imagenes/Plantaciones/ Image 2026-06-09 at 17.31.13.jpeg  used on input line 294.
 (pdftex.def)             Requested size: 211.67899pt x 119.06943pt.
-<Imagenes/Graficos3raMaceta1.png, id=994, 1606.0pt x 1328.965pt>
+<Imagenes/Graficos3raMaceta1.png, id=1013, 1606.0pt x 1328.965pt>
 File: Imagenes/Graficos3raMaceta1.png Graphic file (type png)
 <use Imagenes/Graficos3raMaceta1.png>
 Package pdftex.def Info: Imagenes/Graficos3raMaceta1.png  used on input line 306.
 (pdftex.def)             Requested size: 211.67899pt x 175.16435pt.
-<Imagenes/Graficos3raMaceta2.png, id=995, 1606.0pt x 1328.965pt>
+<Imagenes/Graficos3raMaceta2.png, id=1014, 1606.0pt x 1328.965pt>
 File: Imagenes/Graficos3raMaceta2.png Graphic file (type png)
 <use Imagenes/Graficos3raMaceta2.png>
 Package pdftex.def Info: Imagenes/Graficos3raMaceta2.png  used on input line 311.
 (pdftex.def)             Requested size: 211.67899pt x 175.16435pt.
- [62 <./Imagenes/Plantaciones/ Image 2026-06-02 at 17.15.59 (1).jpeg> <./Imagenes/Plantaciones/ Image 2026-06-02 at 17.15.58.jpeg> <./Imagenes/Plantaciones/ Image 2026-06-09 at 17.31.48.jpeg> <./Imagenes/Plantaciones/ Image 2026-06-09 at 17.31.13.jpeg>]
-<Imagenes/grafico3raDLCmaceta1.png, id=1000, 1606.0pt x 1327.96124pt>
+ [64 <./Imagenes/Plantaciones/ Image 2026-06-02 at 17.15.59 (1).jpeg> <./Imagenes/Plantaciones/ Image 2026-06-02 at 17.15.58.jpeg> <./Imagenes/Plantaciones/ Image 2026-06-09 at 17.31.48.jpeg> <./Imagenes/Plantaciones/ Image 2026-06-09 at 17.31.13.jpeg>]
+<Imagenes/grafico3raDLCmaceta1.png, id=1021, 1606.0pt x 1327.96124pt>
 File: Imagenes/grafico3raDLCmaceta1.png Graphic file (type png)
 <use Imagenes/grafico3raDLCmaceta1.png>
 Package pdftex.def Info: Imagenes/grafico3raDLCmaceta1.png  used on input line 320.
 (pdftex.def)             Requested size: 211.67899pt x 175.03206pt.
-<Imagenes/grafico3raDLCmaceta2.png, id=1001, 1606.0pt x 1311.90125pt>
+<Imagenes/grafico3raDLCmaceta2.png, id=1022, 1606.0pt x 1311.90125pt>
 File: Imagenes/grafico3raDLCmaceta2.png Graphic file (type png)
 <use Imagenes/grafico3raDLCmaceta2.png>
 Package pdftex.def Info: Imagenes/grafico3raDLCmaceta2.png  used on input line 325.
 (pdftex.def)             Requested size: 211.67899pt x 172.91527pt.
-) [63 <./Imagenes/Graficos3raMaceta1.png> <./Imagenes/Graficos3raMaceta2.png> <./Imagenes/grafico3raDLCmaceta1.png> <./Imagenes/grafico3raDLCmaceta2.png>] [64] (./secciones/conclusiones.tex
+) [65 <./Imagenes/Graficos3raMaceta1.png> <./Imagenes/Graficos3raMaceta2.png> <./Imagenes/grafico3raDLCmaceta1.png> <./Imagenes/grafico3raDLCmaceta2.png>] [66] (./secciones/conclusiones.tex
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 7.
 
-) [65
+) [67
 
 
-] (./secciones/bibliografia.tex [66
-
-
-]) [67
-
-] (./secciones/referencias.tex [68
+] (./secciones/bibliografia.tex [68
 
 
 ]) [69
+
+] (./secciones/referencias.tex [70
+
+
+]) [71
 
 ] (./anexos/anexo_1.tex
 Ap\'{e}ndice A.
@@ -1674,7 +1679,7 @@ Ap\'{e}ndice A.
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 5.
 
-) [70
+) [72
 
 
 ] (./anexos/anexo_2.tex
@@ -1683,7 +1688,7 @@ Ap\'{e}ndice B.
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 5.
 
-) [71
+) [73
 
 
 ] (./anexos/anexo_pi.tex
@@ -1692,7 +1697,7 @@ Ap\'{e}ndice C.
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 5.
 
-) [72
+) [74
 
 
 ] (./main.aux
@@ -1711,21 +1716,21 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F46ABC82E6D8CF4AEA4330FAC7DD19A4;16029.
+(rerunfilecheck)             Checksum: 91A7320A181111888F0088C7B6EAB9C3;16186.
  ) 
 Here is how much of TeX's memory you used:
- 25086 strings out of 467525
- 466578 string characters out of 5418982
- 829525 words of memory out of 5000000
- 53351 multiletter control sequences out of 15000+600000
+ 25104 strings out of 467525
+ 466941 string characters out of 5418982
+ 829621 words of memory out of 5000000
+ 53363 multiletter control sequences out of 15000+600000
  684737 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,12n,120p,1593b,1436s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on main.pdf (87 pages, 35924316 bytes).
+Output written on main.pdf (89 pages, 36923914 bytes).
 PDF statistics:
- 1156 PDF objects out of 1200 (max. 8388607)
- 937 compressed objects within 10 object streams
- 244 named destinations out of 1000 (max. 500000)
- 1102 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1176 PDF objects out of 1200 (max. 8388607)
+ 953 compressed objects within 10 object streams
+ 250 named destinations out of 1000 (max. 500000)
+ 1115 words of extra memory for PDF output out of 10000 (max. 10000000)
 
