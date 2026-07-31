@@ -8,11 +8,23 @@
 \usepackage{newtxtext,newtxmath}
 
 % ====================== GEOMETRÍA ======================
-\usepackage[a4paper,left=3cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+% Normas APA: papel A4, márgenes de 2,54 cm en los 4 lados
+\usepackage[a4paper,left=2.54cm,right=2.54cm,top=2.54cm,bottom=2.54cm]{geometry}
 
 % ====================== INTERLINEADO ======================
+% Normas APA: interlineado doble (2.0)
 \usepackage{setspace}
-\onehalfspacing
+\doublespacing
+
+% ====================== ALINEACIÓN Y SANGRÍA (NORMAS APA) ======================
+% Texto alineado a la izquierda, SIN justificar (margen derecho irregular)
+\usepackage{ragged2e}
+\RaggedRight
+
+% Sangría de primera línea de párrafo equivalente a 5 espacios (0,5 in / 1,27 cm, estándar APA)
+\setlength{\parindent}{1.27cm}
+% Sin espacio adicional entre párrafos (la separación es solo por la sangría)
+\setlength{\parskip}{0pt}
 
 % ====================== MATEMÁTICA Y UNIDADES ======================
 \let\Bbbk\relax
@@ -28,6 +40,9 @@
 \usepackage{longtable}
 \usepackage{caption}
 \captionsetup{font=normalsize,labelfont=bf}
+\addto\captionsspanish{%
+    \renewcommand{\tablename}{Tabla}
+}
 
 % ====================== HIPERVÍNCULOS ======================
 \usepackage[hidelinks]{hyperref}
@@ -52,16 +67,18 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
-\rfoot{\thepage}
+\lfoot{\autoresPie}
+\cfoot{\thepage}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
 % ====================== TÍTULOS ======================
 \usepackage{titlesec}
 
-\titleformat{\chapter}[display]
-    {\bfseries\fontsize{14}{16}\selectfont}
-    {Capítulo \thechapter}
+% Centrado, en una sola línea "Capítulo N: Título", igual que la tesis de referencia (Migliore)
+\titleformat{\chapter}[block]
+    {\centering\bfseries\fontsize{14}{16}\selectfont}
+    {Capítulo \thechapter:}
     {0.5em}
     {}
 
@@ -87,7 +104,6 @@
 
 % ====================== COMANDOS ÚTILES ======================
 \newcommand{\Fuente}[1]{%
-    \vspace{-0.5cm}
     \begin{center}
         \small Fuente: #1
     \end{center}
@@ -101,3 +117,6 @@ CONDICIONES DE CULTIVOS PARA GRANJAS INTELIGENTES URBANAS''}
 \newcommand{\directorPI}{Ing. Orellano, Mayco Nahuel}
 \newcommand{\codirectorPI}{Ing. Prados, Lautaro}
 \newcommand{\mesanio}{Mes / Año}
+
+% Texto que va en el pie de página de cada hoja 
+\newcommand{\autoresPie}{Beierbach Rodriguez - Ramirez}
