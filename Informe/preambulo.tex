@@ -9,6 +9,7 @@
 % --- Paquetes necesarios para la figura en TikZ ---
 \usepackage{tikz}
 \usetikzlibrary{shapes.geometric, arrows, positioning}
+
 % ====================== GEOMETRÍA ======================
 % Normas APA: papel A4, márgenes de 2,54 cm en los 4 lados
 \usepackage[a4paper,left=2.54cm,right=2.54cm,top=2.54cm,bottom=2.54cm]{geometry}
@@ -41,11 +42,20 @@
 \usepackage[table]{xcolor}
 \usepackage{longtable}
 \usepackage{caption}
-\captionsetup{font=normalsize,labelfont=bf}
+\usepackage{tabularx}
+
+\captionsetup{
+    font=normalsize,
+    labelfont=bf
+}
+
+% Coloca el título de las tablas debajo de la tabla
+\captionsetup[table]{position=bottom}
+
+% Cambia "Cuadro" por "Tabla"
 \addto\captionsspanish{%
     \renewcommand{\tablename}{Tabla}
 }
-
 % ====================== HIPERVÍNCULOS ======================
 \usepackage[hidelinks]{hyperref}
 
