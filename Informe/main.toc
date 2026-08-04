@@ -122,15 +122,15 @@
 \contentsline {subsection}{\numberline {6.16.2}Segunda prueba}{86}{subsection.6.16.2}%
 \contentsline {section}{\numberline {6.17}Resultados del prototipo final}{98}{section.6.17}%
 \contentsline {subsection}{\numberline {6.17.1}Tercera prueba}{98}{subsection.6.17.1}%
-\contentsline {chapter}{Conclusiones}{103}{chapter*.74}%
-\contentsline {section}{Resultados obtenidos en relación con la SAT}{103}{section*.75}%
-\contentsline {section}{Conclusión general}{103}{section*.75}%
-\contentsline {section}{Aporte a la ingeniería o al campo de conocimiento}{103}{section*.75}%
-\contentsline {section}{Limitaciones y trabajos futuros}{103}{section*.75}%
-\contentsline {chapter}{\numberline {A}Anexo I}{109}{appendix.Alph1}%
-\contentsline {section}{Anexo I - Título}{109}{section*.78}%
-\contentsline {chapter}{\numberline {B}Anexo II}{110}{appendix.Alph2}%
-\contentsline {section}{Anexo II - Título}{110}{section*.79}%
-\contentsline {chapter}{\numberline {C}Anexo del Proyecto Integrador}{111}{appendix.Alph3}%
-\contentsline {section}{Solicitud de Aprobación de Tema}{111}{section*.80}%
-\contentsline {section}{Informes mensuales}{111}{section*.80}%
+\contentsline {chapter}{Conclusiones}{109}{chapter*.86}%
+\contentsline {section}{Resultados obtenidos en relación con la SAT}{109}{section*.87}%
+\contentsline {section}{Conclusión general}{109}{section*.87}%
+\contentsline {section}{Aporte a la ingeniería o al campo de conocimiento}{109}{section*.87}%
+\contentsline {section}{Limitaciones y trabajos futuros}{109}{section*.87}%
+\contentsline {chapter}{\numberline {A}Anexo I}{115}{appendix.Alph1}%
+\contentsline {section}{Anexo I - Título}{115}{section*.90}%
+\contentsline {chapter}{\numberline {B}Anexo II}{116}{appendix.Alph2}%
+\contentsline {section}{Anexo II - Título}{116}{section*.91}%
+\contentsline {chapter}{\numberline {C}Anexo del Proyecto Integrador}{117}{appendix.Alph3}%
+\contentsline {section}{Solicitud de Aprobación de Tema}{117}{section*.92}%
+\contentsline {section}{Informes mensuales}{117}{section*.92}%
