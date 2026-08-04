@@ -1,61 +1,66 @@
 \babel@toc {spanish}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Estructura interna del cloroplasto.}}{10}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Espectros de absorción de la clorofila A y la clorofila B en función de la longitud de onda.}}{11}{figure.caption.12}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagrama de Gantt.}}{10}{figure.caption.12}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Construcción del prototipo inicial}}{18}{figure.caption.14}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Diseño del prototipo.}}{20}{figure.caption.15}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Vista inferior del prototipo.}}{20}{figure.caption.16}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Implementacion fisica del prototipo}}{21}{figure.caption.17}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Proceso de impermeabilización }}{22}{figure.caption.18}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Configuración del desagüe.}}{23}{figure.caption.19}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Conducto de desagüe impreso en 3D.}}{24}{figure.caption.20}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Instalacion de desagüe.}}{25}{figure.caption.21}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Raspberry Pi 4.}}{27}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Goteros.}}{31}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Primer diseno de soporte para sensores}}{33}{figure.caption.24}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Implementacion fisica.}}{33}{figure.caption.25}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Soporte para mangueras.}}{34}{figure.caption.26}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Conector Y.}}{35}{figure.caption.27}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Desagüe v1.}}{35}{figure.caption.28}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Desagüe v2.}}{36}{figure.caption.29}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Soporte para ventilador.}}{37}{figure.caption.30}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Soporte DHT22.}}{38}{figure.caption.31}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Soporte para BH1750.}}{39}{figure.caption.32}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Covertor para higrometro.}}{40}{figure.caption.33}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Proceso de impermeabilización del sensor.}}{41}{figure.caption.34}%
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Disposicion de las luminarias.}}{42}{figure.caption.35}%
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Esquema de conexiones.}}{44}{figure.caption.36}%
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Placa perforada de uso general.}}{44}{figure.caption.37}%
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Lectura del amperimetro en [A].}}{45}{figure.caption.38}%
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Primera plantacion: 28/01/26}}{49}{figure.caption.41}%
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Fecha de la foto: 05/02/26}}{50}{figure.caption.42}%
-\contentsline {figure}{\numberline {4.28}{\ignorespaces Fecha de la foto: 17/02/26}}{50}{figure.caption.43}%
-\contentsline {figure}{\numberline {4.29}{\ignorespaces Fecha de la foto: 19/02/26}}{51}{figure.caption.44}%
-\contentsline {figure}{\numberline {4.30}{\ignorespaces Fecha de la foto: 23/02/26}}{52}{figure.caption.45}%
-\contentsline {figure}{\numberline {4.31}{\ignorespaces Cosecha: 23/02/26}}{52}{figure.caption.46}%
-\contentsline {figure}{\numberline {4.32}{\ignorespaces Series temporales de la telemetría del prototipo: variables lumínicas, ambientales, de suelo y estados de los actuadores.}}{53}{figure.caption.47}%
-\contentsline {figure}{\numberline {4.33}{\ignorespaces Fecha de la foto: 26/02/26}}{54}{figure.caption.48}%
-\contentsline {figure}{\numberline {4.34}{\ignorespaces Fecha de la foto: 28/02/26}}{55}{figure.caption.49}%
-\contentsline {figure}{\numberline {4.35}{\ignorespaces Fecha de la foto: 04/03/26}}{55}{figure.caption.50}%
-\contentsline {figure}{\numberline {4.36}{\ignorespaces Fecha de la foto: 09/03/26}}{56}{figure.caption.51}%
-\contentsline {figure}{\numberline {4.37}{\ignorespaces Fecha de la foto: 10/03/26}}{57}{figure.caption.52}%
-\contentsline {figure}{\numberline {4.38}{\ignorespaces Planta invasora}}{57}{figure.caption.53}%
-\contentsline {figure}{\numberline {4.39}{\ignorespaces Fecha de la imagen: 17/03/26}}{58}{figure.caption.54}%
-\contentsline {figure}{\numberline {4.40}{\ignorespaces Fecha de la imagen: 23/03/26}}{58}{figure.caption.55}%
-\contentsline {figure}{\numberline {4.41}{\ignorespaces Fecha de la imagen: 26/03/26}}{59}{figure.caption.56}%
-\contentsline {figure}{\numberline {4.42}{\ignorespaces Fecha de la imagen: 30/03/26}}{59}{figure.caption.57}%
-\contentsline {figure}{\numberline {4.43}{\ignorespaces Fecha de la imagen: 06/04/26}}{60}{figure.caption.58}%
-\contentsline {figure}{\numberline {4.44}{\ignorespaces Series temporales de la telemetría del prototipo: variables lumínicas, ambientales, de suelo y estados de los actuadores.}}{61}{figure.caption.59}%
-\contentsline {figure}{\numberline {4.45}{\ignorespaces Plantacion 25/04/2026}}{62}{figure.caption.60}%
-\contentsline {figure}{\numberline {4.46}{\ignorespaces Plantacion 30/04/2026}}{62}{figure.caption.61}%
-\contentsline {figure}{\numberline {4.47}{\ignorespaces Plantacion 15/05/2026}}{63}{figure.caption.62}%
-\contentsline {figure}{\numberline {4.48}{\ignorespaces Plantacion 26/05/2026}}{63}{figure.caption.63}%
-\contentsline {figure}{\numberline {4.49}{\ignorespaces Plantacion 02/06/2026}}{64}{figure.caption.64}%
-\contentsline {figure}{\numberline {4.50}{\ignorespaces Plantacion 09/06/2026}}{64}{figure.caption.65}%
-\contentsline {figure}{\numberline {4.51}{\ignorespaces Graficos de variables maceta 1 y 2.}}{65}{figure.caption.66}%
-\contentsline {figure}{\numberline {4.52}{\ignorespaces Graficos de variables maceta 1 y 2 con DLI implementado.}}{65}{figure.caption.67}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Arquitectura funcional en tres capas para un sistema IoT agrícola.}}{27}{figure.caption.16}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagrama de Gantt.}}{35}{figure.caption.18}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Construcción del prototipo inicial}}{46}{figure.caption.20}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Diseño del prototipo.}}{48}{figure.caption.21}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Vista inferior del prototipo.}}{48}{figure.caption.22}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Implementacion fisica del prototipo}}{49}{figure.caption.23}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Proceso de impermeabilización }}{50}{figure.caption.24}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Configuración del desagüe.}}{51}{figure.caption.25}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Conducto de desagüe impreso en 3D.}}{52}{figure.caption.26}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Instalacion de desagüe.}}{53}{figure.caption.27}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Raspberry Pi 4.}}{55}{figure.caption.28}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Goteros.}}{61}{figure.caption.29}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Primer diseno de soporte para sensores}}{63}{figure.caption.30}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Implementacion fisica.}}{63}{figure.caption.31}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Soporte para mangueras.}}{64}{figure.caption.32}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Conector Y.}}{65}{figure.caption.33}%
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Desagüe v1.}}{65}{figure.caption.34}%
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Desagüe v2.}}{66}{figure.caption.35}%
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Soporte para ventilador.}}{67}{figure.caption.36}%
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Soporte DHT22.}}{68}{figure.caption.37}%
+\contentsline {figure}{\numberline {6.19}{\ignorespaces Soporte para BH1750.}}{69}{figure.caption.38}%
+\contentsline {figure}{\numberline {6.20}{\ignorespaces Covertor para higrometro.}}{70}{figure.caption.39}%
+\contentsline {figure}{\numberline {6.21}{\ignorespaces Proceso de impermeabilización del sensor.}}{71}{figure.caption.40}%
+\contentsline {figure}{\numberline {6.22}{\ignorespaces Disposicion de las luminarias.}}{72}{figure.caption.41}%
+\contentsline {figure}{\numberline {6.23}{\ignorespaces Esquema de conexiones.}}{74}{figure.caption.42}%
+\contentsline {figure}{\numberline {6.24}{\ignorespaces Placa perforada de uso general.}}{75}{figure.caption.43}%
+\contentsline {figure}{\numberline {6.25}{\ignorespaces Lectura del amperimetro en [A].}}{76}{figure.caption.44}%
+\contentsline {figure}{\numberline {6.26}{\ignorespaces Primera plantacion: 28/01/26}}{80}{figure.caption.47}%
+\contentsline {figure}{\numberline {6.27}{\ignorespaces Fecha de la foto: 05/02/26}}{81}{figure.caption.48}%
+\contentsline {figure}{\numberline {6.28}{\ignorespaces Fecha de la foto: 17/02/26}}{82}{figure.caption.49}%
+\contentsline {figure}{\numberline {6.30}{\ignorespaces Fecha de la foto: 23/02/26}}{82}{figure.caption.51}%
+\contentsline {figure}{\numberline {6.29}{\ignorespaces Fecha de la foto: 19/02/26}}{83}{figure.caption.50}%
+\contentsline {figure}{\numberline {6.31}{\ignorespaces Cosecha: 23/02/26}}{84}{figure.caption.52}%
+\contentsline {figure}{\numberline {6.32}{\ignorespaces Series temporales de la telemetría del prototipo: variables lumínicas, ambientales, de suelo y estados de los actuadores.}}{85}{figure.caption.53}%
+\contentsline {figure}{\numberline {6.33}{\ignorespaces Fecha de la foto: 26/02/26}}{86}{figure.caption.54}%
+\contentsline {figure}{\numberline {6.34}{\ignorespaces Fecha de la foto: 28/02/26}}{87}{figure.caption.55}%
+\contentsline {figure}{\numberline {6.35}{\ignorespaces Fecha de la foto: 04/03/26}}{88}{figure.caption.56}%
+\contentsline {figure}{\numberline {6.36}{\ignorespaces Fecha de la foto: 09/03/26}}{89}{figure.caption.57}%
+\contentsline {figure}{\numberline {6.37}{\ignorespaces Fecha de la foto: 10/03/26}}{90}{figure.caption.58}%
+\contentsline {figure}{\numberline {6.38}{\ignorespaces Planta invasora}}{91}{figure.caption.59}%
+\contentsline {figure}{\numberline {6.39}{\ignorespaces Fecha de la imagen: 17/03/26}}{92}{figure.caption.60}%
+\contentsline {figure}{\numberline {6.40}{\ignorespaces Fecha de la imagen: 23/03/26}}{93}{figure.caption.61}%
+\contentsline {figure}{\numberline {6.41}{\ignorespaces Fecha de la imagen: 26/03/26}}{94}{figure.caption.62}%
+\contentsline {figure}{\numberline {6.42}{\ignorespaces Fecha de la imagen: 30/03/26}}{95}{figure.caption.63}%
+\contentsline {figure}{\numberline {6.43}{\ignorespaces Fecha de la imagen: 06/04/26}}{96}{figure.caption.64}%
+\contentsline {figure}{\numberline {6.44}{\ignorespaces Series temporales de la telemetría del prototipo: variables lumínicas, ambientales, de suelo y estados de los actuadores.}}{97}{figure.caption.65}%
+\contentsline {figure}{\numberline {6.45}{\ignorespaces Plantacion 25/04/2026}}{98}{figure.caption.66}%
+\contentsline {figure}{\numberline {6.46}{\ignorespaces Plantacion 30/04/2026}}{99}{figure.caption.67}%
+\contentsline {figure}{\numberline {6.47}{\ignorespaces Plantacion 15/05/2026}}{99}{figure.caption.68}%
+\contentsline {figure}{\numberline {6.48}{\ignorespaces Plantacion 26/05/2026}}{100}{figure.caption.69}%
+\contentsline {figure}{\numberline {6.49}{\ignorespaces Plantacion 02/06/2026}}{100}{figure.caption.70}%
+\contentsline {figure}{\numberline {6.50}{\ignorespaces Plantacion 09/06/2026}}{100}{figure.caption.71}%
+\contentsline {figure}{\numberline {6.51}{\ignorespaces Graficos de variables maceta 1 y 2.}}{101}{figure.caption.72}%
+\contentsline {figure}{\numberline {6.52}{\ignorespaces Graficos de variables maceta 1 y 2 con DLI implementado.}}{102}{figure.caption.73}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
