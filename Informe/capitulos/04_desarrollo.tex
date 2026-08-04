@@ -1,8 +1,5 @@
-\chapter{Desarrollo experimental}
+\chapter{Metodología de trabajo}
 En este capítulo se expone el cuerpo técnico y los procedimientos de ingeniería detallados que permitieron la materialización, puesta en marcha y evaluación del sistema automatizado de cultivo vertical. A través de los apartados siguientes, el lector encontrará la descripción de las etapas analíticas y de diseño conceptual que fundamentaron la selección de las variables operativas y las simulaciones previstas. Asimismo, se detalla el proceso de implementación física del hardware, el cual abarca desde la construcción y optimización de la estructura de los contenedores hasta la selección de los sensores, transductores y actuadores de potencia que conforman la instrumentación electrónica. Finalmente, se documenta el desarrollo de las soluciones mecánicas personalizadas mediante manufactura aditiva, el diseño de la arquitectura del software de control local junto con su integración en plataformas de telemetría en la nube, y la exposición de los resultados experimentales y esquemas de conexión que consolidan la robustez global del prototipo.
-
-\section{Diseño del sistema}
-
 
 \section{Variables de control}
 Para dar inicio a la etapa de desarrollo e implementación física del proyecto, resultó indispensable establecer y delimitar las variables físicas y ambientales con mayor representatividad sobre el ciclo biológico de las especies vegetales. El control automatizado de un ecosistema artificial cerrado no puede plantearse de manera genérica; requiere la identificación precisa de aquellos factores que gobiernan la actividad metabólica y el rendimiento fotosintético de los cultivos. Tras un exhaustivo relevamiento de las demandas agronómicas en sistemas de agricultura vertical confinados, se determinó que el control central debía estructurarse en torno a cuatro variables fundamentales: la humedad del sustrato radicular, la intensidad lumínica o iluminancia, la temperatura ambiente y la humedad relativa del aire.
@@ -17,35 +14,7 @@ En tercer lugar, la temperatura ambiente ejerce un control directo sobre la velo
 
 Finalmente, la humedad relativa del ambiente se seleccionó debido a su impacto directo sobre el proceso de transpiración y la regulación estomática de las hojas. Las plantas abren sus estomas para absorber el dióxido de carbono necesario para la fotosíntesis, liberando vapor de agua en el proceso. Si la humedad del aire es extremadamente baja, la planta se ve forzada a cerrar sus estomas para evitar una deshidratación acelerada, lo que detiene inmediatamente la asimilación de carbono y ralentiza su desarrollo. Si la humedad relativa es excesivamente alta, se reduce la transpiración y se genera un microclima propenso a la proliferación de patógenos y hongos foliares. El monitoreo combinado de la temperatura y la humedad ambiente provee al algoritmo de control la información necesaria para gestionar la renovación del aire, asegurando un equilibrio constante entre la respiración de la planta y la estabilidad de su entorno físico.
 
-\section{Simulación}
-Se desarrolla el análisis por simulación.
-
-
-Como se observa en la Figura \ref{fig:diag_general}, el sistema está compuesto por los bloques principales de entrada, procesamiento y salida.
-
-\section{Implementación física}
-Describir la construcción del prototipo o del sistema final.
-
-\section{Mediciones}
-Presentar aquí las mediciones más importantes del desarrollo.
-
-\begin{table}[H]
-    \centering
-    \begin{tabular}{lc}
-        \toprule
-        Parámetro & Valor \\
-        \midrule
-        Frecuencia central & 12 MHz \\
-        Ancho de banda & 1.2 MHz \\
-        \bottomrule
-    \end{tabular}
-    \caption{Parámetros principales del sistema}
-    \label{tab:parametros}
-\end{table}
-\Fuente{Propia.}
-
-
-\section{Prototipos} 
+\section{Diseño estructural y análisis de sistemas integrados} 
 
 \subsection{Prototipo Inicial}
 Para la construcción del primer prototipo, destinado a las pruebas preliminares, se optó por utilizar madera reciclada de bajo costo. El ensamblaje se diseñó con el propósito de soportar la luminaria de espectro completo en la parte superior, dejando espacio suficiente en la base para alojar la maceta, tal como se ilustra a continuación:
@@ -166,19 +135,19 @@ Con el objetivo de minimizar la cantidad de insumos requeridos (metros de mangue
 Con el propósito de optimizar la portabilidad y simplificar las tareas de mantenimiento, se proyectó un sistema de desacoplamiento estructural en los contenedores de cultivo. Cada módulo posee la capacidad de separarse de la sección inmediatamente inferior mediante uniones por encastre geométrico, una solución de diseño que confiere una elevada estabilidad estática ante las cargas nominales del sustrato y, simultáneamente, agiliza los procedimientos de desarmado. Asimismo, el módulo posicionado en el estrato superior incorpora ruedas que facilitan el desplazamiento independiente de la estructura dentro del espacio de laboratorio. A continuación, se ilustra la implementación física de la arquitectura modular diseñada para los contenedores:
 imagen 
 
-\section{Unidad Central de Procesamiento: Raspberry Pi 4}
+\section{Unidad Central de Procesamiento: Raspberry Pi 4 Model B}
 La selección de la unidad de procesamiento central constituyó una decisión estratégica orientada a garantizar la modularidad, la robustez informática y la proyección a largo plazo del sistema. En lugar de optar por microcontroladores tradicionales de arquitectura básica (como las familias ATmega o los módulos ESP), se seleccionó la computadora de placa única (\textit{Single Board Computer} o SBC) Raspberry Pi 4. Esta determinación se fundamentó en la previsión de un crecimiento modular del sistema, el cual contempla la adición de múltiples módulos de cultivo y macetas automatizadas sin un límite predefinido, asegurando que la capacidad de cómputo y el procesamiento de datos concurrentes no representen un cuello de botella tecnológico.
 
-Frente a los microcontroladores estándar del mercado, la Raspberry Pi 4 presenta ventajas técnico-operativas disruptivas. En primer lugar, su procesador ARM Cortex-A72 de cuatro núcleos a $1{,}5\text{ GHz}$ ofrece una potencia de cálculo aritmético-lógico exponencialmente superior. En segundo lugar, al operar bajo un sistema operativo multitarea completo basado en Linux, el dispositivo permite la ejecución de hilos en paralelo (\textit{multithreading}), la gestión nativa de bases de datos relacionales o no relacionales en el almacenamiento local, y el despliegue de servidores web concurrentes para interfaces de usuario avanzadas; tareas que saturarían la memoria de un microcontrolador. Asimismo, la presencia de conectividad de red avanzada por hardware, como el puerto Gigabit Ethernet y los módulos integrados de Wi-Fi de doble banda y Bluetooth 5.0, optimizan la interoperabilidad y la transmisión de datos a sistemas remotos.
+Frente a los microcontroladores estándar del mercado, la Raspberry Pi 4b presenta ventajas técnico-operativas disruptivas. En primer lugar, su procesador ARM Cortex-A72 de cuatro núcleos a $1{,}5\text{ GHz}$ ofrece una potencia de cálculo aritmético-lógico exponencialmente superior. En segundo lugar, al operar bajo un sistema operativo multitarea completo basado en Linux, el dispositivo permite la ejecución de hilos en paralelo (\textit{multithreading}), la gestión nativa de bases de datos relacionales o no relacionales en el almacenamiento local, y el despliegue de servidores web concurrentes para interfaces de usuario avanzadas; tareas que saturarían la memoria de un microcontrolador. Asimismo, la presencia de conectividad de red avanzada por hardware, como el puerto Gigabit Ethernet y los módulos integrados de Wi-Fi de doble banda y Bluetooth 5.0, optimizan la interoperabilidad y la transmisión de datos a sistemas remotos.
 
 Se reconoce que, en la etapa actual de desarrollo del prototipo, no se está explotando al máximo la capacidad nominal de procesamiento de este dispositivo. No obstante, este sobredimensionamiento controlado constituye un criterio de diseño defensivo y escalable. La integración futura de algoritmos de optimización hídrica o rutinas de visión computacional para el análisis foliar no requerirá una reestructuración del hardware de control. 
 
-Más allá de los límites físicos del presente proyecto, esta elección de hardware traza el inicio del camino hacia el paradigma de las ciudades inteligentes (\textit{Smart Cities}). La arquitectura de software desplegada sobre la Raspberry Pi 4 permite concebir este prototipo no como un elemento aislado, sino como un nodo genérico de una red distribuida. Esta visión de diseño facilita la interconexión e interoperabilidad con otras granjas inteligentes y proyectos de investigación complementarios, permitiendo que futuras tesis puedan tejer una red de monitoreo y producción automatizada a escala urbana, coordinada mediante protocolos robustos de comunicación industrial e Internet de las Cosas (IoT).
+Más allá de los límites físicos del presente proyecto, esta elección de hardware traza el inicio del camino hacia el paradigma de las ciudades inteligentes (\textit{Smart Cities}). La arquitectura de software desplegada sobre la Raspberry Pi 4b permite concebir este prototipo no como un elemento aislado, sino como un nodo genérico de una red distribuida. Esta visión de diseño facilita la interconexión e interoperabilidad con otras granjas inteligentes y proyectos de investigación complementarios, permitiendo que futuras tesis puedan tejer una red de monitoreo y producción automatizada a escala urbana, coordinada mediante protocolos robustos de comunicación industrial e Internet de las Cosas (IoT).
 \begin{figure}[H]
     \centering
     \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/raspberrypi4sf.png}
-    \caption{Raspberry Pi 4.}
-    \Fuente{completar}
+    \caption{Raspberry Pi 4 Model b.}
+    \Fuente{\cite{foto_raspberry_emakers}}
 \end{figure}
 
 \section{Selección de componentes}
@@ -200,14 +169,32 @@ Esta combinación sinérgica garantizó un entorno de crecimiento estable, permi
 \subsection{Sensores y conversor}
 
 \subsubsection{Sensor de humedad ambiente y temperatura}
-Para controlar estas variables, se utilizó un sensor digital DHT22. Esta elección se justifica por su rango completo de medición de humedad relativa (0 a 100), el cual supera las limitaciones del DHT11 (20 a 90). Asimismo, ofrece una resolución y estabilidad decimal críticas para lograr un control preciso de los parámetros del sistema. Desde la perspectiva del hardware, destaca por su simplicidad analógica al prescindir de un conversor analógico-digital (ADC), comunicándose mediante un protocolo de un único hilo conectado directamente a los pines GPIO del microcontrolador. Finalmente, el componente fue seleccionado por su bajo costo y su amplia disponibilidad en el mercado.
+Para controlar estas variables, se utilizó un sensor digital DHT22 \cite{aosong_dht22}. Esta elección se justifica por su rango completo de medición de humedad relativa (0 a 100), el cual supera las limitaciones del DHT11 (20 a 90). Asimismo, ofrece una resolución y estabilidad decimal críticas para lograr un control preciso de los parámetros del sistema. Desde la perspectiva del hardware, destaca por su simplicidad analógica al prescindir de un conversor analógico-digital (ADC), comunicándose mediante un protocolo de un único hilo conectado directamente a los pines GPIO del microcontrolador. Finalmente, el componente fue seleccionado por su bajo costo y su amplia disponibilidad en el mercado.
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/dht22.jpeg}
+    \caption{SensorDHT22.}
+    \Fuente{\cite{foto_sensor_dht22}}
+\end{figure}
 
 \subsubsection{Sensor de iluminancia}
-Para la cuantificación de la intensidad lumínica ambiental se seleccionó el sensor digital BH1750 en lugar de transductores analógicos resistivos (LDR). Esta decisión se fundamenta en su capacidad para entregar lecturas directas en unidades de lux (lx) con una respuesta espectral calibrada de fábrica que permite distinguir longitudes de onda desde los 400nm hasta 700nm convirtiendose en un candidato ideal para realizar las mediciones para los cultivos. Al integrar un conversor analógico-digital de 16 bits y acondicionamiento de señal interno, el dispositivo ofrece un amplio rango dinámico (de $1\ lx$ a $65535\ lx$) con resolución decimal, garantizando la linealidad de los datos sin saturación ni necesidad de algoritmos de calibración complejos. Asimismo, su interfaz de comunicación basada en el protocolo I2C optimiza el uso de los recursos de hardware del microcontrolador al requerir únicamente dos líneas de datos compartidas. Debido a las caracteristicas anteriores, que cumplen con las especificaciones solicitadas, sumado a su bajo coste, se selecciono este modulo.
+Para la cuantificación de la intensidad lumínica ambiental se seleccionó el sensor digital BH1750 \cite{sensor_iluminancia} en lugar de transductores analógicos resistivos (LDR). Esta decisión se fundamenta en su capacidad para entregar lecturas directas en unidades de lux (lx) con una respuesta espectral calibrada de fábrica que permite distinguir longitudes de onda desde los 400nm hasta 700nm convirtiendose en un candidato ideal para realizar las mediciones para los cultivos. Al integrar un conversor analógico-digital de 16 bits y acondicionamiento de señal interno, el dispositivo ofrece un amplio rango dinámico (de $1\ lx$ a $65535\ lx$) con resolución decimal, garantizando la linealidad de los datos sin saturación ni necesidad de algoritmos de calibración complejos. Asimismo, su interfaz de comunicación basada en el protocolo I2C optimiza el uso de los recursos de hardware del microcontrolador al requerir únicamente dos líneas de datos compartidas. Debido a las caracteristicas anteriores, que cumplen con las especificaciones solicitadas, sumado a su bajo coste, se selecciono este modulo.
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/bh1750 Background Removed.png}
+    \caption{Sensor bh1750.}
+    \Fuente{\cite{foto_sensor_bh1750}}
+\end{figure}
 
 \subsubsection{Higrómetro de suelo}
-El sensor de humedad de suelo HD-38 se preseleccionó por su compatibilidad de señal (analógica/digital) y su geometría, cuya longitud de terminales favorecía la medición en la zona radicular profunda. Aunque el fabricante especificaba un tratamiento anticorrosivo para entornos críticos, el desempeño del dispositivo en condiciones operativas reales fue deficiente, exhibiendo una severa pérdida de linealidad y sensibilidad que redujo su funcionamiento a una detección binaria (seco/mojado). Con el objetivo de optimizar su comportamiento, se evaluaron múltiples configuraciones experimentales: control por software del ciclo de trabajo del sensor para mitigar la electrólisis, inserción de un espaciador dieléctrico entre electrodos, variación de la profundidad de enterramiento, recalibración de las etapas del ADC y modificación de las resistencias de acoplamiento. Al no registrarse mejoras significativas en la estabilidad y repetibilidad de las lecturas, se determinó la inviabilidad técnica del componente, procediendo a su descarte definitivo.
-Durante la segunda fase de evaluación de higrómetros se implementó un sensor capacitivo donde el esquema de conexion era identico al sensor anterior, pero ahora con el propósito de mitigar la degradación por electrólisis identificada en el dispositivo previo. Debido a su encapsulado y aislamiento galvánico, los electrodos permanecen inmunes a la corrosión, asegurando la estabilidad temporal de las lecturas. El principio de operación se basa en la variación de la capacitancia del entorno, empleando el sustrato como dieléctrico; de este modo, se prescinde del contacto óhmico directo con las sales y el agua, atenuando la deriva en las mediciones y minimizando los requerimientos de recalibración. Tras la puesta en marcha del sistema, se verificó un incremento significativo en la linealidad y repetibilidad de los datos en todo el espectro físico (desde la condición de sequedad extrema hasta la saturación hídrica), proporcionando la precisión requerida para el ajuste y optimizacion del riego.
+El sensor de humedad de suelo HD-38 \cite{suelo_capacitivo_resistivo} se preseleccionó por su compatibilidad de señal (analógica/digital) y su geometría, cuya longitud de terminales favorecía la medición en la zona radicular profunda. Aunque el fabricante especificaba un tratamiento anticorrosivo para entornos críticos, el desempeño del dispositivo en condiciones operativas reales fue deficiente, exhibiendo una severa pérdida de linealidad y sensibilidad que redujo su funcionamiento a una detección binaria (seco/mojado). Con el objetivo de optimizar su comportamiento, se evaluaron múltiples configuraciones experimentales: control por software del ciclo de trabajo del sensor para mitigar la electrólisis, inserción de un espaciador dieléctrico entre electrodos, variación de la profundidad de enterramiento, recalibración de las etapas del ADC y modificación de las resistencias de acoplamiento. Al no registrarse mejoras significativas en la estabilidad y repetibilidad de las lecturas, se determinó la inviabilidad técnica del componente, procediendo a su descarte definitivo.
+Durante la segunda fase de evaluación de higrómetros se implementó un sensor capacitivo \cite{dfrobot_sen0193} donde el esquema de conexion era identico al sensor anterior, pero ahora con el propósito de mitigar la degradación por electrólisis identificada en el dispositivo previo. Debido a su encapsulado y aislamiento galvánico, los electrodos permanecen inmunes a la corrosión, asegurando la estabilidad temporal de las lecturas. El principio de operación se basa en la variación de la capacitancia del entorno, empleando el sustrato como dieléctrico; de este modo, se prescinde del contacto óhmico directo con las sales y el agua, atenuando la deriva en las mediciones y minimizando los requerimientos de recalibración. Tras la puesta en marcha del sistema, se verificó un incremento significativo en la linealidad y repetibilidad de los datos en todo el espectro físico (desde la condición de sequedad extrema hasta la saturación hídrica), proporcionando la precisión requerida para el ajuste y optimizacion del riego.
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/soilcapacitivesensor.jpg}
+    \caption{Sensor de humedad de suelo capacitivo.}
+    \Fuente{\cite{foto_sensor_suelo}}
+\end{figure}
 
 \subsubsection{Modulo de conversion Analogico a Digital}
 Para la adquisición de señales analógicas y la optimización de los recursos de hardware, se seleccionó el circuito integrado PCF8591. Esta elección se justifica por su capacidad para expandir el sistema mediante cuatro entradas analógicas (ADC) de 8 bits que resultan suficientes para las tareas requeridas, utilizando únicamente dos líneas de comunicación gracias al protocolo I2C (\texttt{SDA} y \texttt{SCL}). Esta arquitectura periférica evita la saturación de los pines del microcontrolador principal, reservándolos para tareas críticas de actuación. Adicionalmente, el dispositivo ofrece la flexibilidad de configurar sus canales en modo diferencial para mitigar el ruido electromagnético en trayectos largos de cableado, y sus pines de direccionamiento por hardware (\texttt{A0}, \texttt{A1} y \texttt{A2}) garantizan la escalabilidad del sistema, permitiendo acoplar múltiples módulos en el mismo bus de datos sin requerir líneas de control adicionales. 
@@ -551,7 +538,7 @@ Luego, el calculo del consumo de potencia por hora [kWh] es:
     P &= 0,202kWh \label{eq:calculo_kwh}
 \end{align}
 
-Desde la perspectiva electro-energética, el prototipo demostró un nivel de eficiencia que valida su implementación técnica en entornos urbanos y residenciales. El consumo máximo registrado a plena carga (donde ocurre la activación simultánea de los paneles LED, la electrobomba, las válvulas solenoides, la ventilación forzada y el procesamiento continuo de la Raspberry Pi 4) se estabilizó en $202{,}4\text{ W}$. Este valor nominal resulta sumamente acotado, siendo equivalente a la demanda de un equipo informático de escritorio estándar. 
+Desde la perspectiva electro-energética, el prototipo demostró un nivel de eficiencia que valida su implementación técnica en entornos urbanos y residenciales. El consumo máximo registrado a plena carga (donde ocurre la activación simultánea de los paneles LED, la electrobomba, las válvulas solenoides, la ventilación forzada y el procesamiento continuo de la Raspberry Pi 4b) se estabilizó en $202{,}4\text{ W}$. Este valor nominal resulta sumamente acotado, siendo equivalente a la demanda de un equipo informático de escritorio estándar. 
 
 Es fundamental destacar que este consumo pico no representa la demanda sostenida del sistema. Gracias a la arquitectura de control implementada en la unidad central, los actuadores operan bajo ciclos de trabajo (\textit{duty cycles}) estrictamente optimizados. Mientras que la instrumentación lógica (Raspberry Pi y red de sensores) requiere alimentación ininterrumpida con un impacto energético marginal, las cargas de mayor potencia se gestionan de forma intermitente: el fotoperíodo de las luminarias limita su uso a una fracción del día, y la bomba junto con las válvulas solenoides se activan únicamente durante las breves ventanas de irrigación. 
 

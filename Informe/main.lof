@@ -9,70 +9,73 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Diagrama de Gantt.}}{35}{figure.caption.18}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Construcción del prototipo inicial}}{46}{figure.caption.20}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Diseño del prototipo.}}{48}{figure.caption.21}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Vista inferior del prototipo.}}{48}{figure.caption.22}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Implementacion fisica del prototipo}}{49}{figure.caption.23}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Proceso de impermeabilización }}{50}{figure.caption.24}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Configuración del desagüe.}}{51}{figure.caption.25}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Conducto de desagüe impreso en 3D.}}{52}{figure.caption.26}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Instalacion de desagüe.}}{53}{figure.caption.27}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Raspberry Pi 4.}}{55}{figure.caption.28}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Goteros.}}{61}{figure.caption.29}%
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Primer diseno de soporte para sensores}}{63}{figure.caption.30}%
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Implementacion fisica.}}{63}{figure.caption.31}%
-\contentsline {figure}{\numberline {6.13}{\ignorespaces Soporte para mangueras.}}{64}{figure.caption.32}%
-\contentsline {figure}{\numberline {6.14}{\ignorespaces Conector Y.}}{65}{figure.caption.33}%
-\contentsline {figure}{\numberline {6.15}{\ignorespaces Desagüe v1.}}{65}{figure.caption.34}%
-\contentsline {figure}{\numberline {6.16}{\ignorespaces Desagüe v2.}}{66}{figure.caption.35}%
-\contentsline {figure}{\numberline {6.17}{\ignorespaces Soporte para ventilador.}}{67}{figure.caption.36}%
-\contentsline {figure}{\numberline {6.18}{\ignorespaces Soporte DHT22.}}{68}{figure.caption.37}%
-\contentsline {figure}{\numberline {6.19}{\ignorespaces Soporte para BH1750.}}{69}{figure.caption.38}%
-\contentsline {figure}{\numberline {6.20}{\ignorespaces Covertor para higrometro.}}{70}{figure.caption.39}%
-\contentsline {figure}{\numberline {6.21}{\ignorespaces Proceso de impermeabilización del sensor.}}{71}{figure.caption.40}%
-\contentsline {figure}{\numberline {6.22}{\ignorespaces Disposicion de las luminarias.}}{72}{figure.caption.41}%
-\contentsline {figure}{\numberline {6.23}{\ignorespaces Esquema de conexiones.}}{74}{figure.caption.42}%
-\contentsline {figure}{\numberline {6.24}{\ignorespaces Placa perforada de uso general.}}{75}{figure.caption.43}%
-\contentsline {figure}{\numberline {6.25}{\ignorespaces Lectura del amperimetro en [A].}}{76}{figure.caption.44}%
-\contentsline {figure}{\numberline {6.26}{\ignorespaces Primera plantacion: 28/01/26}}{80}{figure.caption.47}%
-\contentsline {figure}{\numberline {6.27}{\ignorespaces Fecha de la foto: 05/02/26}}{81}{figure.caption.48}%
-\contentsline {figure}{\numberline {6.28}{\ignorespaces Fecha de la foto: 17/02/26}}{82}{figure.caption.49}%
-\contentsline {figure}{\numberline {6.30}{\ignorespaces Fecha de la foto: 23/02/26}}{82}{figure.caption.51}%
-\contentsline {figure}{\numberline {6.29}{\ignorespaces Fecha de la foto: 19/02/26}}{83}{figure.caption.50}%
-\contentsline {figure}{\numberline {6.31}{\ignorespaces Cosecha: 23/02/26}}{84}{figure.caption.52}%
-\contentsline {figure}{\numberline {6.32}{\ignorespaces Series temporales de la telemetría del prototipo: variables lumínicas, ambientales, de suelo y estados de los actuadores.}}{85}{figure.caption.53}%
-\contentsline {figure}{\numberline {6.33}{\ignorespaces Fecha de la foto: 26/02/26}}{86}{figure.caption.54}%
-\contentsline {figure}{\numberline {6.34}{\ignorespaces Fecha de la foto: 28/02/26}}{87}{figure.caption.55}%
-\contentsline {figure}{\numberline {6.35}{\ignorespaces Fecha de la foto: 04/03/26}}{88}{figure.caption.56}%
-\contentsline {figure}{\numberline {6.36}{\ignorespaces Fecha de la foto: 09/03/26}}{89}{figure.caption.57}%
-\contentsline {figure}{\numberline {6.37}{\ignorespaces Fecha de la foto: 10/03/26}}{90}{figure.caption.58}%
-\contentsline {figure}{\numberline {6.38}{\ignorespaces Planta invasora}}{91}{figure.caption.59}%
-\contentsline {figure}{\numberline {6.39}{\ignorespaces Fecha de la imagen: 17/03/26}}{92}{figure.caption.60}%
-\contentsline {figure}{\numberline {6.40}{\ignorespaces Fecha de la imagen: 23/03/26}}{93}{figure.caption.61}%
-\contentsline {figure}{\numberline {6.41}{\ignorespaces Fecha de la imagen: 26/03/26}}{94}{figure.caption.62}%
-\contentsline {figure}{\numberline {6.42}{\ignorespaces Fecha de la imagen: 30/03/26}}{95}{figure.caption.63}%
-\contentsline {figure}{\numberline {6.43}{\ignorespaces Fecha de la imagen: 06/04/26}}{96}{figure.caption.64}%
-\contentsline {figure}{\numberline {6.44}{\ignorespaces Series temporales de la telemetría del prototipo: variables lumínicas, ambientales, de suelo y estados de los actuadores.}}{97}{figure.caption.65}%
-\contentsline {figure}{\numberline {6.45}{\ignorespaces Plantacion 25/04/2026}}{98}{figure.caption.66}%
-\contentsline {figure}{\numberline {6.46}{\ignorespaces Plantacion 30/04/2026}}{99}{figure.caption.67}%
-\contentsline {figure}{\numberline {6.47}{\ignorespaces Plantacion 10/05/2026}}{99}{figure.caption.68}%
-\contentsline {figure}{\numberline {6.48}{\ignorespaces Plantacion 23/05/2026}}{100}{figure.caption.69}%
-\contentsline {figure}{\numberline {6.49}{\ignorespaces Plantacion 02/06/2026}}{100}{figure.caption.70}%
-\contentsline {figure}{\numberline {6.50}{\ignorespaces Plantacion 15/06/2026}}{100}{figure.caption.71}%
-\contentsline {figure}{\numberline {6.51}{\ignorespaces Grafico de humedad de suelo de maceta 1.}}{101}{figure.caption.72}%
-\contentsline {figure}{\numberline {6.52}{\ignorespaces Grafico de humedad de suelo de maceta 2.}}{101}{figure.caption.73}%
-\contentsline {figure}{\numberline {6.53}{\ignorespaces Grafico de DLI y lux de maceta 1.}}{102}{figure.caption.74}%
-\contentsline {figure}{\numberline {6.54}{\ignorespaces Grafico de DLI y lux de maceta 2.}}{102}{figure.caption.75}%
-\contentsline {figure}{\numberline {6.55}{\ignorespaces Grafico de actuadores de maceta 1.}}{103}{figure.caption.76}%
-\contentsline {figure}{\numberline {6.56}{\ignorespaces Grafico de actuadores de maceta 2.}}{103}{figure.caption.77}%
-\contentsline {figure}{\numberline {6.57}{\ignorespaces Grafico de temperatura y humedad para ambas macetas.}}{103}{figure.caption.78}%
-\contentsline {figure}{\numberline {6.58}{\ignorespaces Grafico de humedad de suelo de maceta 1.}}{104}{figure.caption.79}%
-\contentsline {figure}{\numberline {6.59}{\ignorespaces Grafico de humedad de suelo de maceta 2.}}{104}{figure.caption.80}%
-\contentsline {figure}{\numberline {6.60}{\ignorespaces Grafico de DLI y lux de maceta 1.}}{105}{figure.caption.81}%
-\contentsline {figure}{\numberline {6.61}{\ignorespaces Grafico de DLI y lux de maceta 2.}}{105}{figure.caption.82}%
-\contentsline {figure}{\numberline {6.62}{\ignorespaces Grafico de actuadores de maceta 1.}}{106}{figure.caption.83}%
-\contentsline {figure}{\numberline {6.63}{\ignorespaces Grafico de actuadores de maceta 2.}}{106}{figure.caption.84}%
-\contentsline {figure}{\numberline {6.64}{\ignorespaces Grafico de temperatura y humedad para ambas macetas.}}{106}{figure.caption.85}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Construcción del prototipo inicial}}{45}{figure.caption.19}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Diseño del prototipo.}}{47}{figure.caption.20}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Vista inferior del prototipo.}}{47}{figure.caption.21}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Implementacion fisica del prototipo}}{48}{figure.caption.22}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Proceso de impermeabilización }}{49}{figure.caption.23}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Configuración del desagüe.}}{50}{figure.caption.24}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Conducto de desagüe impreso en 3D.}}{51}{figure.caption.25}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Instalacion de desagüe.}}{52}{figure.caption.26}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Raspberry Pi 4 Model b.}}{54}{figure.caption.27}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces SensorDHT22.}}{56}{figure.caption.28}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Sensor bh1750.}}{57}{figure.caption.29}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Sensor de humedad de suelo capacitivo.}}{58}{figure.caption.30}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Goteros.}}{61}{figure.caption.31}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Primer diseno de soporte para sensores}}{63}{figure.caption.32}%
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Implementacion fisica.}}{64}{figure.caption.33}%
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Soporte para mangueras.}}{65}{figure.caption.34}%
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Conector Y.}}{66}{figure.caption.35}%
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Desagüe v1.}}{66}{figure.caption.36}%
+\contentsline {figure}{\numberline {6.19}{\ignorespaces Desagüe v2.}}{67}{figure.caption.37}%
+\contentsline {figure}{\numberline {6.20}{\ignorespaces Soporte para ventilador.}}{68}{figure.caption.38}%
+\contentsline {figure}{\numberline {6.21}{\ignorespaces Soporte DHT22.}}{69}{figure.caption.39}%
+\contentsline {figure}{\numberline {6.22}{\ignorespaces Soporte para BH1750.}}{70}{figure.caption.40}%
+\contentsline {figure}{\numberline {6.23}{\ignorespaces Covertor para higrometro.}}{71}{figure.caption.41}%
+\contentsline {figure}{\numberline {6.24}{\ignorespaces Proceso de impermeabilización del sensor.}}{72}{figure.caption.42}%
+\contentsline {figure}{\numberline {6.25}{\ignorespaces Disposicion de las luminarias.}}{73}{figure.caption.43}%
+\contentsline {figure}{\numberline {6.26}{\ignorespaces Esquema de conexiones.}}{75}{figure.caption.44}%
+\contentsline {figure}{\numberline {6.27}{\ignorespaces Placa perforada de uso general.}}{76}{figure.caption.45}%
+\contentsline {figure}{\numberline {6.28}{\ignorespaces Lectura del amperimetro en [A].}}{77}{figure.caption.46}%
+\contentsline {figure}{\numberline {6.29}{\ignorespaces Primera plantacion: 28/01/26}}{81}{figure.caption.49}%
+\contentsline {figure}{\numberline {6.30}{\ignorespaces Fecha de la foto: 05/02/26}}{82}{figure.caption.50}%
+\contentsline {figure}{\numberline {6.31}{\ignorespaces Fecha de la foto: 17/02/26}}{83}{figure.caption.51}%
+\contentsline {figure}{\numberline {6.33}{\ignorespaces Fecha de la foto: 23/02/26}}{83}{figure.caption.53}%
+\contentsline {figure}{\numberline {6.32}{\ignorespaces Fecha de la foto: 19/02/26}}{84}{figure.caption.52}%
+\contentsline {figure}{\numberline {6.34}{\ignorespaces Cosecha: 23/02/26}}{85}{figure.caption.54}%
+\contentsline {figure}{\numberline {6.35}{\ignorespaces Series temporales de la telemetría del prototipo: variables lumínicas, ambientales, de suelo y estados de los actuadores.}}{86}{figure.caption.55}%
+\contentsline {figure}{\numberline {6.36}{\ignorespaces Fecha de la foto: 26/02/26}}{87}{figure.caption.56}%
+\contentsline {figure}{\numberline {6.37}{\ignorespaces Fecha de la foto: 28/02/26}}{88}{figure.caption.57}%
+\contentsline {figure}{\numberline {6.38}{\ignorespaces Fecha de la foto: 04/03/26}}{89}{figure.caption.58}%
+\contentsline {figure}{\numberline {6.39}{\ignorespaces Fecha de la foto: 09/03/26}}{90}{figure.caption.59}%
+\contentsline {figure}{\numberline {6.40}{\ignorespaces Fecha de la foto: 10/03/26}}{91}{figure.caption.60}%
+\contentsline {figure}{\numberline {6.41}{\ignorespaces Planta invasora}}{92}{figure.caption.61}%
+\contentsline {figure}{\numberline {6.42}{\ignorespaces Fecha de la imagen: 17/03/26}}{93}{figure.caption.62}%
+\contentsline {figure}{\numberline {6.43}{\ignorespaces Fecha de la imagen: 23/03/26}}{94}{figure.caption.63}%
+\contentsline {figure}{\numberline {6.44}{\ignorespaces Fecha de la imagen: 26/03/26}}{95}{figure.caption.64}%
+\contentsline {figure}{\numberline {6.45}{\ignorespaces Fecha de la imagen: 30/03/26}}{96}{figure.caption.65}%
+\contentsline {figure}{\numberline {6.46}{\ignorespaces Fecha de la imagen: 06/04/26}}{97}{figure.caption.66}%
+\contentsline {figure}{\numberline {6.47}{\ignorespaces Series temporales de la telemetría del prototipo: variables lumínicas, ambientales, de suelo y estados de los actuadores.}}{98}{figure.caption.67}%
+\contentsline {figure}{\numberline {6.48}{\ignorespaces Plantacion 25/04/2026}}{99}{figure.caption.68}%
+\contentsline {figure}{\numberline {6.49}{\ignorespaces Plantacion 30/04/2026}}{100}{figure.caption.69}%
+\contentsline {figure}{\numberline {6.50}{\ignorespaces Plantacion 10/05/2026}}{100}{figure.caption.70}%
+\contentsline {figure}{\numberline {6.51}{\ignorespaces Plantacion 23/05/2026}}{101}{figure.caption.71}%
+\contentsline {figure}{\numberline {6.52}{\ignorespaces Plantacion 02/06/2026}}{101}{figure.caption.72}%
+\contentsline {figure}{\numberline {6.53}{\ignorespaces Plantacion 15/06/2026}}{101}{figure.caption.73}%
+\contentsline {figure}{\numberline {6.54}{\ignorespaces Grafico de humedad de suelo de maceta 1.}}{102}{figure.caption.74}%
+\contentsline {figure}{\numberline {6.55}{\ignorespaces Grafico de humedad de suelo de maceta 2.}}{102}{figure.caption.75}%
+\contentsline {figure}{\numberline {6.56}{\ignorespaces Grafico de DLI y lux de maceta 1.}}{103}{figure.caption.76}%
+\contentsline {figure}{\numberline {6.57}{\ignorespaces Grafico de DLI y lux de maceta 2.}}{103}{figure.caption.77}%
+\contentsline {figure}{\numberline {6.58}{\ignorespaces Grafico de actuadores de maceta 1.}}{104}{figure.caption.78}%
+\contentsline {figure}{\numberline {6.59}{\ignorespaces Grafico de actuadores de maceta 2.}}{104}{figure.caption.79}%
+\contentsline {figure}{\numberline {6.60}{\ignorespaces Grafico de temperatura y humedad para ambas macetas.}}{104}{figure.caption.80}%
+\contentsline {figure}{\numberline {6.61}{\ignorespaces Grafico de humedad de suelo de maceta 1.}}{105}{figure.caption.81}%
+\contentsline {figure}{\numberline {6.62}{\ignorespaces Grafico de humedad de suelo de maceta 2.}}{105}{figure.caption.82}%
+\contentsline {figure}{\numberline {6.63}{\ignorespaces Grafico de DLI y lux de maceta 1.}}{106}{figure.caption.83}%
+\contentsline {figure}{\numberline {6.64}{\ignorespaces Grafico de DLI y lux de maceta 2.}}{106}{figure.caption.84}%
+\contentsline {figure}{\numberline {6.65}{\ignorespaces Grafico de actuadores de maceta 1.}}{107}{figure.caption.85}%
+\contentsline {figure}{\numberline {6.66}{\ignorespaces Grafico de actuadores de maceta 2.}}{107}{figure.caption.86}%
+\contentsline {figure}{\numberline {6.67}{\ignorespaces Grafico de temperatura y humedad para ambas macetas.}}{107}{figure.caption.87}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
