@@ -66,6 +66,13 @@ Para resolver estos inconvenientes, se rediseñó la estructura adoptando un enf
     \label{fig:placeholder1}
 \end{figure}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/prototipofinal.jpeg}
+    \caption{Prototipo en su etapa final.}
+    \Fuente{propia.}
+\end{figure}
+
 \subsubsection{Impermeabilizacion y drenaje} 
 Para prevenir la absorción de humedad por parte de la estructura de madera (condición que podría derivar en hinchamiento, deformación mecánica o degradación biológica), resultó indispensable implementar una barrera física entre el sustrato de cultivo y el contenedor. Los criterios para la selección del material aislante exigían impermeabilidad total, resistencia mecánica para soportar la carga estática de la tierra húmeda, y una alta durabilidad temporal frente a la degradación.
 El material seleccionado para satisfacer estos requerimientos fue la lona plástica de uso agrícola (comercialmente conocida como Poliagro), un material sintético de alta resistencia fabricado a base de polietileno o poliéster con recubrimiento de PVC. Este polímero garantiza una impermeabilidad absoluta, cuenta con tratamiento de protección UV y presenta una elevada resistencia al desgarro. Estas características lo convierten en un estándar para aplicaciones agrícolas e industriales de alta exigencia (tales como el revestimiento de reservorios de agua (tanques australianos) y la protección de maquinaria a la intemperie), asegurando así una prolongada vida útil dentro de las condiciones de humedad propias del sistema de cultivo.
@@ -473,8 +480,73 @@ Para la instalación física del panel de espectro completo, se acondicionó la 
     \Fuente{propia.}
 \end{figure}
 
-\section{Sistema de riego}
-Para la realizacion del sistema de riego se utilizo manguera de jardin de 1/2 pulgada. completar...
+\section{Disposicion de hardware}
+Con el propósito de alojar los módulos de control y procesamiento del sistema (tales como la unidad central Raspberry Pi 4, la placa de relés y los conversores analógico-digitales (ADC)), se definió una localización estratégica basada en criterios de accesibilidad, seguridad y optimización de las líneas de señal. Se optó por ubicar este núcleo de control en la zona superior de la estructura, logrando una posición equidistantemente centralizada que facilita el ruteado de los cables hacia los distintos sensores y actuadores del prototipo, minimizando a su vez el impacto visual y la interferencia estructural.
+Esta disposición en altura aísla la electrónica crítica frente a riesgos mecánicos por manipulación directa o eventuales filtraciones y salpicaduras provenientes del subsistema hidráulico. Para garantizar un aislamiento eléctrico adecuado y protección contra humedad y polvo, la totalidad de los componentes se confinó dentro de un gabinete con sellado hermético. La interconexión con los periféricos externos se ejecutó mediante pasacables con prensacables (pasamuros), permitiendo el paso ordenado y seguro de los conductores sin comprometer el nivel de protección de la envolvente.
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/modulocentral1.jpeg}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/modulocentral2.jpeg}
+    \end{minipage}
+    \caption{Caja electrica estanca con componentes vitales del sistema.}
+    \Fuente{propia.}
+    \label{fig:soporte_mangueras}
+\end{figure}
+
+\section{Circuito de riego}
+El subsistema de irrigación opera mediante un esquema de distribución selectiva alimentado por la electrobomba descrita en apartados anteriores. A través de un arreglo de válvulas solenoides, el firmware puede dirigir el flujo hídrico hacia un módulo o maceta en particular, según las requerimientos de humedad detectados por los sensores. La canalización principal se ejecutó utilizando tubos flexibles de 1/2 pulgada, dimensión seleccionada para garantizar un caudal óptimo de operación sin generar sobrepresiones en los acoples. En el tramo interno de cada contenedor se instalaron goteros autocompensados que liberan un caudal volumétrico constante por unidad de tiempo, logrando una distribución homogénea del recurso hídrico en la zona radicular.
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/sistemariego.jpeg}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/bomba.jpeg}
+    \end{minipage}
+    \caption{Sistema de riego.}
+    \Fuente{propia.}
+    \label{fig:soporte_mangueras}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/valvsolenoide.jpeg}
+    \caption{Valvula solenoide.}
+    \Fuente{propia.}
+\end{figure}
+Una vez que el sustrato absorbe la humedad necesaria para la nutrición y desarrollo vegetal, el excedente no retenido inicia un proceso de percolación natural. Gracias al diseño en pendiente y al sistema de drenaje inferior de cada módulo, el agua no aprovechada cae por acción de la gravedad hacia un depósito de recolección ubicado en la base de la estructura. Este circuito cerrado permite recircular el efluente hídrico hacia el tanque principal mediante una red de colectores, maximizando la eficiencia en el uso del agua y reduciendo de forma significativa el consumo operativo del prototipo.
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/batea.jpeg}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/bateaymaceta.jpeg}
+    \end{minipage}
+    \caption{Sistema de recolección de agua.}
+    \Fuente{propia.}
+    \label{fig:soporte_mangueras}
+\end{figure}
+
+\section{Sistema de ventilacion}
+Con el objetivo de garantizar una renovación constante de la masa de aire y evitar la formación de microclimas saturados de humedad en el dosel vegetal, se integró un sistema de ventilación forzada distribuido por niveles en la estructura vertical. La presencia de humedad relativa elevada y aire estancado favorece la acumulación de condensación sobre el filoplano (superficie foliar), creando un entorno propicio para la proliferación de hongos. Para mitigar este riesgo y favorecer la disipación térmica, se instalaron ventiladores en cada uno de los niveles de cultivo. Estos dispositivos son gestionados dinámicamente por la unidad central mediante un algoritmo de control basado en un umbral crítico de humedad relativa: cuando los sensores del nivel detectan valores superiores al límite configurado, el sistema conmuta la activación de los ventiladores correspondientes. Esta acción rompe la capa límite de humedad sobre las hojas, acelera la tasa de transpiración vegetal de forma controlada y promueve un descenso paulatino de la temperatura ambiental en el módulo.
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/soporteventilador2.jpeg}
+    \caption{Disposicion de los ventiladores.}
+    \Fuente{propia.}
+\end{figure}
 
 \section{Codigo}
 hubo que iniciar gpios en 0...
@@ -514,6 +586,19 @@ A continuación, se detalla el esquema de conexionado adoptado para el prototipo
     \centering
     \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/placaperforada.jpeg}
     \caption{Placa perforada de uso general.}
+    \Fuente{propia.}
+\end{figure}
+Diagrama de conexion de la placa mostrada en la imagen anterior:
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/ProtoCables1.png}
+    \caption{Esquema de placa de pruebas simplificado con color de cables.}
+    \Fuente{propia.}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/protocables2.jpeg}
+    \caption{Conexion que recibe cada color de cable en relacion al esquema anterior.}
     \Fuente{propia.}
 \end{figure}
 
