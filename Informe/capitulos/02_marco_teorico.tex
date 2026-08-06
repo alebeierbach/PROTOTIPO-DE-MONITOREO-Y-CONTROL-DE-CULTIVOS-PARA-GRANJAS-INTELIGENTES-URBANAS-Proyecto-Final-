@@ -61,6 +61,30 @@ No todas las plantas fijan el carbono de la misma manera: la vía metabólica em
 \end{itemize}
 
 El estrés térmico moderado reduce de forma reversible la actividad fotosintética de las plantas C3; el estrés térmico sostenido, en cambio, puede provocar daños irreversibles en el aparato fotosintético que limitan permanentemente el crecimiento y la productividad del cultivo \cite{ramos2015}. Esta sensibilidad térmica --propia del metabolismo C3 de los cultivos seleccionados-- es la que fundamenta, a nivel bioquímico, la necesidad de un control activo de temperatura descripta en la Sección \ref{subsec:clima_cordoba}.
+\section{Variables microclimáticas y del medio de cultivo}
+\label{sec:variables_microclimaticas}
+
+El desarrollo óptimo del cultivo en un entorno cerrado depende del monitoreo y la regulación de un conjunto de magnitudes físicas que condicionan sus procesos metabólicos. A continuación se definen las variables fundamentales consideradas en el presente prototipo:
+
+\begin{itemize}
+    \item \textbf{Temperatura ($T$):} Es la medida de la energía cinética promedio de las moléculas del ambiente. En el ámbito vegetal, regula la tasa fotosintética, la respiración celular y la velocidad de las reacciones enzimáticas. Se expresa en grados Celsius (\si{\celsius}) para el monitoreo del microclima.\cite{ramos2015}
+    
+    \item \textbf{Humedad Relativa ($HR$):} Es la relación porcentual entre la presión parcial de vapor de agua actual ($e$) y la presión de vapor de agua en saturación ($e_s$) a una determinada temperatura:
+    \begin{equation}
+        \text{HR} = \left( \frac{e}{e_s} \right) \times 100\,\text{\%}
+        \label{eq:humedad_relativa}
+    \end{equation}
+    Esta variable condiciona la tasa de transpiración y la apertura estomática del cultivo mediante el déficit de presión de vapor (DPV) \cite{allen1998}.
+    
+    \item \textbf{Humedad del sustrato:} Representa el contenido volumétrico de agua, definido como la fracción del volumen de agua respecto al volumen total del medio de cultivo:
+    \begin{equation}
+        \theta = \frac{V_w}{V_T}
+        \label{eq:vwc}
+    \end{equation}
+    donde $V_w$ es el volumen de agua y $V_T$ el volumen total del sustrato. Esta variable determina la disponibilidad hídrica en la rizosfera y la oxigenación radicular, evitando tanto la marchitez hídrica como la anoxia por encharcamiento \cite{savvas2018application}.
+    
+    \item \textbf{Iluminación e iluminancia ($E_v$):} La iluminación representa la densidad de flujo radiante incidente sobre la superficie del cultivo. Para fines de monitoreo con sensores fotométricos de bajo costo, se mide como iluminancia ($E_v$) en luxes (\si{\lux}). Aunque las plantas responden cuantitativamente a los fotones en la banda PAR, la iluminancia constituye la métrica directa a partir de la cual se estima el flujo de fotones útil mediante un factor de conversión calibrado \cite{deocampo2017, najera2023}.
+\end{itemize}
 
 \section{Radiación fotosintéticamente activa (PAR)}
 \label{sec:par}
@@ -94,10 +118,10 @@ La medición directa de PPFD requiere instrumentos especializados (radiómetros 
 \end{equation}
 
 \noindent Esta estrategia de estimación indirecta ha sido validada experimentalmente: un modelo de adquisición de datos de bajo costo, basado en una 
-resistencia dependiente de la luz (LDR) caracterizada frente a un luxómetro de referencia, logró estimar el DLI diario con un error relativo medio de apena
-s \SI{1.78}{\percent} respecto de la medición de referencia \cite{deocampo2017}. Esta estrategia de estimación indirecta (medir lux con un sensor económico y convertirlo a PPFD mediante un factor de luminaria calibrado) es la que se adopta en el desarrollo de este trabajo para el control dinámico de la iluminación artificial, tal como se desarrollara en el Marco Metodológico.
+resistencia dependiente de la luz (LDR) caracterizada frente a un luxómetro de referencia, logró estimar el DLI diario con un error relativo medio de apenas \SI{1.78}{\percent} respecto de la medición de referencia \cite{deocampo2017}. Esta estrategia de estimación indirecta (medir lux con un sensor económico y convertirlo a PPFD mediante un factor de luminaria calibrado) es la que 
+se adopta en el desarrollo de este trabajo para el control dinámico de la iluminación artificial.
 
-\paragraph{Ejemplo ilustrativo de aplicación.} A modo demostrativo --con valores arbitrarios, no necesariamente los del sistema desarrollado, cuya calibración específica se documenta en el Marco Metodológico--, supóngase una luminaria con un factor de conversión estimado $F_L = 0{,}17$ y una lectura de iluminancia constante de $\SI{2000}{lux}$ sostenida durante un fotoperíodo $T_i = \SI{12}{\hour}$. Aplicando la Ecuación~\ref{eq:ppfd_lux}:
+Ejemplo de aplicación: A modo demostrativo (con valores arbitrarios, no necesariamente los del sistema desarrollado proximamente), supóngase una luminaria con un factor de conversión estimado $F_L = 0{,}17$ y una lectura de iluminancia constante de $\SI{2000}{lux}$ sostenida durante un fotoperíodo $T_i = \SI{12}{\hour}$. Aplicando la Ecuación~\ref{eq:ppfd_lux}:
 \begin{equation*}
     PPFD = 2000 \times 0{,}17 = \SI{340}{\micro\mole\per\square\meter\per\second}
 \end{equation*}
@@ -137,9 +161,9 @@ Riesgo asociado & Fallas del sistema de bombeo/dosificación comprometen rápida
 {\footnotesize \textbf{Fuente:} Elaboración propia a partir de la bibliografía citada en la tabla.}
 \end{table}
 
-Esta preferencia por la hidroponía se refleja cuantitativamente en la literatura: un análisis bibliométrico reciente sobre sistemas de agricultura vertical encontró que las soluciones nutritivas (hidroponía) son el medio de cultivo dominante en las investigaciones publicadas, con aproximadamente el \SI{49}{\percent} de los estudios relevados, frente a solo un \SI{15}{\percent} que emplea mezclas de sustrato (turba, perlita, arena, vermiculita, fibra de coco, entre otros) y un \SI{4}{\percent} que utiliza compost como sustrato alternativo \cite{najera2023}.
+Esta preferencia por la hidroponía se refleja cuantitativamente en la literatura: un análisis bibliométrico reciente sobre sistemas de agricultura vertical encontró que las soluciones nutritivas (hidroponía) son el medio de cultivo dominante en las investigaciones publicadas, con aproximadamente el \SI{49}{\percent} de los estudios relevados, frente a solo un \SI{15}{\percent} que emplea mezclas de sustrato (turba, perlita, arena, pinocha, resaca de rio, entre otros) y un \SI{4}{\percent} que utiliza compost como sustrato alternativo \cite{najera2023}.
 
-Estas ventajas de la hidroponía tienen un costo de instrumentación y complejidad que no siempre se justifica en un prototipo de bajo costo orientado al usuario urbano no especializado. El cultivo en sustrato, en particular, conserva un ambiente propicio para el establecimiento de una microflora radicular beneficiosa (rizosfera) que favorece la absorción de nutrientes y aporta cierta capacidad de amortiguación natural frente a variaciones momentáneas de riego o nutrientes. Esto reduce la exigencia de instrumentación crítica: a diferencia de la hidroponía, en sustrato estas variables son gestionadas en gran medida por el propio medio, lo que permite prescindir de sensores de pH y EC --de costo considerablemente mayor al del resto de la instrumentación-- sin comprometer significativamente el desarrollo del cultivo. Esta es la razón conceptual por la que este trabajo, a diferencia de antecedentes previos del laboratorio orientados a hidroponía \cite{irazuzta2023}, adopta el cultivo en sustrato como medio: prioriza la robustez y el bajo costo por sobre la precisión nutricional máxima.
+Estas ventajas de la hidroponía tienen un costo de instrumentación y complejidad que no siempre se justifica en un prototipo de bajo costo orientado al usuario urbano no especializado. El cultivo en sustrato, en particular, conserva un ambiente propicio para el establecimiento de una microflora radicular beneficiosa (rizosfera) que favorece la absorción de nutrientes y aporta cierta capacidad de amortiguación natural frente a variaciones momentáneas de riego o nutrientes. Esto reduce la exigencia de instrumentación crítica: a diferencia de la hidroponía, en sustrato estas variables son gestionadas en gran medida por el propio medio, lo que permite prescindir de sensores de pH y EC --de costo considerablemente mayor al del resto de la instrumentación-- sin comprometer significativamente el desarrollo del cultivo. Esta es la razón conceptual por la que este trabajo, a diferencia de antecedentes previos de proyectos integradores orientados a hidroponía \cite{migliore2024},\cite{irazuzta2023}, adopta el cultivo en sustrato como medio: prioriza la robustez y el bajo costo por sobre la precisión nutricional máxima.
 
 \section{Requerimientos ambientales de los cultivos seleccionados}
 \label{subsec:requerimientos_cultivos}
@@ -213,7 +237,7 @@ Salvo el sensor de humedad de sustrato (que es analógico), el resto de la instr
 
 El I2C (\textit{Inter-Integrated Circuit}) es un bus serie sincrónico de dos hilos desarrollado originalmente por Philips, pensado para conectar múltiples periféricos a un mismo microcontrolador con un número mínimo de pines \cite{i2c_ardumania}. Utiliza dos líneas: SDA (\textit{Serial Data}), por la que circulan los datos, y SCL (\textit{Serial Clock}), que transporta la señal de reloj generada por el dispositivo maestro \cite{i2c_ardumania}. Ambas líneas son de tipo drenador abierto (\textit{open-drain}), por lo que requieren resistencias de \textit{pull-up} externas a la tensión de alimentación; cualquier dispositivo en el bus puede llevar la línea a nivel bajo, pero solo la resistencia de \textit{pull-up} puede llevarla a nivel alto \cite{i2c_ardumania}.
 
-La comunicación sigue un esquema maestro-esclavo: el maestro genera la condición de inicio (\textit{start}, SDA baja con SCL alta) y transmite la dirección de 7 bits del periférico con el que desea comunicarse, seguida de un bit de lectura/escritura. Cada periférico conectado al bus compara esta dirección con la propia; si coincide, responde con un bit de reconocimiento (ACK) \cite{i2c_ardumania}. Esta arquitectura de direccionamiento resulta particularmente conveniente en sistemas con múltiples sensores I2C sobre un mismo bus físico, como ocurre cuando se emplea más de un conversor A/D o más de un sensor de iluminancia en paralelo -- situación que se detalla en el Marco Metodológico.
+La comunicación sigue un esquema maestro-esclavo: el maestro genera la condición de inicio (\textit{start}, SDA baja con SCL alta) y transmite la dirección de 7 bits del periférico con el que desea comunicarse, seguida de un bit de lectura/escritura. Cada periférico conectado al bus compara esta dirección con la propia; si coincide, responde con un bit de reconocimiento (ACK) \cite{i2c_ardumania}. Esta arquitectura de direccionamiento resulta particularmente conveniente en sistemas con múltiples sensores I2C sobre un mismo bus físico, como ocurre cuando se emplea más de un conversor A/D o más de un sensor de iluminancia en paralelo.
 
 \subsection{Sensor de humedad de sustrato: principios resistivo y capacitivo}
 \label{subsec:humedad_sustrato}
@@ -225,7 +249,7 @@ Existen dos principios de transducción para medir humedad de sustrato de bajo c
     \item \textbf{Sensor capacitivo:} en lugar de medir conductividad, mide la variación de la permitividad dieléctrica del sustrato, que también depende del contenido de agua. Al no requerir contacto galvánico directo con electrodos expuestos, no sufre el problema de corrosión del tipo resistivo, lo que le da mayor vida útil de servicio \cite{suelo_capacitivo_resistivo}. Entrega una salida analógica que, para ser leída por un microcontrolador o microcomputadora sin entradas analógicas nativas, requiere necesariamente un conversor A/D externo.
 \end{itemize}
 
-El empleo de dos sensores de humedad independientes por unidad de cultivo --una práctica de instrumentación redundante-- permite no solo tolerar la falla de uno de los dos, sino también detectar discrepancias anómalas entre ambas lecturas, compensando así la menor fiabilidad individual típica de sensores analógicos de bajo costo. La implementación concreta de esta redundancia se describe en el Marco Metodológico.
+El empleo de dos sensores de humedad independientes por unidad de cultivo --una práctica de instrumentación redundante-- permite no solo tolerar la falla de uno de los dos, sino también detectar discrepancias anómalas entre ambas lecturas, compensando así la menor fiabilidad individual típica de sensores analógicos de bajo costo.
 
 \subsection{Conversión analógica-digital}
 \label{subsec:conversion_ad}
@@ -322,7 +346,7 @@ El crecimiento sostenido de la población urbana plantea un desafío directo par
 
 La agricultura de precisión es la estrategia de gestión agrícola que recolecta datos temporales y espaciales de las variables del cultivo mediante sensores para sustentar decisiones de manejo basadas en la condición real y no en supuestos genéricos \cite{agricultura_precision_def}. Aplicada a un sistema de pequeña escala, esto se traduce en reemplazar el riego y el control ambiental por calendario fijo por decisiones basadas en la lectura directa de humedad de sustrato, temperatura, humedad ambiente e iluminación --tal como se describió en los Capítulos \ref{cha:cultivo} y \ref{cha:control_onoff}--.
 
-El Internet de las Cosas (IoT) provee la infraestructura de comunicación que conecta estos sensores, generalmente de bajo costo y bajo consumo, con plataformas de almacenamiento y visualización remota \cite{iot_agricola_rmic}. La adopción de IoT en agricultura no está exenta de desventajas prácticas: costo inicial, necesidad de calibración periódica de sensores y dependencia de conectividad \cite{iot_desafios}. Estos desafíos se retoman en el Marco Metodológico al justificar las decisiones de diseño adoptadas en el presente trabajo.
+El Internet de las Cosas (IoT) provee la infraestructura de comunicación que conecta estos sensores, generalmente de bajo costo y bajo consumo, con plataformas de almacenamiento y visualización remota \cite{iot_agricola_rmic}. La adopción de IoT en agricultura no está exenta de desventajas prácticas: costo inicial, necesidad de calibración periódica de sensores y dependencia de conectividad \cite{iot_desafios}. 
 
 \section{Arquitectura en capas: adquisición, procesamiento y comunicación}
 \label{sec:arquitectura_capas}
