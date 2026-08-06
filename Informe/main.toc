@@ -21,10 +21,10 @@
 \contentsline {part}{PARTE I - MARCO TEÓRICO}{9}{part*.10}%
 \contentsline {chapter}{\numberline {2}Fundamentos fisiológicos y ambientales del cultivo en sustrato}{9}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Fotosíntesis: transformación de energía lumínica en energía química}{9}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Vías metabólicas de fijación del carbono: C3, C4 y CAM}{11}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Variables microclimáticas y del medio de cultivo}{12}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Radiación fotosintéticamente activa (PAR)}{13}{section.2.4}%
-\contentsline {section}{\numberline {2.5}PPFD y DLI}{13}{section.2.5}%
+\contentsline {section}{\numberline {2.2}Vías metabólicas de fijación del carbono: C3, C4 y CAM}{12}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Variables microclimáticas y del medio de cultivo}{13}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Radiación fotosintéticamente activa (PAR)}{14}{section.2.4}%
+\contentsline {section}{\numberline {2.5}PPFD y DLI}{14}{section.2.5}%
 \contentsline {section}{\numberline {2.6}Justificación del cultivo en sustrato frente a hidroponía}{15}{section.2.6}%
 \contentsline {section}{\numberline {2.7}Requerimientos ambientales de los cultivos seleccionados}{16}{section.2.7}%
 \contentsline {section}{\numberline {2.8}Contexto climático de Córdoba}{18}{section.2.8}%
@@ -54,7 +54,7 @@
 \contentsline {section}{\numberline {4.6}Acceso remoto mediante túneles inversos}{30}{section.4.6}%
 \contentsline {section}{\numberline {4.7}Plataformas de telemetría en la nube (IoT)}{31}{section.4.7}%
 \contentsline {section}{\numberline {4.8}Síntesis de la parte I}{31}{section.4.8}%
-\contentsline {part}{PARTE II - MARCO METODOLÓGICO}{34}{part*.17}%
+\contentsline {part}{PARTE II - MARCO METODOLÓGICO}{34}{part*.18}%
 \contentsline {chapter}{\numberline {5}Marco metodológico}{34}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Tipo y Enfoque de la Investigación}{34}{section.5.1}%
 \contentsline {subsection}{\numberline {5.1.1}Enfoque Cuantitativo}{35}{subsection.5.1.1}%
@@ -76,16 +76,16 @@
 \contentsline {section}{\numberline {6.2}Diseño estructural y análisis de sistemas integrados}{46}{section.6.2}%
 \contentsline {subsection}{\numberline {6.2.1}Prototipo Inicial}{46}{subsection.6.2.1}%
 \contentsline {subsection}{\numberline {6.2.2}Prototipo Final}{47}{subsection.6.2.2}%
-\contentsline {subsubsection}{Impermeabilizacion y drenaje}{50}{figure.caption.23}%
-\contentsline {subsubsection}{Arquitectura mecánica modular y acoplamiento estructural}{54}{figure.caption.27}%
+\contentsline {subsubsection}{Impermeabilizacion y drenaje}{50}{figure.caption.24}%
+\contentsline {subsubsection}{Arquitectura mecánica modular y acoplamiento estructural}{54}{figure.caption.28}%
 \contentsline {section}{\numberline {6.3}Unidad Central de Procesamiento: Raspberry Pi 4 Model B}{54}{section.6.3}%
 \contentsline {section}{\numberline {6.4}Selección de componentes}{56}{section.6.4}%
 \contentsline {subsection}{\numberline {6.4.1}Sustrato}{56}{subsection.6.4.1}%
 \contentsline {subsection}{\numberline {6.4.2}Sensores y conversor}{57}{subsection.6.4.2}%
 \contentsline {subsubsection}{Sensor de humedad ambiente y temperatura}{57}{subsection.6.4.2}%
-\contentsline {subsubsection}{Sensor de iluminancia}{58}{figure.caption.29}%
-\contentsline {subsubsection}{Higrómetro de suelo}{59}{figure.caption.30}%
-\contentsline {subsubsection}{Modulo de conversion Analogico a Digital}{60}{figure.caption.31}%
+\contentsline {subsubsection}{Sensor de iluminancia}{58}{figure.caption.30}%
+\contentsline {subsubsection}{Higrómetro de suelo}{59}{figure.caption.31}%
+\contentsline {subsubsection}{Modulo de conversion Analogico a Digital}{60}{figure.caption.32}%
 \contentsline {subsection}{\numberline {6.4.3}Alimentacion complementaria}{61}{subsection.6.4.3}%
 \contentsline {subsection}{\numberline {6.4.4}Actuadores}{61}{subsection.6.4.4}%
 \contentsline {subsubsection}{Luces para el cultivo}{61}{subsection.6.4.4}%
@@ -95,14 +95,14 @@
 \contentsline {subsection}{\numberline {6.4.5}Etapa de Potencia: Relés Electromecánicos y de Estado Sólido}{63}{subsection.6.4.5}%
 \contentsline {section}{\numberline {6.5}Diseños de piezas en 3D}{64}{section.6.5}%
 \contentsline {subsubsection}{Soporte para sensores}{65}{section.6.5}%
-\contentsline {subsubsection}{Soporte para manguera}{66}{figure.caption.34}%
-\contentsline {subsubsection}{Acople Y}{67}{figure.caption.35}%
-\contentsline {subsubsection}{Filtro de desagüe v1}{68}{figure.caption.36}%
-\contentsline {subsubsection}{Filtro de desagüe v2}{69}{figure.caption.37}%
-\contentsline {subsubsection}{Soporte para ventilador}{69}{figure.caption.38}%
-\contentsline {subsubsection}{Soporte para sensor de humedad y temperatura}{70}{figure.caption.39}%
-\contentsline {subsubsection}{Soporte para sensor de iluminancia}{71}{figure.caption.40}%
-\contentsline {subsubsection}{Covertor de proteccion para higrómetros}{72}{figure.caption.41}%
+\contentsline {subsubsection}{Soporte para manguera}{66}{figure.caption.35}%
+\contentsline {subsubsection}{Acople Y}{67}{figure.caption.36}%
+\contentsline {subsubsection}{Filtro de desagüe v1}{68}{figure.caption.37}%
+\contentsline {subsubsection}{Filtro de desagüe v2}{69}{figure.caption.38}%
+\contentsline {subsubsection}{Soporte para ventilador}{69}{figure.caption.39}%
+\contentsline {subsubsection}{Soporte para sensor de humedad y temperatura}{70}{figure.caption.40}%
+\contentsline {subsubsection}{Soporte para sensor de iluminancia}{71}{figure.caption.41}%
+\contentsline {subsubsection}{Covertor de proteccion para higrómetros}{72}{figure.caption.42}%
 \contentsline {section}{\numberline {6.6}Disposicion de las luminarias}{74}{section.6.6}%
 \contentsline {section}{\numberline {6.7}Disposicion de hardware}{75}{section.6.7}%
 \contentsline {section}{\numberline {6.8}Circuito de riego}{76}{section.6.8}%
@@ -113,22 +113,22 @@
 \contentsline {section}{\numberline {6.11}UI: Interfaz de Usuario}{80}{section.6.11}%
 \contentsline {section}{\numberline {6.12}Esquemas de conexion}{81}{section.6.12}%
 \contentsline {section}{\numberline {6.13}Consumo de potencia}{84}{section.6.13}%
-\contentsline {part}{PARTE III - RESULTADOS Y CONCLUSIONES}{88}{part*.55}%
-\contentsline {chapter}{Resultados}{88}{chapter*.56}%
+\contentsline {part}{PARTE III - RESULTADOS Y CONCLUSIONES}{88}{part*.56}%
+\contentsline {chapter}{Resultados}{88}{chapter*.57}%
 \contentsline {section}{\numberline {6.14}Resultados del prototipo preliminar}{88}{section.6.14}%
 \contentsline {subsection}{\numberline {6.14.1}Primera prueba}{88}{subsection.6.14.1}%
 \contentsline {subsection}{\numberline {6.14.2}Segunda prueba}{95}{subsection.6.14.2}%
 \contentsline {section}{\numberline {6.15}Resultados del prototipo final}{107}{section.6.15}%
 \contentsline {subsection}{\numberline {6.15.1}Tercera prueba}{107}{subsection.6.15.1}%
-\contentsline {chapter}{Conclusiones}{118}{chapter*.96}%
-\contentsline {section}{Resultados obtenidos en relación con la SAT}{118}{section*.97}%
-\contentsline {section}{Conclusión general}{118}{section*.97}%
-\contentsline {section}{Aporte a la ingeniería o al campo de conocimiento}{118}{section*.97}%
-\contentsline {section}{Limitaciones y trabajos futuros}{118}{section*.97}%
+\contentsline {chapter}{Conclusiones}{118}{chapter*.97}%
+\contentsline {section}{Resultados obtenidos en relación con la SAT}{118}{section*.98}%
+\contentsline {section}{Conclusión general}{118}{section*.98}%
+\contentsline {section}{Aporte a la ingeniería o al campo de conocimiento}{118}{section*.98}%
+\contentsline {section}{Limitaciones y trabajos futuros}{118}{section*.98}%
 \contentsline {chapter}{\numberline {A}Anexo I}{125}{appendix.Alph1}%
-\contentsline {section}{Anexo I - Título}{125}{section*.100}%
+\contentsline {section}{Anexo I - Título}{125}{section*.101}%
 \contentsline {chapter}{\numberline {B}Anexo II}{126}{appendix.Alph2}%
-\contentsline {section}{Anexo II - Título}{126}{section*.101}%
+\contentsline {section}{Anexo II - Título}{126}{section*.102}%
 \contentsline {chapter}{\numberline {C}Anexo del Proyecto Integrador}{127}{appendix.Alph3}%
-\contentsline {section}{Solicitud de Aprobación de Tema}{127}{section*.102}%
-\contentsline {section}{Informes mensuales}{127}{section*.102}%
+\contentsline {section}{Solicitud de Aprobación de Tema}{127}{section*.103}%
+\contentsline {section}{Informes mensuales}{127}{section*.103}%

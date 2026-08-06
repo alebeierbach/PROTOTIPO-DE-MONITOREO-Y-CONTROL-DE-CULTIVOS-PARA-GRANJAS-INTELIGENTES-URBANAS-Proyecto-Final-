@@ -14,7 +14,7 @@ Este capítulo desarrolla los fundamentos biológicos y ambientales que determin
 \section{Fotosíntesis: transformación de energía lumínica en energía química}
 \label{sec:fotosintesis}
 
-La fotosíntesis es el proceso físico-químico mediante el cual las plantas, algas y bacterias fotosintéticas convierten dióxido de carbono (CO\textsubscript{2}) y agua (H\textsubscript{2}O) en carbohidratos, empleando la energía de la luz solar y liberando oxígeno como subproducto \cite{ramos2015}. Es, en cierto sentido, el proceso inverso a la respiración celular: mientras que la respiración consume oxígeno y libera energía a partir de carbohidratos, la fotosíntesis almacena energía lumínica en forma de enlaces químicos.
+La fotosíntesis es el proceso físico-químico mediante el cual las plantas, algas y bacterias fotosintéticas convierten dióxido de carbono (CO\textsubscript{2}) y agua (H\textsubscript{2}O) en carbohidratos, empleando la energía de la luz solar y liberando oxígeno como subproducto. Es, en cierto sentido, el proceso inverso a la respiración celular: mientras que la respiración consume oxígeno y libera energía a partir de carbohidratos, la fotosíntesis almacena energía lumínica en forma de enlaces químicos \cite{ramos2015}.
 
 El proceso completo puede resumirse en la siguiente reacción global:
 
@@ -23,14 +23,23 @@ El proceso completo puede resumirse en la siguiente reacción global:
     \label{eq:fotosintesis_global}
 \end{equation}
 
-\noindent Esta reacción se despliega en dos fases sucesivas, cada una con etapas bien diferenciadas \cite{ramos2015}:
+\noindent Esta reacción se despliega en dos fases sucesivas, cada una con etapas bien diferenciadas :
 
 \begin{itemize}
-    \item \textbf{Fase lumínica (fotofosforilación):} depende directamente de la luz incidente. Los fotones son absorbidos por la clorofila, que se excita y libera electrones (etapa de absorción). Simultáneamente, la energía lumínica provoca la ruptura de la molécula de agua (fotólisis), liberando oxígeno y protones. Los electrones liberados son transportados hasta reducir la molécula NADP a su forma NADPH (etapa de separación de carga eléctrica), mientras que la acumulación de protones cataliza la formación de ATP a partir de ADP y fosfato inorgánico. El resultado neto de esta fase es la generación de las moléculas portadoras de energía --ATP y NADPH-- que alimentan la fase siguiente.
-    \item \textbf{Fase oscura (fijación del carbono):} es independiente de la luz y ocurre en el estroma del cloroplasto, donde la energía química almacenada en el ATP y el poder reductor del NADPH se utilizan para fijar el CO\textsubscript{2} atmosférico y sintetizar carbohidratos.
+    \item \textbf{Fase lumínica (fotofosforilación):} depende directamente de la luz incidente. Los fotones son absorbidos por la clorofila, que se excita y libera electrones (etapa de absorción). Simultáneamente, la energía lumínica provoca la ruptura de la molécula de agua (fotólisis), liberando oxígeno y protones. Los electrones liberados son transportados hasta reducir la molécula NADP a su forma NADPH (etapa de separación de carga eléctrica), mientras que la acumulación de protones cataliza la formación de ATP a partir de ADP y fosfato inorgánico. El resultado neto de esta fase es la generación de las moléculas portadoras de energía (ATP y NADPH) que alimentan la fase siguiente \cite{ramos2015, researchgate_cloroplasto}. 
+    \item \textbf{Fase oscura (fijación del carbono):} es independiente de la luz y ocurre en el estroma del cloroplasto, donde la energía química almacenada en el ATP y el poder reductor del NADPH se utilizan para fijar el CO\textsubscript{2} atmosférico y sintetizar carbohidratos \cite{ramos2015, researchgate_cloroplasto}.
 \end{itemize}
 
-Toda esta química ocurre dentro del cloroplasto, un orgánulo delimitado por una membrana externa lisa y una membrana interna plegada en pilas de discos llamados \textit{tilacoides}, donde se ubican los pigmentos y complejos proteicos responsables de capturar la energía solar; las enzimas encargadas de convertir el CO\textsubscript{2} en azúcares se encuentran en el estroma, el medio líquido que rodea a los tilacoides \cite{ramos2015}. Una sola hoja puede contener cientos de miles de cloroplastos por milímetro cuadrado.
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/Fotosintesis.png}
+    \caption{Esquema general del proceso de la fotosíntesis.}
+    \label{fig:fotosintesis}
+    \vspace{0.2em}
+    \small \textbf{Fuente:} Adaptado de ResearchGate \cite{researchgate_cloroplasto}.
+\end{figure}
+
+Toda esta química ocurre dentro del cloroplasto, un orgánulo delimitado por una membrana externa lisa y una membrana interna plegada en pilas de discos llamados \textit{tilacoides}, donde se ubican los pigmentos y complejos proteicos responsables de capturar la energía solar; las enzimas encargadas de convertir el CO\textsubscript{2} en azúcares se encuentran en el estroma, el medio líquido que rodea a los tilacoides. Una sola hoja puede contener cientos de miles de cloroplastos por milímetro cuadrado \cite{researchgate_cloroplasto}.
 \begin{figure}[H]
     \centering
     \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/Cloroplasto.png}
@@ -39,7 +48,7 @@ Toda esta química ocurre dentro del cloroplasto, un orgánulo delimitado por un
     \vspace{0.2em}
     \small \textbf{Fuente:} Adaptado de ResearchGate \cite{researchgate_cloroplasto}.
 \end{figure}
-La captura de la energía lumínica depende de pigmentos fotosintéticos ubicados en las membranas tilacoides. La \textbf{clorofila A} presenta su pico de absorción en la región roja ($\approx$\SI{660}{\nano\meter}) y un segundo pico en la región azul (\SIrange{400}{450}{\nano\meter}); la \textbf{clorofila B} absorbe en longitudes de onda ligeramente distintas, con picos cercanos a \SI{640}{\nano\meter} (rojo) y \SIrange{425}{475}{\nano\meter} (azul) \cite{ramos2015}. Existen además pigmentos accesorios (carotenoides, criptocromos, fitocromos) que capturan longitudes de onda adicionales y cumplen funciones regulatorias sobre procesos como la germinación y la floración, más allá de la fotosíntesis en sí.
+La captura de la energía lumínica depende de pigmentos fotosintéticos ubicados en las membranas tilacoides. La \textbf{clorofila A} presenta su pico de absorción en la región roja ($\approx$\SI{660}{\nano\meter}) y un segundo pico en la región azul (\SIrange{400}{450}{\nano\meter}); la \textbf{clorofila B} absorbe en longitudes de onda ligeramente distintas, con picos cercanos a \SI{640}{\nano\meter} (rojo) y \SIrange{425}{475}{\nano\meter} (azul). Existen además pigmentos accesorios (carotenoides, criptocromos, fitocromos) que capturan longitudes de onda adicionales y cumplen funciones regulatorias sobre procesos como la germinación y la floración, más allá de la fotosíntesis en sí \cite{researchgate_cloroplasto}. 
 \begin{figure}[H]
     \centering
     \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/absorcion.png}

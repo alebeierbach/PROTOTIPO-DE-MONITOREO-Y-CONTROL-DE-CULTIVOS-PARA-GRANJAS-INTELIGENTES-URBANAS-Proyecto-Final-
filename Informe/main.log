@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.24)  6 AUG 2026 02:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.24)  6 AUG 2026 20:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1410,7 +1410,7 @@ LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
-Overfull \hbox (1.88303pt too wide) in paragraph at lines 5--5
+Overfull \hbox (1.88303pt too wide) in paragraph at lines 6--6
  [][] [][]\T1/ntxtlf/m/n/10.95 Espectros de ab-sor-ción de la clo-ro-fi-la A y la clo-ro-fi-la B en fun-ción de la lon-gi-tud de on- 
  []
 
@@ -1418,12 +1418,12 @@ Overfull \hbox (1.88303pt too wide) in paragraph at lines 5--5
 
 
 ]
-Overfull \hbox (8.95667pt too wide) in paragraph at lines 54--54
+Overfull \hbox (8.95667pt too wide) in paragraph at lines 55--55
  [][] [][]\T1/ntxtlf/m/n/10.95 Series tem-po-ra-les de la te-le-me-tría del pro-to-ti-po: va-ria-bles lu-mí-ni-cas, am-bien-ta-les, de sue- 
  []
 
 [16]
-Overfull \hbox (8.95667pt too wide) in paragraph at lines 66--66
+Overfull \hbox (8.95667pt too wide) in paragraph at lines 67--67
  [][] [][]\T1/ntxtlf/m/n/10.95 Series tem-po-ra-les de la te-le-me-tría del pro-to-ti-po: va-ria-bles lu-mí-ni-cas, am-bien-ta-les, de sue- 
  []
 
@@ -1458,361 +1458,366 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 [9
 
 ]
-<Imagenes/Cloroplasto.png, id=889, 853.1875pt x 282.05376pt>
+<Imagenes/Fotosintesis.png, id=893, 484.81125pt x 378.66469pt>
+File: Imagenes/Fotosintesis.png Graphic file (type png)
+<use Imagenes/Fotosintesis.png>
+Package pdftex.def Info: Imagenes/Fotosintesis.png  used on input line 35.
+(pdftex.def)             Requested size: 364.28812pt x 284.52939pt.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 39.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 10.0pt on input line 39.
+<Imagenes/Cloroplasto.png, id=897, 853.1875pt x 282.05376pt>
 File: Imagenes/Cloroplasto.png Graphic file (type png)
 <use Imagenes/Cloroplasto.png>
-Package pdftex.def Info: Imagenes/Cloroplasto.png  used on input line 36.
+Package pdftex.def Info: Imagenes/Cloroplasto.png  used on input line 45.
 (pdftex.def)             Requested size: 452.98135pt x 149.7503pt.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 40.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.0pt on input line 40.
-<Imagenes/absorcion.png, id=892, 547.04375pt x 605.26125pt>
+ [10 <./Imagenes/Fotosintesis.png>]
+<Imagenes/absorcion.png, id=906, 547.04375pt x 605.26125pt>
 File: Imagenes/absorcion.png Graphic file (type png)
 <use Imagenes/absorcion.png>
-Package pdftex.def Info: Imagenes/absorcion.png  used on input line 45.
+Package pdftex.def Info: Imagenes/absorcion.png  used on input line 54.
 (pdftex.def)             Requested size: 257.16068pt x 284.52823pt.
- [10 <./Imagenes/Cloroplasto.png>] [11 <./Imagenes/absorcion.png>] [12]
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 100.
+ [11 <./Imagenes/Cloroplasto.png> <./Imagenes/absorcion.png>] [12] [13]
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 109.
  (C:\Program Files\MiKTeX\tex/latex/newtx\ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Info: Symbol \textmu not provided by
             font family ntxtlf in TS1 encoding.
-            Default family used instead on input line 100.
- [13]
+            Default family used instead on input line 109.
+ [14]
 LaTeX Info: Symbol \textmu not provided by
             font family ntxtlf in TS1 encoding.
-            Default family used instead on input line 126.
- [14]
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+            Default family used instead on input line 135.
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 []|\T1/ntxtlf/m/n/10 Muy al-ta; en-tre $\OT1/minntx/m/n/10 70$$%$ \T1/ntxtlf/m/n/10 y $\OT1/minntx/m/n/10 95$$%$ \T1/ntxtlf/m/n/10 me-nos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 \T1/ntxtlf/m/n/10 con-su-mo de agua que el cul-ti-vo tra-di-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 []|\T1/ntxtlf/m/n/10 Menor efi-cien-cia hí-dri-ca re-la-ti-va, aun-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 \T1/ntxtlf/m/n/10 que muy su-pe-rior a la del cul-ti-vo a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 []|\T1/ntxtlf/m/n/10 Preciso, me-dian-te mo-ni-to-reo con-ti-nuo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 \T1/ntxtlf/m/n/10 de con-duc-ti-vi-dad eléc-tri-ca (EC) y pH
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 []|\T1/ntxtlf/m/n/10 Gestionado en gran me-di-da por el
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 \T1/ntxtlf/m/n/10 pro-pio me-dio, sin mo-ni-to-reo con-ti-nuo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 []|\T1/ntxtlf/m/n/10 Sensores de EC y pH, de cos-to con-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 \T1/ntxtlf/m/n/10 si-de-ra-ble-men-te ma-yor al res-to de la
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 []|\T1/ntxtlf/m/n/10 No re-quie-re sen-so-res de EC/pH; ins-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 \T1/ntxtlf/m/n/10 tru-men-ta-ción li-mi-ta-da a va-ria-bles
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 []|\T1/ntxtlf/m/n/10 Baja: cual-quier des-vío en la so-lu-ción
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 \T1/ntxtlf/m/n/10 afec-ta di-rec-ta-men-te y sin amor-ti-gua-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 []|\T1/ntxtlf/m/n/10 Mayor: la ri-zos-fe-ra apor-ta cier-ta ca-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 \T1/ntxtlf/m/n/10 pa-ci-dad de amor-ti-gua-ción (\T1/ntxtlf/m/it/10 buf-fe-ring\T1/ntxtlf/m/n/10 )
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 []|\T1/ntxtlf/m/n/10 Fallas del sis-te-ma de bom-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 \T1/ntxtlf/m/n/10 beo/dosificación com-pro-me-ten rá-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 []|\T1/ntxtlf/m/n/10 Encharcamiento o sus-tra-to mal dre-na-
  []
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.0pt on input line 161.
+(Font)              scaled to size 9.0pt on input line 170.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 9.0pt on input line 161.
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 180--180
+(Font)              scaled to size 9.0pt on input line 170.
+[15] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
 []|\T1/ntxtlf/m/n/10 Rúcula (\T1/ntxtlf/m/it/10 Eru-ca
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--180
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
 []|\T1/ntxtlf/m/n/10 Ideal $\OT1/minntx/m/n/10 24$$[]$\T1/ntxtlf/m/n/10 ;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--180
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
 \T1/ntxtlf/m/n/10 tem-pe-ra-tu-ras
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--180
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
 \T1/ntxtlf/m/n/10 ma-yo-res in-du-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--180
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
 \T1/ntxtlf/m/n/10 cen es-pi-ga-do y
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--180
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
 []|$\OT1/minntx/m/n/10 12$$h$ [] $14$$h$\T1/ntxtlf/m/n/10 ;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--180
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
 \T1/ntxtlf/m/n/10 no ex-ce-der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--180
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
 \T1/ntxtlf/m/n/10 pa-ra evi-tar
  []
 
 LaTeX Info: Symbol \textmu not provided by
             font family ntxtlf in TS1 encoding.
-            Default family used instead on input line 180.
+            Default family used instead on input line 189.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 180.
+(Font)              scaled to size 7.3pt on input line 189.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.5pt on input line 180.
+(Font)              scaled to size 5.5pt on input line 189.
 
-Underfull \hbox (badness 1577) in paragraph at lines 180--180
+Underfull \hbox (badness 1577) in paragraph at lines 189--189
 []|$\LMS/ntxsy/m/n/10 ^^Y \OT1/minntx/m/n/10 230 [] m[] s[]$ \T1/ntxtlf/m/n/10 de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
 []|\T1/ntxtlf/m/n/10 Sustrato siem-pre hú-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
 \T1/ntxtlf/m/n/10 me-do, sin en-char-car;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
 \T1/ntxtlf/m/n/10 ideal en ma-ce-tas de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--182
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
 []|\T1/ntxtlf/m/n/10 Espinaca (var.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--182
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
 \T1/ntxtlf/m/n/10 Mons-truo-sa de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--182
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
 []|\T1/ntxtlf/m/n/10 Favorecida por
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--182
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
 \T1/ntxtlf/m/n/10 tem-pe-ra-tu-ras
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--182
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
 \T1/ntxtlf/m/n/10 ba-jas; el ca-lor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--182
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
 \T1/ntxtlf/m/n/10 de-te-rio-ra la
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--182
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
 \T1/ntxtlf/m/n/10 ca-li-dad de ho-ja
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--182
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
 []|$\OT1/minntx/m/n/10 9$$h$ [] $16$$h$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--182
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
 \T1/ntxtlf/m/n/10 se-gún el ob-je-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--182
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
 \T1/ntxtlf/m/n/10 ti-vo (ca-li-dad
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--182
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
 \T1/ntxtlf/m/n/10 vs. ren-di-
  []
 
 LaTeX Info: Symbol \textmu not provided by
             font family ntxtlf in TS1 encoding.
-            Default family used instead on input line 182.
+            Default family used instead on input line 191.
 LaTeX Info: Symbol \textmu not provided by
             font family ntxtlf in TS1 encoding.
-            Default family used instead on input line 182.
+            Default family used instead on input line 191.
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--182
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
 []|$\LMS/ntxsy/m/n/10 ^^Y$$\OT1/minntx/m/n/10 100$$[] m[] s[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--182
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
 [] $\OT1/minntx/m/n/10 150$$[] m[] s[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--182
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
 \T1/ntxtlf/m/n/10 de PPFD en dis-tin-tos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--182
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
 \T1/ntxtlf/m/n/10 cul-ti-va-res [[]]; DLI
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--182
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
 \T1/ntxtlf/m/n/10 óp-ti-mo de re-fe-ren-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--182
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
 \T1/ntxtlf/m/n/10 cia (hi-dro-pó-ni-co) de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--182
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
 \OT1/minntx/m/n/10 17\OML/ntxmi/m/it/10 :\OT1/minntx/m/n/10 3$$[] m[] d[]$ \T1/ntxtlf/m/n/10 [[]],
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--182
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
 \T1/ntxtlf/m/n/10 mo-de-ra-da-men-te in-fe-rior
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
 []|\T1/ntxtlf/m/n/10 Requiere bue-na ven-ti-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
 \T1/ntxtlf/m/n/10 la-ción y sus-tra-to muy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
 \T1/ntxtlf/m/n/10 bien dre-na-do; el en-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
 \T1/ntxtlf/m/n/10 char-ca-mien-to fa-vo-re-ce
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
 \T1/ntxtlf/m/n/10 hon-gos en la ba-se del
  []
 
-[16]
 LaTeX Info: Symbol \textmu not provided by
             font family ntxtlf in TS1 encoding.
-            Default family used instead on input line 194.
- [17]
+            Default family used instead on input line 203.
+[17]
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 9.0pt on input line 204.
+(Font)              scaled to size 9.0pt on input line 213.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 6.6pt on input line 204.
+(Font)              scaled to size 6.6pt on input line 213.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 9.0pt on input line 204.
+(Font)              scaled to size 9.0pt on input line 213.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 6.6pt on input line 204.
+(Font)              scaled to size 6.6pt on input line 213.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 9.0pt on input line 204.
+(Font)              scaled to size 9.0pt on input line 213.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 6.6pt on input line 204.
+(Font)              scaled to size 6.6pt on input line 213.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 9.0pt on input line 204.
+(Font)              scaled to size 9.0pt on input line 213.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 6.6pt on input line 204.
+(Font)              scaled to size 6.6pt on input line 213.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 9.0pt on input line 204.
+(Font)              scaled to size 9.0pt on input line 213.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 6.6pt on input line 204.
+(Font)              scaled to size 6.6pt on input line 213.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 9.0pt on input line 204.
+(Font)              scaled to size 9.0pt on input line 213.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 6.6pt on input line 204.
+(Font)              scaled to size 6.6pt on input line 213.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 9.0pt on input line 204.
+(Font)              scaled to size 9.0pt on input line 213.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 6.6pt on input line 204.
+(Font)              scaled to size 6.6pt on input line 213.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 9.0pt on input line 204.
+(Font)              scaled to size 9.0pt on input line 213.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 6.6pt on input line 204.
+(Font)              scaled to size 6.6pt on input line 213.
  [18]
 Cap\'{\i }tulo 3.
 [19
@@ -1822,7 +1827,7 @@ Cap\'{\i }tulo 4.
 [27
 
 ]
-Overfull \hbox (31.78734pt too wide) in paragraph at lines 358--359
+Overfull \hbox (31.78734pt too wide) in paragraph at lines 367--368
 []\T1/ntxtlf/b/n/10.95 Capa de pro-ce-sa-mien-to y de-ci-sión lo-cal: \T1/ntxtlf/m/n/10.95 eje-cu-ta la ló-gi-ca de con-trol --filtrado, his-té-re-sis, redundancia-- 
  []
 
@@ -1834,7 +1839,7 @@ Cap\'{\i }tulo 5.
 [34
 
 ]
-<Imagenes/Gantt2.jpeg, id=1159, 1284.8pt x 697.60625pt>
+<Imagenes/Gantt2.jpeg, id=1167, 1284.8pt x 697.60625pt>
 File: Imagenes/Gantt2.jpeg Graphic file (type jpg)
 <use Imagenes/Gantt2.jpeg>
 Package pdftex.def Info: Imagenes/Gantt2.jpeg  used on input line 18.
@@ -1844,92 +1849,92 @@ Cap\'{\i }tulo 6.
 [44
 
 ] [45]
-<Imagenes/imagen14.png, id=1206, 425.59pt x 555.07375pt>
+<Imagenes/imagen14.png, id=1214, 425.59pt x 555.07375pt>
 File: Imagenes/imagen14.png Graphic file (type png)
 <use Imagenes/imagen14.png>
 Package pdftex.def Info: Imagenes/imagen14.png  used on input line 23.
 (pdftex.def)             Requested size: 226.48413pt x 295.39038pt.
  [46 <./Imagenes/imagen14.png>]
-<Imagenes/prototipo 2026-04-20 at 11.49.18â€¯AM.png, id=1212, 369.38pt x 531.9875pt>
+<Imagenes/prototipo 2026-04-20 at 11.49.18â€¯AM.png, id=1220, 369.38pt x 531.9875pt>
 File: Imagenes/prototipo 2026-04-20 at 11.49.18â€¯AM.png Graphic file (type png)
 <use Imagenes/prototipo 2026-04-20 at 11.49.18â€¯AM.png>
 Package pdftex.def Info: Imagenes/prototipo 2026-04-20 at 11.49.18â€¯AM.png  used on input line 39.
 (pdftex.def)             Requested size: 217.42282pt x 313.13933pt.
-<Imagenes/prototipo 2026-04-20 at 11.49.25â€¯AM.png, id=1213, 344.28625pt x 447.6725pt>
+<Imagenes/prototipo 2026-04-20 at 11.49.25â€¯AM.png, id=1221, 344.28625pt x 447.6725pt>
 File: Imagenes/prototipo 2026-04-20 at 11.49.25â€¯AM.png Graphic file (type png)
 <use Imagenes/prototipo 2026-04-20 at 11.49.25â€¯AM.png>
 Package pdftex.def Info: Imagenes/prototipo 2026-04-20 at 11.49.25â€¯AM.png  used on input line 44.
 (pdftex.def)             Requested size: 217.42282pt x 282.71143pt.
  [47]
-<Imagenes/prototipo 2026-04-20 at 11.49.04â€¯AM.png, id=1218, 707.64375pt x 501.875pt>
+<Imagenes/prototipo 2026-04-20 at 11.49.04â€¯AM.png, id=1226, 707.64375pt x 501.875pt>
 File: Imagenes/prototipo 2026-04-20 at 11.49.04â€¯AM.png Graphic file (type png)
 <use Imagenes/prototipo 2026-04-20 at 11.49.04â€¯AM.png>
 Package pdftex.def Info: Imagenes/prototipo 2026-04-20 at 11.49.04â€¯AM.png  used on input line 54.
 (pdftex.def)             Requested size: 271.7837pt x 192.7515pt.
-<Imagenes/maceta1.jpeg, id=1219, 1284.8pt x 963.6pt>
+<Imagenes/maceta1.jpeg, id=1227, 1284.8pt x 963.6pt>
 File: Imagenes/maceta1.jpeg Graphic file (type jpg)
 <use Imagenes/maceta1.jpeg>
 Package pdftex.def Info: Imagenes/maceta1.jpeg  used on input line 63.
 (pdftex.def)             Requested size: 226.48413pt x 169.8529pt.
  [48 <./Imagenes/prototipo 2026-04-20 at 11.49.18â€¯AM.png> <./Imagenes/prototipo 2026-04-20 at 11.49.25â€¯AM.png> <./Imagenes/prototipo 2026-04-20 at 11.49.04â€¯AM.png>]
-<Imagenes/prototipofinal.jpeg, id=1227, 1130.2225pt x 1606.0pt>
+<Imagenes/prototipofinal.jpeg, id=1235, 1130.2225pt x 1606.0pt>
 File: Imagenes/prototipofinal.jpeg Graphic file (type jpg)
 <use Imagenes/prototipofinal.jpeg>
 Package pdftex.def Info: Imagenes/prototipofinal.jpeg  used on input line 71.
 (pdftex.def)             Requested size: 200.22356pt x 284.50949pt.
  [49 <./Imagenes/maceta1.jpeg>]
-<Imagenes/imagen3.jpeg, id=1233, 722.7pt x 1284.8pt>
+<Imagenes/imagen3.jpeg, id=1241, 722.7pt x 1284.8pt>
 File: Imagenes/imagen3.jpeg Graphic file (type jpg)
 <use Imagenes/imagen3.jpeg>
 Package pdftex.def Info: Imagenes/imagen3.jpeg  used on input line 84.
 (pdftex.def)             Requested size: 160.0421pt x 284.5193pt.
-<Imagenes/imagen4.jpeg, id=1234, 722.7pt x 1284.8pt>
+<Imagenes/imagen4.jpeg, id=1242, 722.7pt x 1284.8pt>
 File: Imagenes/imagen4.jpeg Graphic file (type jpg)
 <use Imagenes/imagen4.jpeg>
 Package pdftex.def Info: Imagenes/imagen4.jpeg  used on input line 89.
 (pdftex.def)             Requested size: 160.0421pt x 284.5193pt.
  [50 <./Imagenes/prototipofinal.jpeg>]
-<Imagenes/imagen6.jpeg, id=1239, 963.6pt x 1284.8pt>
+<Imagenes/imagen6.jpeg, id=1247, 963.6pt x 1284.8pt>
 File: Imagenes/imagen6.jpeg Graphic file (type jpg)
 <use Imagenes/imagen6.jpeg>
 Package pdftex.def Info: Imagenes/imagen6.jpeg  used on input line 102.
 (pdftex.def)             Requested size: 213.38947pt x 284.5193pt.
-<Imagenes/imagen7.jpeg, id=1240, 722.7pt x 1284.8pt>
+<Imagenes/imagen7.jpeg, id=1248, 722.7pt x 1284.8pt>
 File: Imagenes/imagen7.jpeg Graphic file (type jpg)
 <use Imagenes/imagen7.jpeg>
 Package pdftex.def Info: Imagenes/imagen7.jpeg  used on input line 107.
 (pdftex.def)             Requested size: 160.0421pt x 284.5193pt.
  [51 <./Imagenes/imagen3.jpeg> <./Imagenes/imagen4.jpeg>]
-<Imagenes/imagen16.jpeg, id=1245, 722.7pt x 1284.8pt>
+<Imagenes/imagen16.jpeg, id=1253, 722.7pt x 1284.8pt>
 File: Imagenes/imagen16.jpeg Graphic file (type jpg)
 <use Imagenes/imagen16.jpeg>
 Package pdftex.def Info: Imagenes/imagen16.jpeg  used on input line 119.
 (pdftex.def)             Requested size: 160.0421pt x 284.5193pt.
-<Imagenes/imagen17.jpeg, id=1246, 722.7pt x 1284.8pt>
+<Imagenes/imagen17.jpeg, id=1254, 722.7pt x 1284.8pt>
 File: Imagenes/imagen17.jpeg Graphic file (type jpg)
 <use Imagenes/imagen17.jpeg>
 Package pdftex.def Info: Imagenes/imagen17.jpeg  used on input line 124.
 (pdftex.def)             Requested size: 160.0421pt x 284.5193pt.
  [52 <./Imagenes/imagen6.jpeg> <./Imagenes/imagen7.jpeg>]
-<Imagenes/desague1.jpeg, id=1251, 903.375pt x 1606.0pt>
+<Imagenes/desague1.jpeg, id=1259, 903.375pt x 1606.0pt>
 File: Imagenes/desague1.jpeg Graphic file (type jpg)
 <use Imagenes/desague1.jpeg>
 Package pdftex.def Info: Imagenes/desague1.jpeg  used on input line 136.
 (pdftex.def)             Requested size: 160.03659pt x 284.50949pt.
  [53 <./Imagenes/imagen16.jpeg> <./Imagenes/imagen17.jpeg>] [54 <./Imagenes/desague1.jpeg>]
-<Imagenes/raspberrypi4sf.png, id=1260, 602.25pt x 602.25pt>
+<Imagenes/raspberrypi4sf.png, id=1268, 602.25pt x 602.25pt>
 File: Imagenes/raspberrypi4sf.png Graphic file (type png)
 <use Imagenes/raspberrypi4sf.png>
 Package pdftex.def Info: Imagenes/raspberrypi4sf.png  used on input line 155.
 (pdftex.def)             Requested size: 284.53705pt x 284.53705pt.
  [55] [56 <./Imagenes/raspberrypi4sf.png>]
-<Imagenes/dht22.jpeg, id=1274, 602.25pt x 602.25pt>
+<Imagenes/dht22.jpeg, id=1282, 602.25pt x 602.25pt>
 File: Imagenes/dht22.jpeg Graphic file (type jpg)
 <use Imagenes/dht22.jpeg>
 Package pdftex.def Info: Imagenes/dht22.jpeg  used on input line 182.
 (pdftex.def)             Requested size: 284.53705pt x 284.53705pt.
  [57]
-<Imagenes/bh1750 Background Removed.png, id=1281, 1204.5pt x 1204.5pt>
+<Imagenes/bh1750 Background Removed.png, id=1289, 1204.5pt x 1204.5pt>
 File: Imagenes/bh1750 Background Removed.png Graphic file (type png)
 <use Imagenes/bh1750 Background Removed.png>
 Package pdftex.def Info: Imagenes/bh1750 Background Removed.png  used on input line 191.
@@ -1940,7 +1945,7 @@ Overfull \hbox (8.42018pt too wide) in paragraph at lines 188--194
  []
 
 [58 <./Imagenes/dht22.jpeg>]
-<Imagenes/soilcapacitivesensor.jpg, id=1290, 1003.75pt x 1003.75pt>
+<Imagenes/soilcapacitivesensor.jpg, id=1298, 1003.75pt x 1003.75pt>
 File: Imagenes/soilcapacitivesensor.jpg Graphic file (type jpg)
 <use Imagenes/soilcapacitivesensor.jpg>
 Package pdftex.def Info: Imagenes/soilcapacitivesensor.jpg  used on input line 201.
@@ -1953,12 +1958,12 @@ File: t1ntxtt.fd 2012/04/20 v3.1
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 (Font)              scaled to size 10.95pt on input line 207.
  [60 <./Imagenes/soilcapacitivesensor.jpg>] [61]
-<Imagenes/regador1.jpeg, id=1310, 1606.0pt x 1276.77pt>
+<Imagenes/regador1.jpeg, id=1318, 1606.0pt x 1276.77pt>
 File: Imagenes/regador1.jpeg Graphic file (type jpg)
 <use Imagenes/regador1.jpeg>
 Package pdftex.def Info: Imagenes/regador1.jpeg  used on input line 229.
 (pdftex.def)             Requested size: 217.41328pt x 172.84355pt.
-<Imagenes/regador2.jpeg, id=1311, 1606.0pt x 1193.45876pt>
+<Imagenes/regador2.jpeg, id=1319, 1606.0pt x 1193.45876pt>
 File: Imagenes/regador2.jpeg Graphic file (type jpg)
 <use Imagenes/regador2.jpeg>
 Package pdftex.def Info: Imagenes/regador2.jpeg  used on input line 234.
@@ -1967,76 +1972,76 @@ Package pdftex.def Info: Imagenes/regador2.jpeg  used on input line 234.
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.95pt on input line 251.
  [64{C:/Program Files/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
-<Imagenes/imagen16.png, id=1325, 445.665pt x 424.58624pt>
+<Imagenes/imagen16.png, id=1333, 445.665pt x 424.58624pt>
 File: Imagenes/imagen16.png Graphic file (type png)
 <use Imagenes/imagen16.png>
 Package pdftex.def Info: Imagenes/imagen16.png  used on input line 261.
 (pdftex.def)             Requested size: 140.41922pt x 133.77776pt.
-<Imagenes/imagen17.png, id=1326, 375.4025pt x 524.96124pt>
+<Imagenes/imagen17.png, id=1334, 375.4025pt x 524.96124pt>
 File: Imagenes/imagen17.png Graphic file (type png)
 <use Imagenes/imagen17.png>
 Package pdftex.def Info: Imagenes/imagen17.png  used on input line 267.
 (pdftex.def)             Requested size: 140.42044pt x 196.36334pt.
-<Imagenes/imagen18.png, id=1327, 456.70625pt x 572.1375pt>
+<Imagenes/imagen18.png, id=1335, 456.70625pt x 572.1375pt>
 File: Imagenes/imagen18.png Graphic file (type png)
 <use Imagenes/imagen18.png>
 Package pdftex.def Info: Imagenes/imagen18.png  used on input line 273.
 (pdftex.def)             Requested size: 140.41368pt x 175.90286pt.
-<Imagenes/imagen3.png, id=1328, 722.7pt x 1284.8pt>
+<Imagenes/imagen3.png, id=1336, 722.7pt x 1284.8pt>
 File: Imagenes/imagen3.png Graphic file (type png)
 <use Imagenes/imagen3.png>
 Package pdftex.def Info: Imagenes/imagen3.png  used on input line 288.
 (pdftex.def)             Requested size: 140.41315pt x 249.62338pt.
-<Imagenes/imagen9.png, id=1329, 722.7pt x 1284.8pt>
+<Imagenes/imagen9.png, id=1337, 722.7pt x 1284.8pt>
 File: Imagenes/imagen9.png Graphic file (type png)
 <use Imagenes/imagen9.png>
 Package pdftex.def Info: Imagenes/imagen9.png  used on input line 294.
 (pdftex.def)             Requested size: 140.41315pt x 249.62338pt.
-<Imagenes/imagen10.png, id=1330, 722.7pt x 1284.8pt>
+<Imagenes/imagen10.png, id=1338, 722.7pt x 1284.8pt>
 File: Imagenes/imagen10.png Graphic file (type png)
 <use Imagenes/imagen10.png>
 Package pdftex.def Info: Imagenes/imagen10.png  used on input line 300.
 (pdftex.def)             Requested size: 140.41315pt x 249.62338pt.
  [65 <./Imagenes/imagen16.png> <./Imagenes/imagen17.png> <./Imagenes/imagen18.png>]
-<Imagenes/imagen1.png, id=1338, 208.78pt x 435.6275pt>
+<Imagenes/imagen1.png, id=1346, 208.78pt x 435.6275pt>
 File: Imagenes/imagen1.png Graphic file (type png)
 <use Imagenes/imagen1.png>
 Package pdftex.def Info: Imagenes/imagen1.png  used on input line 315.
 (pdftex.def)             Requested size: 136.36163pt x 284.52382pt.
-<Imagenes/imagen8.png, id=1339, 705.63625pt x 1606.0pt>
+<Imagenes/imagen8.png, id=1347, 705.63625pt x 1606.0pt>
 File: Imagenes/imagen8.png Graphic file (type png)
 <use Imagenes/imagen8.png>
 Package pdftex.def Info: Imagenes/imagen8.png  used on input line 320.
 (pdftex.def)             Requested size: 125.00635pt x 284.50949pt.
  [66 <./Imagenes/imagen3.png> <./Imagenes/imagen9.png> <./Imagenes/imagen10.png>]
-<Imagenes/imagen15.png, id=1344, 253.94875pt x 282.05376pt>
+<Imagenes/imagen15.png, id=1352, 253.94875pt x 282.05376pt>
 File: Imagenes/imagen15.png Graphic file (type png)
 <use Imagenes/imagen15.png>
 Package pdftex.def Info: Imagenes/imagen15.png  used on input line 332.
 (pdftex.def)             Requested size: 217.43066pt x 241.49416pt.
-<Imagenes/imagen1.jpeg, id=1345, 722.7pt x 1284.8pt>
+<Imagenes/imagen1.jpeg, id=1353, 722.7pt x 1284.8pt>
 File: Imagenes/imagen1.jpeg Graphic file (type jpg)
 <use Imagenes/imagen1.jpeg>
 Package pdftex.def Info: Imagenes/imagen1.jpeg  used on input line 337.
 (pdftex.def)             Requested size: 160.0421pt x 284.5193pt.
  [67 <./Imagenes/imagen1.png> <./Imagenes/imagen8.png>]
-<Imagenes/imagen2.png, id=1352, 297.11pt x 228.855pt>
+<Imagenes/imagen2.png, id=1360, 297.11pt x 228.855pt>
 File: Imagenes/imagen2.png Graphic file (type png)
 <use Imagenes/imagen2.png>
 Package pdftex.def Info: Imagenes/imagen2.png  used on input line 349.
 (pdftex.def)             Requested size: 217.43251pt x 167.4818pt.
-<Imagenes/imagen7.png, id=1353, 292.09125pt x 237.88875pt>
+<Imagenes/imagen7.png, id=1361, 292.09125pt x 237.88875pt>
 File: Imagenes/imagen7.png Graphic file (type png)
 <use Imagenes/imagen7.png>
 Package pdftex.def Info: Imagenes/imagen7.png  used on input line 354.
 (pdftex.def)             Requested size: 217.42772pt x 177.0803pt.
  [68 <./Imagenes/imagen15.png> <./Imagenes/imagen1.jpeg> <./Imagenes/imagen2.png> <./Imagenes/imagen7.png>]
-<Imagenes/imagen11.png, id=1361, 457.71pt x 434.62375pt>
+<Imagenes/imagen11.png, id=1369, 457.71pt x 434.62375pt>
 File: Imagenes/imagen11.png Graphic file (type png)
 <use Imagenes/imagen11.png>
 Package pdftex.def Info: Imagenes/imagen11.png  used on input line 368.
 (pdftex.def)             Requested size: 140.415pt x 133.33264pt.
-<Imagenes/imagen13.png, id=1362, 903.375pt x 1606.0pt>
+<Imagenes/imagen13.png, id=1370, 903.375pt x 1606.0pt>
 File: Imagenes/imagen13.png Graphic file (type png)
 <use Imagenes/imagen13.png>
 Package pdftex.def Info: Imagenes/imagen13.png  used on input line 374.
@@ -2045,95 +2050,95 @@ File: Imagenes/imagen17.jpeg Graphic file (type jpg)
 <use Imagenes/imagen17.jpeg>
 Package pdftex.def Info: Imagenes/imagen17.jpeg  used on input line 380.
 (pdftex.def)             Requested size: 140.41315pt x 249.62338pt.
-<Imagenes/soporteventilador2.jpeg, id=1363, 903.375pt x 1606.0pt>
+<Imagenes/soporteventilador2.jpeg, id=1371, 903.375pt x 1606.0pt>
 File: Imagenes/soporteventilador2.jpeg Graphic file (type jpg)
 <use Imagenes/soporteventilador2.jpeg>
 Package pdftex.def Info: Imagenes/soporteventilador2.jpeg  used on input line 394.
 (pdftex.def)             Requested size: 217.42282pt x 386.52612pt.
-<Imagenes/soporteventilador1.png, id=1364, 294.09875pt x 367.3725pt>
+<Imagenes/soporteventilador1.png, id=1372, 294.09875pt x 367.3725pt>
 File: Imagenes/soporteventilador1.png Graphic file (type png)
 <use Imagenes/soporteventilador1.png>
 Package pdftex.def Info: Imagenes/soporteventilador1.png  used on input line 399.
 (pdftex.def)             Requested size: 217.42282pt x 271.59352pt.
  [69 <./Imagenes/imagen11.png> <./Imagenes/imagen13.png>]
-<Imagenes/soportedht1.jpeg, id=1370, 1552.80125pt x 1606.0pt>
+<Imagenes/soportedht1.jpeg, id=1378, 1552.80125pt x 1606.0pt>
 File: Imagenes/soportedht1.jpeg Graphic file (type jpg)
 <use Imagenes/soportedht1.jpeg>
 Package pdftex.def Info: Imagenes/soportedht1.jpeg  used on input line 414.
 (pdftex.def)             Requested size: 217.42282pt x 224.86298pt.
  [70 <./Imagenes/soporteventilador2.jpeg> <./Imagenes/soporteventilador1.png>]
-<Imagenes/soportebh17501.png, id=1376, 265.99374pt x 349.305pt>
+<Imagenes/soportebh17501.png, id=1384, 265.99374pt x 349.305pt>
 File: Imagenes/soportebh17501.png Graphic file (type png)
 <use Imagenes/soportebh17501.png>
 Package pdftex.def Info: Imagenes/soportebh17501.png  used on input line 428.
 (pdftex.def)             Requested size: 217.42282pt x 285.52585pt.
-<Imagenes/soportebh17502.jpeg, id=1377, 903.375pt x 1606.0pt>
+<Imagenes/soportebh17502.jpeg, id=1385, 903.375pt x 1606.0pt>
 File: Imagenes/soportebh17502.jpeg Graphic file (type jpg)
 <use Imagenes/soportebh17502.jpeg>
 Package pdftex.def Info: Imagenes/soportebh17502.jpeg  used on input line 433.
 (pdftex.def)             Requested size: 217.42282pt x 386.52612pt.
  [71 <./Imagenes/soportedht1.jpeg>]
-<Imagenes/soportehigrometro1.jpeg, id=1382, 1204.5pt x 1606.0pt>
+<Imagenes/soportehigrometro1.jpeg, id=1390, 1204.5pt x 1606.0pt>
 File: Imagenes/soportehigrometro1.jpeg Graphic file (type jpg)
 <use Imagenes/soportehigrometro1.jpeg>
 Package pdftex.def Info: Imagenes/soportehigrometro1.jpeg  used on input line 445.
 (pdftex.def)             Requested size: 217.42282pt x 289.8762pt.
-<Imagenes/soportehigrometro2.jpeg, id=1383, 1204.5pt x 1606.0pt>
+<Imagenes/soportehigrometro2.jpeg, id=1391, 1204.5pt x 1606.0pt>
 File: Imagenes/soportehigrometro2.jpeg Graphic file (type jpg)
 <use Imagenes/soportehigrometro2.jpeg>
 Package pdftex.def Info: Imagenes/soportehigrometro2.jpeg  used on input line 450.
 (pdftex.def)             Requested size: 217.42282pt x 289.8762pt.
  [72 <./Imagenes/soportebh17501.png> <./Imagenes/soportebh17502.jpeg>]
-<Imagenes/Imperm_Sensor1.jpeg, id=1389, 1204.5pt x 1606.0pt>
+<Imagenes/Imperm_Sensor1.jpeg, id=1397, 1204.5pt x 1606.0pt>
 File: Imagenes/Imperm_Sensor1.jpeg Graphic file (type jpg)
 <use Imagenes/Imperm_Sensor1.jpeg>
 Package pdftex.def Info: Imagenes/Imperm_Sensor1.jpeg  used on input line 462.
 (pdftex.def)             Requested size: 217.42282pt x 289.8762pt.
-<Imagenes/Imperm_Sensor2.jpeg, id=1390, 1204.5pt x 1606.0pt>
+<Imagenes/Imperm_Sensor2.jpeg, id=1398, 1204.5pt x 1606.0pt>
 File: Imagenes/Imperm_Sensor2.jpeg Graphic file (type jpg)
 <use Imagenes/Imperm_Sensor2.jpeg>
 Package pdftex.def Info: Imagenes/Imperm_Sensor2.jpeg  used on input line 467.
 (pdftex.def)             Requested size: 217.42282pt x 289.8762pt.
  [73 <./Imagenes/soportehigrometro1.jpeg> <./Imagenes/soportehigrometro2.jpeg>]
-<Imagenes/luminaria.jpeg, id=1396, 903.375pt x 1606.0pt>
+<Imagenes/luminaria.jpeg, id=1404, 903.375pt x 1606.0pt>
 File: Imagenes/luminaria.jpeg Graphic file (type jpg)
 <use Imagenes/luminaria.jpeg>
 Package pdftex.def Info: Imagenes/luminaria.jpeg  used on input line 478.
 (pdftex.def)             Requested size: 160.03659pt x 284.50949pt.
  [74 <./Imagenes/Imperm_Sensor1.jpeg> <./Imagenes/Imperm_Sensor2.jpeg>]
-<Imagenes/modulocentral1.jpeg, id=1401, 903.375pt x 1606.0pt>
+<Imagenes/modulocentral1.jpeg, id=1409, 903.375pt x 1606.0pt>
 File: Imagenes/modulocentral1.jpeg Graphic file (type jpg)
 <use Imagenes/modulocentral1.jpeg>
 Package pdftex.def Info: Imagenes/modulocentral1.jpeg  used on input line 490.
 (pdftex.def)             Requested size: 217.42282pt x 386.52612pt.
-<Imagenes/modulocentral2.jpeg, id=1402, 1204.5pt x 1606.0pt>
+<Imagenes/modulocentral2.jpeg, id=1410, 1204.5pt x 1606.0pt>
 File: Imagenes/modulocentral2.jpeg Graphic file (type jpg)
 <use Imagenes/modulocentral2.jpeg>
 Package pdftex.def Info: Imagenes/modulocentral2.jpeg  used on input line 495.
 (pdftex.def)             Requested size: 217.42282pt x 289.8762pt.
  [75 <./Imagenes/luminaria.jpeg>]
-<Imagenes/sistemariego.jpeg, id=1407, 1284.8pt x 722.7pt>
+<Imagenes/sistemariego.jpeg, id=1415, 1284.8pt x 722.7pt>
 File: Imagenes/sistemariego.jpeg Graphic file (type jpg)
 <use Imagenes/sistemariego.jpeg>
 Package pdftex.def Info: Imagenes/sistemariego.jpeg  used on input line 508.
 (pdftex.def)             Requested size: 217.42282pt x 122.29497pt.
-<Imagenes/bomba.jpeg, id=1408, 879.285pt x 817.0525pt>
+<Imagenes/bomba.jpeg, id=1416, 879.285pt x 817.0525pt>
 File: Imagenes/bomba.jpeg Graphic file (type jpg)
 <use Imagenes/bomba.jpeg>
 Package pdftex.def Info: Imagenes/bomba.jpeg  used on input line 513.
 (pdftex.def)             Requested size: 217.42282pt x 202.03099pt.
  [76 <./Imagenes/modulocentral1.jpeg> <./Imagenes/modulocentral2.jpeg>]
-<Imagenes/valvsolenoide.jpeg, id=1413, 1204.5pt x 1606.0pt>
+<Imagenes/valvsolenoide.jpeg, id=1421, 1204.5pt x 1606.0pt>
 File: Imagenes/valvsolenoide.jpeg Graphic file (type jpg)
 <use Imagenes/valvsolenoide.jpeg>
 Package pdftex.def Info: Imagenes/valvsolenoide.jpeg  used on input line 521.
 (pdftex.def)             Requested size: 213.38211pt x 284.50949pt.
-<Imagenes/batea.jpeg, id=1414, 1606.0pt x 1204.5pt>
+<Imagenes/batea.jpeg, id=1422, 1606.0pt x 1204.5pt>
 File: Imagenes/batea.jpeg Graphic file (type jpg)
 <use Imagenes/batea.jpeg>
 Package pdftex.def Info: Imagenes/batea.jpeg  used on input line 530.
 (pdftex.def)             Requested size: 217.42282pt x 163.05997pt.
-<Imagenes/bateaymaceta.jpeg, id=1415, 1606.0pt x 1204.5pt>
+<Imagenes/bateaymaceta.jpeg, id=1423, 1606.0pt x 1204.5pt>
 File: Imagenes/bateaymaceta.jpeg Graphic file (type jpg)
 <use Imagenes/bateaymaceta.jpeg>
 Package pdftex.def Info: Imagenes/bateaymaceta.jpeg  used on input line 535.
@@ -2144,30 +2149,30 @@ File: Imagenes/soporteventilador2.jpeg Graphic file (type jpg)
 Package pdftex.def Info: Imagenes/soporteventilador2.jpeg  used on input line 546.
 (pdftex.def)             Requested size: 160.03659pt x 284.50949pt.
  [78 <./Imagenes/batea.jpeg> <./Imagenes/bateaymaceta.jpeg>] [79]
-<Imagenes/RaspberryPi4Schematic.png, id=1429, 1048.91875pt x 401.5pt>
+<Imagenes/RaspberryPi4Schematic.png, id=1437, 1048.91875pt x 401.5pt>
 File: Imagenes/RaspberryPi4Schematic.png Graphic file (type png)
 <use Imagenes/RaspberryPi4Schematic.png>
 Package pdftex.def Info: Imagenes/RaspberryPi4Schematic.png  used on input line 581.
 (pdftex.def)             Requested size: 452.96289pt x 173.38292pt.
  [80]
-<Imagenes/placaperforada.jpeg, id=1434, 1606.0pt x 1199.48125pt>
+<Imagenes/placaperforada.jpeg, id=1442, 1606.0pt x 1199.48125pt>
 File: Imagenes/placaperforada.jpeg Graphic file (type jpg)
 <use Imagenes/placaperforada.jpeg>
 Package pdftex.def Info: Imagenes/placaperforada.jpeg  used on input line 587.
 (pdftex.def)             Requested size: 380.93886pt x 284.5137pt.
  [81 <./Imagenes/RaspberryPi4Schematic.png>]
-<Imagenes/ProtoCables1.png, id=1440, 746.79pt x 1120.185pt>
+<Imagenes/ProtoCables1.png, id=1448, 746.79pt x 1120.185pt>
 File: Imagenes/ProtoCables1.png Graphic file (type png)
 <use Imagenes/ProtoCables1.png>
 Package pdftex.def Info: Imagenes/ProtoCables1.png  used on input line 594.
 (pdftex.def)             Requested size: 189.68254pt x 284.52383pt.
-<Imagenes/protocables2.jpeg, id=1441, 747.79375pt x 1284.8pt>
+<Imagenes/protocables2.jpeg, id=1449, 747.79375pt x 1284.8pt>
 File: Imagenes/protocables2.jpeg Graphic file (type jpg)
 <use Imagenes/protocables2.jpeg>
 Package pdftex.def Info: Imagenes/protocables2.jpeg  used on input line 600.
 (pdftex.def)             Requested size: 165.59912pt x 284.5193pt.
  [82 <./Imagenes/placaperforada.jpeg>] [83 <./Imagenes/ProtoCables1.png>]
-<Imagenes/consumo.png, id=1451, 1606.0pt x 1204.5pt>
+<Imagenes/consumo.png, id=1459, 1606.0pt x 1204.5pt>
 File: Imagenes/consumo.png Graphic file (type png)
 <use Imagenes/consumo.png>
 Package pdftex.def Info: Imagenes/consumo.png  used on input line 609.
@@ -2176,17 +2181,17 @@ Package pdftex.def Info: Imagenes/consumo.png  used on input line 609.
 
 
 ] (secciones/resultados.tex
-<Imagenes/Plantaciones/PHOTO-2026-01-28-15-14-25 2.jpg, id=1472, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-01-28-15-14-25 2.jpg, id=1480, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-01-28-15-14-25 2.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-01-28-15-14-25 2.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-01-28-15-14-25 2.jpg  used on input line 15.
 (pdftex.def)             Requested size: 226.48413pt x 402.62628pt.
-<Imagenes/Plantaciones/PHOTO-2026-02-05-12-14-55.jpg, id=1473, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-02-05-12-14-55.jpg, id=1481, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-02-05-12-14-55.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-02-05-12-14-55.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-05-12-14-55.jpg  used on input line 24.
 (pdftex.def)             Requested size: 160.03659pt x 284.50949pt.
-<Imagenes/Plantaciones/PHOTO-2026-02-05-12-57-14.jpg, id=1474, 1204.5pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-02-05-12-57-14.jpg, id=1482, 1204.5pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-02-05-12-57-14.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-02-05-12-57-14.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-05-12-57-14.jpg  used on input line 29.
@@ -2194,44 +2199,44 @@ Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-05-12-57-14.jpg  us
  [88
 
 ] [89 <./Imagenes/Plantaciones/PHOTO-2026-01-28-15-14-25 2.jpg>]
-<Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-15.jpg, id=1483, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-15.jpg, id=1491, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-15.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-15.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-15.jpg  used on input line 39.
 (pdftex.def)             Requested size: 160.03659pt x 284.50949pt.
-<Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-20.jpg, id=1484, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-20.jpg, id=1492, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-20.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-20.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-20.jpg  used on input line 44.
 (pdftex.def)             Requested size: 160.03659pt x 284.50949pt.
  [90 <./Imagenes/Plantaciones/PHOTO-2026-02-05-12-14-55.jpg> <./Imagenes/Plantaciones/PHOTO-2026-02-05-12-57-14.jpg>]
-<Imagenes/Plantaciones/PHOTO-2026-02-19-15-40-45.jpg, id=1489, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-02-19-15-40-45.jpg, id=1497, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-02-19-15-40-45.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-02-19-15-40-45.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-19-15-40-45.jpg  used on input line 52.
 (pdftex.def)             Requested size: 226.48413pt x 402.62628pt.
-<Imagenes/Plantaciones/PHOTO-2026-02-23-18-32-17.jpg, id=1490, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-02-23-18-32-17.jpg, id=1498, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-02-23-18-32-17.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-02-23-18-32-17.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-23-18-32-17.jpg  used on input line 62.
 (pdftex.def)             Requested size: 140.40764pt x 249.61359pt.
-<Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-37.jpg, id=1491, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-37.jpg, id=1499, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-37.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-37.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-37.jpg  used on input line 67.
 (pdftex.def)             Requested size: 140.40764pt x 249.61359pt.
-<Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-45.jpg, id=1492, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-45.jpg, id=1500, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-45.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-45.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-45.jpg  used on input line 72.
 (pdftex.def)             Requested size: 140.40764pt x 249.61359pt.
-<Imagenes/Plantaciones/Cosecha23-022.JPG, id=1493, 4047.12pt x 3035.34pt>
+<Imagenes/Plantaciones/Cosecha23-022.JPG, id=1501, 4047.12pt x 3035.34pt>
 File: Imagenes/Plantaciones/Cosecha23-022.JPG Graphic file (type jpg)
 <use Imagenes/Plantaciones/Cosecha23-022.JPG>
 Package pdftex.def Info: Imagenes/Plantaciones/Cosecha23-022.JPG  used on input line 81.
 (pdftex.def)             Requested size: 226.48413pt x 169.83893pt.
  [91 <./Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-15.jpg> <./Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-20.jpg> <./Imagenes/Plantaciones/PHOTO-2026-02-23-18-32-17.jpg> <./Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-37.jpg> <./Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-45.jpg>] [92 <./Imagenes/Plantaciones/PHOTO-2026-02-19-15-40-45.jpg>]
-<Imagenes/GraficoPrimerMedicion.png, id=1503, 1040.688pt x 516.0078pt>
+<Imagenes/GraficoPrimerMedicion.png, id=1511, 1040.688pt x 516.0078pt>
 File: Imagenes/GraficoPrimerMedicion.png Graphic file (type png)
 <use Imagenes/GraficoPrimerMedicion.png>
 Package pdftex.def Info: Imagenes/GraficoPrimerMedicion.png  used on input line 91.
@@ -2242,72 +2247,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--92
  []
 
 [93 <./Imagenes/Plantaciones/Cosecha23-022.JPG>] [94 <./Imagenes/GraficoPrimerMedicion.png>]
-<Imagenes/Plantaciones/PHOTO-2026-02-26-20-17-45.jpg, id=1513, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-02-26-20-17-45.jpg, id=1521, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-02-26-20-17-45.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-02-26-20-17-45.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-26-20-17-45.jpg  used on input line 103.
 (pdftex.def)             Requested size: 157.61053pt x 280.19652pt.
-<Imagenes/Plantaciones/PHOTO-2026-02-28-20-01-16.jpg, id=1514, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-02-28-20-01-16.jpg, id=1522, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-02-28-20-01-16.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-02-28-20-01-16.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-28-20-01-16.jpg  used on input line 111.
 (pdftex.def)             Requested size: 157.61053pt x 280.19652pt.
  [95 <./Imagenes/Plantaciones/PHOTO-2026-02-26-20-17-45.jpg>]
-<Imagenes/Plantaciones/PHOTO-2026-03-04-08-08-46.jpg, id=1519, 722.7pt x 1284.8pt>
+<Imagenes/Plantaciones/PHOTO-2026-03-04-08-08-46.jpg, id=1527, 722.7pt x 1284.8pt>
 File: Imagenes/Plantaciones/PHOTO-2026-03-04-08-08-46.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-03-04-08-08-46.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-03-04-08-08-46.jpg  used on input line 119.
 (pdftex.def)             Requested size: 157.60503pt x 280.1867pt.
  [96 <./Imagenes/Plantaciones/PHOTO-2026-02-28-20-01-16.jpg>]
-<Imagenes/Plantaciones/PHOTO-2026-03-09-11-18-40.jpg, id=1524, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-03-09-11-18-40.jpg, id=1532, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-03-09-11-18-40.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-03-09-11-18-40.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-03-09-11-18-40.jpg  used on input line 127.
 (pdftex.def)             Requested size: 157.61053pt x 280.19652pt.
  [97 <./Imagenes/Plantaciones/PHOTO-2026-03-04-08-08-46.jpg>]
-<Imagenes/Plantaciones/PHOTO-2026-03-10-10-13-06.jpg, id=1530, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-03-10-10-13-06.jpg, id=1538, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-03-10-10-13-06.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-03-10-10-13-06.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-03-10-10-13-06.jpg  used on input line 137.
 (pdftex.def)             Requested size: 157.61053pt x 280.19652pt.
  [98 <./Imagenes/Plantaciones/PHOTO-2026-03-09-11-18-40.jpg>]
-<Imagenes/Plantaciones/PHOTO-2026-03-14-17-08-35.jpg, id=1535, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-03-14-17-08-35.jpg, id=1543, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-03-14-17-08-35.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-03-14-17-08-35.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-03-14-17-08-35.jpg  used on input line 147.
 (pdftex.def)             Requested size: 157.61053pt x 280.19652pt.
  [99 <./Imagenes/Plantaciones/PHOTO-2026-03-10-10-13-06.jpg>]
-<Imagenes/Plantaciones/PHOTO-2026-03-17-08-46-41.jpg, id=1540, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-03-17-08-46-41.jpg, id=1548, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-03-17-08-46-41.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-03-17-08-46-41.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-03-17-08-46-41.jpg  used on input line 155.
 (pdftex.def)             Requested size: 157.61053pt x 280.19652pt.
  [100 <./Imagenes/Plantaciones/PHOTO-2026-03-14-17-08-35.jpg>]
-<Imagenes/Plantaciones/PHOTO-2026-03-23-09-53-17.jpg, id=1545, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-03-23-09-53-17.jpg, id=1553, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-03-23-09-53-17.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-03-23-09-53-17.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-03-23-09-53-17.jpg  used on input line 163.
 (pdftex.def)             Requested size: 157.61053pt x 280.19652pt.
  [101 <./Imagenes/Plantaciones/PHOTO-2026-03-17-08-46-41.jpg>]
-<Imagenes/Plantaciones/PHOTO-2026-03-26-09-30-48.jpg, id=1550, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-03-26-09-30-48.jpg, id=1558, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-03-26-09-30-48.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-03-26-09-30-48.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-03-26-09-30-48.jpg  used on input line 171.
 (pdftex.def)             Requested size: 157.61053pt x 280.19652pt.
  [102 <./Imagenes/Plantaciones/PHOTO-2026-03-23-09-53-17.jpg>]
-<Imagenes/Plantaciones/PHOTO-2026-03-30-07-52-15.jpg, id=1555, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-03-30-07-52-15.jpg, id=1563, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-03-30-07-52-15.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-03-30-07-52-15.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-03-30-07-52-15.jpg  used on input line 179.
 (pdftex.def)             Requested size: 157.61053pt x 280.19652pt.
  [103 <./Imagenes/Plantaciones/PHOTO-2026-03-26-09-30-48.jpg>]
-<Imagenes/Plantaciones/PHOTO-2026-04-06-08-23-04.jpg, id=1561, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/PHOTO-2026-04-06-08-23-04.jpg, id=1569, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-04-06-08-23-04.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-04-06-08-23-04.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-04-06-08-23-04.jpg  used on input line 188.
 (pdftex.def)             Requested size: 157.61053pt x 280.19652pt.
  [104 <./Imagenes/Plantaciones/PHOTO-2026-03-30-07-52-15.jpg>]
-<Imagenes/GraficosSegundaMedicion.png, id=1566, 1606.0pt x 1329.96875pt>
+<Imagenes/GraficosSegundaMedicion.png, id=1574, 1606.0pt x 1329.96875pt>
 File: Imagenes/GraficosSegundaMedicion.png Graphic file (type png)
 <use Imagenes/GraficosSegundaMedicion.png>
 Package pdftex.def Info: Imagenes/GraficosSegundaMedicion.png  used on input line 197.
@@ -2318,140 +2323,140 @@ Underfull \hbox (badness 10000) in paragraph at lines 198--198
  []
 
 [105 <./Imagenes/Plantaciones/PHOTO-2026-04-06-08-23-04.jpg>] [106 <./Imagenes/GraficosSegundaMedicion.png>]
-<Imagenes/Plantaciones/ Image 2026-04-25 at 12.35.26.jpeg, id=1575, 1284.8pt x 722.7pt>
+<Imagenes/Plantaciones/ Image 2026-04-25 at 12.35.26.jpeg, id=1583, 1284.8pt x 722.7pt>
 File: Imagenes/Plantaciones/ Image 2026-04-25 at 12.35.26.jpeg Graphic file (type jpg)
 <use Imagenes/Plantaciones/ Image 2026-04-25 at 12.35.26.jpeg>
 Package pdftex.def Info: Imagenes/Plantaciones/ Image 2026-04-25 at 12.35.26.jpeg  used on input line 214.
 (pdftex.def)             Requested size: 217.41328pt x 122.29497pt.
-<Imagenes/Plantaciones/ Image 2026-04-25 at 12.35.26 (1).jpeg, id=1576, 1284.8pt x 722.7pt>
+<Imagenes/Plantaciones/ Image 2026-04-25 at 12.35.26 (1).jpeg, id=1584, 1284.8pt x 722.7pt>
 File: Imagenes/Plantaciones/ Image 2026-04-25 at 12.35.26 (1).jpeg Graphic file (type jpg)
 <use Imagenes/Plantaciones/ Image 2026-04-25 at 12.35.26 (1).jpeg>
 Package pdftex.def Info: Imagenes/Plantaciones/ Image 2026-04-25 at 12.35.26 (1).jpeg  used on input line 219.
 (pdftex.def)             Requested size: 217.41328pt x 122.29497pt.
-<Imagenes/Plantaciones/ Image 2026-04-30 at 19.00.55.jpeg, id=1577, 3854.4pt x 2168.1pt>
+<Imagenes/Plantaciones/ Image 2026-04-30 at 19.00.55.jpeg, id=1585, 3854.4pt x 2168.1pt>
 File: Imagenes/Plantaciones/ Image 2026-04-30 at 19.00.55.jpeg Graphic file (type jpg)
 <use Imagenes/Plantaciones/ Image 2026-04-30 at 19.00.55.jpeg>
 Package pdftex.def Info: Imagenes/Plantaciones/ Image 2026-04-30 at 19.00.55.jpeg  used on input line 229.
 (pdftex.def)             Requested size: 217.37407pt x 122.27292pt.
-<Imagenes/Plantaciones/ Image 2026-04-30 at 19.00.54.jpeg, id=1578, 3854.4pt x 2168.1pt>
+<Imagenes/Plantaciones/ Image 2026-04-30 at 19.00.54.jpeg, id=1586, 3854.4pt x 2168.1pt>
 File: Imagenes/Plantaciones/ Image 2026-04-30 at 19.00.54.jpeg Graphic file (type jpg)
 <use Imagenes/Plantaciones/ Image 2026-04-30 at 19.00.54.jpeg>
 Package pdftex.def Info: Imagenes/Plantaciones/ Image 2026-04-30 at 19.00.54.jpeg  used on input line 234.
 (pdftex.def)             Requested size: 217.37407pt x 122.27292pt.
  [107 <./Imagenes/Plantaciones/ Image 2026-04-25 at 12.35.26.jpeg> <./Imagenes/Plantaciones/ Image 2026-04-25 at 12.35.26 (1).jpeg>]
-<Imagenes/Plantaciones/ Image 2026-05-15 at 15.17.28.jpeg, id=1583, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/ Image 2026-05-15 at 15.17.28.jpeg, id=1591, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/ Image 2026-05-15 at 15.17.28.jpeg Graphic file (type jpg)
 <use Imagenes/Plantaciones/ Image 2026-05-15 at 15.17.28.jpeg>
 Package pdftex.def Info: Imagenes/Plantaciones/ Image 2026-05-15 at 15.17.28.jpeg  used on input line 244.
 (pdftex.def)             Requested size: 160.03659pt x 284.50949pt.
-<Imagenes/Plantaciones/ Image 2026-05-15 at 15.17.39.jpeg, id=1584, 903.375pt x 1606.0pt>
+<Imagenes/Plantaciones/ Image 2026-05-15 at 15.17.39.jpeg, id=1592, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/ Image 2026-05-15 at 15.17.39.jpeg Graphic file (type jpg)
 <use Imagenes/Plantaciones/ Image 2026-05-15 at 15.17.39.jpeg>
 Package pdftex.def Info: Imagenes/Plantaciones/ Image 2026-05-15 at 15.17.39.jpeg  used on input line 249.
 (pdftex.def)             Requested size: 160.03659pt x 284.50949pt.
-<Imagenes/Plantaciones/cosecha0.png, id=1585, 2310.6325pt x 1144.275pt>
+<Imagenes/Plantaciones/cosecha0.png, id=1593, 2310.6325pt x 1144.275pt>
 File: Imagenes/Plantaciones/cosecha0.png Graphic file (type png)
 <use Imagenes/Plantaciones/cosecha0.png>
 Package pdftex.def Info: Imagenes/Plantaciones/cosecha0.png  used on input line 259.
 (pdftex.def)             Requested size: 217.39693pt x 107.65964pt.
-<Imagenes/Plantaciones/ Image 2026-05-26 at 18.50.34.jpeg, id=1586, 1606.0pt x 1204.5pt>
+<Imagenes/Plantaciones/ Image 2026-05-26 at 18.50.34.jpeg, id=1594, 1606.0pt x 1204.5pt>
 File: Imagenes/Plantaciones/ Image 2026-05-26 at 18.50.34.jpeg Graphic file (type jpg)
 <use Imagenes/Plantaciones/ Image 2026-05-26 at 18.50.34.jpeg>
 Package pdftex.def Info: Imagenes/Plantaciones/ Image 2026-05-26 at 18.50.34.jpeg  used on input line 264.
 (pdftex.def)             Requested size: 217.41328pt x 163.05997pt.
  [108 <./Imagenes/Plantaciones/ Image 2026-04-30 at 19.00.55.jpeg> <./Imagenes/Plantaciones/ Image 2026-04-30 at 19.00.54.jpeg> <./Imagenes/Plantaciones/ Image 2026-05-15 at 15.17.28.jpeg> <./Imagenes/Plantaciones/ Image 2026-05-15 at 15.17.39.jpeg>]
-<Imagenes/Plantaciones/cosecha1.jpeg, id=1591, 964.60374pt x 466.74374pt>
+<Imagenes/Plantaciones/cosecha1.jpeg, id=1599, 964.60374pt x 466.74374pt>
 File: Imagenes/Plantaciones/cosecha1.jpeg Graphic file (type jpg)
 <use Imagenes/Plantaciones/cosecha1.jpeg>
 Package pdftex.def Info: Imagenes/Plantaciones/cosecha1.jpeg  used on input line 274.
 (pdftex.def)             Requested size: 217.42387pt x 105.2051pt.
-<Imagenes/Plantaciones/ Image 2026-06-02 at 17.15.58.jpeg, id=1592, 1606.0pt x 903.375pt>
+<Imagenes/Plantaciones/ Image 2026-06-02 at 17.15.58.jpeg, id=1600, 1606.0pt x 903.375pt>
 File: Imagenes/Plantaciones/ Image 2026-06-02 at 17.15.58.jpeg Graphic file (type jpg)
 <use Imagenes/Plantaciones/ Image 2026-06-02 at 17.15.58.jpeg>
 Package pdftex.def Info: Imagenes/Plantaciones/ Image 2026-06-02 at 17.15.58.jpeg  used on input line 279.
 (pdftex.def)             Requested size: 217.41328pt x 122.29497pt.
-<Imagenes/Plantaciones/ultimacosecha.png, id=1593, 2416.02625pt x 1516.66624pt>
+<Imagenes/Plantaciones/ultimacosecha.png, id=1601, 2416.02625pt x 1516.66624pt>
 File: Imagenes/Plantaciones/ultimacosecha.png Graphic file (type png)
 <use Imagenes/Plantaciones/ultimacosecha.png>
 Package pdftex.def Info: Imagenes/Plantaciones/ultimacosecha.png  used on input line 289.
 (pdftex.def)             Requested size: 217.39612pt x 136.47093pt.
-<Imagenes/Plantaciones/ Image 2026-06-09 at 17.31.13.jpeg, id=1594, 1606.0pt x 903.375pt>
+<Imagenes/Plantaciones/ Image 2026-06-09 at 17.31.13.jpeg, id=1602, 1606.0pt x 903.375pt>
 File: Imagenes/Plantaciones/ Image 2026-06-09 at 17.31.13.jpeg Graphic file (type jpg)
 <use Imagenes/Plantaciones/ Image 2026-06-09 at 17.31.13.jpeg>
 Package pdftex.def Info: Imagenes/Plantaciones/ Image 2026-06-09 at 17.31.13.jpeg  used on input line 294.
 (pdftex.def)             Requested size: 217.41328pt x 122.29497pt.
  [109 <./Imagenes/Plantaciones/cosecha0.png> <./Imagenes/Plantaciones/ Image 2026-05-26 at 18.50.34.jpeg> <./Imagenes/Plantaciones/cosecha1.jpeg> <./Imagenes/Plantaciones/ Image 2026-06-02 at 17.15.58.jpeg> <./Imagenes/Plantaciones/ultimacosecha.png> <./Imagenes/Plantaciones/ Image 2026-06-09 at 17.31.13.jpeg>]
-<Imagenes/humedad_final_maceta1.png, id=1602, 722.7pt x 289.08pt>
+<Imagenes/humedad_final_maceta1.png, id=1610, 722.7pt x 289.08pt>
 File: Imagenes/humedad_final_maceta1.png Graphic file (type png)
 <use Imagenes/humedad_final_maceta1.png>
 Package pdftex.def Info: Imagenes/humedad_final_maceta1.png  used on input line 304.
 (pdftex.def)             Requested size: 452.96826pt x 181.18622pt.
-<Imagenes/humedad_final_maceta2.png, id=1603, 722.7pt x 289.08pt>
+<Imagenes/humedad_final_maceta2.png, id=1611, 722.7pt x 289.08pt>
 File: Imagenes/humedad_final_maceta2.png Graphic file (type png)
 <use Imagenes/humedad_final_maceta2.png>
 Package pdftex.def Info: Imagenes/humedad_final_maceta2.png  used on input line 312.
 (pdftex.def)             Requested size: 452.96826pt x 181.18622pt.
-<Imagenes/lux_dli_maceta1_final.png, id=1604, 722.7pt x 289.08pt>
+<Imagenes/lux_dli_maceta1_final.png, id=1612, 722.7pt x 289.08pt>
 File: Imagenes/lux_dli_maceta1_final.png Graphic file (type png)
 <use Imagenes/lux_dli_maceta1_final.png>
 Package pdftex.def Info: Imagenes/lux_dli_maceta1_final.png  used on input line 320.
 (pdftex.def)             Requested size: 452.96826pt x 181.18622pt.
  [110 <./Imagenes/humedad_final_maceta1.png> <./Imagenes/humedad_final_maceta2.png>]
-<Imagenes/lux_dli_maceta2_final.png, id=1611, 722.7pt x 289.08pt>
+<Imagenes/lux_dli_maceta2_final.png, id=1619, 722.7pt x 289.08pt>
 File: Imagenes/lux_dli_maceta2_final.png Graphic file (type png)
 <use Imagenes/lux_dli_maceta2_final.png>
 Package pdftex.def Info: Imagenes/lux_dli_maceta2_final.png  used on input line 328.
 (pdftex.def)             Requested size: 452.96826pt x 181.18622pt.
-<Imagenes/actuadores_final_maceta1.png, id=1612, 722.7pt x 216.81pt>
+<Imagenes/actuadores_final_maceta1.png, id=1620, 722.7pt x 216.81pt>
 File: Imagenes/actuadores_final_maceta1.png Graphic file (type png)
 <use Imagenes/actuadores_final_maceta1.png>
 Package pdftex.def Info: Imagenes/actuadores_final_maceta1.png  used on input line 336.
 (pdftex.def)             Requested size: 452.96826pt x 135.88966pt.
  [111 <./Imagenes/lux_dli_maceta1_final.png> <./Imagenes/lux_dli_maceta2_final.png>]
-<Imagenes/actuadores_final_maceta2.png, id=1619, 722.7pt x 216.81pt>
+<Imagenes/actuadores_final_maceta2.png, id=1627, 722.7pt x 216.81pt>
 File: Imagenes/actuadores_final_maceta2.png Graphic file (type png)
 <use Imagenes/actuadores_final_maceta2.png>
 Package pdftex.def Info: Imagenes/actuadores_final_maceta2.png  used on input line 344.
 (pdftex.def)             Requested size: 452.96826pt x 135.88966pt.
-<Imagenes/temphum_final_maceta1.png, id=1620, 722.7pt x 289.08pt>
+<Imagenes/temphum_final_maceta1.png, id=1628, 722.7pt x 289.08pt>
 File: Imagenes/temphum_final_maceta1.png Graphic file (type png)
 <use Imagenes/temphum_final_maceta1.png>
 Package pdftex.def Info: Imagenes/temphum_final_maceta1.png  used on input line 352.
 (pdftex.def)             Requested size: 452.96826pt x 181.18622pt.
-<Imagenes/humedad_final_julio_maceta1.png, id=1621, 722.7pt x 289.08pt>
+<Imagenes/humedad_final_julio_maceta1.png, id=1629, 722.7pt x 289.08pt>
 File: Imagenes/humedad_final_julio_maceta1.png Graphic file (type png)
 <use Imagenes/humedad_final_julio_maceta1.png>
 Package pdftex.def Info: Imagenes/humedad_final_julio_maceta1.png  used on input line 361.
 (pdftex.def)             Requested size: 452.96826pt x 181.18622pt.
  [112 <./Imagenes/actuadores_final_maceta1.png> <./Imagenes/actuadores_final_maceta2.png> <./Imagenes/temphum_final_maceta1.png>]
-<Imagenes/humedad_final_julio_maceta2.png, id=1629, 722.7pt x 289.08pt>
+<Imagenes/humedad_final_julio_maceta2.png, id=1637, 722.7pt x 289.08pt>
 File: Imagenes/humedad_final_julio_maceta2.png Graphic file (type png)
 <use Imagenes/humedad_final_julio_maceta2.png>
 Package pdftex.def Info: Imagenes/humedad_final_julio_maceta2.png  used on input line 369.
 (pdftex.def)             Requested size: 452.96826pt x 181.18622pt.
-<Imagenes/lux_dli_maceta1.png, id=1630, 722.7pt x 289.08pt>
+<Imagenes/lux_dli_maceta1.png, id=1638, 722.7pt x 289.08pt>
 File: Imagenes/lux_dli_maceta1.png Graphic file (type png)
 <use Imagenes/lux_dli_maceta1.png>
 Package pdftex.def Info: Imagenes/lux_dli_maceta1.png  used on input line 377.
 (pdftex.def)             Requested size: 452.96826pt x 181.18622pt.
  [113 <./Imagenes/humedad_final_julio_maceta1.png> <./Imagenes/humedad_final_julio_maceta2.png>]
-<Imagenes/lux_dli_maceta2.png, id=1637, 722.7pt x 289.08pt>
+<Imagenes/lux_dli_maceta2.png, id=1645, 722.7pt x 289.08pt>
 File: Imagenes/lux_dli_maceta2.png Graphic file (type png)
 <use Imagenes/lux_dli_maceta2.png>
 Package pdftex.def Info: Imagenes/lux_dli_maceta2.png  used on input line 385.
 (pdftex.def)             Requested size: 452.96826pt x 181.18622pt.
-<Imagenes/actuadores_final_julio_maceta1.png, id=1638, 722.7pt x 216.81pt>
+<Imagenes/actuadores_final_julio_maceta1.png, id=1646, 722.7pt x 216.81pt>
 File: Imagenes/actuadores_final_julio_maceta1.png Graphic file (type png)
 <use Imagenes/actuadores_final_julio_maceta1.png>
 Package pdftex.def Info: Imagenes/actuadores_final_julio_maceta1.png  used on input line 393.
 (pdftex.def)             Requested size: 452.96826pt x 135.88966pt.
  [114 <./Imagenes/lux_dli_maceta1.png> <./Imagenes/lux_dli_maceta2.png>]
-<Imagenes/actuadores_final_julio_maceta2.png, id=1645, 722.7pt x 216.81pt>
+<Imagenes/actuadores_final_julio_maceta2.png, id=1653, 722.7pt x 216.81pt>
 File: Imagenes/actuadores_final_julio_maceta2.png Graphic file (type png)
 <use Imagenes/actuadores_final_julio_maceta2.png>
 Package pdftex.def Info: Imagenes/actuadores_final_julio_maceta2.png  used on input line 401.
 (pdftex.def)             Requested size: 452.96826pt x 135.88966pt.
-<Imagenes/temphum_final_julio_maceta2.png, id=1646, 722.7pt x 289.08pt>
+<Imagenes/temphum_final_julio_maceta2.png, id=1654, 722.7pt x 289.08pt>
 File: Imagenes/temphum_final_julio_maceta2.png Graphic file (type png)
 <use Imagenes/temphum_final_julio_maceta2.png>
 Package pdftex.def Info: Imagenes/temphum_final_julio_maceta2.png  used on input line 409.
@@ -2467,111 +2472,111 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 ] (secciones/bibliografia.tex) (secciones/referencias.tex [119
 
 
-] [120
+]
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+[]\T1/ntxtlf/m/n/10.95 J. Gonzalez-Velasco. (2021). \T1/ntxtlf/m/it/10.95 Ca-pi-tu-lo IV Ener-gía a par-tir de bio-ma-sa In- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+\T1/ntxtlf/m/it/10.95 tro-duc-ción\T1/ntxtlf/m/n/10.95 . Dis-po-ni-ble en: []$\T1/ntxtt/m/n/10.95 https : / / www . researchgate . net / figure / 
+ []
+
+[120
 
 ]
-Underfull \hbox (badness 5475) in paragraph at lines 27--28
+Underfull \hbox (badness 5475) in paragraph at lines 30--31
 []\T1/ntxtlf/m/n/10.95 de Ocam-po, A. L. P. (2017). De-ve-lop-ment of Da-ta Ac-qui-si-tion Mo-del for Daily 
  []
 
 
-Underfull \hbox (badness 5954) in paragraph at lines 27--28
+Underfull \hbox (badness 5954) in paragraph at lines 30--31
 \T1/ntxtlf/m/n/10.95 Light In-te-gral Mea-su-re-ment. \T1/ntxtlf/m/it/10.95 Asia Pa-ci-fic Higher Edu-ca-tion Re-search Jour-nal\T1/ntxtlf/m/n/10.95 . 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
 []\T1/ntxtlf/m/n/10.95 Plataforma Tie-rra. (2013). \T1/ntxtlf/m/it/10.95 La agri-cul-tu-ra ur-ba-na co-mo so-lu-ción sos-te-ni-ble\T1/ntxtlf/m/n/10.95 . 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
 []\T1/ntxtlf/m/n/10.95 DryGair. (s.f.). \T1/ntxtlf/m/it/10.95 ¾Qué es la agri-cul-tu-ra en am-bien-te con-tro-la-do (CEA)?\T1/ntxtlf/m/n/10.95 . 
  []
 
 
-Underfull \hbox (badness 5302) in paragraph at lines 39--40
+Underfull \hbox (badness 5302) in paragraph at lines 42--43
 []\T1/ntxtlf/m/n/10.95 CINTEL. (2025). \T1/ntxtlf/m/it/10.95 Agri-cul-tu-ra de pre-ci-sión: Mo-ni-to-reo in-te-li-gen-te con sen-so-res\T1/ntxtlf/m/n/10.95 . 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
 []\T1/ntxtlf/m/n/10.95 C. A. Cabrera-Verdesoto, D. M. Salvatierra-Pilozo y G. E. Navarro- 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
 \T1/ntxtlf/m/n/10.95 Saltos. (2024). \T1/ntxtlf/m/it/10.95 Ten-den-cias en la apli-ca-ción de la in-te-li-gen-cia ar-ti-fi- 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
 \T1/ntxtlf/m/it/10.95 cial en la agri-cul-tu-ra de pre-ci-sión me-dian-te una re-vi-sión sis-te-má-ti-ca\T1/ntxtlf/m/n/10.95 . 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 []\T1/ntxtlf/m/n/10.95 AgroTech Cam-pus. (s.f.). \T1/ntxtlf/m/it/10.95 Agri-cul-tu-ra e In-ter-net de las Co-sas\T1/ntxtlf/m/n/10.95 . 
  []
 
 [121]
-Underfull \hbox (badness 1275) in paragraph at lines 63--64
+Underfull \hbox (badness 1275) in paragraph at lines 66--67
 []\T1/ntxtlf/m/n/10.95 WeatherSpark. (s.f.). \T1/ntxtlf/m/it/10.95 Da-tos his-tó-ri-cos me-teo-ro-ló-gi-cos de 2026 en Cór-do-ba, Ar-gen-ti-na\T1/ntxtlf/m/n/10.95 . 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 []\T1/ntxtlf/m/n/10.95 NiuBoL. (s.f.). \T1/ntxtlf/m/it/10.95 Sen-sor de hu-me-dad del sue-lo ca-pa-ci-ti-vo vs. re-sis-ti-vo\T1/ntxtlf/m/n/10.95 . 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 []\T1/ntxtlf/m/n/10.95 J. Go-do-ya, S. Fin-gerhutha. (2014). \T1/ntxtlf/m/it/10.95 Téc-ni-cas de pro-ce-sa-mien-to di-gi-tal de se- 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 \T1/ntxtlf/m/it/10.95 ña-les pa-ra re-duc-ción de rui-do de se-ña-les de múl-ti-ples sen-so-res asín-cro-nos\T1/ntxtlf/m/n/10.95 . 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 []\T1/ntxtlf/m/n/10.95 GEYA. (2022). \T1/ntxtlf/m/it/10.95 Re-lé de es-ta-do só-li-do vs. re-lé me-cá-ni-co: ¾qué es di-fe-ren-te?\T1/ntxtlf/m/n/10.95 . 
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 78--79
+Underfull \hbox (badness 2512) in paragraph at lines 81--82
 []\T1/ntxtlf/m/n/10.95 Robots Ar-gen-ti-na. (2020). \T1/ntxtlf/m/it/10.95 Mó-du-los de re-lé y Ar-duino: Do-mó-ti-ca (1)\T1/ntxtlf/m/n/10.95 . https://robots- 
  []
 
-
-Underfull \hbox (badness 2261) in paragraph at lines 84--85
+[122]
+Underfull \hbox (badness 2261) in paragraph at lines 87--88
 []\T1/ntxtlf/m/n/10.95 MFG Ro-bots. (s.f.). \T1/ntxtlf/m/it/10.95 To-le-ran-cia a fa-llas y su im-pac-to en la con-fia-bi-li-dad del sis-te-ma\T1/ntxtlf/m/n/10.95 . 
  []
 
-[122]
-Underfull \hbox (badness 2617) in paragraph at lines 93--94
+
+Underfull \hbox (badness 2617) in paragraph at lines 96--97
 []\T1/ntxtlf/m/n/10.95 D. L. Par-nas. (1972). \T1/ntxtlf/m/it/10.95 On the cri-te-ria to be used in de-com-po-sing sys-tems in-to mo-du- 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
 []\T1/ntxtlf/m/n/10.95 MathWorks. (s.f.). \T1/ntxtlf/m/it/10.95 ThingS-peak API Re-fe-ren-ce\T1/ntxtlf/m/n/10.95 . 
  []
 
 
-Underfull \hbox (badness 2478) in paragraph at lines 105--106
+Underfull \hbox (badness 2478) in paragraph at lines 108--109
 []\T1/ntxtlf/m/n/10.95 C. Agui-rre. (2021). \T1/ntxtlf/m/it/10.95 Me-di-ción de lu-xes con Mó-du-lo BH1750: Sen-sor de Luz Di-gi-tal\T1/ntxtlf/m/n/10.95 . 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
-[]\T1/ntxtlf/m/n/10.95 ResearchGate. (2021). \T1/ntxtlf/m/it/10.95 Fi-gu-ra 4.10: Es-que-ma de la es-truc-tu-ra de un clo- 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
-\T1/ntxtlf/m/it/10.95 ro-plas-to\T1/ntxtlf/m/n/10.95 . Dis-po-ni-ble en: []$\T1/ntxtt/m/n/10.95 https : / / www . researchgate . net / figure / 
  []
 
 
@@ -2657,20 +2662,20 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5B23E89F25EC2F6A21691337684F9908;25758.
+(rerunfilecheck)             Checksum: 44D7F495ED944EF9C460D43F07A6FC61;25758.
  ) 
 Here is how much of TeX's memory you used:
- 37065 strings out of 467871
- 742337 string characters out of 5418860
- 1052078 words of memory out of 5000000
- 64871 multiletter control sequences out of 15000+600000
+ 37074 strings out of 467871
+ 742596 string characters out of 5418860
+ 1052160 words of memory out of 5000000
+ 64879 multiletter control sequences out of 15000+600000
  749146 words of font info for 212 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  107i,16n,120p,1703b,1438s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Program Files/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:/Program Files/MiKTeX/fonts/type1/public/newtx/NewTXMI7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Program Files/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Program Files/MiKTeX/fonts/type1/public/newtx/txexs.pfb><C:/Program Files/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Program Files/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Program Files/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Program Files/MiKTeX/fonts/type1/public/newtx/ztmr.pfb><C:/Program Files/MiKTeX/fonts/type1/public/newtx/ztmri.pfb>
-Output written on main.pdf (145 pages, 60107218 bytes).
+Output written on main.pdf (145 pages, 60290283 bytes).
 PDF statistics:
- 1895 PDF objects out of 2073 (max. 8388607)
- 404 named destinations out of 1000 (max. 500000)
- 1452 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1903 PDF objects out of 2073 (max. 8388607)
+ 405 named destinations out of 1000 (max. 500000)
+ 1457 words of extra memory for PDF output out of 10000 (max. 10000000)
 
