@@ -604,9 +604,6 @@ INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symb
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\newtx\ntx-Italic-tlf-t1.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-t1.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\newtx\ntx-Bold-tlf-t1.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\public\newtx\ntx-Regular-tlf-ot1.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\newtx\txmiaX.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-ot1r.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1000.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-t1.tfm
@@ -615,6 +612,9 @@ INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm0700
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-t1.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0500.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm0500.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\public\newtx\ntx-Regular-tlf-ot1.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\newtx\txmiaX.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-ot1r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\public\newtx\ntxsy7.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\newtx\txsys.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\newtx\txex-bar.tfm

@@ -64,12 +64,12 @@ La captura de la energía lumínica depende de pigmentos fotosintéticos ubicado
 No todas las plantas fijan el carbono de la misma manera: la vía metabólica empleada es, en gran medida, una adaptación evolutiva a la disponibilidad de agua y a la temperatura del ambiente en que crece la especie \cite{ramos2015}. Esta distinción es relevante para el presente trabajo porque explica, a nivel bioquímico, por qué la tolerancia térmica de un cultivo no es un dato arbitrario sino una consecuencia directa de su metabolismo fotosintético.
 
 \begin{itemize}
-    \item \textbf{Plantas C3:} es la vía más antigua y común, empleada por la mayoría de los cultivos de hoja y granos (arroz, trigo, papa, y las hortalizas de hoja consideradas en este trabajo). La enzima RuBisCO, responsable de fijar el CO\textsubscript{2}, compite por su sitio de unión con el O\textsubscript{2}; a temperaturas elevadas esta competencia se desplaza a favor del O\textsubscript{2}, reduciendo la eficiencia fotosintética mediante un proceso llamado fotorrespiración \cite{ramos2015}. Esto explica por qué las plantas C3 --como la rúcula y la espinaca de este trabajo-- muestran una eficiencia fotosintética que decae con temperaturas por encima de su óptimo, en lugar de mejorar indefinidamente con más calor.
+    \item \textbf{Plantas C3:} es la vía más antigua y común, empleada por la mayoría de los cultivos de hoja y granos (arroz, trigo, papa, y las hortalizas de hoja consideradas en este trabajo). La enzima RuBisCO, responsable de fijar el CO\textsubscript{2}, compite por su sitio de unión con el O\textsubscript{2}; a temperaturas elevadas esta competencia se desplaza a favor del O\textsubscript{2}, reduciendo la eficiencia fotosintética mediante un proceso llamado fotorrespiración. Esto explica por qué las plantas C3 (como la rúcula y la espinaca) muestran una eficiencia fotosintética que decae con temperaturas por encima de su óptimo, en lugar de mejorar indefinidamente con más calor.
     \item \textbf{Plantas C4:} cuentan con un mecanismo adicional de concentración de CO\textsubscript{2} en la hoja, lo que les permite mantener la fotosíntesis activa incluso con los estomas parcialmente cerrados para conservar agua en climas cálidos y de alta luminosidad. Maíz, caña de azúcar y sorgo son ejemplos típicos \cite{ramos2015}.
     \item \textbf{Plantas CAM:} adaptadas a ambientes desérticos, abren sus estomas durante la noche para capturar CO\textsubscript{2} --que almacenan en forma de ácido-- y lo liberan internamente para la fotosíntesis durante el día, minimizando así la pérdida de agua por transpiración diurna. Cactáceas y piña son ejemplos característicos \cite{ramos2015}.
 \end{itemize}
 
-El estrés térmico moderado reduce de forma reversible la actividad fotosintética de las plantas C3; el estrés térmico sostenido, en cambio, puede provocar daños irreversibles en el aparato fotosintético que limitan permanentemente el crecimiento y la productividad del cultivo \cite{ramos2015}. Esta sensibilidad térmica --propia del metabolismo C3 de los cultivos seleccionados-- es la que fundamenta, a nivel bioquímico, la necesidad de un control activo de temperatura descripta en la Sección \ref{subsec:clima_cordoba}.
+El estrés térmico moderado reduce de forma reversible la actividad fotosintética de las plantas C3; el estrés térmico sostenido, en cambio, puede provocar daños irreversibles en el aparato fotosintético que limitan permanentemente el crecimiento y la productividad del cultivo \cite{ramos2015}.
 \section{Variables microclimáticas y del medio de cultivo}
 \label{sec:variables_microclimaticas}
 
@@ -98,7 +98,7 @@ El desarrollo óptimo del cultivo en un entorno cerrado depende del monitoreo y 
 \section{Radiación fotosintéticamente activa (PAR)}
 \label{sec:par}
 
-El rango espectral entre \SI{400}{\nano\meter} y \SI{700}{\nano\meter} --que coincide aproximadamente con el espectro visible-- se conoce como Radiación Fotosintéticamente Activa (PAR, por sus siglas en inglés), y corresponde a la porción del espectro solar que los organismos fotosintéticos pueden aprovechar, siendo relevante tanto para la fotosíntesis como para la fotomorfogénesis (desarrollo mediado por la luz) y el fototropismo (crecimiento direccional) \cite{deocampo2017}. Se estima que la PAR representa aproximadamente el \SI{50}{\percent} de la energía total de la radiación solar incidente, y su comportamiento temporal se ajusta bien a la escala en la que la fotosíntesis responde a los cambios de intensidad lumínica \cite{najera2023}.
+El rango espectral entre \SI{400}{\nano\meter} y \SI{700}{\nano\meter}, que coincide aproximadamente con el espectro visible, se conoce como Radiación Fotosintéticamente Activa (PAR, por sus siglas en inglés), y corresponde a la porción del espectro solar que los organismos fotosintéticos pueden aprovechar, siendo relevante tanto para la fotosíntesis como para la fotomorfogénesis (desarrollo mediado por la luz) y el fototropismo (crecimiento direccional). Se estima que la PAR representa aproximadamente el \SI{50}{\percent} de la energía total de la radiación solar incidente, y su comportamiento temporal se ajusta bien a la escala en la que la fotosíntesis responde a los cambios de intensidad lumínica \cite{deocampo2017, najera2023}.
 
 \section{PPFD y DLI}
 \label{sec:ppfd_dli}
@@ -127,8 +127,8 @@ La medición directa de PPFD requiere instrumentos especializados (radiómetros 
 \end{equation}
 
 \noindent Esta estrategia de estimación indirecta ha sido validada experimentalmente: un modelo de adquisición de datos de bajo costo, basado en una 
-resistencia dependiente de la luz (LDR) caracterizada frente a un luxómetro de referencia, logró estimar el DLI diario con un error relativo medio de apenas \SI{1.78}{\percent} respecto de la medición de referencia \cite{deocampo2017}. Esta estrategia de estimación indirecta (medir lux con un sensor económico y convertirlo a PPFD mediante un factor de luminaria calibrado) es la que 
-se adopta en el desarrollo de este trabajo para el control dinámico de la iluminación artificial.
+resistencia dependiente de la luz (LDR) caracterizada frente a un luxómetro de referencia, logró estimar el DLI diario con un error relativo medio de apenas \SI{1.78}{\percent} respecto de la medición de referencia. Esta estrategia de estimación indirecta (medir lux con un sensor económico y convertirlo a PPFD mediante un factor de luminaria calibrado) es la que 
+se adopta en el desarrollo de este trabajo para el control dinámico de la iluminación artificial \cite{deocampo2017}.
 
 Ejemplo de aplicación: A modo demostrativo (con valores arbitrarios, no necesariamente los del sistema desarrollado proximamente), supóngase una luminaria con un factor de conversión estimado $F_L = 0{,}17$ y una lectura de iluminancia constante de $\SI{2000}{lux}$ sostenida durante un fotoperíodo $T_i = \SI{12}{\hour}$. Aplicando la Ecuación~\ref{eq:ppfd_lux}:
 \begin{equation*}
