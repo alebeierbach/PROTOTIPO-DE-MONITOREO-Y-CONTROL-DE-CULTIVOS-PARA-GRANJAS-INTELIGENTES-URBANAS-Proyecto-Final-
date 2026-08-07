@@ -665,102 +665,6 @@ INPUT .\Imagenes\Gantt2.jpeg
 INPUT .\Imagenes\Gantt2.jpeg
 INPUT .\Imagenes\Gantt2.jpeg
 INPUT .\Imagenes\Gantt2.jpeg
-INPUT .\capitulos\04_desarrollo.tex
-INPUT .\capitulos\04_desarrollo.tex
-INPUT .\capitulos\04_desarrollo.tex
-INPUT .\capitulos\04_desarrollo.tex
-INPUT capitulos\04_desarrollo.tex
-INPUT .\Imagenes\imagen14.png
-INPUT .\Imagenes\imagen14.png
-INPUT .\Imagenes\imagen14.png
-INPUT .\Imagenes\imagen14.png
-INPUT .\Imagenes\imagen14.png
-INPUT .\Imagenes\imagen14.png
-INPUT .\Imagenes\imagen14.png
-INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.18 AM.png
-INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.18 AM.png
-INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.18 AM.png
-INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.18 AM.png
-INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.18 AM.png
-INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.18 AM.png
-INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.18 AM.png
-INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.25 AM.png
-INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.25 AM.png
-INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.25 AM.png
-INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.25 AM.png
-INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.25 AM.png
-INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.25 AM.png
-INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.25 AM.png
-INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.04 AM.png
-INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.04 AM.png
-INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.04 AM.png
-INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.04 AM.png
-INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.04 AM.png
-INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.04 AM.png
-INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.04 AM.png
-INPUT .\Imagenes\maceta1.jpeg
-INPUT .\Imagenes\maceta1.jpeg
-INPUT .\Imagenes\maceta1.jpeg
-INPUT .\Imagenes\maceta1.jpeg
-INPUT .\Imagenes\maceta1.jpeg
-INPUT .\Imagenes\maceta1.jpeg
-INPUT .\Imagenes\maceta1.jpeg
-INPUT .\Imagenes\prototipofinal.jpeg
-INPUT .\Imagenes\prototipofinal.jpeg
-INPUT .\Imagenes\prototipofinal.jpeg
-INPUT .\Imagenes\prototipofinal.jpeg
-INPUT .\Imagenes\prototipofinal.jpeg
-INPUT .\Imagenes\prototipofinal.jpeg
-INPUT .\Imagenes\prototipofinal.jpeg
-INPUT .\Imagenes\imagen3.jpeg
-INPUT .\Imagenes\imagen3.jpeg
-INPUT .\Imagenes\imagen3.jpeg
-INPUT .\Imagenes\imagen3.jpeg
-INPUT .\Imagenes\imagen3.jpeg
-INPUT .\Imagenes\imagen3.jpeg
-INPUT .\Imagenes\imagen3.jpeg
-INPUT .\Imagenes\imagen4.jpeg
-INPUT .\Imagenes\imagen4.jpeg
-INPUT .\Imagenes\imagen4.jpeg
-INPUT .\Imagenes\imagen4.jpeg
-INPUT .\Imagenes\imagen4.jpeg
-INPUT .\Imagenes\imagen4.jpeg
-INPUT .\Imagenes\imagen4.jpeg
-INPUT .\Imagenes\imagen6.jpeg
-INPUT .\Imagenes\imagen6.jpeg
-INPUT .\Imagenes\imagen6.jpeg
-INPUT .\Imagenes\imagen6.jpeg
-INPUT .\Imagenes\imagen6.jpeg
-INPUT .\Imagenes\imagen6.jpeg
-INPUT .\Imagenes\imagen6.jpeg
-INPUT .\Imagenes\imagen7.jpeg
-INPUT .\Imagenes\imagen7.jpeg
-INPUT .\Imagenes\imagen7.jpeg
-INPUT .\Imagenes\imagen7.jpeg
-INPUT .\Imagenes\imagen7.jpeg
-INPUT .\Imagenes\imagen7.jpeg
-INPUT .\Imagenes\imagen7.jpeg
-INPUT .\Imagenes\imagen16.jpeg
-INPUT .\Imagenes\imagen16.jpeg
-INPUT .\Imagenes\imagen16.jpeg
-INPUT .\Imagenes\imagen16.jpeg
-INPUT .\Imagenes\imagen16.jpeg
-INPUT .\Imagenes\imagen16.jpeg
-INPUT .\Imagenes\imagen16.jpeg
-INPUT .\Imagenes\imagen17.jpeg
-INPUT .\Imagenes\imagen17.jpeg
-INPUT .\Imagenes\imagen17.jpeg
-INPUT .\Imagenes\imagen17.jpeg
-INPUT .\Imagenes\imagen17.jpeg
-INPUT .\Imagenes\imagen17.jpeg
-INPUT .\Imagenes\imagen17.jpeg
-INPUT .\Imagenes\desague1.jpeg
-INPUT .\Imagenes\desague1.jpeg
-INPUT .\Imagenes\desague1.jpeg
-INPUT .\Imagenes\desague1.jpeg
-INPUT .\Imagenes\desague1.jpeg
-INPUT .\Imagenes\desague1.jpeg
-INPUT .\Imagenes\desague1.jpeg
 INPUT .\Imagenes\raspberrypi4sf.png
 INPUT .\Imagenes\raspberrypi4sf.png
 INPUT .\Imagenes\raspberrypi4sf.png
@@ -768,6 +672,8 @@ INPUT .\Imagenes\raspberrypi4sf.png
 INPUT .\Imagenes\raspberrypi4sf.png
 INPUT .\Imagenes\raspberrypi4sf.png
 INPUT .\Imagenes\raspberrypi4sf.png
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\newtx\ntx-BoldItalic-tlf-t1.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\newtx\ntx-BoldItalic-tlf-t1.tfm
 INPUT .\Imagenes\dht22.jpeg
 INPUT .\Imagenes\dht22.jpeg
 INPUT .\Imagenes\dht22.jpeg
@@ -793,43 +699,120 @@ INPUT C:\Program Files\MiKTeX\tex\latex\newtx\t1ntxtt.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\newtx\t1ntxtt.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\newtx\t1ntxtt.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\txfonts\t1xtt.tfm
-INPUT .\Imagenes\regador1.jpeg
-INPUT .\Imagenes\regador1.jpeg
-INPUT .\Imagenes\regador1.jpeg
-INPUT .\Imagenes\regador1.jpeg
-INPUT .\Imagenes\regador1.jpeg
-INPUT .\Imagenes\regador1.jpeg
-INPUT .\Imagenes\regador1.jpeg
-INPUT .\Imagenes\regador2.jpeg
-INPUT .\Imagenes\regador2.jpeg
-INPUT .\Imagenes\regador2.jpeg
-INPUT .\Imagenes\regador2.jpeg
-INPUT .\Imagenes\regador2.jpeg
-INPUT .\Imagenes\regador2.jpeg
-INPUT .\Imagenes\regador2.jpeg
+INPUT .\Imagenes\imagen14.png
+INPUT .\Imagenes\imagen14.png
+INPUT .\Imagenes\imagen14.png
+INPUT .\Imagenes\imagen14.png
+INPUT .\Imagenes\imagen14.png
+INPUT .\Imagenes\imagen14.png
+INPUT .\Imagenes\imagen14.png
+INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.18 AM.png
+INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.18 AM.png
+INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.18 AM.png
+INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.18 AM.png
+INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.18 AM.png
+INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.18 AM.png
+INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.18 AM.png
+INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.25 AM.png
+INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.25 AM.png
+INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.25 AM.png
+INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.25 AM.png
+INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.25 AM.png
+INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.25 AM.png
+INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.25 AM.png
+INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.04 AM.png
+INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.04 AM.png
+INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.04 AM.png
+INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.04 AM.png
+INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.04 AM.png
+INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.04 AM.png
+INPUT .\Imagenes\prototipo 2026-04-20 at 11.49.04 AM.png
+INPUT .\Imagenes\maceta1.jpeg
+INPUT .\Imagenes\maceta1.jpeg
+INPUT .\Imagenes\maceta1.jpeg
+INPUT .\Imagenes\maceta1.jpeg
+INPUT .\Imagenes\maceta1.jpeg
+INPUT .\Imagenes\maceta1.jpeg
+INPUT .\Imagenes\maceta1.jpeg
+INPUT .\Imagenes\prototipofinal.jpeg
+INPUT .\Imagenes\prototipofinal.jpeg
+INPUT .\Imagenes\prototipofinal.jpeg
+INPUT .\Imagenes\prototipofinal.jpeg
+INPUT .\Imagenes\prototipofinal.jpeg
+INPUT .\Imagenes\prototipofinal.jpeg
+INPUT .\Imagenes\prototipofinal.jpeg
+INPUT .\Imagenes\imagen3.jpeg
+INPUT .\Imagenes\imagen3.jpeg
+INPUT .\Imagenes\imagen3.jpeg
+INPUT .\Imagenes\imagen3.jpeg
+INPUT .\Imagenes\imagen3.jpeg
+INPUT .\Imagenes\imagen3.jpeg
+INPUT .\Imagenes\imagen3.jpeg
+INPUT .\Imagenes\imagen4.jpeg
+INPUT .\Imagenes\imagen4.jpeg
+INPUT .\Imagenes\imagen4.jpeg
+INPUT .\Imagenes\imagen4.jpeg
+INPUT .\Imagenes\imagen4.jpeg
+INPUT .\Imagenes\imagen4.jpeg
+INPUT .\Imagenes\imagen4.jpeg
+INPUT .\Imagenes\imagen6.jpeg
+INPUT .\Imagenes\imagen6.jpeg
+INPUT .\Imagenes\imagen6.jpeg
+INPUT .\Imagenes\imagen6.jpeg
+INPUT .\Imagenes\imagen6.jpeg
+INPUT .\Imagenes\imagen6.jpeg
+INPUT .\Imagenes\imagen6.jpeg
+INPUT .\Imagenes\imagen7.jpeg
+INPUT .\Imagenes\imagen7.jpeg
+INPUT .\Imagenes\imagen7.jpeg
+INPUT .\Imagenes\imagen7.jpeg
+INPUT .\Imagenes\imagen7.jpeg
+INPUT .\Imagenes\imagen7.jpeg
+INPUT .\Imagenes\imagen7.jpeg
+INPUT .\Imagenes\imagen16.jpeg
+INPUT .\Imagenes\imagen16.jpeg
+INPUT .\Imagenes\imagen16.jpeg
+INPUT .\Imagenes\imagen16.jpeg
+INPUT .\Imagenes\imagen16.jpeg
+INPUT .\Imagenes\imagen16.jpeg
+INPUT .\Imagenes\imagen16.jpeg
+INPUT .\Imagenes\imagen17.jpeg
+INPUT .\Imagenes\imagen17.jpeg
+INPUT .\Imagenes\imagen17.jpeg
+INPUT .\Imagenes\imagen17.jpeg
+INPUT .\Imagenes\imagen17.jpeg
+INPUT .\Imagenes\imagen17.jpeg
+INPUT .\Imagenes\imagen17.jpeg
+INPUT .\Imagenes\desague1.jpeg
+INPUT .\Imagenes\desague1.jpeg
+INPUT .\Imagenes\desague1.jpeg
+INPUT .\Imagenes\desague1.jpeg
+INPUT .\Imagenes\desague1.jpeg
+INPUT .\Imagenes\desague1.jpeg
+INPUT .\Imagenes\desague1.jpeg
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\tex-gyre\ts1-qtmr.tfm
+INPUT .\Imagenes\imagen16.png
+INPUT .\Imagenes\imagen16.png
+INPUT .\Imagenes\imagen16.png
+INPUT .\Imagenes\imagen16.png
+INPUT .\Imagenes\imagen16.png
+INPUT .\Imagenes\imagen16.png
+INPUT .\Imagenes\imagen16.png
+INPUT .\Imagenes\imagen17.png
+INPUT .\Imagenes\imagen17.png
+INPUT .\Imagenes\imagen17.png
+INPUT .\Imagenes\imagen17.png
+INPUT .\Imagenes\imagen17.png
+INPUT .\Imagenes\imagen17.png
+INPUT .\Imagenes\imagen17.png
+INPUT .\Imagenes\imagen18.png
+INPUT .\Imagenes\imagen18.png
+INPUT .\Imagenes\imagen18.png
+INPUT .\Imagenes\imagen18.png
+INPUT .\Imagenes\imagen18.png
+INPUT .\Imagenes\imagen18.png
+INPUT .\Imagenes\imagen18.png
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\tex-gyre\q-ts1.enc
-INPUT .\Imagenes\imagen16.png
-INPUT .\Imagenes\imagen16.png
-INPUT .\Imagenes\imagen16.png
-INPUT .\Imagenes\imagen16.png
-INPUT .\Imagenes\imagen16.png
-INPUT .\Imagenes\imagen16.png
-INPUT .\Imagenes\imagen16.png
-INPUT .\Imagenes\imagen17.png
-INPUT .\Imagenes\imagen17.png
-INPUT .\Imagenes\imagen17.png
-INPUT .\Imagenes\imagen17.png
-INPUT .\Imagenes\imagen17.png
-INPUT .\Imagenes\imagen17.png
-INPUT .\Imagenes\imagen17.png
-INPUT .\Imagenes\imagen18.png
-INPUT .\Imagenes\imagen18.png
-INPUT .\Imagenes\imagen18.png
-INPUT .\Imagenes\imagen18.png
-INPUT .\Imagenes\imagen18.png
-INPUT .\Imagenes\imagen18.png
-INPUT .\Imagenes\imagen18.png
 INPUT .\Imagenes\imagen3.png
 INPUT .\Imagenes\imagen3.png
 INPUT .\Imagenes\imagen3.png
@@ -995,6 +978,20 @@ INPUT .\Imagenes\modulocentral2.jpeg
 INPUT .\Imagenes\modulocentral2.jpeg
 INPUT .\Imagenes\modulocentral2.jpeg
 INPUT .\Imagenes\modulocentral2.jpeg
+INPUT .\Imagenes\regador1.jpeg
+INPUT .\Imagenes\regador1.jpeg
+INPUT .\Imagenes\regador1.jpeg
+INPUT .\Imagenes\regador1.jpeg
+INPUT .\Imagenes\regador1.jpeg
+INPUT .\Imagenes\regador1.jpeg
+INPUT .\Imagenes\regador1.jpeg
+INPUT .\Imagenes\regador2.jpeg
+INPUT .\Imagenes\regador2.jpeg
+INPUT .\Imagenes\regador2.jpeg
+INPUT .\Imagenes\regador2.jpeg
+INPUT .\Imagenes\regador2.jpeg
+INPUT .\Imagenes\regador2.jpeg
+INPUT .\Imagenes\regador2.jpeg
 INPUT .\Imagenes\sistemariego.jpeg
 INPUT .\Imagenes\sistemariego.jpeg
 INPUT .\Imagenes\sistemariego.jpeg
@@ -1470,6 +1467,8 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\newtx\txsys.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\newtx\txsys.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\newtx\ztmb.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\newtx\ztmb.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\newtx\ztmbi.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\newtx\ztmbi.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\newtx\ztmr.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\newtx\ztmr.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\newtx\ztmri.pfb
