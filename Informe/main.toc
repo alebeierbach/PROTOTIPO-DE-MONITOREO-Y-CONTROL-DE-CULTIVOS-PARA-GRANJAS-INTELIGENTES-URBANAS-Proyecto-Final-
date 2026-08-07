@@ -104,25 +104,26 @@
 \contentsline {section}{\numberline {7.7}Esquemas de conexión}{78}{section.7.7}%
 \contentsline {chapter}{\numberline {8}Software y sistemas de control}{81}{chapter.8}%
 \contentsline {section}{\numberline {8.1}Código}{81}{section.8.1}%
-\contentsline {subsection}{\numberline {8.1.1}Telemetría y visualización en la nube: integración con ThingSpeak}{81}{subsection.8.1.1}%
-\contentsline {subsubsection}{\numberline {8.1.1.1}Arquitectura de transmisión de datos}{81}{subsubsection.8.1.1.1}%
-\contentsline {section}{\numberline {8.2}Interfaz de usuario}{82}{section.8.2}%
-\contentsline {part}{PARTE III - RESULTADOS Y CONCLUSIONES}{84}{part*.59}%
-\contentsline {chapter}{Resultados}{84}{chapter*.60}%
-\contentsline {section}{\numberline {8.3}Resultados del prototipo preliminar}{84}{section.8.3}%
-\contentsline {subsection}{\numberline {8.3.1}Primera prueba}{84}{subsection.8.3.1}%
-\contentsline {subsection}{\numberline {8.3.2}Segunda prueba}{91}{subsection.8.3.2}%
-\contentsline {section}{\numberline {8.4}Resultados del prototipo final}{99}{section.8.4}%
-\contentsline {subsection}{\numberline {8.4.1}Tercera prueba}{99}{subsection.8.4.1}%
-\contentsline {chapter}{Conclusiones}{112}{chapter*.102}%
-\contentsline {section}{Resultados obtenidos en relación con la SAT}{112}{section*.103}%
-\contentsline {section}{Conclusión general}{112}{section*.103}%
-\contentsline {section}{Aporte a la ingeniería o al campo de conocimiento}{113}{section*.103}%
-\contentsline {section}{Limitaciones y trabajos futuros}{113}{section*.103}%
-\contentsline {chapter}{\numberline {A}Anexo I}{121}{appendix.Alph1}%
-\contentsline {section}{Anexo I - Título}{121}{section*.106}%
-\contentsline {chapter}{\numberline {B}Anexo II}{122}{appendix.Alph2}%
-\contentsline {section}{Anexo II - Título}{122}{section*.107}%
-\contentsline {chapter}{\numberline {C}Anexo del Proyecto Integrador}{123}{appendix.Alph3}%
-\contentsline {section}{Solicitud de Aprobación de Tema}{123}{section*.108}%
-\contentsline {section}{Informes mensuales}{123}{section*.108}%
+\contentsline {subsubsection}{\numberline {8.1.0.1}Adquisición de Datos y Registro Histórico del Sistema}{81}{subsubsection.8.1.0.1}%
+\contentsline {subsection}{\numberline {8.1.1}Telemetría y visualización en la nube: integración con ThingSpeak}{82}{subsection.8.1.1}%
+\contentsline {subsubsection}{\numberline {8.1.1.1}Arquitectura de transmisión de datos}{82}{subsubsection.8.1.1.1}%
+\contentsline {section}{\numberline {8.2}Interfaz de usuario}{83}{section.8.2}%
+\contentsline {part}{PARTE III - RESULTADOS Y CONCLUSIONES}{85}{part*.59}%
+\contentsline {chapter}{Resultados}{85}{chapter*.60}%
+\contentsline {section}{\numberline {8.3}Resultados del prototipo preliminar}{85}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}Primera prueba}{85}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.2}Segunda prueba}{92}{subsection.8.3.2}%
+\contentsline {section}{\numberline {8.4}Resultados del prototipo final}{100}{section.8.4}%
+\contentsline {subsection}{\numberline {8.4.1}Tercera prueba}{100}{subsection.8.4.1}%
+\contentsline {chapter}{Conclusiones}{113}{chapter*.102}%
+\contentsline {section}{Resultados obtenidos en relación con la SAT}{113}{section*.103}%
+\contentsline {section}{Conclusión general}{113}{section*.103}%
+\contentsline {section}{Aporte a la ingeniería o al campo de conocimiento}{114}{section*.103}%
+\contentsline {section}{Limitaciones y trabajos futuros}{114}{section*.103}%
+\contentsline {chapter}{\numberline {A}Anexo I}{122}{appendix.Alph1}%
+\contentsline {section}{Anexo I - Título}{122}{section*.106}%
+\contentsline {chapter}{\numberline {B}Anexo II}{123}{appendix.Alph2}%
+\contentsline {section}{Anexo II - Título}{123}{section*.107}%
+\contentsline {chapter}{\numberline {C}Anexo del Proyecto Integrador}{124}{appendix.Alph3}%
+\contentsline {section}{Solicitud de Aprobación de Tema}{124}{section*.108}%
+\contentsline {section}{Informes mensuales}{124}{section*.108}%
