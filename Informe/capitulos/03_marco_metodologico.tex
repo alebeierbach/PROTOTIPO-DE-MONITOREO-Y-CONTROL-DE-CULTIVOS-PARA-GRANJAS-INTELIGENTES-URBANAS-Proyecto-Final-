@@ -68,8 +68,42 @@ Este capítulo desarrolla la selección de los cultivos, la unidad de procesamie
 
 \section{Selección de cultivos}
 \label{sec:seleccion_cultivos}
+Para la validación experimental del prototipo de monitoreo y control, se seleccionaron especies vegetales cuyas características morfológicas, fisiológicas y temporales permitan evaluar con precisión la respuesta del sistema ante variaciones microclimáticas. Siguiendo el enfoque de sistemas de cultivo en ambientes controlados, los criterios de selección se basaron en el uso de especies de porte bajo, ciclo corto, adaptables a macetas de poca profundidad y con posibilidad de cosecha continua.
 
-\PENDIENTE{Valentín: completar esta sección con la justificación de la selección de rúcula y espinaca (por qué estas dos, adaptación al clima de Córdoba, complementariedad de requerimientos térmicos, etc. --- ver Marco Teórico Sección 2.6 para no repetir lo ya dicho ahí, sino referenciarlo con \ref{subsec:requerimientos_cultivos})}
+En función de estos requerimientos, se seleccionaron la \textit{rúcula} y la \textit{espinaca}. A continuación se detalla la justificación técnica y agronómica de cada una:
+
+\subsection{Rúcula (\textit{Eruca sativa mill})}
+Si bien es considerada un cultivo de clima fresco, la rúcula presenta una excelente adaptabilidad para ser cultivada en interiores bajo el clima de Córdoba. Se caracteriza por un rápido crecimiento, con un tiempo de germinación muy corto (entre 7 y 10 días) y la posibilidad de iniciar una cosecha continua de sus hojas en apenas 3 a 4 semanas. Su sistema radicular la hace ideal para macetas de poca profundidad \cite{guia_rucula_indoors}.
+
+Desde el punto de vista del control microclimático, requiere que el sustrato se mantenga húmedo pero sin llegar al encharcamiento, activándose el riego cuando la superficie comienza a secarse. La temperatura objetivo ideal se sitúa en los 24~\textdegree C; superar este umbral térmico provoca estrés en la planta, acelerando la floración prematura (fenómeno conocido como espigado o \textit{bolting}) y aumentando el amargor de las hojas. En cuanto al régimen lumínico, requiere un fotoperíodo máximo de 14 horas, recomendándose reducirlo a 12 horas si la temperatura ambiente es elevada, con una densidad de flujo de fotones fotosintéticos ($PPFD$) en torno a los $230 \;\mu\text{mol}\cdot\text{m}^{-2}\cdot\text{s}^{-1}$ \cite{rucula_mdpi}.
+
+\subsection{Espinaca (\textit{Spinacia oleracea} - Var. Monstruosa de Viroflay)}
+La variedad Monstruosa de Viroflay fue seleccionada por su adaptabilidad a interiores, su resistencia a plagas domésticas y su capacidad de producción continua mediante la cosecha escalonada de sus hojas exteriores. Su periodo de germinación oscila entre 7 y 14 días. Fisiológicamente, es una planta de día largo que se ve favorecida por el frío y resiste bajas temperaturas; por el contrario, las temperaturas elevadas disminuyen drásticamente la calidad de su hoja \cite{mapa_espinaca}.
+
+Para su viabilidad en el sistema diseñado, exige condiciones físicas muy particulares en el sustrato: necesita excelente drenaje (alta proporción de arena gruesa o perlita), ya que el calor y la humedad característicos de Córdoba, sumados a un sustrato común encharcado, promueven la aparición rápida de hongos en la base del tallo. Esto justifica la necesidad ineludible de una buena ventilación natural o forzada en el diseño del prototipo.
+
+Luminicamente, se recomienda posicionar la luminaria LED a una distancia de 20 a 30 cm de la planta. Aunque estudios en sistemas hidropónicos sugieren una Integral Diaria de Luz ($DLI$) de máxima eficiencia de $17.3 \;\text{mol}\cdot\text{m}^{-2}\cdot\text{día}^{-1}$, al tratarse de un cultivo en sustrato con dinámicas de retención de humedad distintas, se adopta un perfil lumínico más conservador, limitando el fotoperíodo a un rango de 12 a 14 horas diarias para evitar estrés térmico \cite{espinaca_dli_ouci, espinaca_mdpi}.
+
+\begin{table}[h!]
+\centering
+\small
+\begin{tabular}{lcc}
+\hline
+\textbf{Variable / Parámetro} & \textbf{Rúcula} & \textbf{Espinaca} \\ \hline
+Temperatura objetivo ($T$) & $\le 24$ $^\circ$C & $\le 25$ $^\circ$C \\
+Humedad del Sustrato & Húmedo (sin encharcar) & Húmedo (muy drenado) \\
+Fotoperíodo ($t_{\text{luz}}$) & $12 - 14$ h/día & $12 - 14$ h/día \\
+DLI objetivo & $15$ $\text{mol}\cdot\text{m}^{-2}\cdot\text{día}^{-1}$ & $14$ $\text{mol}\cdot\text{m}^{-2}\cdot\text{día}^{-1}$ \\
+Cosecha & $\approx 28$ días (cosecha continua) & $\approx 45$ días (cosecha continua) \\ \hline
+\end{tabular}
+
+\caption{Parámetros agronómicos y microclimáticos de diseño para los cultivos seleccionados.}
+\label{tab:parametros_cultivos}
+
+\vspace{2mm}
+{\small Fuente: Elaboración propia en base a \cite{rucula_mdpi, espinaca_dli_ouci, mapa_espinaca, espinaca_mdpi}.}
+
+\end{table}
 
 \section{Unidad de Procesamiento Central: Raspberry Pi 4 Model B}
 \label{sec:raspberry_pi}

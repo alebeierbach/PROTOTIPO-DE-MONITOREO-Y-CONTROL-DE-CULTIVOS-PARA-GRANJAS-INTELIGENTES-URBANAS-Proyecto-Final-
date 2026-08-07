@@ -458,6 +458,7 @@ INPUT main.toc
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\newtx\ntx-Bold-tlf-sc-t1.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-t1.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\newtx\ntx-Bold-tlf-t1.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\newtx\ntx-Italic-tlf-t1.tfm
 OUTPUT main.toc
 INPUT .\main.lot
 INPUT .\main.lot
@@ -487,7 +488,6 @@ INPUT .\capitulos\01_introduccion.tex
 INPUT .\capitulos\01_introduccion.tex
 INPUT .\capitulos\01_introduccion.tex
 INPUT capitulos\01_introduccion.tex
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\newtx\ntx-Italic-tlf-t1.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-t1.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\newtx\ntx-Bold-tlf-t1.tfm
 INPUT .\capitulos\02_marco_teorico.tex
@@ -665,14 +665,16 @@ INPUT .\Imagenes\Gantt2.jpeg
 INPUT .\Imagenes\Gantt2.jpeg
 INPUT .\Imagenes\Gantt2.jpeg
 INPUT .\Imagenes\Gantt2.jpeg
-INPUT .\Imagenes\raspberrypi4sf.png
-INPUT .\Imagenes\raspberrypi4sf.png
-INPUT .\Imagenes\raspberrypi4sf.png
-INPUT .\Imagenes\raspberrypi4sf.png
-INPUT .\Imagenes\raspberrypi4sf.png
-INPUT .\Imagenes\raspberrypi4sf.png
-INPUT .\Imagenes\raspberrypi4sf.png
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\newtx\ntx-BoldItalic-tlf-t1.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\tex-gyre\ts1-qtmr.tfm
+INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\tex-gyre\q-ts1.enc
+INPUT .\Imagenes\raspberrypi4sf.png
+INPUT .\Imagenes\raspberrypi4sf.png
+INPUT .\Imagenes\raspberrypi4sf.png
+INPUT .\Imagenes\raspberrypi4sf.png
+INPUT .\Imagenes\raspberrypi4sf.png
+INPUT .\Imagenes\raspberrypi4sf.png
+INPUT .\Imagenes\raspberrypi4sf.png
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\newtx\ntx-BoldItalic-tlf-t1.tfm
 INPUT .\Imagenes\dht22.jpeg
 INPUT .\Imagenes\dht22.jpeg
@@ -790,7 +792,6 @@ INPUT .\Imagenes\desague1.jpeg
 INPUT .\Imagenes\desague1.jpeg
 INPUT .\Imagenes\desague1.jpeg
 INPUT .\Imagenes\desague1.jpeg
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\tex-gyre\ts1-qtmr.tfm
 INPUT .\Imagenes\imagen16.png
 INPUT .\Imagenes\imagen16.png
 INPUT .\Imagenes\imagen16.png
@@ -812,7 +813,6 @@ INPUT .\Imagenes\imagen18.png
 INPUT .\Imagenes\imagen18.png
 INPUT .\Imagenes\imagen18.png
 INPUT .\Imagenes\imagen18.png
-INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\tex-gyre\q-ts1.enc
 INPUT .\Imagenes\imagen3.png
 INPUT .\Imagenes\imagen3.png
 INPUT .\Imagenes\imagen3.png
