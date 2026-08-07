@@ -87,38 +87,39 @@
 \contentsline {subsection}{\numberline {6.5.8}Soporte para sensor de iluminancia}{60}{subsection.6.5.8}%
 \contentsline {subsection}{\numberline {6.5.9}Cobertor de protección para higrómetros}{61}{subsection.6.5.9}%
 \contentsline {chapter}{\numberline {7}Hardware de control}{64}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Disposición de las luminarias}{64}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Disposición de hardware}{65}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Actuadores}{66}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}Luces para el cultivo}{66}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}Bomba para riego}{67}{subsection.7.3.2}%
-\contentsline {subsection}{\numberline {7.3.3}Válvulas solenoides}{67}{subsection.7.3.3}%
-\contentsline {subsection}{\numberline {7.3.4}Goteros}{68}{subsection.7.3.4}%
-\contentsline {section}{\numberline {7.4}Etapa de potencia: relés electromecánicos y de estado sólido}{68}{section.7.4}%
-\contentsline {section}{\numberline {7.5}Circuito de riego}{69}{section.7.5}%
+\contentsline {section}{\numberline {7.1}Disposición de hardware}{64}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Actuadores}{65}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Luces para el cultivo}{65}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Bomba para riego}{66}{subsection.7.2.2}%
+\contentsline {subsection}{\numberline {7.2.3}Válvulas solenoides}{66}{subsection.7.2.3}%
+\contentsline {subsection}{\numberline {7.2.4}Goteros}{66}{subsection.7.2.4}%
+\contentsline {subsection}{\numberline {7.2.5}Ventiladores}{67}{subsection.7.2.5}%
+\contentsline {section}{\numberline {7.3}Etapa de potencia: relés electromecánicos y de estado sólido}{67}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Sistema de iluminación}{68}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Sistema de riego}{69}{section.7.5}%
 \contentsline {section}{\numberline {7.6}Sistema de ventilación}{71}{section.7.6}%
 \contentsline {section}{\numberline {7.7}Esquemas de conexión}{72}{section.7.7}%
-\contentsline {chapter}{\numberline {8}Software y sistemas de control}{76}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Código}{76}{section.8.1}%
-\contentsline {subsection}{\numberline {8.1.1}Telemetría y visualización en la nube: integración con ThingSpeak}{76}{subsection.8.1.1}%
-\contentsline {subsubsection}{\numberline {8.1.1.1}Arquitectura de transmisión de datos}{76}{subsubsection.8.1.1.1}%
-\contentsline {section}{\numberline {8.2}Interfaz de usuario}{77}{section.8.2}%
-\contentsline {part}{PARTE III - RESULTADOS Y CONCLUSIONES}{81}{part*.58}%
-\contentsline {chapter}{Resultados}{81}{chapter*.59}%
-\contentsline {section}{\numberline {8.3}Resultados del prototipo preliminar}{81}{section.8.3}%
-\contentsline {subsection}{\numberline {8.3.1}Primera prueba}{81}{subsection.8.3.1}%
-\contentsline {subsection}{\numberline {8.3.2}Segunda prueba}{88}{subsection.8.3.2}%
-\contentsline {section}{\numberline {8.4}Resultados del prototipo final}{100}{section.8.4}%
-\contentsline {subsection}{\numberline {8.4.1}Tercera prueba}{100}{subsection.8.4.1}%
-\contentsline {chapter}{Conclusiones}{111}{chapter*.99}%
-\contentsline {section}{Resultados obtenidos en relación con la SAT}{111}{section*.100}%
-\contentsline {section}{Conclusión general}{111}{section*.100}%
-\contentsline {section}{Aporte a la ingeniería o al campo de conocimiento}{112}{section*.100}%
-\contentsline {section}{Limitaciones y trabajos futuros}{112}{section*.100}%
-\contentsline {chapter}{\numberline {A}Anexo I}{120}{appendix.Alph1}%
-\contentsline {section}{Anexo I - Título}{120}{section*.103}%
-\contentsline {chapter}{\numberline {B}Anexo II}{121}{appendix.Alph2}%
-\contentsline {section}{Anexo II - Título}{121}{section*.104}%
-\contentsline {chapter}{\numberline {C}Anexo del Proyecto Integrador}{122}{appendix.Alph3}%
-\contentsline {section}{Solicitud de Aprobación de Tema}{122}{section*.105}%
-\contentsline {section}{Informes mensuales}{122}{section*.105}%
+\contentsline {chapter}{\numberline {8}Software y sistemas de control}{77}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Código}{77}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Telemetría y visualización en la nube: integración con ThingSpeak}{77}{subsection.8.1.1}%
+\contentsline {subsubsection}{\numberline {8.1.1.1}Arquitectura de transmisión de datos}{77}{subsubsection.8.1.1.1}%
+\contentsline {section}{\numberline {8.2}Interfaz de usuario}{78}{section.8.2}%
+\contentsline {part}{PARTE III - RESULTADOS Y CONCLUSIONES}{82}{part*.58}%
+\contentsline {chapter}{Resultados}{82}{chapter*.59}%
+\contentsline {section}{\numberline {8.3}Resultados del prototipo preliminar}{82}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}Primera prueba}{82}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.2}Segunda prueba}{89}{subsection.8.3.2}%
+\contentsline {section}{\numberline {8.4}Resultados del prototipo final}{101}{section.8.4}%
+\contentsline {subsection}{\numberline {8.4.1}Tercera prueba}{101}{subsection.8.4.1}%
+\contentsline {chapter}{Conclusiones}{112}{chapter*.99}%
+\contentsline {section}{Resultados obtenidos en relación con la SAT}{112}{section*.100}%
+\contentsline {section}{Conclusión general}{112}{section*.100}%
+\contentsline {section}{Aporte a la ingeniería o al campo de conocimiento}{113}{section*.100}%
+\contentsline {section}{Limitaciones y trabajos futuros}{113}{section*.100}%
+\contentsline {chapter}{\numberline {A}Anexo I}{121}{appendix.Alph1}%
+\contentsline {section}{Anexo I - Título}{121}{section*.103}%
+\contentsline {chapter}{\numberline {B}Anexo II}{122}{appendix.Alph2}%
+\contentsline {section}{Anexo II - Título}{122}{section*.104}%
+\contentsline {chapter}{\numberline {C}Anexo del Proyecto Integrador}{123}{appendix.Alph3}%
+\contentsline {section}{Solicitud de Aprobación de Tema}{123}{section*.105}%
+\contentsline {section}{Informes mensuales}{123}{section*.105}%

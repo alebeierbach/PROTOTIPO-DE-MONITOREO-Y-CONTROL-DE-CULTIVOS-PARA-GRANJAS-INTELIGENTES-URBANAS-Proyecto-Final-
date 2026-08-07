@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1786082553.86602 "c:/Users/User/Documents/GitHub/PROTOTIPO-DE-MONITOREO-Y-CONTROL-DE-CULTIVOS-PARA-GRANJAS-INTELIGENTES-URBANAS-Proyecto-Final-/Informe/main.tex" "main.pdf" "main" 1786082568.72625 0
+["pdflatex"] 1786086569.71782 "c:/Users/User/Documents/GitHub/PROTOTIPO-DE-MONITOREO-Y-CONTROL-DE-CULTIVOS-PARA-GRANJAS-INTELIGENTES-URBANAS-Proyecto-Final-/Informe/main.tex" "main.pdf" "main" 1786086585.54683 0
   "C:/Program Files/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc" 1736607166 3136 bbe665bd0bb471a2da1e8fd326cff9fa ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc" 1736607166 2914 fdbc4a54b9bc76f4551b5303f2737d33 ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc" 1736607166 2083 60e36f8eac802fcaf19eabe2633b406e ""
@@ -366,13 +366,13 @@
   "c:/Users/User/Documents/GitHub/PROTOTIPO-DE-MONITOREO-Y-CONTROL-DE-CULTIVOS-PARA-GRANJAS-INTELIGENTES-URBANAS-Proyecto-Final-/Informe/main.tex" 1786071227 1591 75003a5c130d821339bb62a1294445b0 ""
   "capitulos/01_introduccion.tex" 1785801828 13853 1a5686d6ddc711e609230ca6c4c1a63d ""
   "capitulos/02_marco_teorico.tex" 1786060349 55555 f5538811314cd63d1bf078809ba32774 ""
-  "capitulos/03_marco_metodologico.tex" 1786082553 72085 20c66744039843c59faa77d5403f1918 ""
-  "main.aux" 1786082568 48523 374b8fb3dab2c5355a2c028353a510a6 "pdflatex"
-  "main.lof" 1786082568 9506 f293975d7f89842081d44048a902cdd2 "pdflatex"
-  "main.lot" 1786082568 824 b40f03d03a52349090ce72604a96804c "pdflatex"
-  "main.out" 1786082568 25478 a7efa4949f549278b4557237240c0d4f "pdflatex"
+  "capitulos/03_marco_metodologico.tex" 1786086552 72082 576239f44fee3803a773e116d424b97e ""
+  "main.aux" 1786086585 48633 4e7e76c990e551607bf4423c3e78c40a "pdflatex"
+  "main.lof" 1786086585 9507 f4bf39eeef4d892d3ea2fd8a297f3162 "pdflatex"
+  "main.lot" 1786086585 824 b40f03d03a52349090ce72604a96804c "pdflatex"
+  "main.out" 1786086585 25558 ddf2d686e0c1fdb99f8b9ddbc9eb4f04 "pdflatex"
   "main.tex" 1786071227 1591 75003a5c130d821339bb62a1294445b0 ""
-  "main.toc" 1786082568 11627 7fdcbd4bdabec63a377d3cf0e2e27eda "pdflatex"
+  "main.toc" 1786086585 11702 8d699027078a0a4e2f6e62a69b0030b5 "pdflatex"
   "paginas/abstract.tex" 1781998451 653 0b1eb7f350e2032738182982fd49f7be ""
   "paginas/agradecimientos.tex" 1781998451 79 679d4a893fa5c8648ce855450931ca0d ""
   "paginas/dedicatoria.tex" 1781998451 71 2428843a3164994834f432f72b828f83 ""
