@@ -245,10 +245,10 @@ Para resolver estos inconvenientes, se rediseñó la estructura adoptando un enf
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.5\linewidth]{Imagenes/maceta1.jpeg}
-    \caption{Implementación física del prototipo.}
+    \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/maceta1.jpeg}
+    \caption{Implementacion fisica del prototipo}
     \Fuente{propia.}
-    \label{fig:prototipo_fisico}
+    \label{fig:placeholder1}
 \end{figure}
 
 \begin{figure}[H]
@@ -488,16 +488,15 @@ Esta configuración ajustable no solo optimiza la circulación del flujo de aire
     \centering
     \begin{minipage}{0.48\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{Imagenes/soporteventilador2.jpeg}
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/soporteventilador1.png}
     \end{minipage}
     \hfill
     \begin{minipage}{0.48\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{Imagenes/soporteventilador1.png}
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/soporteventilador2.jpeg}
     \end{minipage}
     \caption{Soporte para ventilador.}
     \Fuente{propia.}
-    \label{fig:soporte_ventilador}
 \end{figure}
 
 \subsection{Soporte para sensor de humedad y temperatura}
@@ -522,12 +521,12 @@ Para la correcta fijación del sensor de luz, se diseñaron soportes modulares b
     \centering
     \begin{minipage}{0.48\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{Imagenes/soportebh17501.png}
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/soportebh17501.png}
     \end{minipage}
     \hfill
     \begin{minipage}{0.48\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{Imagenes/soportebh17502.jpeg}
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/soportebh17502.jpeg}
     \end{minipage}
     \caption{Soporte para BH1750.}
     \Fuente{propia.}
@@ -590,12 +589,12 @@ Esta disposición en altura aísla la electrónica crítica frente a riesgos mec
     \centering
     \begin{minipage}{0.48\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{Imagenes/modulocentral1.jpeg}
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/modulocentral1.jpeg}
     \end{minipage}
     \hfill
     \begin{minipage}{0.48\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{Imagenes/modulocentral2.jpeg}
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/modulocentral2.jpeg}
     \end{minipage}
     \caption{Caja eléctrica estanca con componentes vitales del sistema.}
     \Fuente{propia.}
@@ -608,14 +607,35 @@ Esta disposición en altura aísla la electrónica crítica frente a riesgos mec
 \subsection{Luces para el cultivo}
 
 Para el sistema de iluminación artificial y estimulación del desarrollo vegetal, se implementó un panel LED para cultivo indoor de 50 W (marca Practiled). La elección de esta luminaria se justifica por su diseño espectral optimizado para la fotosíntesis, el cual concentra sus picos de emisión en las longitudes de onda de 450 nm (espectro azul) y 650 nm (espectro rojo), interactuando de manera directa con las clorofilas A y B para potenciar las fases de crecimiento vegetativo y floración. A su vez, el módulo cuenta con protecciones contra sobretensión, sobrecorriente y un sensor de sobrecalentamiento crítico para el confinamiento del cultivo. Asimismo, cuenta con un grado de protección IP65 que garantiza su estanqueidad y resistencia frente a la alta humedad y salpicaduras derivadas del riego automatizado, operando con un regulador de voltaje interno que asegura una potencia constante y una alta eficiencia energética (clase A++). Debido a las características mencionadas y su bajo costo en comparación con otras opciones del mercado, se convirtió en la opción ideal para este proyecto.
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/luz.jpeg}
+    \caption{Luces para el cultivo.}
+    \Fuente{https://www.mercadolibre.com.ar/lampara-panel-de-cultivo-practiled-indoor-50w-full-spectrum/up/MLAU3359194731}
+    \label{fig:prueba2_06abr}
+\end{figure}
 
 \subsection{Bomba para riego}
 
 Para el accionamiento del sistema de riego, se seleccionó una bomba periférica presurizadora de corriente continua (modelo Kushiro BPYK12). El parámetro determinante para esta elección fue su altura máxima de elevación de 2 metros, magnitud hidrodinámica que supera con holgura el nivel físico de la maceta, garantizando un suministro hídrico eficiente y sin caídas de presión hasta el estrato superior del cultivo. Desde la perspectiva de la integración electrónica y la seguridad, su operación a una tensión nominal de $12\text{ V}$ resulta fundamental para minimizar los riesgos de electrocución en un entorno caracterizado por alta humedad, facilitando además su control lógico mediante etapas de potencia estándar (relé) comandadas por el microcontrolador. Asimismo, su capacidad para entregar un caudal máximo de $3{,}8\text{ l/min}$ a una presión de trabajo de $2{,}5\text{ bar}$ es idónea para presurizar las líneas de riego sin generar caudales excesivos que inunden la zona radicular. Por último, su arquitectura mecánica, que incorpora un impulsor de bronce y un cuerpo de aluminio, proporciona una alta resistencia a la oxidación, asegurando la vida útil del actuador al operar con agua limpia.
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/bomba.jpeg}
+    \caption{Bomba de riego.}
+    \Fuente{Propia.}
+    \label{fig:prueba2_06abr}
+\end{figure}
 
 \subsection{Válvulas solenoides}
 
 Con el propósito de ejecutar la dosificación hídrica de manera precisa y dar cumplimiento al criterio de gestión sustentable del recurso hídrico, se implementaron electroválvulas solenoides por maceta, permitiendo direccionar el flujo de riego de forma independiente hacia cada unidad de cultivo bajo el mando de la unidad central.
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/valvulasolenoide.jpg}
+    \caption{Valvula solenoide.}
+    \Fuente{https://tienda.starware.com.ar/producto/valvula-solenoide-diy-12p-12v-agua-aire-macho/?srsltid=AfmBOor9EFrAHjSQ-RJnY6DOvpbChbeFn6chrIUFvLc5Q0gxa9Rx4HHG}
+    \label{fig:prueba2_06abr}
+\end{figure}
 
 \subsection{Goteros}
 
@@ -637,6 +657,14 @@ Con el propósito de ejecutar la dosificación hídrica de manera precisa y dar 
 \end{figure}
 
 \subsection{Ventiladores}
+Se implementaron ventiladores axiales de 12V (estándar de PC) para la regulación microclimática por estratos. La elección de estos componentes responde a un criterio de optimización de recursos, al ofrecer una solución económica, altamente fiable y de fácil integración electrónica. Su bajo consumo de corriente permite conmutarlos de forma directa mediante los módulos de relés electromecánicos del sistema, sin requerir etapas de acondicionamiento de potencia complejas ni alterar significativamente el balance energético global del prototipo.
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/soporteventilador2.jpeg}
+    \caption{Ventilador.}
+    \Fuente{Propia.}
+    \label{fig:ventilador}
+\end{figure}
 
 \section{Etapa de potencia: relés electromecánicos y de estado sólido}
 \label{sec:etapa_potencia}
@@ -671,12 +699,12 @@ El subsistema de irrigación opera mediante un esquema de distribución selectiv
     \centering
     \begin{minipage}{0.48\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{Imagenes/sistemariego.jpeg}
+        \includegraphics[height=6cm, width=\textwidth, keepaspectratio]{Imagenes/valvsolenoide.jpeg}
     \end{minipage}
     \hfill
     \begin{minipage}{0.48\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{Imagenes/bomba.jpeg}
+        \includegraphics[height=6cm, width=\textwidth, keepaspectratio]{Imagenes/bomba.jpeg}
     \end{minipage}
     \caption{Sistema de riego.}
     \Fuente{propia.}
@@ -685,8 +713,8 @@ El subsistema de irrigación opera mediante un esquema de distribución selectiv
 
 \begin{figure}[H]
     \centering
-    \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/valvsolenoide.jpeg}
-    \caption{Válvula solenoide.}
+    \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/sistemariego.jpeg}
+    \caption{Sistema de riego: manguera con goteros.}
     \Fuente{propia.}
 \end{figure}
 
@@ -747,15 +775,16 @@ Diagrama de conexión de la placa mostrada en la imagen anterior:
 
 \begin{figure}[H]
     \centering
-    \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/ProtoCables1.png}
-    \caption{Esquema de placa de pruebas simplificado con color de cables.}
-    \Fuente{propia.}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/protocables2.jpeg}
-    \caption{Conexión que recibe cada color de cable en relación al esquema anterior.}
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/ProtoCables1.png}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/protocables2.jpeg}
+    \end{minipage}
+    \caption{Conexionado de cables por color}
     \Fuente{propia.}
 \end{figure}
 
@@ -795,43 +824,3 @@ El envío de la información hacia los servidores en la nube se ejecuta de maner
 \label{sec:interfaz_usuario}
 
 \PENDIENTE{agregar fotos de la interfaz web / dashboard de configuración}
-
-% ================================================================
-% APARTADO SEPARADO — CONSUMO DE POTENCIA
-% ================================================================
-% NOTA: esta sección se conserva acá temporalmente. Va a moverse a la
-% Parte III (Resultados) cuando se arme ese capítulo, ya que es un
-% resultado de validación y no una decisión de diseño metodológico.
-\chapter*{[A mover a Resultados] Consumo de potencia}
-\label{cha:consumo_potencia}
-
-Con el propósito de auditar la demanda energética máxima del prototipo y validar el correcto dimensionamiento de las etapas de alimentación, se llevó a cabo una prueba de caracterización bajo el régimen de operación a plena carga. Este ensayo consistió en la activación simultánea y continuada de la totalidad de los actuadores de potencia, incluyendo los paneles lumínicos, la electrobomba hidráulica, la red de ventilación forzada y la unidad central de procesamiento en estado de cómputo activo junto a la matriz de sensado. Mediante la inserción de una pinza amperométrica en la línea principal de suministro, se registró el consumo de corriente pico instantáneo y en régimen permanente. La Figura descrita a continuación ilustra el procedimiento instrumental de medición, cuyo valor obtenido permite determinar la potencia activa total consumida por la granja inteligente en su punto de máxima exigencia operativa y verificar los márgenes de seguridad térmica en los conductores.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/consumo.png}
-    \caption{Lectura del amperímetro en [A].}
-    \Fuente{propia.}
-\end{figure}
-
-A continuación se calcula la potencia instantánea [W] consumida por el prototipo:
-
-\begin{align}
-    P &= V \cdot I \nonumber \\
-    P &= 220\text{ V} \cdot 0{,}92\text{ A} \nonumber \\
-    P &= 202{,}4\text{ W} \label{eq:desarrollo_potencia}
-\end{align}
-
-Luego, el cálculo del consumo de potencia por hora [kWh] es:
-
-\begin{align}
-    P &= \frac{P \cdot t}{1000}\nonumber \\
-    P &= \frac{202,4\text{ W} \cdot 1\text{ hs}}{1000}\nonumber \\
-    P &= 0,202\text{ kWh} \label{eq:calculo_kwh}
-\end{align}
-
-Desde la perspectiva electro-energética, el prototipo demostró un nivel de eficiencia que valida su implementación técnica en entornos urbanos y residenciales. El consumo máximo registrado a plena carga (donde ocurre la activación simultánea de los paneles LED, la electrobomba, las válvulas solenoides, la ventilación forzada y el procesamiento continuo de la Raspberry Pi 4b) se estabilizó en $202{,}4\text{ W}$. Este valor nominal resulta sumamente acotado, siendo equivalente a la demanda de un equipo informático de escritorio estándar.
-
-Es fundamental destacar que este consumo pico no representa la demanda sostenida del sistema. Gracias a la arquitectura de control implementada en la unidad central, los actuadores operan bajo ciclos de trabajo (\textit{duty cycles}) estrictamente optimizados. Mientras que la instrumentación lógica (Raspberry Pi y red de sensores) requiere alimentación ininterrumpida con un impacto energético marginal, las cargas de mayor potencia se gestionan de forma intermitente: el fotoperíodo de las luminarias limita su uso a una fracción del día, y la bomba junto con las válvulas solenoides se activan únicamente durante las breves ventanas de irrigación.
-
-En conclusión, el balance energético del sistema confirma la viabilidad económica y ambiental del cultivo automatizado indoor. El diseño de hardware seleccionado permite mantener un ecosistema biológico complejo sin sobrecargar la infraestructura eléctrica domiciliaria, sentando las bases para escalar el proyecto añadiendo nuevos módulos de cultivo con un impacto energético predecible y sostenible.
