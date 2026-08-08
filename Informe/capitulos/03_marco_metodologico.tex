@@ -629,7 +629,7 @@ Para el sistema de iluminación artificial y estimulación del desarrollo vegeta
 \end{figure}
 
 \subsection{Bomba para riego}
-
+\label{subsec:bomba_riego}  
 Para el accionamiento del sistema de riego, se seleccionó una bomba periférica presurizadora de corriente continua (modelo Kushiro BPYK12). El parámetro determinante para esta elección fue su altura máxima de elevación de 2 metros, magnitud hidrodinámica que supera con holgura el nivel físico de la maceta, garantizando un suministro hídrico eficiente y sin caídas de presión hasta el estrato superior del cultivo. Desde la perspectiva de la integración electrónica y la seguridad, su operación a una tensión nominal de $12\text{ V}$ resulta fundamental para minimizar los riesgos de electrocución en un entorno caracterizado por alta humedad, facilitando además su control lógico mediante etapas de potencia estándar (relé) comandadas por el microcontrolador. Asimismo, su capacidad para entregar un caudal máximo de $3{,}8\text{ l/min}$ a una presión de trabajo de $2{,}5\text{ bar}$ es idónea para presurizar las líneas de riego sin generar caudales excesivos que inunden la zona radicular. Por último, su arquitectura mecánica, que incorpora un impulsor de bronce y un cuerpo de aluminio, proporciona una alta resistencia a la oxidación, asegurando la vida útil del actuador al operar con agua limpia.
 \begin{figure}[H]
     \centering
@@ -651,8 +651,9 @@ Con el propósito de ejecutar la dosificación hídrica de manera precisa y dar 
 \end{figure}
 
 \subsection{Goteros}
+\label{subsec:goteros}
 
-Con el propósito de ejecutar la dosificación hídrica de manera precisa y dar cumplimiento al criterio metodológico de gestión sustentable del recurso hídrico, se implementaron emisores de riego localizado con una capacidad nominal máxima de 80 litros por hora. La integración física de estos componentes en la red de distribución se realiza de forma directa sobre la línea de conducción principal, efectuando un punzonado calibrado en la pared de la manguera de polietileno. Los goteros se introducen a presión dentro de esta perforación mediante un acoplamiento por interferencia mecánica, aprovechando las propiedades elásticas del material polimérico para asegurar la estanqueidad total del nodo y prevenir caídas de presión en el circuito. Estos dispositivos operan como actuadores pasivos finales y cuentan con un mecanismo de regulación helicoidal que permite modificar la sección transversal del conducto interno mediante obturación mecánica, optimizando la respuesta del lazo de irrigación automatizado. Esta capacidad de ajuste resulta crítica para la calibración del sistema, debido a que permite ecualizar la pérdida de carga en la red de distribución, garantizando que el coeficiente de descarga sea uniforme en todas las estaciones de cultivo.
+Con el propósito de ejecutar la dosificación hídrica de manera precisa y dar cumplimiento al criterio metodológico de gestión sustentable del recurso hídrico, se implementaron cuatro emisores de riego localizado por maceta, con una capacidad nominal ajustable en un rango de 10 a 80 litros por hora cada uno. Los cuatro goteros se insertan sobre una única línea de distribución dispuesta a lo largo del eje central de la maceta, distribuidos de forma uniforme para cubrir la superficie de cultivo. La integración física de estos componentes en la red de distribución se realiza de forma directa sobre la línea de conducción principal, efectuando un punzonado calibrado en la pared de la manguera de polietileno. Los goteros se introducen a presión dentro de esta perforación mediante un acoplamiento por interferencia mecánica, aprovechando las propiedades elásticas del material polimérico para asegurar la estanqueidad total del nodo y prevenir caídas de presión en el circuito. Estos dispositivos operan como actuadores pasivos finales y cuentan con un mecanismo de regulación helicoidal que permite modificar la sección transversal del conducto interno mediante obturación mecánica, optimizando la respuesta del lazo de irrigación automatizado. Esta capacidad de ajuste resulta crítica para la calibración del sistema, debido a que permite ecualizar la pérdida de carga en la red de distribución, garantizando que el coeficiente de descarga sea uniforme en todas las estaciones de cultivo.
 
 \begin{figure}[H]
     \centering
@@ -759,11 +760,12 @@ Para la instalación del panel LED de espectro completo se utilizaron tornillos 
     \caption{Disposición de las luminarias.}
     \Fuente{propia.}
 \end{figure}
-
+%-----------RIEGO----------------------------
 \section{Sistema de riego}
 \label{sec:circuito_riego}
-
-El subsistema de irrigación opera mediante un esquema de distribución selectiva alimentado por la electrobomba descrita en la sección anterior. A través de un arreglo de válvulas solenoides, el firmware puede dirigir el flujo hídrico hacia un módulo o maceta en particular, según los requerimientos de humedad detectados por los sensores. La canalización principal se ejecutó utilizando tubos flexibles de \textonehalf{} pulgada, dimensión seleccionada para garantizar un caudal óptimo de operación sin generar sobrepresiones en los acoples. En el tramo interno de cada contenedor se instalaron goteros autocompensados que liberan un caudal volumétrico constante por unidad de tiempo, logrando una distribución homogénea del recurso hídrico en la zona radicular.
+\subsection{Disposición física del sistema de riego}
+\label{sec:sistema_irrigacion}
+El sistema de irrigación opera en circuito cerrado: la manguera de succión de la electrobomba (Sección \ref{subsec:bomba_riego}) toma agua desde el depósito de reserva, el mismo punto donde desemboca el agua percolada y recolectada por el sistema de drenaje (Sección \ref{subsubsec:impermeabilizacion_drenaje}), recirculando así el recurso hídrico no absorbido por el sustrato. A la salida de la bomba, una única línea alimenta dos válvulas solenoides --una por maceta-- que operan de forma excluyente, habilitando el paso de agua hacia una sola maceta a la vez. Cada válvula da paso a una manguera dispuesta sobre el eje central de su maceta correspondiente, sobre la cual se insertan los cuatro goteros autocompensados descriptos en la Sección \ref{subsec:goteros}, logrando una distribución homogénea del recurso hídrico en la zona radicular.
 
 \begin{figure}[H]
     \centering
@@ -806,7 +808,93 @@ Una vez que el sustrato absorbe la humedad necesaria para la nutrición y desarr
     \label{fig:recoleccion_agua}
 \end{figure}
 
-\PENDIENTE{Valentín: acá van los cálculos de riego --- caudal de goteros/bomba, volumen objetivo de agua por maceta y ciclo de cultivo, y el cálculo del tiempo de inyección hídrica (duración de apertura de la electroválvula) necesario para alcanzar ese volumen}
+% ============================================================
+% ============================================================
+\subsection{Dimensionamiento hidráulico del sistema de riego}
+\label{subsec:dimensionamiento_riego}
+
+En este sistema cada maceta cuenta con cuatro goteros (Sección \ref{subsec:goteros}) alimentados simultáneamente por la misma línea, por lo que el caudal efectivo que debe considerarse para el dimensionamiento es la suma de los cuatro emisores en paralelo. Para el rango de ajuste individual de cada gotero (10 a \SI{80}{\liter\per\hour}), el caudal combinado de la maceta se ubica entre:
+\begin{equation}
+\label{eq:caudal_total_min}
+Q_{\text{total, min}} = 4 \times 10\ \frac{\text{L}}{\text{h}} = 40\ \frac{\text{L}}{\text{h}}
+\end{equation}
+
+\begin{equation}
+\label{eq:caudal_total_max}
+Q_{\text{total, max}} = 4 \times 80\ \frac{\text{L}}{\text{h}} = 320\ \frac{\text{L}}{\text{h}}
+\end{equation}
+
+Este caudal combinado debe contrastarse con la capacidad de la bomba (Sección \ref{subsec:bomba_riego}), cuyo caudal máximo de \SI{3.8}{\liter\per\minute} equivale a \SI{228}{\liter\per\hour}. Se observa que $Q_{total,\ max} = \SI{320}{\liter\per\hour}$ \textbf{supera} la capacidad máxima de la bomba (\SI{228}{\liter\per\hour}): si los cuatro goteros se calibraran simultáneamente cerca de su tope de ajuste, la demanda combinada excedería lo que la bomba puede suministrar, y sería esta última (y no el ajuste nominal de los goteros) la que terminaría limitando el caudal real entregado. En consecuencia, el caudal máximo real del sistema no es $Q_{total,\ max}$, sino el caudal máximo de la bomba:
+
+\begin{equation}
+    Q_{real,\ max} = \min(Q_{total,\ max},\ Q_{bomba}) = \SI{228}{\liter\per\hour}
+    \label{eq:caudal_real_max}
+\end{equation}
+
+Para la duración de riego adoptada empíricamente (60 segundos, Sección \ref{subsec:algoritmo_control_riego}), el volumen de agua entregado a la maceta se ubica entonces entre:
+
+\begin{equation}
+\label{eq:volumen_riego_min}
+V_{\text{min}} = 40\ \frac{\text{L}}{\text{h}} \times \frac{60\ \text{s}}{3600\ \text{s/h}}
+\approx 0{,}667\ \text{L}
+\end{equation}
+
+\begin{equation}
+\label{eq:volumen_riego_max}
+V_{\text{max}} = 228\ \frac{\text{L}}{\text{h}} \times \frac{60\ \text{s}}{3600\ \text{s/h}}
+= 3{,}8\ \text{L}
+\end{equation}
+
+\noindent donde $V_{max}$ resulta de aplicar el caudal límite de la bomba (Ecuación~\ref{eq:caudal_real_max}) en lugar del máximo nominal de los goteros. Expresado como lámina de agua equivalente sobre la superficie de la maceta ($\SI{50}{\centi\meter} \times \SI{100}{\centi\meter} = \SI{0.5}{\meter\squared}$), y empleando la equivalencia $\SI{1}{\liter\per\meter\squared} = \SI{1}{\milli\meter}$ de lámina:
+
+\begin{equation}
+\label{eq:Lamina_riego_min}
+L_{\text{min}} = \frac{0{,}667\ \text{L}}{0{,}5\ \text{m}^2}
+\approx \SI{1.33}{\milli\meter}
+\end{equation}
+
+\begin{equation}
+\label{eq:Lamina_riego_max}
+L_{\text{max}} = \frac{3{,}8\ \text{L}}{0{,}5\ \text{m}^2}
+= \SI{7.6}{\milli\meter}
+\end{equation}
+
+Este rango de lámina aplicada (entre 1,3 mm y 7,6 mm por evento de riego, según la calibración elegida para los goteros) es consistente con una irrigación superficial ligera --adecuada para el objetivo de mantener húmeda la superficie del sustrato sin saturar el perfil completo (Sección \ref{subsec:calibracion_higrometro})-- y resulta coherente con la recuperación de humedad observada empíricamente (80\% a 90\%) tras cada evento de 60 segundos. La disposición de los cuatro goteros a lo largo del eje central de la maceta, subdividiendo la superficie total en cuatro zonas de aproximadamente $\SI{0.125}{\meter\squared}$ cada una, es la que garantiza que la lámina calculada se distribuya de forma razonablemente homogénea en todo el ancho y largo del contenedor, y no se concentre en un único punto de la superficie.
+
+\subsection{Calibración del sensor de humedad de sustrato}
+\label{subsec:calibracion_higrometro}
+
+A diferencia del contenido volumétrico de agua ($\theta$) definido en el Marco Teórico (Ecuación \ref{eq:vwc}), que requiere conocer el volumen de agua respecto del volumen total del sustrato, el sistema no mide $\theta$ de forma absoluta, sino que utiliza una escala relativa obtenida por calibración directa del sensor capacitivo entre dos extremos físicos de referencia: sustrato en su condición más seca observada ($raw_{seco} = 250$) y sustrato en su condición de saturación extrema o encharcamiento (barro, $raw_{mojado} = 60$). La conversión de la lectura cruda del ADC a un porcentaje de humedad relativa se realiza por interpolación lineal entre ambos extremos:
+
+\begin{equation}
+    H_{\%} = \frac{raw - raw_{seco}}{raw_{mojado} - raw_{seco}} \times 100
+    \label{eq:calibracion_higrometro}
+\end{equation}
+
+acotado al rango $[0, 100]$. Dado que $raw_{mojado} < raw_{seco}$, la Ecuación~\ref{eq:calibracion_higrometro} refleja que una lectura cruda menor corresponde a un sustrato más húmedo.
+
+El umbral de disparo del riego se fijó en $raw_{umbral} = 150$, equivalente, según la Ecuación~\ref{eq:calibracion_higrometro}, a $H_{\%} \approx 52{,}6\%$. Este valor se determinó empíricamente, observando que por debajo de esa humedad relativa la superficie del sustrato, que es la zona más crítica a mantener húmeda, dado que la profundidad radicular efectiva no supera los 20 cm sobre los 30 cm de altura total de la maceta, comenzaba a manifestar signos visibles de sequedad. Tras cada evento de riego, las lecturas del sensor se recuperaban típicamente a valores de entre el 80\% y el 90\% de humedad relativa, definiendo así el rango de operación normal del sistema entre un piso de disparo ($\approx 52{,}6\%$) y un techo de recuperación ($80\text{-}90\%$).
+
+\subsection{Algoritmo de control de riego}
+\label{subsec:algoritmo_control_riego}
+
+A diferencia de la luz (Sección \ref{subsec:algoritmo_control_dli}) y la ventilación, que incorporan explícitamente una banda de histéresis o un temporizador de permanencia mínima en su lógica de decisión, el riego se gobierna mediante un único umbral de comparación sobre la lectura suavizada de humedad de sustrato:
+
+\begin{equation}
+    riego_{pendiente} =
+    \begin{cases}
+        \text{verdadero} & \text{si } raw_{promedio} \geq raw_{umbral} \\
+        \text{falso} & \text{en caso contrario}
+    \end{cases}
+    \label{eq:decision_riego}
+\end{equation}
+
+Previamente a esta comparación, la lectura se acondiciona en dos etapas de filtrado sucesivas, aplicando el principio de redundancia y sobremuestreo presentado en el Marco Teórico (Secciones \ref{subsec:redundancia} y \ref{sec:control_histeresis}): en primer lugar, cada uno de los dos sensores de humedad de la maceta se promedia sobre una ventana móvil de las últimas 3 lecturas válidas; en segundo lugar, ambos valores suavizados se promedian entre sí --o se conserva el único sensor disponible en caso de falla del otro--, obteniendo así el valor $raw_{promedio}$ utilizado en la Ecuación~\ref{eq:decision_riego}. Adicionalmente, toda lectura cruda igual a 128 (valor que corresponde a una condición de fallo de lectura del conversor A/D) se descarta antes de ingresar a la ventana de suavizado, evitando que un dato erróneo contamine el promedio.
+
+La ausencia de una banda de histéresis explícita en esta lógica no genera en la práctica conmutaciones erráticas del actuador: el propio proceso físico de infiltración y absorción del agua por parte del sustrato constituye un fenómeno de dinámica lenta, que introduce un retardo natural de varios minutos entre la apertura de la electroválvula y la estabilización de la nueva lectura de humedad, funcionando como una histéresis implícita del sistema. Esta dinámica lenta también justifica la adopción de un intervalo de muestreo relativamente largo, establecido en \SI{30}{\minute}, ya que un período de medición significativamente menor no aportaría información relevante sobre la evolución de la humedad y podría generar decisiones de control sobre estados transitorios del sustrato.
+
+Una vez detectado el disparo, la señal $riego_{pendiente}$ es interpretada por la capa de orquestación del programa ---fuera del módulo de lógica de control--- para ejecutar la apertura de la electroválvula durante una ventana de tiempo fija de \SI{60}{\second}, valor determinado empíricamente como suficiente para recuperar la humedad del sustrato hasta el rango del \SI{80}{\percent} al \SI{90}{\percent} sin generar encharcamiento superficial.
+
 
 \section{Sistema de ventilación}
 \label{sec:sistema_ventilacion}
