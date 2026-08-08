@@ -13,27 +13,28 @@
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Raspberry Pi 4 Model B.}}{39}{figure.caption.21}%
 \contentsline {figure}{\numberline {6.2}{\ignorespaces Sensor DHT22.}}{41}{figure.caption.22}%
 \contentsline {figure}{\numberline {6.3}{\ignorespaces Sensor BH1750.}}{42}{figure.caption.23}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Sensor de humedad de suelo capacitivo.}}{43}{figure.caption.24}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Construcción del prototipo inicial.}}{45}{figure.caption.25}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Diseño del prototipo.}}{47}{figure.caption.26}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Vista inferior del prototipo.}}{47}{figure.caption.27}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Implementacion fisica del prototipo}}{48}{figure.caption.28}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Prototipo en su etapa final.}}{49}{figure.caption.29}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Proceso de impermeabilización.}}{50}{figure.caption.30}%
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Configuración del desagüe.}}{51}{figure.caption.31}%
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Conducto de desagüe impreso en 3D.}}{52}{figure.caption.32}%
-\contentsline {figure}{\numberline {6.13}{\ignorespaces Instalación de desagüe.}}{53}{figure.caption.33}%
-\contentsline {figure}{\numberline {6.14}{\ignorespaces Primer diseño de soporte para sensores.}}{55}{figure.caption.34}%
-\contentsline {figure}{\numberline {6.15}{\ignorespaces Implementación física.}}{55}{figure.caption.35}%
-\contentsline {figure}{\numberline {6.16}{\ignorespaces Soporte para mangueras.}}{56}{figure.caption.36}%
-\contentsline {figure}{\numberline {6.17}{\ignorespaces Conector Y.}}{57}{figure.caption.37}%
-\contentsline {figure}{\numberline {6.18}{\ignorespaces Desagüe v1.}}{57}{figure.caption.38}%
-\contentsline {figure}{\numberline {6.19}{\ignorespaces Desagüe v2.}}{58}{figure.caption.39}%
-\contentsline {figure}{\numberline {6.20}{\ignorespaces Soporte para ventilador.}}{59}{figure.caption.40}%
-\contentsline {figure}{\numberline {6.21}{\ignorespaces Soporte DHT22.}}{60}{figure.caption.41}%
-\contentsline {figure}{\numberline {6.22}{\ignorespaces Soporte para BH1750.}}{61}{figure.caption.42}%
-\contentsline {figure}{\numberline {6.23}{\ignorespaces Cobertor para higrómetro.}}{62}{figure.caption.43}%
-\contentsline {figure}{\numberline {6.24}{\ignorespaces Proceso de impermeabilización del sensor.}}{63}{figure.caption.44}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Respuesta espectral del sensor BH1750.}}{42}{figure.caption.23}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Sensor de humedad de suelo capacitivo.}}{43}{figure.caption.24}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Construcción del prototipo inicial.}}{45}{figure.caption.25}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Diseño del prototipo.}}{47}{figure.caption.26}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Vista inferior del prototipo.}}{47}{figure.caption.27}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Implementacion fisica del prototipo}}{48}{figure.caption.28}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Prototipo en su etapa final.}}{49}{figure.caption.29}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Proceso de impermeabilización.}}{50}{figure.caption.30}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Configuración del desagüe.}}{51}{figure.caption.31}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Conducto de desagüe impreso en 3D.}}{52}{figure.caption.32}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Instalación de desagüe.}}{53}{figure.caption.33}%
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Primer diseño de soporte para sensores.}}{55}{figure.caption.34}%
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Implementación física.}}{55}{figure.caption.35}%
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Soporte para mangueras.}}{56}{figure.caption.36}%
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Conector Y.}}{57}{figure.caption.37}%
+\contentsline {figure}{\numberline {6.19}{\ignorespaces Desagüe v1.}}{57}{figure.caption.38}%
+\contentsline {figure}{\numberline {6.20}{\ignorespaces Desagüe v2.}}{58}{figure.caption.39}%
+\contentsline {figure}{\numberline {6.21}{\ignorespaces Soporte para ventilador.}}{59}{figure.caption.40}%
+\contentsline {figure}{\numberline {6.22}{\ignorespaces Soporte DHT22.}}{60}{figure.caption.41}%
+\contentsline {figure}{\numberline {6.23}{\ignorespaces Soporte para BH1750.}}{61}{figure.caption.42}%
+\contentsline {figure}{\numberline {6.24}{\ignorespaces Cobertor para higrómetro.}}{62}{figure.caption.43}%
+\contentsline {figure}{\numberline {6.25}{\ignorespaces Proceso de impermeabilización del sensor.}}{63}{figure.caption.44}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7.1}{\ignorespaces Caja eléctrica estanca con componentes vitales del sistema.}}{65}{figure.caption.45}%
 \contentsline {figure}{\numberline {7.2}{\ignorespaces Luces para el cultivo.}}{66}{figure.caption.46}%
