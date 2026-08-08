@@ -7,7 +7,6 @@
 *.log
 *.lot
 *.out
-*.pdf
 *.synctex.gz
 *.toc
 Informe/*.aux
@@ -15,6 +14,8 @@ Informe/*.fdb_latexmk
 Informe/*.fls
 Informe/*.log
 Informe/*.out
-Informe/*.pdf
 Informe/*.synctex.gz
 Informe/*.toc
+
+!main.pdf
+!Informe/main.pdf
