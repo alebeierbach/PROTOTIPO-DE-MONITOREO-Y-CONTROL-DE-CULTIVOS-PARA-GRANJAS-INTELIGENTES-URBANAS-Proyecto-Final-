@@ -293,8 +293,8 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {6.14}{\ignorespaces Instalación de desagüe.}}{53}{figure.caption.33}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {6.4.2.2}Arquitectura mecánica modular y acoplamiento estructural}{53}{subsubsection.6.4.2.2}\protected@file@percent }
 \newlabel{subsubsec:arquitectura_mecanica_modular}{{6.4.2.2}{53}{Arquitectura mecánica modular y acoplamiento estructural}{subsubsection.6.4.2.2}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.5}Diseños de piezas en 3D}{54}{section.6.5}\protected@file@percent }
-\newlabel{sec:piezas_3d}{{6.5}{54}{Diseños de piezas en 3D}{section.6.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.5}Diseños de piezas en 3D}{53}{section.6.5}\protected@file@percent }
+\newlabel{sec:piezas_3d}{{6.5}{53}{Diseños de piezas en 3D}{section.6.5}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.5.1}Soporte para sensores}{54}{subsection.6.5.1}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {6.15}{\ignorespaces Primer diseño de soporte para sensores.}}{55}{figure.caption.34}\protected@file@percent }
 \newlabel{fig:soporte_sensores_diseno}{{6.15}{55}{Primer diseño de soporte para sensores}{figure.caption.34}{}}
@@ -344,6 +344,7 @@
 \newlabel{fig:prueba2_06abr}{{7.4}{68}{Valvula solenoide}{figure.caption.48}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.2.4}Goteros}{68}{subsection.7.2.4}\protected@file@percent }
 \newlabel{subsec:goteros}{{7.2.4}{68}{Goteros}{subsection.7.2.4}{}}
+\citation{ventilador_datasheet}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.5}{\ignorespaces Goteros.}}{69}{figure.caption.49}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.2.5}Ventiladores}{69}{subsection.7.2.5}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {7.6}{\ignorespaces Ventilador.}}{70}{figure.caption.50}\protected@file@percent }
@@ -389,109 +390,135 @@
 \newlabel{eq:decision_riego}{{7.12}{79}{Algoritmo de control de riego}{equation.7.12}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {7.6}Sistema de ventilación}{80}{section.7.6}\protected@file@percent }
 \newlabel{sec:sistema_ventilacion}{{7.6}{80}{Sistema de ventilación}{section.7.6}{}}
+\citation{ventilador_datasheet}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.11}{\ignorespaces Disposición de los ventiladores.}}{81}{figure.caption.55}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {7.7}Esquemas de conexión}{81}{section.7.7}\protected@file@percent }
-\newlabel{sec:esquemas_conexion}{{7.7}{81}{Esquemas de conexión}{section.7.7}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.12}{\ignorespaces Esquema de conexiones.}}{82}{figure.caption.56}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {7.13}{\ignorespaces Placa perforada de uso general.}}{82}{figure.caption.57}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {7.14}{\ignorespaces Conexionado de cables por color}}{83}{figure.caption.58}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {8}Software y sistemas de control}{84}{chapter.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.6.1}Dimensionamiento del caudal de ventilación}{81}{subsection.7.6.1}\protected@file@percent }
+\newlabel{subsec:dimensionamiento_ventilacion}{{7.6.1}{81}{Dimensionamiento del caudal de ventilación}{subsection.7.6.1}{}}
+\newlabel{eq:volumen_aire}{{7.13}{81}{Dimensionamiento del caudal de ventilación}{equation.7.13}{}}
+\newlabel{eq:tiempo_renovacion}{{7.14}{81}{Dimensionamiento del caudal de ventilación}{equation.7.14}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.6.2}Umbrales de disparo}{82}{subsection.7.6.2}\protected@file@percent }
+\newlabel{subsec:umbral_ventilacion}{{7.6.2}{82}{Umbrales de disparo}{subsection.7.6.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.6.3}Algoritmo de control de ventilación}{82}{subsection.7.6.3}\protected@file@percent }
+\newlabel{subsec:algoritmo_control_ventilacion}{{7.6.3}{82}{Algoritmo de control de ventilación}{subsection.7.6.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.7}Esquemas de conexión}{84}{section.7.7}\protected@file@percent }
+\newlabel{sec:esquemas_conexion}{{7.7}{84}{Esquemas de conexión}{section.7.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.12}{\ignorespaces Esquema de conexiones.}}{84}{figure.caption.56}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7.13}{\ignorespaces Placa perforada y diagrama de conexionado de los cables por color.}}{85}{figure.caption.57}\protected@file@percent }
+\newlabel{fig:conexionado_placa}{{7.13}{85}{Placa perforada y diagrama de conexionado de los cables por color}{figure.caption.57}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {8}Implementación y Despliegue del Software de Control}{86}{chapter.8}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{cha:software_control}{{8}{84}{Software y sistemas de control}{chapter.8}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.1}Código}{84}{section.8.1}\protected@file@percent }
-\newlabel{sec:codigo}{{8.1}{84}{Código}{section.8.1}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {8.1.0.1}Adquisición de Datos y Registro Histórico del Sistema}{84}{subsubsection.8.1.0.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.1}Telemetría y visualización en la nube: integración con ThingSpeak}{85}{subsection.8.1.1}\protected@file@percent }
-\newlabel{subsec:thingspeak}{{8.1.1}{85}{Telemetría y visualización en la nube: integración con ThingSpeak}{subsection.8.1.1}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {8.1.1.1}Arquitectura de transmisión de datos}{85}{subsubsection.8.1.1.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {8.2}Interfaz de usuario}{86}{section.8.2}\protected@file@percent }
-\newlabel{sec:interfaz_usuario}{{8.2}{86}{Interfaz de usuario}{section.8.2}{}}
-\@writefile{toc}{\contentsline {part}{PARTE III - RESULTADOS Y CONCLUSIONES}{88}{part*.59}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{Resultados}{88}{chapter*.60}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {8.3}Resultados del prototipo preliminar}{88}{section.8.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.3.1}Primera prueba}{88}{subsection.8.3.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {8.1}{\ignorespaces Primera plantacion: 28/01/26}}{89}{figure.caption.61}\protected@file@percent }
-\newlabel{fig:placeholder1}{{8.1}{89}{Primera plantacion: 28/01/26}{figure.caption.61}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.2}{\ignorespaces Fecha de la foto: 05/02/26}}{90}{figure.caption.62}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {8.3}{\ignorespaces Fecha de la foto: 17/02/26}}{91}{figure.caption.63}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {8.5}{\ignorespaces Fecha de la foto: 23/02/26}}{91}{figure.caption.65}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {8.4}{\ignorespaces Fecha de la foto: 19/02/26}}{92}{figure.caption.64}\protected@file@percent }
-\newlabel{fig:placeholder1}{{8.4}{92}{Fecha de la foto: 19/02/26}{figure.caption.64}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.6}{\ignorespaces Cosecha: 23/02/26}}{93}{figure.caption.66}\protected@file@percent }
-\newlabel{fig:placeholder1}{{8.6}{93}{Cosecha: 23/02/26}{figure.caption.66}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.7}{\ignorespaces Series temporales de la telemetría del prototipo: variables lumínicas, ambientales, de suelo y estados de los actuadores.}}{94}{figure.caption.67}\protected@file@percent }
-\newlabel{fig:graficos_telemetria}{{8.7}{94}{Series temporales de la telemetría del prototipo: variables lumínicas, ambientales, de suelo y estados de los actuadores}{figure.caption.67}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.3.2}Segunda prueba}{95}{subsection.8.3.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {8.8}{\ignorespaces Fecha de la foto: 26/02/26}}{95}{figure.caption.68}\protected@file@percent }
-\newlabel{fig:prueba2_26feb}{{8.8}{95}{Fecha de la foto: 26/02/26}{figure.caption.68}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.9}{\ignorespaces Fecha de la foto: 28/02/26}}{96}{figure.caption.69}\protected@file@percent }
-\newlabel{fig:prueba2_28feb}{{8.9}{96}{Fecha de la foto: 28/02/26}{figure.caption.69}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.10}{\ignorespaces Fecha de la foto: 04/03/26}}{96}{figure.caption.70}\protected@file@percent }
-\newlabel{fig:prueba2_04mar}{{8.10}{96}{Fecha de la foto: 04/03/26}{figure.caption.70}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.11}{\ignorespaces Fecha de la foto: 09/03/26}}{97}{figure.caption.71}\protected@file@percent }
-\newlabel{fig:prueba2_09mar}{{8.11}{97}{Fecha de la foto: 09/03/26}{figure.caption.71}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.12}{\ignorespaces Fecha de la foto: 10/03/26}}{97}{figure.caption.72}\protected@file@percent }
-\newlabel{fig:prueba2_10mar}{{8.12}{97}{Fecha de la foto: 10/03/26}{figure.caption.72}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.13}{\ignorespaces Planta invasora}}{98}{figure.caption.73}\protected@file@percent }
-\newlabel{fig:prueba2_invasora}{{8.13}{98}{Planta invasora}{figure.caption.73}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.14}{\ignorespaces Fecha de la imagen: 17/03/26}}{98}{figure.caption.74}\protected@file@percent }
-\newlabel{fig:prueba2_17mar}{{8.14}{98}{Fecha de la imagen: 17/03/26}{figure.caption.74}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.15}{\ignorespaces Fecha de la imagen: 23/03/26}}{99}{figure.caption.75}\protected@file@percent }
-\newlabel{fig:prueba2_23mar}{{8.15}{99}{Fecha de la imagen: 23/03/26}{figure.caption.75}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.16}{\ignorespaces Fecha de la imagen: 26/03/26}}{99}{figure.caption.76}\protected@file@percent }
-\newlabel{fig:prueba2_26mar}{{8.16}{99}{Fecha de la imagen: 26/03/26}{figure.caption.76}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.17}{\ignorespaces Fecha de la imagen: 30/03/26}}{100}{figure.caption.77}\protected@file@percent }
-\newlabel{fig:prueba2_30mar}{{8.17}{100}{Fecha de la imagen: 30/03/26}{figure.caption.77}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.18}{\ignorespaces Fecha de la imagen: 06/04/26}}{101}{figure.caption.78}\protected@file@percent }
-\newlabel{fig:prueba2_06abr}{{8.18}{101}{Fecha de la imagen: 06/04/26}{figure.caption.78}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.19}{\ignorespaces Series temporales de la telemetría del prototipo: variables lumínicas, ambientales, de suelo y estados de los actuadores.}}{102}{figure.caption.79}\protected@file@percent }
-\newlabel{fig:graficos_telemetria}{{8.19}{102}{Series temporales de la telemetría del prototipo: variables lumínicas, ambientales, de suelo y estados de los actuadores}{figure.caption.79}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.4}Resultados del prototipo final}{103}{section.8.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.4.1}Tercera prueba}{103}{subsection.8.4.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {8.20}{\ignorespaces Plantacion 25/04/2026}}{103}{figure.caption.80}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {8.21}{\ignorespaces Plantacion 30/04/2026}}{104}{figure.caption.81}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {8.22}{\ignorespaces Plantacion 10/05/2026}}{104}{figure.caption.82}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {8.23}{\ignorespaces Plantacion 23/05/2026}}{105}{figure.caption.83}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {8.24}{\ignorespaces Plantacion 02/06/2026}}{105}{figure.caption.84}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {8.25}{\ignorespaces Plantacion 15/06/2026}}{105}{figure.caption.85}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {8.26}{\ignorespaces Grafico de humedad de suelo de maceta 1.}}{106}{figure.caption.86}\protected@file@percent }
-\newlabel{fig:prueba2_10mar}{{8.26}{106}{Grafico de humedad de suelo de maceta 1}{figure.caption.86}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.27}{\ignorespaces Grafico de humedad de suelo de maceta 2.}}{106}{figure.caption.87}\protected@file@percent }
-\newlabel{fig:prueba2_10mar}{{8.27}{106}{Grafico de humedad de suelo de maceta 2}{figure.caption.87}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.28}{\ignorespaces Grafico de DLI y lux de maceta 1.}}{107}{figure.caption.88}\protected@file@percent }
-\newlabel{fig:prueba2_10mar}{{8.28}{107}{Grafico de DLI y lux de maceta 1}{figure.caption.88}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.29}{\ignorespaces Grafico de DLI y lux de maceta 2.}}{107}{figure.caption.89}\protected@file@percent }
-\newlabel{fig:prueba2_10mar}{{8.29}{107}{Grafico de DLI y lux de maceta 2}{figure.caption.89}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.30}{\ignorespaces Grafico de actuadores de maceta 1.}}{108}{figure.caption.90}\protected@file@percent }
-\newlabel{fig:prueba2_10mar}{{8.30}{108}{Grafico de actuadores de maceta 1}{figure.caption.90}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.31}{\ignorespaces Grafico de actuadores de maceta 2.}}{108}{figure.caption.91}\protected@file@percent }
-\newlabel{fig:prueba2_10mar}{{8.31}{108}{Grafico de actuadores de maceta 2}{figure.caption.91}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.32}{\ignorespaces Grafico de temperatura y humedad para ambas macetas.}}{108}{figure.caption.92}\protected@file@percent }
-\newlabel{fig:prueba2_10mar}{{8.32}{108}{Grafico de temperatura y humedad para ambas macetas}{figure.caption.92}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.33}{\ignorespaces Grafico de humedad de suelo de maceta 1.}}{109}{figure.caption.93}\protected@file@percent }
-\newlabel{fig:prueba2_10mar}{{8.33}{109}{Grafico de humedad de suelo de maceta 1}{figure.caption.93}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.34}{\ignorespaces Grafico de humedad de suelo de maceta 2.}}{109}{figure.caption.94}\protected@file@percent }
-\newlabel{fig:prueba2_10mar}{{8.34}{109}{Grafico de humedad de suelo de maceta 2}{figure.caption.94}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.35}{\ignorespaces Grafico de DLI y lux de maceta 1.}}{110}{figure.caption.95}\protected@file@percent }
-\newlabel{fig:prueba2_10mar}{{8.35}{110}{Grafico de DLI y lux de maceta 1}{figure.caption.95}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.36}{\ignorespaces Grafico de DLI y lux de maceta 2.}}{110}{figure.caption.96}\protected@file@percent }
-\newlabel{fig:prueba2_10mar}{{8.36}{110}{Grafico de DLI y lux de maceta 2}{figure.caption.96}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.37}{\ignorespaces Grafico de actuadores de maceta 1.}}{111}{figure.caption.97}\protected@file@percent }
-\newlabel{fig:prueba2_10mar}{{8.37}{111}{Grafico de actuadores de maceta 1}{figure.caption.97}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.38}{\ignorespaces Grafico de actuadores de maceta 2.}}{111}{figure.caption.98}\protected@file@percent }
-\newlabel{fig:prueba2_10mar}{{8.38}{111}{Grafico de actuadores de maceta 2}{figure.caption.98}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.39}{\ignorespaces Grafico de temperatura y humedad para ambas macetas.}}{111}{figure.caption.99}\protected@file@percent }
-\newlabel{fig:prueba2_10mar}{{8.39}{111}{Grafico de temperatura y humedad para ambas macetas}{figure.caption.99}{}}
-\newlabel{cha:consumo_potencia}{{8.4.1}{114}{Consumo de potencia}{chapter*.100}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.40}{\ignorespaces Lectura del amperímetro en [A].}}{114}{figure.caption.101}\protected@file@percent }
-\newlabel{eq:desarrollo_potencia}{{8.1}{115}{Consumo de potencia}{equation.8.1}{}}
-\newlabel{eq:calculo_kwh}{{8.2}{115}{Consumo de potencia}{equation.8.2}{}}
-\@writefile{toc}{\contentsline {chapter}{Conclusiones}{116}{chapter*.102}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{Resultados obtenidos en relación con la SAT}{116}{section*.103}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{Conclusión general}{116}{section*.103}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{Aporte a la ingeniería o al campo de conocimiento}{117}{section*.103}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{Limitaciones y trabajos futuros}{117}{section*.103}\protected@file@percent }
+\newlabel{cha:software_control}{{8}{86}{Implementación y Despliegue del Software de Control}{chapter.8}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.1}Código}{86}{section.8.1}\protected@file@percent }
+\newlabel{sec:codigo}{{8.1}{86}{Código}{section.8.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.1}Sistema operativo y lenguaje de desarrollo}{86}{subsection.8.1.1}\protected@file@percent }
+\newlabel{subsec:so_lenguaje}{{8.1.1}{86}{Sistema operativo y lenguaje de desarrollo}{subsection.8.1.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.2}Organización modular del software}{86}{subsection.8.1.2}\protected@file@percent }
+\newlabel{subsec:organizacion_modular_real}{{8.1.2}{86}{Organización modular del software}{subsection.8.1.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.1}{\ignorespaces Dependencias de importación entre los módulos del proceso de control (\texttt  {indoor\_main.service}). Todas las flechas representan relaciones de código (\textit  {import}): \texttt  {main.py} depende de los tres módulos restantes, que a su vez comparten las estructuras de datos definidas en \texttt  {models.py}.}}{88}{figure.caption.58}\protected@file@percent }
+\newlabel{fig:arquitectura_control}{{8.1}{88}{Dependencias de importación entre los módulos del proceso de control (\texttt {indoor\_main.service}). Todas las flechas representan relaciones de código (\textit {import}): \texttt {main.py} depende de los tres módulos restantes, que a su vez comparten las estructuras de datos definidas en \texttt {models.py}}{figure.caption.58}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.3}Configuración externalizada}{88}{subsection.8.1.3}\protected@file@percent }
+\newlabel{subsec:config_externalizada_real}{{8.1.3}{88}{Configuración externalizada}{subsection.8.1.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.2}{\ignorespaces Relación entre el proceso de control y el proceso de configuración web (\texttt  {indoor\_web.service}). A diferencia de la Figura \ref {fig:arquitectura_control}, aquí no existe ninguna dependencia de código Python entre ambos procesos: la única relación es el archivo \texttt  {config.toml} compartido en disco (flechas punteadas), que cada proceso lee y/o escribe de forma independiente. El servicio \texttt  {ngrok.service} tampoco depende del código de \texttt  {web.py}; únicamente reenvía tráfico de red hacia el puerto que este último expone.}}{89}{figure.caption.59}\protected@file@percent }
+\newlabel{fig:arquitectura_web}{{8.2}{89}{Relación entre el proceso de control y el proceso de configuración web (\texttt {indoor\_web.service}). A diferencia de la Figura \ref {fig:arquitectura_control}, aquí no existe ninguna dependencia de código Python entre ambos procesos: la única relación es el archivo \texttt {config.toml} compartido en disco (flechas punteadas), que cada proceso lee y/o escribe de forma independiente. El servicio \texttt {ngrok.service} tampoco depende del código de \texttt {web.py}; únicamente reenvía tráfico de red hacia el puerto que este último expone}{figure.caption.59}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.4}Capa de abstracción de hardware}{89}{subsection.8.1.4}\protected@file@percent }
+\newlabel{subsec:capa_hardware_real}{{8.1.4}{89}{Capa de abstracción de hardware}{subsection.8.1.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.5}Ciclo principal de orquestación}{90}{subsection.8.1.5}\protected@file@percent }
+\newlabel{subsec:ciclo_orquestacion}{{8.1.5}{90}{Ciclo principal de orquestación}{subsection.8.1.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.6}Despliegue y arranque automático: gestión mediante servicios de systemd}{91}{subsection.8.1.6}\protected@file@percent }
+\newlabel{subsec:systemd}{{8.1.6}{91}{Despliegue y arranque automático: gestión mediante servicios de systemd}{subsection.8.1.6}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {8.1.6.1}Adquisición de Datos y Registro Histórico del Sistema}{92}{subsubsection.8.1.6.1}\protected@file@percent }
+\newlabel{subsubsec:adquisicion_registro}{{8.1.6.1}{92}{Adquisición de Datos y Registro Histórico del Sistema}{subsubsection.8.1.6.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.7}Telemetría y visualización en la nube: integración con ThingSpeak}{93}{subsection.8.1.7}\protected@file@percent }
+\newlabel{subsec:thingspeak}{{8.1.7}{93}{Telemetría y visualización en la nube: integración con ThingSpeak}{subsection.8.1.7}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {8.1.7.1}Arquitectura de transmisión de datos}{93}{subsubsection.8.1.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8.2}Interfaz de usuario}{94}{section.8.2}\protected@file@percent }
+\newlabel{sec:interfaz_usuario}{{8.2}{94}{Interfaz de usuario}{section.8.2}{}}
+\@writefile{toc}{\contentsline {part}{PARTE III - RESULTADOS Y CONCLUSIONES}{97}{part*.60}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{Resultados}{97}{chapter*.61}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8.3}Resultados del prototipo preliminar}{97}{section.8.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.3.1}Primera prueba}{97}{subsection.8.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8.3}{\ignorespaces Primera plantacion: 28/01/26}}{98}{figure.caption.62}\protected@file@percent }
+\newlabel{fig:placeholder1}{{8.3}{98}{Primera plantacion: 28/01/26}{figure.caption.62}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.4}{\ignorespaces Fecha de la foto: 05/02/26}}{99}{figure.caption.63}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8.5}{\ignorespaces Fecha de la foto: 17/02/26}}{100}{figure.caption.64}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8.7}{\ignorespaces Fecha de la foto: 23/02/26}}{100}{figure.caption.66}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8.6}{\ignorespaces Fecha de la foto: 19/02/26}}{101}{figure.caption.65}\protected@file@percent }
+\newlabel{fig:placeholder1}{{8.6}{101}{Fecha de la foto: 19/02/26}{figure.caption.65}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.8}{\ignorespaces Cosecha: 23/02/26}}{102}{figure.caption.67}\protected@file@percent }
+\newlabel{fig:placeholder1}{{8.8}{102}{Cosecha: 23/02/26}{figure.caption.67}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.9}{\ignorespaces Series temporales de la telemetría del prototipo: variables lumínicas, ambientales, de suelo y estados de los actuadores.}}{103}{figure.caption.68}\protected@file@percent }
+\newlabel{fig:graficos_telemetria}{{8.9}{103}{Series temporales de la telemetría del prototipo: variables lumínicas, ambientales, de suelo y estados de los actuadores}{figure.caption.68}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.3.2}Segunda prueba}{104}{subsection.8.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8.10}{\ignorespaces Fecha de la foto: 26/02/26}}{104}{figure.caption.69}\protected@file@percent }
+\newlabel{fig:prueba2_26feb}{{8.10}{104}{Fecha de la foto: 26/02/26}{figure.caption.69}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.11}{\ignorespaces Fecha de la foto: 28/02/26}}{105}{figure.caption.70}\protected@file@percent }
+\newlabel{fig:prueba2_28feb}{{8.11}{105}{Fecha de la foto: 28/02/26}{figure.caption.70}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.12}{\ignorespaces Fecha de la foto: 04/03/26}}{105}{figure.caption.71}\protected@file@percent }
+\newlabel{fig:prueba2_04mar}{{8.12}{105}{Fecha de la foto: 04/03/26}{figure.caption.71}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.13}{\ignorespaces Fecha de la foto: 09/03/26}}{106}{figure.caption.72}\protected@file@percent }
+\newlabel{fig:prueba2_09mar}{{8.13}{106}{Fecha de la foto: 09/03/26}{figure.caption.72}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.14}{\ignorespaces Fecha de la foto: 10/03/26}}{106}{figure.caption.73}\protected@file@percent }
+\newlabel{fig:prueba2_10mar}{{8.14}{106}{Fecha de la foto: 10/03/26}{figure.caption.73}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.15}{\ignorespaces Planta invasora}}{107}{figure.caption.74}\protected@file@percent }
+\newlabel{fig:prueba2_invasora}{{8.15}{107}{Planta invasora}{figure.caption.74}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.16}{\ignorespaces Fecha de la imagen: 17/03/26}}{107}{figure.caption.75}\protected@file@percent }
+\newlabel{fig:prueba2_17mar}{{8.16}{107}{Fecha de la imagen: 17/03/26}{figure.caption.75}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.17}{\ignorespaces Fecha de la imagen: 23/03/26}}{108}{figure.caption.76}\protected@file@percent }
+\newlabel{fig:prueba2_23mar}{{8.17}{108}{Fecha de la imagen: 23/03/26}{figure.caption.76}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.18}{\ignorespaces Fecha de la imagen: 26/03/26}}{108}{figure.caption.77}\protected@file@percent }
+\newlabel{fig:prueba2_26mar}{{8.18}{108}{Fecha de la imagen: 26/03/26}{figure.caption.77}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.19}{\ignorespaces Fecha de la imagen: 30/03/26}}{109}{figure.caption.78}\protected@file@percent }
+\newlabel{fig:prueba2_30mar}{{8.19}{109}{Fecha de la imagen: 30/03/26}{figure.caption.78}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.20}{\ignorespaces Fecha de la imagen: 06/04/26}}{110}{figure.caption.79}\protected@file@percent }
+\newlabel{fig:prueba2_06abr}{{8.20}{110}{Fecha de la imagen: 06/04/26}{figure.caption.79}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.21}{\ignorespaces Series temporales de la telemetría del prototipo: variables lumínicas, ambientales, de suelo y estados de los actuadores.}}{111}{figure.caption.80}\protected@file@percent }
+\newlabel{fig:graficos_telemetria}{{8.21}{111}{Series temporales de la telemetría del prototipo: variables lumínicas, ambientales, de suelo y estados de los actuadores}{figure.caption.80}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.4}Resultados del prototipo final}{112}{section.8.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.4.1}Tercera prueba}{112}{subsection.8.4.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8.22}{\ignorespaces Plantacion 25/04/2026}}{112}{figure.caption.81}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8.23}{\ignorespaces Plantacion 30/04/2026}}{113}{figure.caption.82}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8.24}{\ignorespaces Plantacion 10/05/2026}}{113}{figure.caption.83}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8.25}{\ignorespaces Plantacion 23/05/2026}}{114}{figure.caption.84}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8.26}{\ignorespaces Plantacion 02/06/2026}}{114}{figure.caption.85}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8.27}{\ignorespaces Plantacion 15/06/2026}}{114}{figure.caption.86}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8.28}{\ignorespaces Grafico de humedad de suelo de maceta 1.}}{115}{figure.caption.87}\protected@file@percent }
+\newlabel{fig:prueba2_10mar}{{8.28}{115}{Grafico de humedad de suelo de maceta 1}{figure.caption.87}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.29}{\ignorespaces Grafico de humedad de suelo de maceta 2.}}{115}{figure.caption.88}\protected@file@percent }
+\newlabel{fig:prueba2_10mar}{{8.29}{115}{Grafico de humedad de suelo de maceta 2}{figure.caption.88}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.30}{\ignorespaces Grafico de DLI y lux de maceta 1.}}{116}{figure.caption.89}\protected@file@percent }
+\newlabel{fig:prueba2_10mar}{{8.30}{116}{Grafico de DLI y lux de maceta 1}{figure.caption.89}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.31}{\ignorespaces Grafico de DLI y lux de maceta 2.}}{116}{figure.caption.90}\protected@file@percent }
+\newlabel{fig:prueba2_10mar}{{8.31}{116}{Grafico de DLI y lux de maceta 2}{figure.caption.90}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.32}{\ignorespaces Grafico de actuadores de maceta 1.}}{117}{figure.caption.91}\protected@file@percent }
+\newlabel{fig:prueba2_10mar}{{8.32}{117}{Grafico de actuadores de maceta 1}{figure.caption.91}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.33}{\ignorespaces Grafico de actuadores de maceta 2.}}{117}{figure.caption.92}\protected@file@percent }
+\newlabel{fig:prueba2_10mar}{{8.33}{117}{Grafico de actuadores de maceta 2}{figure.caption.92}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.34}{\ignorespaces Grafico de temperatura y humedad para ambas macetas.}}{117}{figure.caption.93}\protected@file@percent }
+\newlabel{fig:prueba2_10mar}{{8.34}{117}{Grafico de temperatura y humedad para ambas macetas}{figure.caption.93}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.35}{\ignorespaces Grafico de humedad de suelo de maceta 1.}}{118}{figure.caption.94}\protected@file@percent }
+\newlabel{fig:prueba2_10mar}{{8.35}{118}{Grafico de humedad de suelo de maceta 1}{figure.caption.94}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.36}{\ignorespaces Grafico de humedad de suelo de maceta 2.}}{118}{figure.caption.95}\protected@file@percent }
+\newlabel{fig:prueba2_10mar}{{8.36}{118}{Grafico de humedad de suelo de maceta 2}{figure.caption.95}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.37}{\ignorespaces Grafico de DLI y lux de maceta 1.}}{119}{figure.caption.96}\protected@file@percent }
+\newlabel{fig:prueba2_10mar}{{8.37}{119}{Grafico de DLI y lux de maceta 1}{figure.caption.96}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.38}{\ignorespaces Grafico de DLI y lux de maceta 2.}}{119}{figure.caption.97}\protected@file@percent }
+\newlabel{fig:prueba2_10mar}{{8.38}{119}{Grafico de DLI y lux de maceta 2}{figure.caption.97}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.39}{\ignorespaces Grafico de actuadores de maceta 1.}}{120}{figure.caption.98}\protected@file@percent }
+\newlabel{fig:prueba2_10mar}{{8.39}{120}{Grafico de actuadores de maceta 1}{figure.caption.98}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.40}{\ignorespaces Grafico de actuadores de maceta 2.}}{120}{figure.caption.99}\protected@file@percent }
+\newlabel{fig:prueba2_10mar}{{8.40}{120}{Grafico de actuadores de maceta 2}{figure.caption.99}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.41}{\ignorespaces Grafico de temperatura y humedad para ambas macetas.}}{120}{figure.caption.100}\protected@file@percent }
+\newlabel{fig:prueba2_10mar}{{8.41}{120}{Grafico de temperatura y humedad para ambas macetas}{figure.caption.100}{}}
+\newlabel{cha:consumo_potencia}{{8.4.1}{123}{Consumo de potencia}{chapter*.101}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.42}{\ignorespaces Lectura del amperímetro en [A].}}{123}{figure.caption.102}\protected@file@percent }
+\newlabel{eq:desarrollo_potencia}{{8.1}{124}{Consumo de potencia}{equation.8.1}{}}
+\newlabel{eq:calculo_kwh}{{8.2}{124}{Consumo de potencia}{equation.8.2}{}}
+\@writefile{toc}{\contentsline {chapter}{Conclusiones}{125}{chapter*.103}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{Resultados obtenidos en relación con la SAT}{125}{section*.104}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{Conclusión general}{125}{section*.104}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{Aporte a la ingeniería o al campo de conocimiento}{126}{section*.104}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{Limitaciones y trabajos futuros}{126}{section*.104}\protected@file@percent }
 \bibcite{ogata2010}{1}
 \bibcite{kuo1996}{2}
 \bibcite{smith1997dsp}{3}
@@ -545,24 +572,25 @@
 \bibcite{foto_sensor_dht22}{51}
 \bibcite{foto_sensor_suelo}{52}
 \bibcite{foto_sensor_bh1750}{53}
-\@writefile{toc}{\contentsline {chapter}{\numberline {A}Anexo I}{126}{appendix.Alph1}\protected@file@percent }
+\bibcite{ventilador_datasheet}{54}
+\@writefile{toc}{\contentsline {chapter}{\numberline {A}Anexo I}{135}{appendix.Alph1}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{anexo1}{{A}{126}{Anexo I}{appendix.Alph1}{}}
-\@writefile{toc}{\contentsline {section}{Anexo I - Título}{126}{section*.106}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {B}Anexo II}{127}{appendix.Alph2}\protected@file@percent }
+\newlabel{anexo1}{{A}{135}{Anexo I}{appendix.Alph1}{}}
+\@writefile{toc}{\contentsline {section}{Anexo I - Título}{135}{section*.107}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {B}Anexo II}{136}{appendix.Alph2}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{anexo2}{{B}{127}{Anexo II}{appendix.Alph2}{}}
-\@writefile{toc}{\contentsline {section}{Anexo II - Título}{127}{section*.107}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {C}Anexo del Proyecto Integrador}{128}{appendix.Alph3}\protected@file@percent }
+\newlabel{anexo2}{{B}{136}{Anexo II}{appendix.Alph2}{}}
+\@writefile{toc}{\contentsline {section}{Anexo II - Título}{136}{section*.108}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {C}Anexo del Proyecto Integrador}{137}{appendix.Alph3}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{anexoPI}{{C}{128}{Anexo del Proyecto Integrador}{appendix.Alph3}{}}
-\@writefile{toc}{\contentsline {section}{Solicitud de Aprobación de Tema}{128}{section*.108}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {C.1}{\ignorespaces DURACIÓN Y FASES DE LAS TAREAS PREVISTAS}}{130}{figure.caption.109}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {C.2}{\ignorespaces \relax }}{132}{figure.caption.110}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {C.3}{\ignorespaces \relax }}{133}{figure.caption.111}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {C.4}{\ignorespaces \relax }}{133}{figure.caption.112}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{Informes mensuales}{134}{figure.caption.112}\protected@file@percent }
-\gdef \@abspage@last{154}
+\newlabel{anexoPI}{{C}{137}{Anexo del Proyecto Integrador}{appendix.Alph3}{}}
+\@writefile{toc}{\contentsline {section}{Solicitud de Aprobación de Tema}{137}{section*.109}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {C.1}{\ignorespaces DURACIÓN Y FASES DE LAS TAREAS PREVISTAS}}{139}{figure.caption.110}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {C.2}{\ignorespaces \relax }}{141}{figure.caption.111}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {C.3}{\ignorespaces \relax }}{142}{figure.caption.112}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {C.4}{\ignorespaces \relax }}{142}{figure.caption.113}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{Informes mensuales}{143}{figure.caption.113}\protected@file@percent }
+\gdef \@abspage@last{163}

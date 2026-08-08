@@ -76,7 +76,7 @@
 \contentsline {subsection}{\numberline {6.4.2}Prototipo final}{46}{subsection.6.4.2}%
 \contentsline {subsubsection}{\numberline {6.4.2.1}Impermeabilización y drenaje}{49}{subsubsection.6.4.2.1}%
 \contentsline {subsubsection}{\numberline {6.4.2.2}Arquitectura mecánica modular y acoplamiento estructural}{53}{subsubsection.6.4.2.2}%
-\contentsline {section}{\numberline {6.5}Diseños de piezas en 3D}{54}{section.6.5}%
+\contentsline {section}{\numberline {6.5}Diseños de piezas en 3D}{53}{section.6.5}%
 \contentsline {subsection}{\numberline {6.5.1}Soporte para sensores}{54}{subsection.6.5.1}%
 \contentsline {subsection}{\numberline {6.5.2}Soporte para manguera}{55}{subsection.6.5.2}%
 \contentsline {subsection}{\numberline {6.5.3}Acople Y}{56}{subsection.6.5.3}%
@@ -106,29 +106,38 @@
 \contentsline {subsection}{\numberline {7.5.3}Calibración del sensor de humedad de sustrato}{78}{subsection.7.5.3}%
 \contentsline {subsection}{\numberline {7.5.4}Algoritmo de control de riego}{79}{subsection.7.5.4}%
 \contentsline {section}{\numberline {7.6}Sistema de ventilación}{80}{section.7.6}%
-\contentsline {section}{\numberline {7.7}Esquemas de conexión}{81}{section.7.7}%
-\contentsline {chapter}{\numberline {8}Software y sistemas de control}{84}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Código}{84}{section.8.1}%
-\contentsline {subsubsection}{\numberline {8.1.0.1}Adquisición de Datos y Registro Histórico del Sistema}{84}{subsubsection.8.1.0.1}%
-\contentsline {subsection}{\numberline {8.1.1}Telemetría y visualización en la nube: integración con ThingSpeak}{85}{subsection.8.1.1}%
-\contentsline {subsubsection}{\numberline {8.1.1.1}Arquitectura de transmisión de datos}{85}{subsubsection.8.1.1.1}%
-\contentsline {section}{\numberline {8.2}Interfaz de usuario}{86}{section.8.2}%
-\contentsline {part}{PARTE III - RESULTADOS Y CONCLUSIONES}{88}{part*.59}%
-\contentsline {chapter}{Resultados}{88}{chapter*.60}%
-\contentsline {section}{\numberline {8.3}Resultados del prototipo preliminar}{88}{section.8.3}%
-\contentsline {subsection}{\numberline {8.3.1}Primera prueba}{88}{subsection.8.3.1}%
-\contentsline {subsection}{\numberline {8.3.2}Segunda prueba}{95}{subsection.8.3.2}%
-\contentsline {section}{\numberline {8.4}Resultados del prototipo final}{103}{section.8.4}%
-\contentsline {subsection}{\numberline {8.4.1}Tercera prueba}{103}{subsection.8.4.1}%
-\contentsline {chapter}{Conclusiones}{116}{chapter*.102}%
-\contentsline {section}{Resultados obtenidos en relación con la SAT}{116}{section*.103}%
-\contentsline {section}{Conclusión general}{116}{section*.103}%
-\contentsline {section}{Aporte a la ingeniería o al campo de conocimiento}{117}{section*.103}%
-\contentsline {section}{Limitaciones y trabajos futuros}{117}{section*.103}%
-\contentsline {chapter}{\numberline {A}Anexo I}{126}{appendix.Alph1}%
-\contentsline {section}{Anexo I - Título}{126}{section*.106}%
-\contentsline {chapter}{\numberline {B}Anexo II}{127}{appendix.Alph2}%
-\contentsline {section}{Anexo II - Título}{127}{section*.107}%
-\contentsline {chapter}{\numberline {C}Anexo del Proyecto Integrador}{128}{appendix.Alph3}%
-\contentsline {section}{Solicitud de Aprobación de Tema}{128}{section*.108}%
-\contentsline {section}{Informes mensuales}{134}{figure.caption.112}%
+\contentsline {subsection}{\numberline {7.6.1}Dimensionamiento del caudal de ventilación}{81}{subsection.7.6.1}%
+\contentsline {subsection}{\numberline {7.6.2}Umbrales de disparo}{82}{subsection.7.6.2}%
+\contentsline {subsection}{\numberline {7.6.3}Algoritmo de control de ventilación}{82}{subsection.7.6.3}%
+\contentsline {section}{\numberline {7.7}Esquemas de conexión}{84}{section.7.7}%
+\contentsline {chapter}{\numberline {8}Implementación y Despliegue del Software de Control}{86}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Código}{86}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Sistema operativo y lenguaje de desarrollo}{86}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}Organización modular del software}{86}{subsection.8.1.2}%
+\contentsline {subsection}{\numberline {8.1.3}Configuración externalizada}{88}{subsection.8.1.3}%
+\contentsline {subsection}{\numberline {8.1.4}Capa de abstracción de hardware}{89}{subsection.8.1.4}%
+\contentsline {subsection}{\numberline {8.1.5}Ciclo principal de orquestación}{90}{subsection.8.1.5}%
+\contentsline {subsection}{\numberline {8.1.6}Despliegue y arranque automático: gestión mediante servicios de systemd}{91}{subsection.8.1.6}%
+\contentsline {subsubsection}{\numberline {8.1.6.1}Adquisición de Datos y Registro Histórico del Sistema}{92}{subsubsection.8.1.6.1}%
+\contentsline {subsection}{\numberline {8.1.7}Telemetría y visualización en la nube: integración con ThingSpeak}{93}{subsection.8.1.7}%
+\contentsline {subsubsection}{\numberline {8.1.7.1}Arquitectura de transmisión de datos}{93}{subsubsection.8.1.7.1}%
+\contentsline {section}{\numberline {8.2}Interfaz de usuario}{94}{section.8.2}%
+\contentsline {part}{PARTE III - RESULTADOS Y CONCLUSIONES}{97}{part*.60}%
+\contentsline {chapter}{Resultados}{97}{chapter*.61}%
+\contentsline {section}{\numberline {8.3}Resultados del prototipo preliminar}{97}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}Primera prueba}{97}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.2}Segunda prueba}{104}{subsection.8.3.2}%
+\contentsline {section}{\numberline {8.4}Resultados del prototipo final}{112}{section.8.4}%
+\contentsline {subsection}{\numberline {8.4.1}Tercera prueba}{112}{subsection.8.4.1}%
+\contentsline {chapter}{Conclusiones}{125}{chapter*.103}%
+\contentsline {section}{Resultados obtenidos en relación con la SAT}{125}{section*.104}%
+\contentsline {section}{Conclusión general}{125}{section*.104}%
+\contentsline {section}{Aporte a la ingeniería o al campo de conocimiento}{126}{section*.104}%
+\contentsline {section}{Limitaciones y trabajos futuros}{126}{section*.104}%
+\contentsline {chapter}{\numberline {A}Anexo I}{135}{appendix.Alph1}%
+\contentsline {section}{Anexo I - Título}{135}{section*.107}%
+\contentsline {chapter}{\numberline {B}Anexo II}{136}{appendix.Alph2}%
+\contentsline {section}{Anexo II - Título}{136}{section*.108}%
+\contentsline {chapter}{\numberline {C}Anexo del Proyecto Integrador}{137}{appendix.Alph3}%
+\contentsline {section}{Solicitud de Aprobación de Tema}{137}{section*.109}%
+\contentsline {section}{Informes mensuales}{143}{figure.caption.113}%
