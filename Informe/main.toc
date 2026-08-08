@@ -96,9 +96,10 @@
 \contentsline {subsection}{\numberline {7.2.5}Ventiladores}{69}{subsection.7.2.5}%
 \contentsline {section}{\numberline {7.3}Etapa de potencia: relés electromecánicos y de estado sólido}{70}{section.7.3}%
 \contentsline {section}{\numberline {7.4}Sistema de iluminación}{71}{section.7.4}%
-\contentsline {subsection}{\numberline {7.4.1}Diseño geométrico de la disposición lumínica}{72}{subsection.7.4.1}%
-\contentsline {subsection}{\numberline {7.4.2}Conversión de iluminancia a DLI: validación numérica}{73}{subsection.7.4.2}%
-\contentsline {subsection}{\numberline {7.4.3}Algoritmo de control dinámico del fotoperíodo}{74}{subsection.7.4.3}%
+\contentsline {subsection}{\numberline {7.4.1}Diseño geométrico de la disposición lumínica}{71}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}Conversión de iluminancia a DLI: validación numérica}{72}{subsection.7.4.2}%
+\contentsline {subsection}{\numberline {7.4.3}Algoritmo de control dinámico del fotoperíodo}{72}{subsection.7.4.3}%
+\contentsline {subsection}{\numberline {7.4.4}Disposición física de las luminarias}{74}{subsection.7.4.4}%
 \contentsline {section}{\numberline {7.5}Sistema de riego}{75}{section.7.5}%
 \contentsline {section}{\numberline {7.6}Sistema de ventilación}{77}{section.7.6}%
 \contentsline {section}{\numberline {7.7}Esquemas de conexión}{78}{section.7.7}%
@@ -120,10 +121,10 @@
 \contentsline {section}{Conclusión general}{113}{section*.103}%
 \contentsline {section}{Aporte a la ingeniería o al campo de conocimiento}{114}{section*.103}%
 \contentsline {section}{Limitaciones y trabajos futuros}{114}{section*.103}%
-\contentsline {chapter}{\numberline {A}Anexo I}{122}{appendix.Alph1}%
-\contentsline {section}{Anexo I - Título}{122}{section*.106}%
-\contentsline {chapter}{\numberline {B}Anexo II}{123}{appendix.Alph2}%
-\contentsline {section}{Anexo II - Título}{123}{section*.107}%
-\contentsline {chapter}{\numberline {C}Anexo del Proyecto Integrador}{124}{appendix.Alph3}%
-\contentsline {section}{Solicitud de Aprobación de Tema}{124}{section*.108}%
-\contentsline {section}{Informes mensuales}{124}{section*.108}%
+\contentsline {chapter}{\numberline {A}Anexo I}{123}{appendix.Alph1}%
+\contentsline {section}{Anexo I - Título}{123}{section*.106}%
+\contentsline {chapter}{\numberline {B}Anexo II}{124}{appendix.Alph2}%
+\contentsline {section}{Anexo II - Título}{124}{section*.107}%
+\contentsline {chapter}{\numberline {C}Anexo del Proyecto Integrador}{125}{appendix.Alph3}%
+\contentsline {section}{Solicitud de Aprobación de Tema}{125}{section*.108}%
+\contentsline {section}{Informes mensuales}{125}{section*.108}%

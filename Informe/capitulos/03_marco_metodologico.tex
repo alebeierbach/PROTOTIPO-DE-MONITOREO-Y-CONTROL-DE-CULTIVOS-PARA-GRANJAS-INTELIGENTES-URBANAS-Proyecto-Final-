@@ -678,21 +678,11 @@ Por otro lado, para gobernar la bomba hidráulica y las válvulas solenoides (la
 
 
 \section{Sistema de iluminación}
-\label{sec:disposicion_luminarias}
-
-Para la instalación física del panel de espectro completo presentado en la sección anterior, se acondicionó la viga transversal de madera posicionada en el estrato superior de la estación de cultivo, integrando armellas de sujeción cerrada conocidas comercialmente como tornillos ojo. A través de estos componentes mecánicos se enhebran las eslingas de acero que suspenden el artefacto lumínico, estableciendo una matriz de fijación redundante. La distribución geométrica de estos anclajes se calculó con el propósito operativo de regular de forma manual el distanciamiento vertical entre el foco y el ápice del dosel vegetal; esta modularidad posicional permite manipular de manera directa la densidad de flujo fotónico y la carga térmica por radiación que incide sobre las especies bajo ensayo. En la etapa de germinación, posterior a la siembra, las luminarias se configuran en su cota altimétrica mínima, optimizando la transferencia de energía electromagnética necesaria para estimular los fotorreceptores iniciales de las plántulas.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/luminaria.jpeg}
-    \caption{Disposición de las luminarias.}
-    \Fuente{propia.}
-\end{figure}
 
 \subsection{Diseño geométrico de la disposición lumínica}
 \label{subsec:diseno_geometrico_luz}
 
-El panel LED seleccionado (Sección \ref{subsec:luces_cultivo}) es una fuente de emisión rectangular, no puntual, con una placa estructural de $17\text{ cm} \times 11{,}3\text{ cm}$. Bajo el criterio de diseño de mantener el dosel vegetal a una distancia de la luminaria de entre 20 y 30 cm, y considerando el ángulo de incidencia de $120°$ especificado por el fabricante, la huella iluminada en el plano de la maceta --para una fuente rectangular-- se obtiene sumando a cada lado del panel la expansión lateral del haz:
+El panel LED seleccionado (Sección \ref{subsec:luces_cultivo}) es una fuente de emisión rectangular, no puntual, con una placa estructural de $17\text{ cm} \times 11{,}3\text{ cm}$. Bajo el criterio de diseño de mantener el dosel vegetal a una distancia de la luminaria de entre 20 y 30 cm, y considerando que el ángulo de emisión de luz de los paneles LED es de 120°, la huella iluminada en el plano de la maceta (para una fuente rectangular) se obtiene sumando a cada lado del panel la expansión lateral del haz:
 
 \begin{equation}
     L_{iluminado} = L_{panel} + 2 \cdot h \cdot \tan\left(\frac{120°}{2}\right)
@@ -711,35 +701,34 @@ Dado que cada maceta tiene una superficie de $100\text{ cm} \times 50\text{ cm}$
 \subsection{Conversión de iluminancia a DLI: validación numérica}
 \label{subsec:validacion_dli}
 
-La calibración del factor de luminaria del panel LED se realizó mediante una medición directa con el sensor BH1750, colocando la luminaria a una altura de 27 cm respecto del dosel vegetal --dentro del rango de instalación de 20 a 30 cm establecido en la Sección \ref{subsec:diseno_geometrico_luz}--. La lectura obtenida en esa configuración, de $6500\ \si{lux}$, se adoptó como el valor de referencia de iluminancia del foco ($lux_{foco}$) empleado en el algoritmo de control (Sección \ref{subsec:algoritmo_control_dli}). A partir de esta calibración, y dado que la luz solar posee una composición espectral distinta a la del panel LED, se determinaron dos factores de luminaria independientes: $F_L = 0{,}0887$ para el foco artificial, y $F_{L,\text{ambiente}} = 0{,}0185$ para la luz natural.
+Para la caracterización del sistema de iluminación, se realizó una medición directa con el sensor BH1750 ubicando el panel LED a una altura nominal de \SI{27}{\centi\meter} respecto del dosel vegetal --valor comprendido dentro del rango de instalación de \SI{20}{\centi\meter} a \SI{30}{\centi\meter} definido en la Sección \ref{subsec:diseno_geometrico_luz}--. La lectura registrada en esta condición, de \SI{6500}{\lux}, se adoptó como el valor de referencia de iluminancia del foco ($lux_{\text{foco}}$) para el algoritmo de control (Sección \ref{subsec:algoritmo_control_dli}).
 
-Antes de su implementación en el software de control, la conversión de lux a PPFD y su posterior integración a DLI (Ecuaciones \ref{eq:ppfd_lux} y \ref{eq:dli_ppfd} del Marco Teórico) se validó numéricamente mediante un script de cálculo, tanto en su forma directa (a partir de una lectura de iluminancia, obtener el DLI resultante) como en su forma inversa (a partir de un DLI objetivo, obtener la iluminancia de luxómetro necesaria):
+Por otro lado, dado que la conversión de iluminancia a densidad de flujo de fotones fotosintéticos (PPFD) depende de la distribución espectral de la fuente de luz, se emplearon dos factores de luminaria independientes: $F_L = 0{,}0887$ para el panel LED artificial y $F_{L,\text{ambiente}} = 0{,}0185$ para la radiación solar natural \cite{factor_luminaria}.
 
-\begin{verbatim}
-Ti = 12;            % Fotoperiodo en horas
-Lux = 6500;         % Lectura de referencia del foco (BH1750, h = 27 cm)
-F_L = 8.87/100;     % Factor de luminaria del foco
-PPFD = Lux * F_L;   % Conversion de Lux a PPFD
-DLI = 0.0036 * PPFD * Ti;
+Antes de su implementación en el software de control, la conversión de iluminancia a PPFD y su posterior integración a DLI (Ecuaciones \ref{eq:ppfd_lux} y \ref{eq:dli_ppfd}) se validó numéricamente evaluando tanto la conversión directa como la inversa para los valores de caracterización obtenidos.
 
-DLI_D = 17.3;                     % DLI necesaria de una planta determinada
-PPFDc = DLI_D / (0.0036 * Ti);
-Luxs = PPFDc / F_L;
-\end{verbatim}
+Para la condición de referencia ($Lux = \SI{6500}{\lux}$, $F_L = 0{,}0887$) y considerando un fotoperíodo hipotético de $T_i = \SI{12}{\hour}$, la evaluación directa arroja un nivel de $\text{PPFD} = \SI{576{,}55}{\micro\mole\per\square\meter\per\second}$, lo que equivale a un $\text{DLI} \approx \SI{24{,}91}{\mole\per\square\meter\per\day}$ si la luminaria permaneciera encendida de forma continua durante todo el intervalo. Este valor ilustra la capacidad máxima de aporte del foco y no un tiempo de encendido real, dado que este último se determina dinámicamente mediante el algoritmo de la Sección \ref{subsec:algoritmo_control_dli}.
 
-Para el valor de referencia obtenido en la calibración ($Lux = 6500$, $F_L = 0{,}0887$) y un fotoperíodo hipotético de $T_i = 12\text{ h}$, la conversión directa arroja $PPFD = 576{,}55\ \si{\micro\mole\per\square\meter\per\second}$ y $DLI \approx 24{,}91\ \si{\mole\per\square\meter\per\day}$ si el foco permaneciera encendido durante todo ese lapso --valor que ilustra la capacidad máxima de aporte del foco y no un tiempo de encendido real, dado que este se determina dinámicamente mediante el algoritmo de la Sección \ref{subsec:algoritmo_control_dli}--. La conversión inversa, para un objetivo de $DLI_D = 17{,}3\ \si{\mole\per\square\meter\per\day}$, indica que se requeriría una lectura sostenida de $Luxs \approx 4515\ \si{lux}$ durante todo el fotoperíodo para alcanzar exactamente ese objetivo. Esta verificación permitió confirmar la consistencia de ambos factores de luminaria antes de trasladar la lógica al lazo de control principal.
+Por otro lado, la conversión inversa para un requerimiento de cultivo de $\text{DLI}_D = \SI{17{,}3}{\mole\per\square\meter\per\day}$ indica que se requeriría una lectura sostenida de $Lux_s \approx \SI{4515}{\lux}$ a lo largo de las \SI{12}{\hour} para alcanzar exactamente dicho objetivo. Esta verificación numérica permitió confirmar la consistencia de los factores de conversión antes de trasladar la lógica al lazo de control principal. Estos calculos se realizaron en un pequeño script de matlab que se encuentra en el repositorio del proyecto \cite{repo}.
 
 \subsection{Algoritmo de control dinámico del fotoperíodo}
 \label{subsec:algoritmo_control_dli}
 
-A diferencia del caso ilustrativo anterior, el sistema real no asume una iluminancia constante durante todo el fotoperíodo: integra continuamente dos fuentes de luz --la natural (ambiente) y la artificial (foco)-- y decide en cada ciclo de control si corresponde mantener encendido el panel LED, siguiendo el principio de control por presupuesto acumulado presentado en el Marco Teórico (Sección \ref{subsec:control_presupuesto}).
+A diferencia del caso ilustrativo anterior, el sistema real no asume una iluminancia constante durante todo el fotoperíodo: integra continuamente dos fuentes de luz, la natural (ambiente) y la artificial (foco) y decide en cada ciclo de control si corresponde mantener encendido el panel LED, siguiendo el principio de control por presupuesto acumulado presentado en el Marco Teórico (Sección \ref{subsec:control_presupuesto}).
 
-El algoritmo distingue dos factores de luminaria calibrados de forma independiente --uno para el panel LED ($F_L$) y otro para la luz solar ($F_{L,\text{ambiente}}$)--, dado que ambas fuentes tienen composiciones espectrales distintas y, por lo tanto, requieren constantes de conversión propias. En cada ciclo de control, de duración $\Delta t$:
+El algoritmo distingue dos factores de luminaria diferentes, uno para el panel LED ($F_L$) y otro para la luz solar ($F_{L,\text{ambiente}}$), dado que ambas fuentes tienen composiciones espectrales distintas y requieren constantes de conversión propias. En cada ciclo de control, de duración $\Delta t$:
 
 \begin{enumerate}
     \item Se calcula el PPFD aportado por el foco, a partir de un valor de iluminancia de referencia del panel ($lux_{foco}$) y su factor de luminaria: $PPFD_{foco} = lux_{foco} \cdot F_L$.
-    \item Se calcula el PPFD aportado por el ambiente, a partir de la lectura en vivo del sensor BH1750: $PPFD_{ambiente} = lux_{ambiente} \cdot F_{L,\text{ambiente}}$.
-    \item Se obtiene el PPFD total del ciclo, sumando el aporte ambiente con el del foco únicamente si este se encuentra encendido: $PPFD_{total} = PPFD_{ambiente} + PPFD_{foco} \cdot \mathbb{1}_{\text{foco encendido}}$.
+    \item Se calcula el PPFD aportado por el ambiente a partir de la lectura en vivo del sensor BH1750, el cual se encuentra ubicado fuera de la zona de incidencia directa del panel LED para registrar exclusivamente la luz natural del entorno: 
+        \begin{equation}
+        PPFD_{\text{ambiente}} = lux_{\text{ambiente}} \cdot F_{L,\text{ambiente}}
+        \end{equation}
+    \item Se obtiene el PPFD total del ciclo, sumando el aporte ambiente con el del foco únicamente si este se encuentra encendido:
+        \begin{equation}
+        PPFD_{\text{total}} = PPFD_{\text{ambiente}} + PPFD_{\text{foco}} \cdot S_{\text{foco}}
+        \end{equation}
+        donde $S_{\text{foco}} \in \{0, 1\}$ representa el estado discreto del actuador LED ($1$ encendido, $0$ apagado).
     \item Se integra el incremento de DLI del ciclo y se acumula al total del día: $\Delta DLI = 0{,}0036 \cdot PPFD_{total} \cdot \Delta t_{horas}$. Esta acumulación ocurre durante las 24 horas del día, independientemente de si el foco está habilitado a actuar, de modo que el aporte de luz solar siempre se contabiliza.
     \item Se verifica si el instante actual se encuentra dentro de la ventana horaria configurada para el fotoperíodo artificial. Si no lo está, el foco permanece apagado, sin evaluar más condiciones.
     \item Dentro de la ventana horaria, se calcula el DLI faltante para alcanzar el objetivo diario ($DLI_{faltante} = DLI_{objetivo} - DLI_{acumulado}$). Si ya fue alcanzado, el foco se apaga.
@@ -747,9 +736,17 @@ El algoritmo distingue dos factores de luminaria calibrados de forma independien
     \item El foco se enciende únicamente si ese aporte potencial no supera al DLI que todavía falta ($DLI_{potencial} \leq DLI_{faltante}$); es decir, solo mientras dejarlo encendido durante todo el tiempo que resta del día no exceda el objetivo.
 \end{enumerate}
 
-Esta última condición es la que le da al control su carácter anticipativo: en lugar de encender el foco recién cuando el DLI faltante llega a cero, el sistema calcula en cada ciclo si "todavía hay margen" para dejarlo encendido sin pasarse del objetivo diario, apagándolo tan pronto ese margen se agota. En la práctica, esto produce que el foco permanezca encendido de forma prácticamente continua mientras el aporte solar es bajo, y que reduzca su tiempo de encendido de forma progresiva a medida que la contribución de luz natural acumulada a lo largo del día se acerca al objetivo.
+Esta última condición es la que le da al control su carácter anticipativo: en lugar de encender el foco recién cuando el DLI faltante llega a cero, el sistema calcula en cada ciclo si "todavía hay margen"  para dejarlo encendido sin pasarse del objetivo diario, apagándolo tan pronto ese margen se agota. En la práctica, esto produce que el foco permanezca encendido de forma prácticamente continua mientras el aporte solar es bajo, y que reduzca su tiempo de encendido de forma progresiva a medida que la contribución de luz natural acumulada a lo largo del día se acerca al objetivo.
 
-\PENDIENTE{Valentín: acá van los cálculos de DLI/fotoperíodo --- factor de luminaria $F_L$ calibrado, PPFD estimado a partir de las lecturas del BH1750, y el cálculo del tiempo de encendido diario necesario para alcanzar el DLI objetivo de cada cultivo (ver Marco Teórico Sección \ref{sec:ppfd_dli} para la fórmula)}
+\subsection{Disposición física de las luminarias}
+\label{sec:disposicion_luminarias}
+Para la instalación del panel LED de espectro completo se utilizaron tornillos ojo (armellas) montados sobre la viga transversal superior de la estructura. El panel se suspendió mediante eslingas de acero, permitiendo regular manualmente la altura de las luces respecto al ápice de las plantas. Esta posibilidad de ajuste vertical facilita el control directo de la densidad de flujo fotónico ($PPFD$) y de la radiación térmica sobre el cultivo.
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/luminaria.jpeg}
+    \caption{Disposición de las luminarias.}
+    \Fuente{propia.}
+\end{figure}
 
 \section{Sistema de riego}
 \label{sec:circuito_riego}

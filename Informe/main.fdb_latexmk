@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1786142805.11281 "c:/Users/User/Documents/GitHub/PROTOTIPO-DE-MONITOREO-Y-CONTROL-DE-CULTIVOS-PARA-GRANJAS-INTELIGENTES-URBANAS-Proyecto-Final-/Informe/main.tex" "main.pdf" "main" 1786142821.54609 0
+["pdflatex"] 1786151767.54281 "c:/Users/User/Documents/GitHub/PROTOTIPO-DE-MONITOREO-Y-CONTROL-DE-CULTIVOS-PARA-GRANJAS-INTELIGENTES-URBANAS-Proyecto-Final-/Informe/main.tex" "main.pdf" "main" 1786151782.08502 0
   "C:/Program Files/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc" 1736607166 3136 bbe665bd0bb471a2da1e8fd326cff9fa ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc" 1736607166 2914 fdbc4a54b9bc76f4551b5303f2737d33 ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc" 1736607166 2083 60e36f8eac802fcaf19eabe2633b406e ""
@@ -37,7 +37,6 @@
   "C:/Program Files/MiKTeX/fonts/type1/public/newtx/NewTXMI7.pfb" 1736607166 34733 61fa3c01fac511e451670c1b454ff211 ""
   "C:/Program Files/MiKTeX/fonts/type1/public/newtx/txexs.pfb" 1736607166 33424 8b2b99d9d7571201cc7eece13c492c55 ""
   "C:/Program Files/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb" 1736607166 65081 1217ccf27de85b7db49806ee29c16745 ""
-  "C:/Program Files/MiKTeX/fonts/type1/public/newtx/txsym.pfb" 1736607166 44726 4b73c75a3c0ddaf1e8552a98de81766e ""
   "C:/Program Files/MiKTeX/fonts/type1/public/newtx/txsys.pfb" 1736607166 45985 fd5f8adcc4f0e93e9a95469e12126723 ""
   "C:/Program Files/MiKTeX/fonts/type1/public/newtx/ztmb.pfb" 1736607166 255251 ff86dd5a515ecd222fc60cb2612549c9 ""
   "C:/Program Files/MiKTeX/fonts/type1/public/newtx/ztmbi.pfb" 1736607166 260277 427b4b61566a04f0c6d82fd1c334d0b3 ""
@@ -369,13 +368,13 @@
   "c:/Users/User/Documents/GitHub/PROTOTIPO-DE-MONITOREO-Y-CONTROL-DE-CULTIVOS-PARA-GRANJAS-INTELIGENTES-URBANAS-Proyecto-Final-/Informe/main.tex" 1786071227 1591 75003a5c130d821339bb62a1294445b0 ""
   "capitulos/01_introduccion.tex" 1785801828 13853 1a5686d6ddc711e609230ca6c4c1a63d ""
   "capitulos/02_marco_teorico.tex" 1786060349 55555 f5538811314cd63d1bf078809ba32774 ""
-  "capitulos/03_marco_metodologico.tex" 1786142769 79579 014a9990f5236a42cb4b1dbfd8f12d63 ""
-  "main.aux" 1786142821 50364 4e1f0fb93d30ab849e51237a29d4a32f "pdflatex"
-  "main.lof" 1786142821 9736 1a9fd9630bbc4fb2719bee4c716195e6 "pdflatex"
-  "main.lot" 1786142821 824 b40f03d03a52349090ce72604a96804c "pdflatex"
-  "main.out" 1786142821 26532 8dca6df0ce92b805754f478af56ae8d6 "pdflatex"
+  "capitulos/03_marco_metodologico.tex" 1786151766 78896 6b7b02bc61b89b3b1fde48e93ceeee8e ""
+  "main.aux" 1786151781 50630 d95e545152c9b0c71702581b22b7ede1 "pdflatex"
+  "main.lof" 1786151781 9736 9de635441555f2048d08b3d6c354543d "pdflatex"
+  "main.lot" 1786151781 824 b40f03d03a52349090ce72604a96804c "pdflatex"
+  "main.out" 1786151781 26793 bc15929942cf0165a42d1290469c6806 "pdflatex"
   "main.tex" 1786071227 1591 75003a5c130d821339bb62a1294445b0 ""
-  "main.toc" 1786142821 12202 e294dda15e0fc815ab24a4649a4eb0a2 "pdflatex"
+  "main.toc" 1786151781 12311 d12c9ade8616f47af1f4a6435f1659b2 "pdflatex"
   "paginas/abstract.tex" 1781998451 653 0b1eb7f350e2032738182982fd49f7be ""
   "paginas/agradecimientos.tex" 1781998451 79 679d4a893fa5c8648ce855450931ca0d ""
   "paginas/dedicatoria.tex" 1781998451 71 2428843a3164994834f432f72b828f83 ""
@@ -388,7 +387,7 @@
   "preambulo.tex" 1786060141 5182 c3e031c408bfd082054f6a417e5245df ""
   "secciones/bibliografia.tex" 1785801829 1006 93902b3660aef725eca3197297fca86d ""
   "secciones/conclusiones.tex" 1786142770 6429 d0fff62bcf69d575184e82da5f5d5c9b ""
-  "secciones/referencias.tex" 1786079167 11950 20e3564b90057e41451de3c59db13f19 ""
+  "secciones/referencias.tex" 1786149110 12461 afb85d1adada13fa4e2fb559b758462b ""
   "secciones/resultados.tex" 1786127232 30070 67894ad3f3b5d1cd817c36c433b970f9 ""
   (generated)
   "main.aux"
