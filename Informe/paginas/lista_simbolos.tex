@@ -1,14 +1,51 @@
 \chapter*{Lista de símbolos y convenciones}
 \addcontentsline{toc}{chapter}{Lista de símbolos y convenciones}
 
-\begin{longtable}{p{3cm} p{10cm}}
-$f_0$ & Frecuencia de resonancia o frecuencia central. \\
-$BW$ & Ancho de banda. \\
-$Q$ & Factor de calidad. \\
-$R_g$ & Resistencia del generador o resistencia de entrada. \\
-$R_L$ & Resistencia de carga. \\
-$L$ & Inductancia. \\
-$C$ & Capacitancia. \\
-$X_L$ & Reactancia inductiva. \\
-$X_C$ & Reactancia capacitiva. \\
-\end{longtable}
+A continuación se detallan los símbolos, unidades de medida, siglas y acrónimos utilizados a lo largo del presente documento.
+
+\section*{Símbolos y Variables Físicas}
+\begin{description}
+    \item[$T$] Temperatura ambiente.
+    \item[$H_{aire}$] Humedad relativa del aire.
+    \item[$H_{suelo}$] Humedad del sustrato o suelo.
+    \item[$E$ / $I_L$] Iluminancia o intensidad luminosa.
+    \item[$t$] Tiempo.
+\end{description}
+
+\section*{Unidades de Medida (Sistema Internacional)}
+\begin{description}
+    \item[$^\circ$C] Grados Celsius (unidad de temperatura).
+    \item[\%] Porcentaje (utilizado para humedad relativa y del suelo).
+    \item[lx] Lux (unidad de iluminancia).
+    \item[V] Voltio (unidad de tensión o diferencia de potencial eléctrico).
+    \item[A] Amperio (unidad de intensidad de corriente eléctrica).
+    \item[W] Vatio o Watt (unidad de potencia eléctrica).
+    \item[$\Omega$] Ohmio (unidad de resistencia eléctrica).
+    \item[Hz] Hercio (unidad de frecuencia).
+    \item[l/h] Litros por hora (caudal de riego).
+\end{description}
+
+\section*{Símbolos de Sistemas de Control}
+\begin{description}
+    \item[$r(t)$] Señal de referencia o \textit{Setpoint} (valor deseado).
+    \item[$y(t)$] Variable de salida o variable controlada (medición del sensor).
+    \item[$e(t)$] Señal de error ($e(t) = r(t) - y(t)$).
+    \item[$u(t)$] Señal de control (acción sobre los actuadores).
+    \item[$K_p, K_i, K_d$] Constantes proporcional, integral y derivativa (en caso de utilizar control PID).
+\end{description}
+
+\section*{Siglas y Acrónimos (Electrónica e Informática)}
+\begin{description}
+    \item[AC / DC] Corriente Alterna / Corriente Continua (\textit{Alternating Current / Direct Current}).
+    \item[ADC] Convertidor Analógico a Digital (\textit{Analog-to-Digital Converter}).
+    \item[CPU] Unidad Central de Procesamiento (\textit{Central Processing Unit}).
+    \item[GND] Tierra o masa del circuito (\textit{Ground}).
+    \item[GPIO] Pines de Entrada/Salida de Propósito General (\textit{General Purpose Input/Output}).
+    \item[I2C / SPI] Protocolos de comunicación serial utilizados por los sensores.
+    \item[IoT] Internet de las Cosas (\textit{Internet of Things}).
+    \item[LED] Diodo Emisor de Luz (\textit{Light-Emitting Diode}).
+    \item[MCU] Microcontrolador (\textit{Microcontroller Unit}).
+    \item[PCB] Placa de Circuito Impreso (\textit{Printed Circuit Board}).
+    \item[PWM] Modulación por Ancho de Pulso (\textit{Pulse Width Modulation}) - Comúnmente usado para controlar luces LED o bombas de agua.
+    \item[Wi-Fi] Tecnología de red inalámbrica.
+\end{description}
