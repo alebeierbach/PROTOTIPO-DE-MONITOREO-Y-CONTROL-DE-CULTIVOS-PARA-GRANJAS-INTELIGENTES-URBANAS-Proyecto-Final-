@@ -674,9 +674,9 @@ Con el propósito de ejecutar la dosificación hídrica de manera precisa y dar 
 Se implementaron ventiladores axiales de 12V (estándar de PC) para la regulación microclimática por estratos. La elección de estos componentes responde a un criterio de optimización de recursos, al ofrecer una solución económica, altamente fiable y de fácil integración electrónica. Su bajo consumo de corriente permite conmutarlos de forma directa mediante los módulos de relés electromecánicos del sistema, sin requerir etapas de acondicionamiento de potencia complejas ni alterar significativamente el balance energético global del prototipo.
 \begin{figure}[H]
     \centering
-    \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/soporteventilador2.jpeg}
+    \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/ventiladorMP.png}
     \caption{Ventilador.}
-    \Fuente{Propia.}
+    \Fuente{\cite{ventilador_datasheet}}
     \label{fig:ventilador}
 \end{figure}
 
@@ -808,8 +808,6 @@ Una vez que el sustrato absorbe la humedad necesaria para la nutrición y desarr
     \label{fig:recoleccion_agua}
 \end{figure}
 
-% ============================================================
-% ============================================================
 \subsection{Dimensionamiento hidráulico del sistema de riego}
 \label{subsec:dimensionamiento_riego}
 
@@ -908,12 +906,64 @@ Con el objetivo de garantizar una renovación constante de la masa de aire y evi
     \Fuente{propia.}
 \end{figure}
 
-\PENDIENTE{Valentín: acá va la justificación numérica del umbral de humedad relativa elegido para disparar la ventilación (por qué ese \% y no otro, en base a los rangos de HR de rúcula/espinaca del Marco Teórico)}
+\subsection{Dimensionamiento del caudal de ventilación}
+\label{subsec:dimensionamiento_ventilacion}
+
+El volumen de aire a renovar corresponde al espacio comprendido entre la superficie del sustrato y el techo de cada nivel de cultivo, de dimensiones aproximadas $\SI{65}{\centi\meter}$ (alto) $\times\ \SI{50}{\centi\meter}$ (ancho) $\times\ \SI{100}{\centi\meter}$ (largo):
+
+\begin{equation}
+V_{\text{aire}} = 0{,}65 \times 0{,}5 \times 1{,}0 = \SI{0.325}{\meter\cubed}
+\label{eq:volumen_aire}
+\end{equation}
+
+Los ventiladores empleados son unidades axiales de 12 V, estándar de PC, de dimensiones $\SI{120}{\milli\meter} \times \SI{120}{\milli\meter} \times \SI{38}{\milli\meter}$, con un consumo de $0{,}6$ A y una velocidad de giro de $2400$ RPM. Según la especificación del proveedor, presentan un caudal nominal de $80$ CFM, equivalente aproximadamente a $\SI{135.9}{\meter\cubed\per\hour}$ \cite{ventilador_datasheet}.
+
+A partir de este caudal nominal, el tiempo teórico necesario para producir una renovación del volumen de aire considerado es:
+
+\begin{equation}
+t_{\text{renovacion}} = \frac{V_{\text{aire}}}{Q_{\text{ventilador}}}
+= \frac{0{,}325\ \text{m}^3}{135{,}9\ \text{m}^3/\text{h}}
+\approx \SI{8.6}{\second}
+\label{eq:tiempo_renovacion}
+\end{equation}
+
+Este resultado indica que, durante el bloque mínimo de activación de \SI{120}{\second} definido en el algoritmo de control (Sección \ref{subsec:algoritmo_control_ventilacion}), el caudal nominal del ventilador equivale aproximadamente a 14 renovaciones del volumen de aire considerado ($120\ \text{s}/8{,}6\ \text{s} \approx 14$). Este cálculo representa una estimación teórica basada en el caudal nominal del ventilador y no contempla pérdidas de carga, recirculaciones ni otras condiciones propias de la instalación real. No obstante, proporciona un margen considerable respecto del tiempo necesario para romper la capa limite de humedad estancada sobre el follaje.
+
+\subsection{Umbrales de disparo}
+\label{subsec:umbral_ventilacion}
+
+Los umbrales configurados en el sistema son $\SI{30}{\celsius}$ para la temperatura ambiente y $\SI{80}{\percent}$ para la humedad relativa ambiente. Ambos valores se fijaron con un margen deliberado por encima de las condiciones óptimas de los cultivos (Sección \ref{sec:seleccion_cultivos}), y no como límites estrictamente coincidentes con las condiciones ideales, con el fin de evitar activaciones innecesarias del ventilador ante fluctuaciones menores del microclima.
+
+En el caso de la temperatura, la rúcula y la espinaca presentan temperaturas objetivo de aproximadamente $\SI{24}{\celsius}$ y $\SI{25}{\celsius}$, respectivamente. Temperaturas significativamente superiores pueden afectar el desarrollo y la calidad de ambos cultivos, favoreciendo fenómenos como el espigado en la rúcula y la pérdida de calidad de hoja en la espinaca. En este contexto, el umbral de $\SI{30}{\celsius}$ representa un margen de aproximadamente $5$ a $\SI{6}{\celsius}$ respecto de las temperaturas objetivo, suficiente para evitar el disparo de la ventilación ante variaciones normales del ambiente, pero sin permitir que la temperatura se aleje excesivamente del rango deseado antes de intervenir.
+
+En el caso de la humedad relativa, el umbral de $\SI{80}{\percent}$ se relaciona directamente con el riesgo fitosanitario identificado para la espinaca (Sección \ref{sec:seleccion_cultivos}). La combinación de un sustrato húmedo y un ambiente con elevada humedad relativa y escasa circulación de aire puede favorecer la proliferación de hongos y el desarrollo de enfermedades foliares. Por este motivo, se adoptó un umbral en torno al $80\%$ como punto de disparo preventivo, buscando intervenir antes de que se consoliden condiciones de humedad excesivamente elevada en el microclima del cultivo.
+
+\subsection{Algoritmo de control de ventilación}
+\label{subsec:algoritmo_control_ventilacion}
+
+A diferencia del riego (Sección \ref{subsec:algoritmo_control_riego}), que emplea un único umbral, el control de ventilación combina dos condiciones de disparo independientes con un temporizador de permanencia mínima, aplicando directamente los conceptos de banda de histéresis temporal e histéresis por promediado presentados en el Marco Teórico (Sección \ref{sec:control_histeresis}):
+
+\begin{enumerate}
+\item \textbf{Gestión del temporizador:} si el ventilador ya se encuentra activo por una activación previa, el ciclo de control simplemente descuenta el tiempo transcurrido de un temporizador de permanencia mínima de \SI{120}{\second} y mantiene el actuador encendido mientras dicho tiempo no se haya agotado, sin evaluar ninguna otra condición. Este mecanismo es equivalente al tiempo mínimo de permanencia descripto en la Sección \ref{subsec:histeresis}, y evita apagados prematuros ante una lectura puntual que vuelva a caer por debajo de los umbrales antes de completar una renovación de aire eficaz.
+
+\item \textbf{Condición A -- exceso de temperatura (reacción inmediata):} si la lectura instantánea de temperatura supera los $\SI{30}{\celsius}$, el ventilador se activa de inmediato, sin requerir confirmación adicional, dado que un exceso térmico representa una condición potencialmente desfavorable para el cultivo.
+
+\item \textbf{Condición B -- exceso de humedad ambiente (promediado de 5 muestras):} a diferencia de la temperatura, la humedad ambiente se evalúa sobre el promedio de las últimas 5 lecturas válidas antes de disparar el ventilador. Este filtrado adicional evita que una lectura aislada y momentáneamente elevada dispare una activación innecesaria, exigiendo en cambio evidencia sostenida de humedad elevada a lo largo de varias muestras consecutivas.
+
+\item \textbf{Reinicio de memoria:} cada vez que se dispara una activación --por cualquiera de las dos condiciones-- el historial de muestras de humedad ambiente se vacía por completo, de modo que, al apagarse el ventilador, el sistema vuelve a acumular evidencia desde cero antes de poder disparar nuevamente por la condición de humedad promediada.
+
+\end{enumerate}
+
+La combinación de una condición de reacción inmediata (temperatura) con otra de reacción filtrada (humedad promediada), sumada al temporizador de permanencia mínima, resulta en un comportamiento asimétrico deliberado: el sistema reacciona sin demora ante un riesgo térmico, pero exige mayor evidencia antes de intervenir por humedad, evitando así ciclos de encendido y apagado innecesariamente frecuentes ante un parámetro que, a diferencia de la temperatura, tiende a variar de forma más gradual en el microclima del cultivo.
+
+En conjunto, el dimensionamiento del sistema de ventilación y la estrategia de control se diseñaron de manera complementaria: mientras que el caudal disponible permite una renovación rápida del volumen de aire considerado, la lógica de control limita la frecuencia y duración de las activaciones mediante umbrales diferenciados, promediado de humedad y un tiempo mínimo de permanencia. De este modo, se busca alcanzar una respuesta suficiente frente a condiciones térmicas o higrométricas desfavorables sin introducir un funcionamiento excesivamente frecuente del actuador.
 
 \section{Esquemas de conexión}
 \label{sec:esquemas_conexion}
 
-A continuación, se detalla el esquema de conexionado adoptado para el prototipo, describiendo la asignación de señales para cada puerto de propósito general de la unidad central. Por criterios de diseño orientados a la robustez electromecánica, se proyectó una interfaz intermedia mediante una placa de circuito impreso perforada de uso general, la cual actúa como un nodo centralizador de conexiones. Esta implementación previene la necesidad de efectuar uniones soldadas directas sobre la computadora de placa única, resguardando la integridad física de sus terminales y flexibilizando la modularidad del sistema ante tareas de mantenimiento o sustitución de periféricos. En el diagrama esquemático, la denominación de "Componentes I2C" identifica el nodo de acoplamiento para el bus de datos compartido, donde coexisten bajo el mismo direccionamiento el sensor de iluminancia y el módulo de conversión analógico-digital, el cual gestiona de forma dedicada los canales de los higrómetros capacitivos de suelo.
+A continuación, se presenta el esquema de conexionado adoptado para el prototipo, en el cual se detalla la asignación de señales a los distintos puertos de propósito general (GPIO) de la Raspberry Pi. Con el objetivo de mejorar la robustez y facilitar el mantenimiento del sistema, se implementó una interfaz intermedia mediante una placa de circuito impreso perforada de uso general, utilizada como punto centralizador de las conexiones entre la unidad de procesamiento y los distintos periféricos. Esta disposición evita realizar conexiones y uniones soldadas directamente sobre la Raspberry Pi, reduciendo el riesgo de daños en sus terminales y facilitando la incorporación, sustitución o desconexión de los distintos componentes.
+
+En el diagrama, la denominación ``Componentes I2C'' corresponde al bus de comunicación utilizado para interconectar los dispositivos que emplean este protocolo. Sobre este bus se encuentran conectados el sensor de iluminancia y el módulo de conversión analógico-digital (ADC), encargado de realizar la adquisición de las señales provenientes de los higrómetros capacitivos de humedad del suelo mediante sus distintos canales de entrada.
 
 \begin{figure}[H]
     \centering
@@ -924,26 +974,33 @@ A continuación, se detalla el esquema de conexionado adoptado para el prototipo
 
 \begin{figure}[H]
     \centering
-    \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/placaperforada.jpeg}
-    \caption{Placa perforada de uso general.}
-    \Fuente{propia.}
-\end{figure}
 
-Diagrama de conexión de la placa mostrada en la imagen anterior:
+    % Placa perforada
+    \includegraphics[height=8.5cm, width=\textwidth, keepaspectratio]{Imagenes/placaperforada.jpeg}
 
-\begin{figure}[H]
-    \centering
+    \vspace{0.3cm}
+
+    \parbox{\textwidth}{%
+        \centering
+        Diagrama de conexión de la placa mostrada en la imagen anterior:
+    }
+
+    \vspace{0.2cm}
+
+    % Diagramas de conexionado
     \begin{minipage}{0.48\textwidth}
         \centering
-        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/ProtoCables1.png}
+        \includegraphics[height=8.5cm, width=\textwidth, keepaspectratio]{Imagenes/ProtoCables1.png}
     \end{minipage}
     \hfill
     \begin{minipage}{0.48\textwidth}
         \centering
-        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/protocables2.jpeg}
+        \includegraphics[height=8.5cm, width=\textwidth, keepaspectratio]{Imagenes/protocables2.jpeg}
     \end{minipage}
-    \caption{Conexionado de cables por color}
+
+    \caption{Placa perforada y diagrama de conexionado de los cables por color.}
     \Fuente{propia.}
+    \label{fig:conexionado_placa}
 \end{figure}
 
 % ================================================================
