@@ -1,19 +1,26 @@
 % ============================================================
-% PARTE II - MARCO METODOLÓGICO (4 capítulos)
+% PARTE II - MARCO METODOLÓGICO (3 capítulos)
 % ============================================================
 % NOTA: usar \PENDIENTE{...} para marcar en rojo, en el PDF compilado,
 % todo lo que falta completar (texto, cálculos, fotos).
 \newcommand{\PENDIENTE}[1]{\textcolor{red}{\textbf{[PENDIENTE: #1]}}}
 
 % ================================================================
-% CAPÍTULO 1 — METODOLOGÍA DE TRABAJO
+% CAPÍTULO 1 — DISEÑO ESTRUCTURAL Y ANÁLISIS DE SISTEMAS INTEGRADOS
 % ================================================================
-\chapter{Metodología de trabajo}
-\label{cha:metodologia_trabajo}
+\chapter{Concepción y diseño del prototipo}
+\label{cha:diseno_estructural}
 
-En este capítulo se detalla el plan de ejecución seguido para el diseño, construcción y validación del prototipo de cultivo automatizado, junto con el cronograma de actividades y los instrumentos y herramientas empleados durante su desarrollo.
+\textit{Este capítulo presenta el plan de trabajo y los instrumentos empleados durante el desarrollo del proyecto, la selección de los cultivos, la unidad de procesamiento central y los componentes del sistema, y la arquitectura mecánica del prototipo (prototipos inicial y final, impermeabilización y drenaje, modularidad, y piezas diseñadas mediante manufactura aditiva).}
 
-\section{Cronograma de ejecución}
+Este capítulo desarrolla el plan de trabajo seguido para la ejecución del proyecto, la selección de los cultivos, la unidad de procesamiento central y los componentes del sistema, y la arquitectura mecánica del prototipo (prototipos inicial y final, impermeabilización y drenaje, modularidad, y piezas diseñadas mediante manufactura aditiva).
+
+\section{Plan de trabajo e instrumentación}
+\label{sec:plan_trabajo_instrumentacion}
+
+Para el diseño, construcción y validación del prototipo de cultivo automatizado, se siguió un plan de ejecución estructurado, junto con el cronograma de actividades y los instrumentos y herramientas empleados durante su desarrollo.
+
+\subsection{Cronograma de ejecución}
 \label{sec:cronograma}
 
 Para garantizar el seguimiento ordenado y auditar la evolución del proyecto, se implementó el cronograma de actividades estructurado originalmente en la solicitud de aprobación de tema. Esta herramienta de planificación temporal, representada mediante el diagrama de Gantt que se expone a continuación, detalla la distribución cronológica y la simultaneidad de las fases operativas, permitiendo contrastar los plazos previstos en la formulación inicial con el progreso real de las tareas de diseño, manufactura y validación del prototipo.
@@ -26,7 +33,7 @@ Para garantizar el seguimiento ordenado y auditar la evolución del proyecto, se
     \label{fig:gantt}
 \end{figure}
 
-\section{Instrumentos y herramientas}
+\subsection{Instrumentos y herramientas}
 \label{sec:instrumentos_herramientas}
 
 Para las fases de diagnóstico electrónico, calibración de sensores, manufactura estructural y ensamblaje general del prototipo, se requirió de un conjunto diversificado de instrumentos de medición y herramientas técnicas de soporte, clasificadas de acuerdo a su ámbito de aplicación:
@@ -57,14 +64,6 @@ Para las fases de diagnóstico electrónico, calibración de sensores, manufactu
 \begin{itemize}
     \item Dispositivos manuales varios, incluyendo destornilladores de diferentes geometrías, pinzas de fuerza y herramientas de corte.
 \end{itemize}
-
-% ================================================================
-% CAPÍTULO 2 — DISEÑO ESTRUCTURAL Y ANÁLISIS DE SISTEMAS INTEGRADOS
-% ================================================================
-\chapter{Diseño estructural y análisis de sistemas integrados}
-\label{cha:diseno_estructural}
-
-Este capítulo desarrolla la selección de los cultivos, la unidad de procesamiento central y los componentes del sistema, y la arquitectura mecánica del prototipo (prototipos inicial y final, impermeabilización y drenaje, modularidad, y piezas diseñadas mediante manufactura aditiva).
 
 \section{Selección de cultivos}
 \label{sec:seleccion_cultivos}
@@ -233,12 +232,12 @@ Debido a que uno de los objetivos centrales de este trabajo es la optimización 
     \centering
     \begin{minipage}{0.48\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{Imagenes/prototipo 2026-04-20 at 11.49.18 AM.png}
+        \includegraphics[width=\textwidth]{Imagenes/prot12.png}
     \end{minipage}
     \hfill
     \begin{minipage}{0.48\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{Imagenes/prototipo 2026-04-20 at 11.49.25 AM.png}
+        \includegraphics[width=\textwidth]{Imagenes/prot25.png}
     \end{minipage}
     \caption{Diseño del prototipo.}
     \Fuente{propia.}
@@ -246,7 +245,7 @@ Debido a que uno de los objetivos centrales de este trabajo es la optimización 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth]{Imagenes/prototipo 2026-04-20 at 11.49.04 AM.png}
+    \includegraphics[width=0.6\textwidth]{Imagenes/prot4.png}
     \caption{Vista inferior del prototipo.}
     \Fuente{propia.}
 \end{figure}
@@ -581,10 +580,13 @@ Posteriormente a la vinculación y calibración del sensor, se inició la etapa 
     \label{fig:impermeabilizacion_sensor}
 \end{figure}
 
-% CAPÍTULO 3 — HARDWARE DE CONTROL
+% ================================================================
+% CAPÍTULO 2 — HARDWARE DE CONTROL
 % ================================================================
 \chapter{Hardware de control}
 \label{cha:hardware_control}
+
+\textit{Este capítulo desarrolla la disposición física del hardware de procesamiento, los actuadores del sistema (luces, bomba, válvulas y goteros), la suspensión de las luminarias, la etapa de potencia (relés), el circuito de riego, el sistema de ventilación y los esquemas de conexión.}
 
 Este capítulo desarrolla la disposición física del hardware de procesamiento, los actuadores del sistema (luces, bomba, válvulas y goteros), la suspensión de las luminarias, la etapa de potencia (relés), el circuito de riego, el sistema de ventilación y los esquemas de conexión --incluyendo, en cada sección correspondiente, los cálculos que justifican el dimensionamiento de cada sistema (riego, luz y ventilación).
 
@@ -1002,10 +1004,12 @@ En el diagrama, la denominación ``Componentes I2C'' corresponde al bus de comun
 \end{figure}
 
 % ================================================================
-% CAPÍTULO 4 — SOFTWARE Y SISTEMAS DE CONTROL
+% CAPÍTULO 3 — SOFTWARE Y SISTEMAS DE CONTROL
 % ================================================================
-\chapter{Implementación y Despliegue del Software de Control}
+\chapter{Software de control}
 \label{cha:software_control}
+
+\textit{Este capítulo describe la arquitectura del software de control local, la lógica de las rutinas de control implementadas, su integración con la plataforma de telemetría en la nube ThingSpeak, y la interfaz de usuario del sistema.}
 
 Este capítulo describe la arquitectura del software de control local, la lógica de las rutinas de control implementadas, su integración con la plataforma de telemetría en la nube ThingSpeak, y la interfaz de usuario del sistema.
 
@@ -1224,3 +1228,13 @@ Tras procesar una solicitud de guardado exitosa, el servidor redirige al usuario
 \caption{Vista de la interfaz de monitoreo desde el navegador web en una computadora: Gráficos históricos de temperatura y humedad ambiente, desplegada mediante el túnel inverso en \url{https://democrat-unrobed-excess.ngrok-free.dev/?success=1}. Fuente: Elaboración propia.}
 \label{fig:web_historico_2}
 \end{figure}
+
+% ================================================================
+% SÍNTESIS DEL MARCO METODOLÓGICO
+% ================================================================
+\section*{Síntesis del marco metodológico}
+\addcontentsline{toc}{section}{Síntesis del marco metodológico}
+
+A lo largo de esta parte se reconstruyó el proceso completo de diseño, construcción y puesta en marcha del prototipo, siguiendo una progresión lógica desde la planificación hasta la operación autónoma del sistema. Se partió de un plan de trabajo y una selección de instrumentos que enmarcaron temporal y técnicamente el desarrollo; sobre esa base se definieron los criterios agronómicos, el hardware de procesamiento y la arquitectura mecánica del prototipo, resolviendo mediante iteraciones sucesivas los desafíos de impermeabilización, drenaje y modularidad. A partir de esa estructura física, se implementó el hardware de control --actuadores, etapas de potencia y esquemas de conexión-- dimensionado mediante cálculos específicos para los subsistemas de riego, iluminación y ventilación. Finalmente, el software desarrollado integró estos subsistemas bajo una arquitectura modular, dotando al prototipo de capacidad de control autónomo, registro histórico y monitoreo remoto.
+
+En conjunto, este recorrido metodológico --de la planificación al diseño físico, de este al hardware, y del hardware al software-- constituye el sustento técnico sobre el cual se evaluarán, en la siguiente parte, los resultados obtenidos durante la operación del prototipo.
