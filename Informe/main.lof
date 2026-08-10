@@ -6,117 +6,117 @@
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Espectros de absorción de la clorofila A y la clorofila B en función de la longitud de onda.}}{11}{figure.caption.13}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Arquitectura funcional en tres capas para un sistema IoT agrícola.}}{27}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Arquitectura funcional en tres capas para un sistema IoT agrícola.}}{31}{figure.caption.17}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagrama de Gantt.}}{34}{figure.caption.19}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Raspberry Pi 4 Model B.}}{38}{figure.caption.21}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Sensor DHT22.}}{40}{figure.caption.22}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Sensor BH1750.}}{41}{figure.caption.23}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Respuesta espectral del sensor BH1750.}}{41}{figure.caption.23}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Sensor de humedad de suelo capacitivo.}}{42}{figure.caption.24}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Construcción del prototipo inicial.}}{44}{figure.caption.25}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Diseño del prototipo.}}{46}{figure.caption.26}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Vista inferior del prototipo.}}{46}{figure.caption.27}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Implementacion fisica del prototipo}}{47}{figure.caption.28}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Prototipo en su etapa final.}}{48}{figure.caption.29}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Proceso de impermeabilización.}}{49}{figure.caption.30}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Configuración del desagüe.}}{50}{figure.caption.31}%
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Conducto de desagüe impreso en 3D.}}{51}{figure.caption.32}%
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Instalación de desagüe.}}{52}{figure.caption.33}%
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Primer diseño de soporte para sensores.}}{54}{figure.caption.34}%
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Implementación física.}}{54}{figure.caption.35}%
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Soporte para mangueras.}}{55}{figure.caption.36}%
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Conector Y.}}{56}{figure.caption.37}%
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Desagüe v1.}}{56}{figure.caption.38}%
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Desagüe v2.}}{57}{figure.caption.39}%
-\contentsline {figure}{\numberline {5.22}{\ignorespaces Soporte para ventilador.}}{58}{figure.caption.40}%
-\contentsline {figure}{\numberline {5.23}{\ignorespaces Soporte DHT22.}}{59}{figure.caption.41}%
-\contentsline {figure}{\numberline {5.24}{\ignorespaces Soporte para BH1750.}}{60}{figure.caption.42}%
-\contentsline {figure}{\numberline {5.25}{\ignorespaces Cobertor para higrómetro.}}{61}{figure.caption.43}%
-\contentsline {figure}{\numberline {5.26}{\ignorespaces Proceso de impermeabilización del sensor.}}{62}{figure.caption.44}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagrama de Gantt.}}{38}{figure.caption.19}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Raspberry Pi 4 Model B.}}{42}{figure.caption.21}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Sensor DHT22.}}{44}{figure.caption.22}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Sensor BH1750.}}{45}{figure.caption.23}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Respuesta espectral del sensor BH1750.}}{45}{figure.caption.23}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Sensor de humedad de suelo capacitivo.}}{46}{figure.caption.24}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Construcción del prototipo inicial.}}{48}{figure.caption.25}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Diseño del prototipo.}}{50}{figure.caption.26}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Vista inferior del prototipo.}}{50}{figure.caption.27}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Implementacion fisica del prototipo}}{51}{figure.caption.28}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Prototipo en su etapa final.}}{52}{figure.caption.29}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Proceso de impermeabilización.}}{53}{figure.caption.30}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Configuración del desagüe.}}{54}{figure.caption.31}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Conducto de desagüe impreso en 3D.}}{55}{figure.caption.32}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Instalación de desagüe.}}{56}{figure.caption.33}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Primer diseño de soporte para sensores.}}{58}{figure.caption.34}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Implementación física.}}{58}{figure.caption.35}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Soporte para mangueras.}}{59}{figure.caption.36}%
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Conector Y.}}{60}{figure.caption.37}%
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Desagüe v1.}}{60}{figure.caption.38}%
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Desagüe v2.}}{61}{figure.caption.39}%
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Soporte para ventilador.}}{62}{figure.caption.40}%
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Soporte DHT22.}}{63}{figure.caption.41}%
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Soporte para BH1750.}}{64}{figure.caption.42}%
+\contentsline {figure}{\numberline {5.25}{\ignorespaces Cobertor para higrómetro.}}{65}{figure.caption.43}%
+\contentsline {figure}{\numberline {5.26}{\ignorespaces Proceso de impermeabilización del sensor.}}{66}{figure.caption.44}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Caja eléctrica estanca con componentes vitales del sistema.}}{64}{figure.caption.45}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Luces para el cultivo.}}{65}{figure.caption.46}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Bomba de riego.}}{66}{figure.caption.47}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Valvula solenoide.}}{67}{figure.caption.48}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Goteros.}}{68}{figure.caption.49}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Ventilador.}}{69}{figure.caption.50}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Disposición de las luminarias.}}{73}{figure.caption.51}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Sistema de riego.}}{74}{figure.caption.52}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Sistema de riego: manguera con goteros.}}{75}{figure.caption.53}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Sistema de recolección de agua.}}{76}{figure.caption.54}%
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Disposición de los ventiladores.}}{80}{figure.caption.55}%
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Esquema de conexiones.}}{83}{figure.caption.56}%
-\contentsline {figure}{\numberline {6.13}{\ignorespaces Placa perforada y diagrama de conexionado de los cables por color.}}{84}{figure.caption.57}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Caja eléctrica estanca con componentes vitales del sistema.}}{68}{figure.caption.45}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Luces para el cultivo.}}{69}{figure.caption.46}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Bomba de riego.}}{70}{figure.caption.47}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Valvula solenoide.}}{71}{figure.caption.48}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Goteros.}}{72}{figure.caption.49}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Ventilador.}}{73}{figure.caption.50}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Disposición de las luminarias.}}{77}{figure.caption.51}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Sistema de riego.}}{78}{figure.caption.52}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Sistema de riego: manguera con goteros.}}{79}{figure.caption.53}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Sistema de recolección de agua.}}{80}{figure.caption.54}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Disposición de los ventiladores.}}{84}{figure.caption.55}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Esquema de conexiones.}}{87}{figure.caption.56}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Placa perforada y diagrama de conexionado de los cables por color.}}{88}{figure.caption.57}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Dependencias de importación entre los módulos del proceso de control (\texttt {indoor\_main.service}). Todas las flechas representan relaciones de código (\textit {import}): \texttt {main.py} depende de los tres módulos restantes, que a su vez comparten las estructuras de datos definidas en \texttt {models.py}.}}{87}{figure.caption.58}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Relación entre el proceso de control y el proceso de configuración web (\texttt {indoor\_web.service}). A diferencia de la Figura \ref {fig:arquitectura_control}, aquí no existe ninguna dependencia de código Python entre ambos procesos: la única relación es el archivo \texttt {config.toml} compartido en disco (flechas punteadas), que cada proceso lee y/o escribe de forma independiente. El servicio \texttt {ngrok.service} tampoco depende del código de \texttt {web.py}; únicamente reenvía tráfico de red hacia el puerto que este último expone.}}{88}{figure.caption.59}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Vista de la interfaz de control desde el navegador web en una computadora: Formulario de ajuste de parámetros (\texttt {config.toml}). Fuente: Elaboración propia.}}{95}{figure.caption.60}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Vista de la interfaz de monitoreo desde el navegador web en una computadora: Gráficos históricos de humedad de suelo e intensidad de luz. Fuente: Elaboración propia.}}{96}{figure.caption.61}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Vista de la interfaz de monitoreo desde el navegador web en una computadora: Gráficos históricos de temperatura y humedad ambiente, desplegada mediante el túnel inverso en \url {https://democrat-unrobed-excess.ngrok-free.dev/?success=1}. Fuente: Elaboración propia.}}{96}{figure.caption.62}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Primera plantacion: 28/01/26}}{100}{figure.caption.65}%
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Fecha de la foto: 05/02/26}}{101}{figure.caption.66}%
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Fecha de la foto: 17/02/26}}{102}{figure.caption.67}%
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Fecha de la foto: 23/02/26}}{102}{figure.caption.69}%
-\contentsline {figure}{\numberline {7.9}{\ignorespaces Fecha de la foto: 19/02/26}}{103}{figure.caption.68}%
-\contentsline {figure}{\numberline {7.11}{\ignorespaces Cosecha: 23/02/26}}{104}{figure.caption.70}%
-\contentsline {figure}{\numberline {7.12}{\ignorespaces Series temporales de la telemetría del prototipo: variables lumínicas, ambientales, de suelo y estados de los actuadores.}}{105}{figure.caption.71}%
-\contentsline {figure}{\numberline {7.13}{\ignorespaces Fecha de la foto: 26/02/26}}{106}{figure.caption.72}%
-\contentsline {figure}{\numberline {7.14}{\ignorespaces Fecha de la foto: 28/02/26}}{107}{figure.caption.73}%
-\contentsline {figure}{\numberline {7.15}{\ignorespaces Fecha de la foto: 04/03/26}}{107}{figure.caption.74}%
-\contentsline {figure}{\numberline {7.16}{\ignorespaces Fecha de la foto: 09/03/26}}{108}{figure.caption.75}%
-\contentsline {figure}{\numberline {7.17}{\ignorespaces Fecha de la foto: 10/03/26}}{108}{figure.caption.76}%
-\contentsline {figure}{\numberline {7.18}{\ignorespaces Planta invasora}}{109}{figure.caption.77}%
-\contentsline {figure}{\numberline {7.19}{\ignorespaces Fecha de la imagen: 17/03/26}}{109}{figure.caption.78}%
-\contentsline {figure}{\numberline {7.20}{\ignorespaces Fecha de la imagen: 23/03/26}}{110}{figure.caption.79}%
-\contentsline {figure}{\numberline {7.21}{\ignorespaces Fecha de la imagen: 26/03/26}}{110}{figure.caption.80}%
-\contentsline {figure}{\numberline {7.22}{\ignorespaces Fecha de la imagen: 30/03/26}}{111}{figure.caption.81}%
-\contentsline {figure}{\numberline {7.23}{\ignorespaces Fecha de la imagen: 06/04/26}}{112}{figure.caption.82}%
-\contentsline {figure}{\numberline {7.24}{\ignorespaces Series temporales de la telemetría del prototipo: variables lumínicas, ambientales, de suelo y estados de los actuadores.}}{113}{figure.caption.83}%
-\contentsline {figure}{\numberline {7.25}{\ignorespaces Plantacion 25/04/2026}}{114}{figure.caption.84}%
-\contentsline {figure}{\numberline {7.26}{\ignorespaces Plantacion 30/04/2026}}{115}{figure.caption.85}%
-\contentsline {figure}{\numberline {7.27}{\ignorespaces Plantacion 10/05/2026}}{115}{figure.caption.86}%
-\contentsline {figure}{\numberline {7.28}{\ignorespaces Plantacion 23/05/2026}}{116}{figure.caption.87}%
-\contentsline {figure}{\numberline {7.29}{\ignorespaces Plantacion 02/06/2026}}{116}{figure.caption.88}%
-\contentsline {figure}{\numberline {7.30}{\ignorespaces Plantacion 15/06/2026}}{116}{figure.caption.89}%
-\contentsline {figure}{\numberline {7.31}{\ignorespaces Grafico de humedad de suelo de maceta 1.}}{117}{figure.caption.90}%
-\contentsline {figure}{\numberline {7.32}{\ignorespaces Grafico de humedad de suelo de maceta 2.}}{117}{figure.caption.91}%
-\contentsline {figure}{\numberline {7.33}{\ignorespaces Grafico de DLI y lux de maceta 1.}}{118}{figure.caption.92}%
-\contentsline {figure}{\numberline {7.34}{\ignorespaces Grafico de DLI y lux de maceta 2.}}{118}{figure.caption.93}%
-\contentsline {figure}{\numberline {7.35}{\ignorespaces Grafico de actuadores de maceta 1.}}{119}{figure.caption.94}%
-\contentsline {figure}{\numberline {7.36}{\ignorespaces Grafico de actuadores de maceta 2.}}{119}{figure.caption.95}%
-\contentsline {figure}{\numberline {7.37}{\ignorespaces Grafico de temperatura y humedad para ambas macetas.}}{119}{figure.caption.96}%
-\contentsline {figure}{\numberline {7.38}{\ignorespaces Grafico de humedad de suelo de maceta 1.}}{120}{figure.caption.97}%
-\contentsline {figure}{\numberline {7.39}{\ignorespaces Grafico de humedad de suelo de maceta 2.}}{120}{figure.caption.98}%
-\contentsline {figure}{\numberline {7.40}{\ignorespaces Grafico de DLI y lux de maceta 1.}}{121}{figure.caption.99}%
-\contentsline {figure}{\numberline {7.41}{\ignorespaces Grafico de DLI y lux de maceta 2.}}{121}{figure.caption.100}%
-\contentsline {figure}{\numberline {7.42}{\ignorespaces Grafico de actuadores de maceta 1.}}{122}{figure.caption.101}%
-\contentsline {figure}{\numberline {7.43}{\ignorespaces Grafico de actuadores de maceta 2.}}{122}{figure.caption.102}%
-\contentsline {figure}{\numberline {7.44}{\ignorespaces Grafico de temperatura y humedad para ambas macetas.}}{122}{figure.caption.103}%
-\contentsline {figure}{\numberline {7.45}{\ignorespaces Lectura del amperímetro en [A].}}{125}{figure.caption.105}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Dependencias de importación entre los módulos del proceso de control (\texttt {indoor\_main.service}). Todas las flechas representan relaciones de código (\textit {import}): \texttt {main.py} depende de los tres módulos restantes, que a su vez comparten las estructuras de datos definidas en \texttt {models.py}.}}{91}{figure.caption.58}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Relación entre el proceso de control y el proceso de configuración web (\texttt {indoor\_web.service}). A diferencia de la Figura \ref {fig:arquitectura_control}, aquí no existe ninguna dependencia de código Python entre ambos procesos: la única relación es el archivo \texttt {config.toml} compartido en disco (flechas punteadas), que cada proceso lee y/o escribe de forma independiente. El servicio \texttt {ngrok.service} tampoco depende del código de \texttt {web.py}; únicamente reenvía tráfico de red hacia el puerto que este último expone.}}{92}{figure.caption.59}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Vista de la interfaz de control desde el navegador web en una computadora: Formulario de ajuste de parámetros (\texttt {config.toml}). Fuente: Elaboración propia.}}{99}{figure.caption.60}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Vista de la interfaz de monitoreo desde el navegador web en una computadora: Gráficos históricos de humedad de suelo e intensidad de luz. Fuente: Elaboración propia.}}{100}{figure.caption.61}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Vista de la interfaz de monitoreo desde el navegador web en una computadora: Gráficos históricos de temperatura y humedad ambiente, desplegada mediante el túnel inverso en \url {https://democrat-unrobed-excess.ngrok-free.dev/?success=1}. Fuente: Elaboración propia.}}{100}{figure.caption.62}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Primera plantacion: 28/01/26}}{104}{figure.caption.65}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Fecha de la foto: 05/02/26}}{105}{figure.caption.66}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Fecha de la foto: 17/02/26}}{106}{figure.caption.67}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Fecha de la foto: 23/02/26}}{106}{figure.caption.69}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Fecha de la foto: 19/02/26}}{107}{figure.caption.68}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Cosecha: 23/02/26}}{108}{figure.caption.70}%
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Series temporales de la telemetría del prototipo: variables lumínicas, ambientales, de suelo y estados de los actuadores.}}{109}{figure.caption.71}%
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Fecha de la foto: 26/02/26}}{110}{figure.caption.72}%
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Fecha de la foto: 28/02/26}}{111}{figure.caption.73}%
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Fecha de la foto: 04/03/26}}{111}{figure.caption.74}%
+\contentsline {figure}{\numberline {8.11}{\ignorespaces Fecha de la foto: 09/03/26}}{112}{figure.caption.75}%
+\contentsline {figure}{\numberline {8.12}{\ignorespaces Fecha de la foto: 10/03/26}}{112}{figure.caption.76}%
+\contentsline {figure}{\numberline {8.13}{\ignorespaces Planta invasora}}{113}{figure.caption.77}%
+\contentsline {figure}{\numberline {8.14}{\ignorespaces Fecha de la imagen: 17/03/26}}{113}{figure.caption.78}%
+\contentsline {figure}{\numberline {8.15}{\ignorespaces Fecha de la imagen: 23/03/26}}{114}{figure.caption.79}%
+\contentsline {figure}{\numberline {8.16}{\ignorespaces Fecha de la imagen: 26/03/26}}{114}{figure.caption.80}%
+\contentsline {figure}{\numberline {8.17}{\ignorespaces Fecha de la imagen: 30/03/26}}{115}{figure.caption.81}%
+\contentsline {figure}{\numberline {8.18}{\ignorespaces Fecha de la imagen: 06/04/26}}{116}{figure.caption.82}%
+\contentsline {figure}{\numberline {8.19}{\ignorespaces Series temporales de la telemetría del prototipo: variables lumínicas, ambientales, de suelo y estados de los actuadores.}}{117}{figure.caption.83}%
+\contentsline {figure}{\numberline {8.20}{\ignorespaces Plantacion 25/04/2026}}{118}{figure.caption.84}%
+\contentsline {figure}{\numberline {8.21}{\ignorespaces Plantacion 30/04/2026}}{119}{figure.caption.85}%
+\contentsline {figure}{\numberline {8.22}{\ignorespaces Plantacion 10/05/2026}}{119}{figure.caption.86}%
+\contentsline {figure}{\numberline {8.23}{\ignorespaces Plantacion 23/05/2026}}{120}{figure.caption.87}%
+\contentsline {figure}{\numberline {8.24}{\ignorespaces Plantacion 02/06/2026}}{120}{figure.caption.88}%
+\contentsline {figure}{\numberline {8.25}{\ignorespaces Plantacion 15/06/2026}}{120}{figure.caption.89}%
+\contentsline {figure}{\numberline {8.26}{\ignorespaces Grafico de humedad de suelo de maceta 1.}}{121}{figure.caption.90}%
+\contentsline {figure}{\numberline {8.27}{\ignorespaces Grafico de humedad de suelo de maceta 2.}}{121}{figure.caption.91}%
+\contentsline {figure}{\numberline {8.28}{\ignorespaces Grafico de DLI y lux de maceta 1.}}{122}{figure.caption.92}%
+\contentsline {figure}{\numberline {8.29}{\ignorespaces Grafico de DLI y lux de maceta 2.}}{122}{figure.caption.93}%
+\contentsline {figure}{\numberline {8.30}{\ignorespaces Grafico de actuadores de maceta 1.}}{123}{figure.caption.94}%
+\contentsline {figure}{\numberline {8.31}{\ignorespaces Grafico de actuadores de maceta 2.}}{123}{figure.caption.95}%
+\contentsline {figure}{\numberline {8.32}{\ignorespaces Grafico de temperatura y humedad para ambas macetas.}}{123}{figure.caption.96}%
+\contentsline {figure}{\numberline {8.33}{\ignorespaces Grafico de humedad de suelo de maceta 1.}}{124}{figure.caption.97}%
+\contentsline {figure}{\numberline {8.34}{\ignorespaces Grafico de humedad de suelo de maceta 2.}}{124}{figure.caption.98}%
+\contentsline {figure}{\numberline {8.35}{\ignorespaces Grafico de DLI y lux de maceta 1.}}{125}{figure.caption.99}%
+\contentsline {figure}{\numberline {8.36}{\ignorespaces Grafico de DLI y lux de maceta 2.}}{125}{figure.caption.100}%
+\contentsline {figure}{\numberline {8.37}{\ignorespaces Grafico de actuadores de maceta 1.}}{126}{figure.caption.101}%
+\contentsline {figure}{\numberline {8.38}{\ignorespaces Grafico de actuadores de maceta 2.}}{126}{figure.caption.102}%
+\contentsline {figure}{\numberline {8.39}{\ignorespaces Grafico de temperatura y humedad para ambas macetas.}}{126}{figure.caption.103}%
+\contentsline {figure}{\numberline {8.40}{\ignorespaces Lectura del amperímetro en [A].}}{129}{figure.caption.104}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces DURACIÓN Y FASES DE LAS TAREAS PREVISTAS}}{141}{figure.caption.113}%
-\contentsline {figure}{\numberline {C.2}{\ignorespaces \relax }}{143}{figure.caption.114}%
-\contentsline {figure}{\numberline {C.3}{\ignorespaces \relax }}{144}{figure.caption.115}%
-\contentsline {figure}{\numberline {C.4}{\ignorespaces \relax }}{144}{figure.caption.116}%
-\contentsline {figure}{\numberline {C.5}{\ignorespaces Medición de luz ambiental y humedad del suelo.}}{147}{figure.caption.117}%
-\contentsline {figure}{\numberline {C.6}{\ignorespaces DURACIÓN Y FASES DE LAS TAREAS PREVISTAS}}{149}{figure.caption.118}%
-\contentsline {figure}{\numberline {C.7}{\ignorespaces Prueba de iluminación realizando mediciones moviendo el BH1750 en distintos puntos.}}{151}{figure.caption.119}%
-\contentsline {figure}{\numberline {C.8}{\ignorespaces Foto 1: Implementación física del primer prototipo. Foto 2 y 3: Rabanitos con una semana de germinación.}}{152}{figure.caption.120}%
-\contentsline {figure}{\numberline {C.9}{\ignorespaces Visualización de datos de sensores en tiempo real.}}{153}{figure.caption.121}%
-\contentsline {figure}{\numberline {C.10}{\ignorespaces DURACIÓN Y FASES DE LAS TAREAS PREVISTAS}}{153}{figure.caption.122}%
-\contentsline {figure}{\numberline {C.11}{\ignorespaces Plantas de rabanitos luego de tres semanas de la siembra.}}{154}{figure.caption.123}%
-\contentsline {figure}{\numberline {C.12}{\ignorespaces Sensores de luz, temperatura y humedad y prueba para espinaca y rúcula.}}{155}{figure.caption.124}%
-\contentsline {figure}{\numberline {C.13}{\ignorespaces Diseño y construcción de las macetas modulares de 0,5 m$^2$}}{156}{figure.caption.125}%
-\contentsline {figure}{\numberline {C.14}{\ignorespaces Impermeabilización y primera prueba del sistema de drenaje.}}{156}{figure.caption.126}%
-\contentsline {figure}{\numberline {C.15}{\ignorespaces Referencias al diagrama de Gantt DURACIÓN Y FASES DE LAS TAREAS PREVISTAS}}{157}{figure.caption.127}%
-\contentsline {figure}{\numberline {C.16}{\ignorespaces Implementación del código.}}{159}{figure.caption.128}%
-\contentsline {figure}{\numberline {C.17}{\ignorespaces Primer foto: Plantas de espinaca y rúcula luego de un mes. Segunda foto: Luego de un mes y medio.}}{160}{figure.caption.129}%
-\contentsline {figure}{\numberline {C.18}{\ignorespaces Sistema de desagote.}}{161}{figure.caption.130}%
-\contentsline {figure}{\numberline {C.19}{\ignorespaces Pieza diseñada para el desagote y filtrado.}}{162}{figure.caption.131}%
-\contentsline {figure}{\numberline {C.20}{\ignorespaces Referencias al diagrama de Gantt DURACIÓN Y FASES DE LAS TAREAS PREVISTAS}}{162}{figure.caption.132}%
-\contentsline {figure}{\numberline {C.21}{\ignorespaces Maceta número 1: Rúcula. Se puede ver cómo con la corrección de luz salieron nuevos brotes. Foto del día 17/06/2026}}{164}{figure.caption.133}%
-\contentsline {figure}{\numberline {C.22}{\ignorespaces Maceta número 2: Espinaca. Foto del día 17/06/2026}}{164}{figure.caption.134}%
-\contentsline {figure}{\numberline {C.23}{\ignorespaces DURACIÓN Y FASES DE LAS TAREAS PREVISTAS}}{165}{figure.caption.135}%
+\contentsline {figure}{\numberline {C.1}{\ignorespaces DURACIÓN Y FASES DE LAS TAREAS PREVISTAS}}{146}{figure.caption.112}%
+\contentsline {figure}{\numberline {C.2}{\ignorespaces \relax }}{148}{figure.caption.113}%
+\contentsline {figure}{\numberline {C.3}{\ignorespaces \relax }}{149}{figure.caption.114}%
+\contentsline {figure}{\numberline {C.4}{\ignorespaces \relax }}{149}{figure.caption.115}%
+\contentsline {figure}{\numberline {C.5}{\ignorespaces Medición de luz ambiental y humedad del suelo.}}{152}{figure.caption.116}%
+\contentsline {figure}{\numberline {C.6}{\ignorespaces DURACIÓN Y FASES DE LAS TAREAS PREVISTAS}}{154}{figure.caption.117}%
+\contentsline {figure}{\numberline {C.7}{\ignorespaces Prueba de iluminación realizando mediciones moviendo el BH1750 en distintos puntos.}}{156}{figure.caption.118}%
+\contentsline {figure}{\numberline {C.8}{\ignorespaces Foto 1: Implementación física del primer prototipo. Foto 2 y 3: Rabanitos con una semana de germinación.}}{157}{figure.caption.119}%
+\contentsline {figure}{\numberline {C.9}{\ignorespaces Visualización de datos de sensores en tiempo real.}}{158}{figure.caption.120}%
+\contentsline {figure}{\numberline {C.10}{\ignorespaces DURACIÓN Y FASES DE LAS TAREAS PREVISTAS}}{158}{figure.caption.121}%
+\contentsline {figure}{\numberline {C.11}{\ignorespaces Plantas de rabanitos luego de tres semanas de la siembra.}}{159}{figure.caption.122}%
+\contentsline {figure}{\numberline {C.12}{\ignorespaces Sensores de luz, temperatura y humedad y prueba para espinaca y rúcula.}}{160}{figure.caption.123}%
+\contentsline {figure}{\numberline {C.13}{\ignorespaces Diseño y construcción de las macetas modulares de 0,5 m$^2$}}{161}{figure.caption.124}%
+\contentsline {figure}{\numberline {C.14}{\ignorespaces Impermeabilización y primera prueba del sistema de drenaje.}}{161}{figure.caption.125}%
+\contentsline {figure}{\numberline {C.15}{\ignorespaces Referencias al diagrama de Gantt DURACIÓN Y FASES DE LAS TAREAS PREVISTAS}}{162}{figure.caption.126}%
+\contentsline {figure}{\numberline {C.16}{\ignorespaces Implementación del código.}}{164}{figure.caption.127}%
+\contentsline {figure}{\numberline {C.17}{\ignorespaces Primer foto: Plantas de espinaca y rúcula luego de un mes. Segunda foto: Luego de un mes y medio.}}{165}{figure.caption.128}%
+\contentsline {figure}{\numberline {C.18}{\ignorespaces Sistema de desagote.}}{166}{figure.caption.129}%
+\contentsline {figure}{\numberline {C.19}{\ignorespaces Pieza diseñada para el desagote y filtrado.}}{167}{figure.caption.130}%
+\contentsline {figure}{\numberline {C.20}{\ignorespaces Referencias al diagrama de Gantt DURACIÓN Y FASES DE LAS TAREAS PREVISTAS}}{167}{figure.caption.131}%
+\contentsline {figure}{\numberline {C.21}{\ignorespaces Maceta número 1: Rúcula. Se puede ver cómo con la corrección de luz salieron nuevos brotes. Foto del día 17/06/2026}}{169}{figure.caption.132}%
+\contentsline {figure}{\numberline {C.22}{\ignorespaces Maceta número 2: Espinaca. Foto del día 17/06/2026}}{169}{figure.caption.133}%
+\contentsline {figure}{\numberline {C.23}{\ignorespaces DURACIÓN Y FASES DE LAS TAREAS PREVISTAS}}{170}{figure.caption.134}%

@@ -1,5 +1,7 @@
 \chapter*{Resultados}
 \addcontentsline{toc}{chapter}{Resultados}
+\stepcounter{chapter}
+\setcounter{section}{0}
 
 Aquí se describen los resultados obtenidos luego de todo el proceso, a modo de resumen y haciendo referencia a lo desarrollado anteriormente. Inicialmente se mostrara el crecimiento del cultivo, luego los datos recopilados por los sensores durante la fase de crecimiento y finalmente se hara una breve conclusion de los resultados obtenidos durante esa etapa. Cabe destacar que las imagenes fueron tomadas en momentos donde se considero necesario, viable u optimo considerando el crecimiento vegetal.
 
@@ -91,7 +93,7 @@ A continuación, se presentan las representaciones gráficas de las series tempo
     \includegraphics[width=\textwidth]{Imagenes/GraficoPrimerMedicion.png}
     \caption{Series temporales de la telemetría del prototipo: variables lumínicas, ambientales, de suelo y estados de los actuadores.}
     \Fuente{propia.}
-    \label{fig:graficos_telemetria}
+    \label{fig:graficos_telemetria_1}
 \end{figure}
 A partir de las series temporales presentadas, es posible determinar el fotoperíodo diario al que fue sometido el cultivo, identificándose claramente las fases de activación lumínica y los intervalos de oscuridad correspondientes al ciclo nocturno. La atenuación progresiva registrada en los niveles de iluminancia máxima no responde a una degradación de las luminarias, sino al fenómeno de oclusión óptica derivado del propio crecimiento de las especies vegetales; al incrementar el índice de área foliar, las hojas obstruyeron de forma directa la trayectoria del flujo fotónico hacia la superficie activa del sensor. Respecto al microclima, se constata un régimen térmico persistente cercano a los 30 grados Celsius, factor crítico que aceleró la inducción floral prematura analizada previamente. En cuanto a la dinámica hídrica, la lectura inicial saturada del 100 por ciento obedeció a una falta de linealización en la etapa preliminar; tras aplicar una recalibración en los umbrales del software, se optimizó la resolución de la medida, permitiendo registrar la curva de secado natural del sustrato y los picos de recuperación inmediata tras los eventos de irrigación. Finalmente, la condición desactivada de la bomba hidráulica durante la mayor parte del ensayo confirma que el riego se ejecutó de forma manual, registrándose un único pulso de activación remota debido a una prueba de validación sobre el algoritmo de control.
 
@@ -137,7 +139,7 @@ Como se constata en el registro fotográfico, el espécimen de mayor volumen bio
     \includegraphics[height=7cm, width=\textwidth, keepaspectratio]{Imagenes/Plantaciones/PHOTO-2026-03-10-10-13-06.jpg}
     \caption{Fecha de la foto: 10/03/26}
     \Fuente{propia.}
-    \label{fig:prueba2_10mar}
+    \label{fig:prueba2_10mar_a}
 \end{figure}
 
 Posteriormente fue retirada del contenedor:
@@ -197,7 +199,7 @@ A continuación, se presentan las representaciones gráficas de las series tempo
     \includegraphics[width=\textwidth]{Imagenes/GraficosSegundaMedicion.png}
     \caption{Series temporales de la telemetría del prototipo: variables lumínicas, ambientales, de suelo y estados de los actuadores.}
     \Fuente{propia.}
-    \label{fig:graficos_telemetria}
+    \label{fig:graficos_telemetria_2}
 \end{figure}
 
 A partir de las series temporales obtenidas durante el período de marzo, es posible efectuar un análisis de los eventos operativos que caracterizaron el ensayo. En el espectro de iluminancia, se identifica una interrupción deliberada del canal de adquisición entre las jornadas del 9 y el 13 de marzo, este intervalo con registros nulos obedeció a la remoción temporal del transductor óptico para someterlo a ensayos de caracterización y calibración en banco de pruebas. Con posterioridad a dicho suceso, la reactivación del módulo documenta una atenuación progresiva en la amplitud de los picos de lux totales hacia el cierre del mes, un fenómeno físico que convalida el desarrollo del dosel biológico del cultivo, cuyas estructuras foliares en expansión interfirieron de forma directa en el cono de recepción del sensor. En lo que respecta a la dinámica del sustrato, la curva de humedad describe un gradiente de saturación estable y libre de oscilaciones críticas, confirmando que las propiedades retentivas de la mezcla de tierra preservaron el estado hídrico óptimo de la zona radicular. Por último, el diagrama de estados lógicos corrobora la inactividad persistente del lazo de potencia de la bomba hidráulica, identificándose únicamente un evento discreto en estado alto que responde a las pruebas de conmutación y validación algorítmica ejecutadas de forma manual sobre el sistema.
@@ -304,7 +306,7 @@ A continuación, se presentan las representaciones gráficas de las series tempo
     \includegraphics[width=\linewidth]{Imagenes/humedad_final_maceta1.png}
     \caption{Grafico de humedad de suelo de maceta 1.}
     \Fuente{propia.}
-    \label{fig:prueba2_10mar}
+    \label{fig:humedad_final_m1}
 \end{figure}
 
 \begin{figure}[H]
@@ -312,7 +314,7 @@ A continuación, se presentan las representaciones gráficas de las series tempo
     \includegraphics[width=\linewidth]{Imagenes/humedad_final_maceta2.png}
     \caption{Grafico de humedad de suelo de maceta 2.}
     \Fuente{propia.}
-    \label{fig:prueba2_10mar}
+    \label{fig:humedad_final_m2}
 \end{figure}
 
 \begin{figure}[H]
@@ -320,7 +322,7 @@ A continuación, se presentan las representaciones gráficas de las series tempo
     \includegraphics[width=\linewidth]{Imagenes/lux_dli_maceta1_final.png}
     \caption{Grafico de DLI y lux de maceta 1.}
     \Fuente{propia.}
-    \label{fig:prueba2_10mar}
+    \label{fig:lux_dli_final_m1}
 \end{figure}
 
 \begin{figure}[H]
@@ -328,7 +330,7 @@ A continuación, se presentan las representaciones gráficas de las series tempo
     \includegraphics[width=\linewidth]{Imagenes/lux_dli_maceta2_final.png}
     \caption{Grafico de DLI y lux de maceta 2.}
     \Fuente{propia.}
-    \label{fig:prueba2_10mar}
+    \label{fig:lux_dli_final_m2}
 \end{figure}
 
 \begin{figure}[H]
@@ -336,7 +338,7 @@ A continuación, se presentan las representaciones gráficas de las series tempo
     \includegraphics[width=\linewidth]{Imagenes/actuadores_final_maceta1.png}
     \caption{Grafico de actuadores de maceta 1.}
     \Fuente{propia.}
-    \label{fig:prueba2_10mar}
+    \label{fig:actuadores_final_m1}
 \end{figure}
 
 \begin{figure}[H]
@@ -344,7 +346,7 @@ A continuación, se presentan las representaciones gráficas de las series tempo
     \includegraphics[width=\linewidth]{Imagenes/actuadores_final_maceta2.png}
     \caption{Grafico de actuadores de maceta 2.}
     \Fuente{propia.}
-    \label{fig:prueba2_10mar}
+    \label{fig:actuadores_final_m2}
 \end{figure}
 
 \begin{figure}[H]
@@ -352,7 +354,7 @@ A continuación, se presentan las representaciones gráficas de las series tempo
     \includegraphics[width=\linewidth]{Imagenes/temphum_final_maceta1.png}
     \caption{Grafico de temperatura y humedad para ambas macetas.}
     \Fuente{propia.}
-    \label{fig:prueba2_10mar}
+    \label{fig:temphum_final}
 \end{figure}
 
 Con el fin de lograr apreciar mejor las variaciones de los parametros fisicos y variables se mostraran las mediciones del ultimo periodo (Julio). Series temporales del mes de julio:
@@ -361,7 +363,7 @@ Con el fin de lograr apreciar mejor las variaciones de los parametros fisicos y 
     \includegraphics[width=\linewidth]{Imagenes/humedad_final_julio_maceta1.png}
     \caption{Grafico de humedad de suelo de maceta 1.}
     \Fuente{propia.}
-    \label{fig:prueba2_10mar}
+    \label{fig:humedad_julio_m1}
 \end{figure}
 
 \begin{figure}[H]
@@ -369,7 +371,7 @@ Con el fin de lograr apreciar mejor las variaciones de los parametros fisicos y 
     \includegraphics[width=\linewidth]{Imagenes/humedad_final_julio_maceta2.png}
     \caption{Grafico de humedad de suelo de maceta 2.}
     \Fuente{propia.}
-    \label{fig:prueba2_10mar}
+    \label{fig:humedad_julio_m2}
 \end{figure}
 
 \begin{figure}[H]
@@ -377,7 +379,7 @@ Con el fin de lograr apreciar mejor las variaciones de los parametros fisicos y 
     \includegraphics[width=\linewidth]{Imagenes/lux_dli_maceta1.png}
     \caption{Grafico de DLI y lux de maceta 1.}
     \Fuente{propia.}
-    \label{fig:prueba2_10mar}
+    \label{fig:lux_dli_julio_m1}
 \end{figure}
 
 \begin{figure}[H]
@@ -385,7 +387,7 @@ Con el fin de lograr apreciar mejor las variaciones de los parametros fisicos y 
     \includegraphics[width=\linewidth]{Imagenes/lux_dli_maceta2.png}
     \caption{Grafico de DLI y lux de maceta 2.}
     \Fuente{propia.}
-    \label{fig:prueba2_10mar}
+    \label{fig:lux_dli_julio_m2}
 \end{figure}
 
 \begin{figure}[H]
@@ -393,7 +395,7 @@ Con el fin de lograr apreciar mejor las variaciones de los parametros fisicos y 
     \includegraphics[width=\linewidth]{Imagenes/actuadores_final_julio_maceta1.png}
     \caption{Grafico de actuadores de maceta 1.}
     \Fuente{propia.}
-    \label{fig:prueba2_10mar}
+    \label{fig:actuadores_julio_m1}
 \end{figure}
 
 \begin{figure}[H]
@@ -401,7 +403,7 @@ Con el fin de lograr apreciar mejor las variaciones de los parametros fisicos y 
     \includegraphics[width=\linewidth]{Imagenes/actuadores_final_julio_maceta2.png}
     \caption{Grafico de actuadores de maceta 2.}
     \Fuente{propia.}
-    \label{fig:prueba2_10mar}
+    \label{fig:actuadores_julio_m2}
 \end{figure}
 
 \begin{figure}[H]
@@ -409,9 +411,8 @@ Con el fin de lograr apreciar mejor las variaciones de los parametros fisicos y 
     \includegraphics[width=\linewidth]{Imagenes/temphum_final_julio_maceta2.png}
     \caption{Grafico de temperatura y humedad para ambas macetas.}
     \Fuente{propia.}
-    \label{fig:prueba2_10mar}
+    \label{fig:temphum_julio}
 \end{figure}
-
 
 El análisis longitudinal de los datos recopilados por el sistema de adquisición de telemetría durante el período comprendido entre abril y julio permite evaluar de forma rigurosa el desempeño del lazo de control automatizado en condiciones operativas reales. A través del monitoreo continuo de las variables microclimáticas y del estado de los actuadores en ambas macetas, se verificó la capacidad del prototipo para sostener un entorno altamente estable e ideal para el desarrollo fenológico de los cultivos.
 
@@ -423,8 +424,8 @@ En cuanto a las variables ambientales atmosféricas, estas registraron de manera
 
 En conclusión, la concordancia observada entre la adquisición de datos de los sensores y la respuesta en tiempo real de los actuadores valida la fiabilidad del firmware implementado en el microcontrolador y la topología del hardware. La capacidad del sistema para autocorregirse y mantener las variables dentro de los rangos de confort biológico garantizó un entorno agronómico controlado que se tradujo directamente en el óptimo desarrollo de los cultivos.
 
-\chapter*{Consumo de potencia}
-\label{cha:consumo_potencia}
+\section{Consumo de potencia}
+\label{sec:consumo_potencia}
 
 Con el propósito de auditar la demanda energética máxima del prototipo y validar el correcto dimensionamiento de las etapas de alimentación, se llevó a cabo una prueba de caracterización bajo el régimen de operación a plena carga. Este ensayo consistió en la activación simultánea y continuada de la totalidad de los actuadores de potencia, incluyendo los paneles lumínicos, la electrobomba hidráulica, la red de ventilación forzada y la unidad central de procesamiento en estado de cómputo activo junto a la matriz de sensado. Mediante la inserción de una pinza amperométrica en la línea principal de suministro, se registró el consumo de corriente pico instantáneo y en régimen permanente. La Figura descrita a continuación ilustra el procedimiento instrumental de medición, cuyo valor obtenido permite determinar la potencia activa total consumida por la granja inteligente en su punto de máxima exigencia operativa y verificar los márgenes de seguridad térmica en los conductores.
 
@@ -455,4 +456,4 @@ Desde la perspectiva electro-energética, el prototipo demostró un nivel de efi
 
 Es fundamental destacar que este consumo pico no representa la demanda sostenida del sistema. Gracias a la arquitectura de control implementada en la unidad central, los actuadores operan bajo ciclos de trabajo (\textit{duty cycles}) estrictamente optimizados. Mientras que la instrumentación lógica (Raspberry Pi y red de sensores) requiere alimentación ininterrumpida con un impacto energético marginal, las cargas de mayor potencia se gestionan de forma intermitente: el fotoperíodo de las luminarias limita su uso a una fracción del día, y la bomba junto con las válvulas solenoides se activan únicamente durante las breves ventanas de irrigación.
 
-En conclusión, el balance energético del sistema confirma la viabilidad económica y ambiental del cultivo automatizado indoor. El diseño de hardware seleccionado permite mantener un ecosistema biológico complejo sin sobrecargar la infraestructura eléctrica domiciliaria, sentando las bases para escalar el proyecto añadiendo nuevos módulos de cultivo con un impacto energético predecible y sostenible.
+En conclusión, el balance energético del sistema confirma la viabilidad económica y ambiental del cultivo automatizado en sustrato. El diseño de hardware seleccionado permite mantener un ecosistema biológico complejo sin sobrecargar la infraestructura eléctrica domiciliaria, sentando las bases para escalar el proyecto añadiendo nuevos módulos de cultivo con un impacto energético predecible y sostenible.
