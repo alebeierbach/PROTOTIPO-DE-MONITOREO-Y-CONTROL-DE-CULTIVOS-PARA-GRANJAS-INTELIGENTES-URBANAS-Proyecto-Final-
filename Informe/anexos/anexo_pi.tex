@@ -119,7 +119,296 @@ El resultado esperado es la validación de un prototipo funcional de granja urba
     \item \url{https://agrospray.com.ar/blog/agricultura-vertical/}
 \end{itemize}
 
+\newpage
 \section*{Informes mensuales}
 \addcontentsline{toc}{section}{Informes mensuales}
 
-Aquí van los informes mensuales ordenados por fecha. Debe retirarse todo dato personal y firmas.
+\subsection*{Primer informe mensual}
+\textbf{FECHA:} 19/12/2025
+
+\section*{Informe del avance logrado en el último mes:}
+Durante el primer mes de trabajo realizamos avances en materia de investigación de granjas verticales, selección y compra de algunos de los componentes para el sensado y riego de los cultivos y también se realizaron experimentos exitosos para sensar humedad del suelo, temperatura, luz y humedad relativa del ambiente mediante el uso de una Raspberry Pi 4 Model B. También se hicieron pruebas para simular la lógica de funcionamiento (de manera muy sencilla) una vez instalada la bomba de agua con las válvulas solenoides correspondientes. Todos los códigos probados en la placa se encuentran en este repositorio. A continuación adjunto imágenes de la implementación física para la medición de luz ambiental y humedad del suelo, con una simulación para activar el riego mediante la habilitación del relé de la bomba y de la válvula solenoide:
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\textwidth]{Imagenes/bed80d3e-0ba1-4f07-b93c-9036462190be-1_991_743_1653_748.jpg}
+  \caption{Medición de luz ambiental y humedad del suelo.}
+\end{figure}
+
+\noindent [20:17:00] --- Iniciando Ciclo de Lectura ---\\
+Luz Ambiente: 65.4 lx\\
+-> LUZ 1: ENCENDIDO\\
+-> Luz 2: ENCENDIDO\\
+-> Luz 3: Encendido\\
+-> Lechuga 1 (CHO): Valor=56 | Correcto\\
+-> Lechuga 2 (CH1): Valor=53 | Correcto\\
+-> Tomate 1 (CH2): Valor=53 | Correcto\\
+-> Tomate 2 (CM3): Valor=44 | Correcto
+
+\vspace{0.3cm}
+\noindent [20:17:01] ... Iniciando Ciclo de Lectura ...\\
+Luz Ambiente: 65.0 lx\\
+-> Luz 1: ENCENDIDO\\
+-> Luz 2: ENCENDIDO\\
+-> Luz 3: ENCENDIDO
+
+\begin{itemize}
+  \item Lechuga 1 (CHO): Valor=0 | Correcto
+  \item Lechuga 2 (CH1): Valor=0 | Correcto
+  \item Tomate 1 (CH2): Valor=0 | Correcto
+  \item Tomate 2 (CH3): Valor=34 | Correcto
+\end{itemize}
+
+\noindent [20:17:03] --- Iniciando Ciclo de Lectura ---\\
+Luz Ambiente: 65.0 lx\\
+-> Luz 1: ENCENDIDO\\
+-> Luz 2: ENCENDIDO\\
+-> Luz 3: Encendido\\
+-> Lechuga 1 (CHO): Valor=3 | Correcto\\
+-> Lechuga 2 (CH1): Valor=0 | Correcto\\
+-> Tomate 1 (CH2): Valor=0 | Correcto\\
+-> Tomate 2 (CH3): Valor=35 | Correcto
+
+\vspace{0.3cm}
+\noindent [20:17:04] --- Iniciando Ciclo de Lectura ---\\
+Luz Ambiente: 64.6 lx\\
+-> Luz 1: ENCENDIDO\\
+-> Luz 2: ENCENDIDO\\
+-> Luz 3: ENCENDIDO\\
+-> Lechuga 1 (CHO): Valor=8 | Correcto\\
+-> Lechuga 2 (CH1): Valor=0 | Correcto\\
+-> Tomate 1 (CH2): Valor=0 | Correcto\\
+-> Tomate 2 (CH3): Valor=35 | Correcto
+
+\vspace{0.3cm}
+\noindent [20:17:06] --- Iniciando Ciclo de Lectura ---\\
+Luz Ambiente: 64.6 lx\\
+-> Luz 1: ENCENDIDO\\
+-> Luz 2: ENCENDIDO\\
+-> Luz 3: ENCENDIDO\\
+-> Lechuga 1 (CHO): Valor=255 | RIEGO ACTIVO\\
+-> Lechuga 1: Riego finalizado\\
+-> Lechuga 2 (CH1): Valor=60 | Correcto\\
+-> Tomate 1 (CH2): Valor=62 | Correcto\\
+-> Tomate 2 (CH3): Valor=255 | RIEGO ACTIVO
+
+\vspace{0.5cm}
+\noindent\textbf{Tareas actuales y próximos pasos:}
+\begin{itemize}
+  \item Diseño y construcción de macetas de 0,5 m$^2$. Inicialmente se planteó un largo de 100 cm y un ancho de 50 cm para cumplir con las medidas del área de la misma, con una profundidad de 30 cm. Se debe evaluar la disposición de la luz para encontrar la estructura óptima.
+  \item Implementar el sensado de todas las variables, agregando un multiplexor para los luxómetros que comparten la misma dirección en I$^2$C. Para los higrómetros se pudo sortear este obstáculo debido a que están conectados a un ADC de múltiples entradas. También se deben calibrar correctamente los sensores.
+  \item Continuar la investigación de cultivos y sus condiciones de crecimiento para seleccionar los mismos a partir de un análisis de factibilidad así se puede empezar a sembrar durante la primera quincena de enero.
+  \item Investigar y comenzar a implementar los métodos de control para los distintos actores que intervienen en el prototipo.
+\end{itemize}
+
+\noindent\textbf{Referencias al diagrama de Gantt}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\textwidth]{Imagenes/bed80d3e-0ba1-4f07-b93c-9036462190be-3_784_1532_1275_298.jpg}
+  \caption{DURACIÓN Y FASES DE LAS TAREAS PREVISTAS}
+\end{figure}
+
+La investigación sobre los cultivos aún está en proceso pero se adelantaron otras tareas en lo que a implementación física se refiere. El proyecto marcha bien y se logra avanzar en cada jornada. Los próximos meses serán más desafiantes y se espera tener las macetas para comenzar pruebas durante enero.
+
+\noindent\textbf{FECHA ESTIMADA DE FINALIZACIÓN:} Finales de Marzo de 2026
+
+\subsection*{Segundo informe mensual}
+\textbf{FECHA:} 31/01/2026\\
+\textbf{TEMA:} PROTOTIPO DE MONITOREO Y CONTROL DE LAS CONDICIONES DE CULTIVOS PARA GRANJAS INTELIGENTES URBANAS\\
+\textbf{DIRECTOR:} Orellano, Mayco Nahuel\\
+\textbf{FECHA ESTIMADA DE FINALIZACIÓN:} 19/04/2026
+
+\section*{Informe del avance logrado en el último mes:}
+Durante el segundo mes de desarrollo, se realizaron avances en desarrollo de hardware, diseño de un prototipo más pequeño para realizar algunas pruebas sobre el cultivo de rabanitos, se terminó con el diseño de las macetas de 0,5 m$^2$. Se realizaron pruebas para encontrar la altura óptima de la luz para verificar que la cantidad de luz necesaria para la fotosíntesis de las plantas sea adecuada. Esto se estimó teniendo en cuenta los fotoperiodos de distintos cultivos a partir de la DLI (integral diaria de luz) para el cálculo de la PPFD (densidad de flujo de fotones fotosintéticos) a partir de mediciones del nivel de iluminación en base a las lecturas obtenidas por el sensor de luz BH1750. En base a estos resultados encontramos que el nivel óptimo para abarcar toda la superficie de la maceta mediante luz del espectro LED rojo y azul es de entre 30 y 50 cm, dependiendo del cultivo y la cantidad de luz que este mismo necesite.
+
+A continuación, se adjuntan fotos de las pruebas realizadas y el primer prototipo en marcha.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\textwidth]{Imagenes/20b8d31b-e1f5-418e-a4e4-c212a929be60-1_736_517_1775_799.jpg}
+  \caption{Prueba de iluminación realizando mediciones moviendo el BH1750 en distintos puntos.}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\textwidth]{Imagenes/20b8d31b-e1f5-418e-a4e4-c212a929be60-2_1030_1826_293_161.jpg}
+  \caption{Foto 1: Implementación física del primer prototipo. Foto 2 y 3: Rabanitos con una semana de germinación.}
+\end{figure}
+
+Los datos en tiempo real de las diferentes variables medidas pueden encontrarse en el sitio web donde se visualizan de esta forma:
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\textwidth]{Imagenes/20b8d31b-e1f5-418e-a4e4-c212a929be60-2_1176_1381_1578_368.jpg}
+  \caption{Visualización de datos de sensores en tiempo real.}
+\end{figure}
+
+\section*{Tareas actuales y próximos pasos:}
+\begin{itemize}
+  \item Construcción de macetas de 0,5 m$^2$ para comenzar pruebas con más cultivos.
+  \item Seleccionar los cultivos para las pruebas en las macetas más grandes.
+  \item Instalación de la bomba de agua en la estructura y realizar pruebas de riego.
+  \item Investigar y seleccionar la forma adecuada de control para la iluminación y el riego de las macetas.
+  \item Comenzar el desarrollo del informe.
+  \item Continuar con la investigación sobre el crecimiento en interiores de los cultivos.
+\end{itemize}
+
+\section*{Referencias al diagrama de Gantt}
+\begin{figure}[htbp]
+\centering
+  \includegraphics[width=\textwidth]{Imagenes/20b8d31b-e1f5-418e-a4e4-c212a929be60-3_789_1535_1111_298.jpg}
+  \caption{DURACIÓN Y FASES DE LAS TAREAS PREVISTAS}
+\end{figure}
+
+La investigación sobre los cultivos se encuentra en la fase final y se están realizando pruebas sobre cultivos de rabanitos. El proyecto marcha bien y se espera comenzar a cultivar en el prototipo final durante el mes de febrero.
+
+\noindent\textbf{FECHA ESTIMADA DE FINALIZACIÓN:} Finales de Abril de 2026
+
+
+\subsection*{Tercer informe mensual}
+\textbf{FECHA:} 01/03/2026
+
+\section*{Informe del avance logrado en el último mes:}
+Durante el tercer mes de trabajo se obtuvieron resultados satisfactorios en la siembra de rabanitos. Si bien la planta logró desarrollarse correctamente, las altas temperaturas afectaron el desarrollo del fruto, que presentó un tamaño reducido y un sabor amargo. A partir de estos resultados, se seleccionaron como cultivos finales la rúcula y la espinaca, con los cuales se realizaron nuevas pruebas en el mismo prototipo.
+
+Asimismo, se definió el factor de luminaria con el objetivo de calcular correctamente la DLI (Daily Light Integral) y poder tomar decisiones adecuadas en cuanto a la iluminación, en función de las necesidades específicas de cada cultivo.
+
+Además, las macetas fueron recubiertas con poliagro para lograr su impermeabilización, y se realizaron pruebas con piezas impresas en 3D destinadas al sistema de drenaje.
+
+A continuación, se presentan los resultados obtenidos y los diseños desarrollados e implementados:
+
+\begin{figure}[htbp]
+\centering
+  \includegraphics[width=\textwidth]{Imagenes/264a5093-dcb6-43c7-9b48-b9c6b74f01a2-2_799_1058_327_592.jpg}
+  \caption{Plantas de rabanitos luego de tres semanas de la siembra.}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+  \includegraphics[width=\textwidth]{Imagenes/264a5093-dcb6-43c7-9b48-b9c6b74f01a2-2_873_979_1236_630.jpg}
+  \caption{Sensores de luz, temperatura y humedad y prueba para espinaca y rúcula.}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+  \includegraphics[width=\textwidth]{Imagenes/264a5093-dcb6-43c7-9b48-b9c6b74f01a2-3_900_1318_320_459.jpg}
+  \caption{Diseño y construcción de las macetas modulares de 0,5 m$^2$}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+  \includegraphics[width=\textwidth]{Imagenes/264a5093-dcb6-43c7-9b48-b9c6b74f01a2-3_823_1157_1323_479.jpg}
+  \caption{Impermeabilización y primera prueba del sistema de drenaje.}
+\end{figure}
+
+\noindent\textbf{Tareas actuales y próximos pasos:}
+\begin{itemize}
+  \item Perfeccionar el sistema de drenaje, el implementado en las primeras pruebas tiene algunas pérdidas. Deben plantearse las piezas de otra manera y utilizar algún aislante más.
+  \item Realizar pruebas con la bomba de agua y el sistema de riego para implementarlo.
+  \item Investigar y comenzar a implementar los métodos de control para los distintos actores que intervienen en el prototipo.
+\end{itemize}
+
+\begin{figure}[htbp]
+\centering
+  \includegraphics[width=\textwidth]{Imagenes/264a5093-dcb6-43c7-9b48-b9c6b74f01a2-4_790_1533_525_299.jpg}
+  \caption{Referencias al diagrama de Gantt DURACIÓN Y FASES DE LAS TAREAS PREVISTAS}
+\end{figure}
+
+La investigación y selección de cultivos fue completada, y el prototipo final se encuentra próximo a finalizar para su puesta en operación. El proyecto continúa avanzando de manera favorable, previendo la siembra en el prototipo final durante la primera semana de abril.
+
+\subsection*{Cuarto informe mensual}
+\textbf{FECHA:} 06/04/2026\\
+\textbf{ALUMNO / S:} Ramirez, Valentin Jose. Beierbach, Alejo Adrian\\
+\textbf{TEMA:} PROTOTIPO DE MONITOREO Y CONTROL DE LAS CONDICIONES DE CULTIVOS PARA GRANJAS INTELIGENTES URBANAS\\
+\textbf{DIRECTOR:} Orellano, Mayco Nahuel\\
+\textbf{FECHA ESTIMADA DE FINALIZACIÓN:} 19/05/2026
+
+\section*{Informe del avance logrado en el último mes:}
+Durante el mes de marzo se implementó la última prueba de cultivo antes de pasar a las macetas finales. A partir de la información obtenida en la investigación, se logró cultivar espinaca (Monstruosa de Viroflay) y rúcula (Eruca vesicaria), las cuales, en poco más de un mes, crecieron hasta alcanzar un estado apto para el consumo.
+
+Se implementó la versión final del sistema de filtrado mediante la producción de nuevas piezas impresas en 3D. Además, se utilizó goma proveniente de una cámara de bicicleta como material aislante, lo que permitió solucionar problemas de goteo y pérdidas que podrían haber perjudicado la estructura de madera.
+
+En cuanto al código, el sistema fue dividido en módulos independientes según sus responsabilidades:
+
+\begin{itemize}
+  \item \texttt{models.py}: estructuras de datos (configuración y estado)
+  \item \texttt{config\_loader.py}: carga y validación de configuración externa
+  \item \texttt{control.py}: lógica de decisión (riego, iluminación, ventilación)
+  \item \texttt{hardware.py}: interacción con sensores y actuadores
+  \item \texttt{main.py}: orquestación del ciclo principal.
+\end{itemize}
+
+Se implementó un archivo de configuración externa (config.toml) que centraliza todos los parámetros del sistema, incluyendo pines GPIO, umbrales, horarios, tiempos de riego y habilitación de dispositivos.
+
+\begin{figure}[htbp]
+\centering
+  \includegraphics[width=\textwidth]{Imagenes/8d64870c-837d-4579-b632-52dee5309ccd-1_452_359_2220_877.jpg}
+  \caption{Implementación del código.}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+  \includegraphics[width=\textwidth]{Imagenes/8d64870c-837d-4579-b632-52dee5309ccd-2_1237_1388_475_426.jpg}
+  \caption{Primer foto: Plantas de espinaca y rúcula luego de un mes. Segunda foto: Luego de un mes y medio.}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+  \includegraphics[width=\textwidth]{Imagenes/8d64870c-837d-4579-b632-52dee5309ccd-3_847_476_322_880.jpg}
+  \caption{Sistema de desagote.}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+  \includegraphics[width=\textwidth]{Imagenes/8d64870c-837d-4579-b632-52dee5309ccd-3_892_1467_1292_322.jpg}
+  \caption{Pieza diseñada para el desagote y filtrado.}
+\end{figure}
+
+\section*{Tareas actuales y próximos pasos:}
+\begin{itemize}
+  \item Implementar y realizar ajustes al sistema de control para el desarrollo óptimo de las plantas para que esté totalmente automatizado.
+  \item Sembrar en las macetas del prototipo final y esperar resultados.
+  \item Avanzar con el informe final del PI.
+\end{itemize}
+
+\begin{figure}[htbp]
+\centering
+  \includegraphics[width=\textwidth]{Imagenes/8d64870c-837d-4579-b632-52dee5309ccd-4_788_1533_525_299.jpg}
+  \caption{Referencias al diagrama de Gantt DURACIÓN Y FASES DE LAS TAREAS PREVISTAS}
+\end{figure}
+
+Durante la segunda semana de abril se realizará la siembra de semillas de rúcula y espinaca en el prototipo final. En aproximadamente un mes deberían observarse los primeros brotes, lo que permitirá evaluar los resultados del sistema y dar por finalizado el Proyecto Integrador (PI).
+
+\noindent\textbf{FECHA ESTIMADA DE FINALIZACIÓN:} Finales de Mayo de 2026
+
+
+\subsection*{Último informe mensual}
+\textbf{FECHA:} 22/06/2026\\
+\textbf{TEMA:} PROTOTIPO DE MONITOREO Y CONTROL DE LAS CONDICIONES DE CULTIVOS PARA GRANJAS INTELIGENTES URBANAS\\
+\textbf{DIRECTOR:} Orellano, Mayco Nahuel\\
+\textbf{FECHA ESTIMADA DE FINALIZACIÓN:} 03/07/2026
+
+\section*{Informe del avance logrado en los últimos dos meses:}
+Durante los últimos dos meses de desarrollo se finalizó con la automatización del prototipo, siendo completamente autónomo y se corrigió la cantidad de luz que tenían las plantas de rúcula, ya que el resultado no era el esperado. Aumentando la cantidad de luxes absorbidos por día los cultivos de estas mejoraron y los resultados son los esperados. La maceta 2, donde se cultivó espinaca funcionó exitosamente y puede realizarse la primera cosecha de hojas de la misma. También se realizaron optimizaciones en el código (el control de versiones y demás material está en este repositorio) y se implementaron nuevas variables para mejorar el control del crecimiento. Ahora se mide el DLI (integral de luz diaria) teniendo en cuenta los luxes absorbidos por el sol y en base a lo acumulado durante el día se determina el tiempo que se encenderán las luces artificiales luego del atardecer. Los últimos pasos son acomodar estéticamente el prototipo e implementar una página web donde se pueda interactuar con las macetas remotamente. En cuanto al informe, este está en desarrollo y se planea finalizarlo para la primera semana de julio.
+
+\begin{figure}[htbp]
+\centering
+  \includegraphics[width=\textwidth]{Imagenes/d2064ca1-78fe-4c5e-a25d-ba5c65de941b-1_765_1354_1768_380.jpg}
+  \caption{Maceta número 1: Rúcula. Se puede ver cómo con la corrección de luz salieron nuevos brotes. Foto del día 17/06/2026}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+  \includegraphics[width=\textwidth]{Imagenes/d2064ca1-78fe-4c5e-a25d-ba5c65de941b-2_794_1410_327_351.jpg}
+  \caption{Maceta número 2: Espinaca. Foto del día 17/06/2026}
+\end{figure}
+
+\section*{Referencias al diagrama de Gantt}
+\begin{figure}[htbp]
+\centering
+  \includegraphics[width=\textwidth]{Imagenes/d2064ca1-78fe-4c5e-a25d-ba5c65de941b-2_779_1528_1390_301.jpg}
+  \caption{DURACIÓN Y FASES DE LAS TAREAS PREVISTAS}
+\end{figure}
+
+El proyecto se extendió un mes más de lo esperado por problemas ajenos a lo académico, pero pudo retomarse a la brevedad. Solo quedan acomodar detalles estéticos y terminar el informe final del proyecto integrador.
