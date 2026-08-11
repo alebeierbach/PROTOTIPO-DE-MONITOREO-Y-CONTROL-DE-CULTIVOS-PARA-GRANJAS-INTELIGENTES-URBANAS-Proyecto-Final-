@@ -142,10 +142,6 @@
 \contentsline {section}{Conclusión general}{131}{section*.104}%
 \contentsline {section}{Aporte a la ingeniería o al campo de conocimiento}{132}{section*.104}%
 \contentsline {section}{Limitaciones y trabajos futuros}{132}{section*.104}%
-\contentsline {chapter}{\numberline {A}Anexo I}{142}{appendix.Alph1}%
-\contentsline {section}{Anexo I - Título}{142}{section*.107}%
-\contentsline {chapter}{\numberline {B}Anexo II}{143}{appendix.Alph2}%
-\contentsline {section}{Anexo II - Título}{143}{section*.108}%
-\contentsline {chapter}{\numberline {C}Anexo del Proyecto Integrador}{144}{appendix.Alph3}%
-\contentsline {section}{Solicitud de Aprobación de Tema}{144}{section*.109}%
-\contentsline {section}{Informes mensuales}{151}{figure.caption.113}%
+\contentsline {chapter}{\numberline {A}Anexo del Proyecto Integrador}{142}{appendix.Alph1}%
+\contentsline {section}{Solicitud de Aprobación de Tema}{142}{section*.107}%
+\contentsline {section}{Informes mensuales}{149}{figure.caption.111}%
