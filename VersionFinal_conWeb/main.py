@@ -14,10 +14,8 @@ from models import MacetaEstado, SystemState
 # Variable global para que el riego inicie siempre apagado
 sistema_regando = False
 
-
 def valor_csv(valor):
     return "" if valor is None else valor
-
 
 def crear_estado_inicial(config) -> SystemState:
     estado = SystemState()
@@ -51,7 +49,7 @@ def leer_maceta(hw: HardwareManager, maceta) -> Dict[str, Optional[float]]:
     return {
         "humedad_raw_1": raw1,
         "humedad_raw_2": raw2,
-        "lux": lux_ambiente,    # Se usara para la logica
+        "lux": lux_ambiente,    # Es para la logica
         "temperatura_c": temperatura_c,
         "humedad_ambiente_pct": humedad_ambiente_pct,
     }
