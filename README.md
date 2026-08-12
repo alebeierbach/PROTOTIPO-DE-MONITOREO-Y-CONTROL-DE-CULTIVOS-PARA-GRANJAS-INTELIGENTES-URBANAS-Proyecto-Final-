@@ -25,31 +25,30 @@ El prototipo combina hardware de bajo costo con una arquitectura de software mod
 
 ## 🗂️ Estructura del repositorio
 
-├── VersionFinal_conWeb/ # ⭐ Código final y estable del prototipo
-│ ├── models.py # Estructuras de configuración y estado del sistema
-│ ├── config_loader.py # Carga y validación de config.toml
-│ ├── hardware.py # Capa de abstracción de hardware (GPIO / I2C)
-│ ├── control.py # Lógica de control (riego, ventilación, DLI)
-│ ├── main.py # Ciclo de orquestación principal
-│ ├── web.py # Servidor Flask de configuración remota
-│ ├── templates/ # Plantillas HTML de la interfaz web
-│ └── config.toml # Archivo de configuración externalizado
-│
-├── 1er Prueba Rabanito/ # Primer ensayo: prototipo preliminar sin riego automatizado
-├── 2da Prueba Rucula Espinaca/ # Segundo ensayo: rúcula y espinaca, fotoperíodo invertido
-├── CodigoPrueba_Control_Luz/ # Pruebas de control de iluminación (versión temprana)
-├── Codigo_Prueba_ControlLuzV2/ # Segunda iteración del control de iluminación
-├── Control_Luz_Y_Riego/ # Integración de control de luz y riego
-├── Control_Luz_Ventilacion_Riego/ # Integración de luz, riego y ventilación
-├── Codigo_Final_Optimizado_Sin_Control/ # Versión de firmware optimizada, previa a VersionFinal_conWeb
-├── Diseños3D/ # Modelos y piezas diseñadas para manufactura aditiva
-├── Graficador/ # Scripts de generación de gráficos de telemetría
-├── Informe/ # Documento final del Proyecto Integrador
-├── CalculoDLI.m # Script MATLAB de validación numérica del cálculo de DLI
-├── PINOUT raspberry-pi-4.png.webp # Diagrama de pines de la Raspberry Pi 4 utilizado como referencia
-└── README.md
----
+- **`VersionFinal_conWeb/`** ⭐ — Código final y estable del prototipo
+  - `models.py` — Estructuras de configuración y estado del sistema
+  - `config_loader.py` — Carga y validación de `config.toml`
+  - `hardware.py` — Capa de abstracción de hardware (GPIO / I2C)
+  - `control.py` — Lógica de control (riego, ventilación, DLI)
+  - `main.py` — Ciclo de orquestación principal
+  - `web.py` — Servidor Flask de configuración remota
+  - `templates/` — Plantillas HTML de la interfaz web
+  - `config.toml` — Archivo de configuración externalizado
+- **`1er Prueba Rabanito/`** — Primer ensayo: prototipo preliminar sin riego automatizado
+- **`2da Prueba Rucula Espinaca/`** — Segundo ensayo: rúcula y espinaca, fotoperíodo invertido
+- **`CodigoPrueba_Control_Luz/`** — Pruebas de control de iluminación (versión temprana)
+- **`Codigo_Prueba_ControlLuzV2/`** — Segunda iteración del control de iluminación
+- **`Control_Luz_Y_Riego/`** — Integración de control de luz y riego
+- **`Control_Luz_Ventilacion_Riego/`** — Integración de luz, riego y ventilación
+- **`Codigo_Final_Optimizado_Sin_Control/`** — Versión de firmware optimizada, previa a `VersionFinal_conWeb`
+- **`Diseños3D/`** — Modelos y piezas diseñadas para manufactura aditiva
+- **`Graficador/`** — Scripts de generación de gráficos de telemetría
+- **`Informe/`** — Documento final del Proyecto Integrador
+- **`CalculoDLI.m`** — Script MATLAB de validación numérica del cálculo de DLI
+- **`PINOUT raspberry-pi-4.png.webp`** — Diagrama de pines de la Raspberry Pi 4 utilizado como referencia
+- **`README.md`**
 
+---
 ## ⚙️ Requisitos
 
 - Raspberry Pi 4 Model B con Raspberry Pi OS.
