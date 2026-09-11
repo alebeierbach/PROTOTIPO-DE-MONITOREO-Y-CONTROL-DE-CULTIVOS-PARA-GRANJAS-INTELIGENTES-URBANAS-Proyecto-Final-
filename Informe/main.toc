@@ -1,12 +1,12 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {chapter}{Dedicatoria}{\es@scroman {iv}}{chapter*.1}%
-\contentsline {chapter}{Agradecimientos}{\es@scroman {v}}{chapter*.2}%
-\contentsline {chapter}{Resumen}{\es@scroman {vi}}{chapter*.3}%
-\contentsline {chapter}{Abstract}{\es@scroman {vii}}{chapter*.3}%
-\contentsline {chapter}{Resumo}{\es@scroman {viii}}{chapter*.3}%
-\contentsline {chapter}{Lista de tablas}{\es@scroman {xiv}}{chapter*.5}%
-\contentsline {chapter}{Lista de figuras}{\es@scroman {xviii}}{chapter*.6}%
-\contentsline {chapter}{Lista de símbolos y convenciones}{\es@scroman {xix}}{chapter*.7}%
+\contentsline {chapter}{Dedicatorias}{\es@scroman {iv}}{chapter*.1}%
+\contentsline {chapter}{Agradecimientos}{\es@scroman {vi}}{chapter*.2}%
+\contentsline {chapter}{Resumen}{\es@scroman {viii}}{chapter*.3}%
+\contentsline {chapter}{Abstract}{\es@scroman {ix}}{chapter*.3}%
+\contentsline {chapter}{Resumo}{\es@scroman {x}}{chapter*.3}%
+\contentsline {chapter}{Lista de tablas}{\es@scroman {xvi}}{chapter*.5}%
+\contentsline {chapter}{Lista de figuras}{\es@scroman {xx}}{chapter*.6}%
+\contentsline {chapter}{Lista de símbolos y convenciones}{\es@scroman {xxi}}{chapter*.7}%
 \contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Antecedentes}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Relevancia del trabajo}{2}{section.1.2}%
