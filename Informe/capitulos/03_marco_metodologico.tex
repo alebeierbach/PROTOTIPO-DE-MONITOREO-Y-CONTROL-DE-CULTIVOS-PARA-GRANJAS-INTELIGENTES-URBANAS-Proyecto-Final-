@@ -1070,7 +1070,7 @@ La Figura \ref{fig:arquitectura_control} muestra las dependencias de importació
 \draw [flujo] (control) |- (main.east);
 
 \end{tikzpicture}
-\caption{Dependencias de importación entre los módulos del proceso de control (\texttt{indoor\_main.service}). Todas las flechas representan relaciones de código (\textit{import}): \texttt{main.py} depende de los tres módulos restantes, que a su vez comparten las estructuras de datos definidas en \texttt{models.py}.}
+\caption[Dependencias de importación entre los módulos del proceso de control.]{Dependencias de importación entre los módulos del proceso de control. Todas las flechas representan relaciones de código (\textit{import}): \texttt{main.py} depende de los tres módulos restantes, que a su vez comparten las estructuras de datos definidas en \texttt{models.py}.}
 \label{fig:arquitectura_control}
 \end{figure}
 
@@ -1102,7 +1102,7 @@ Como contrapunto, la Figura \ref{fig:arquitectura_web} muestra que el proceso de
 \draw [flujo] (web.south) -- node[right,font=\tiny]{renderiza} (template.north);
 
 \end{tikzpicture}
-\caption{Relación entre el proceso de control y el proceso de configuración web (\texttt{indoor\_web.service}). A diferencia de la Figura \ref{fig:arquitectura_control}, aquí no existe ninguna dependencia de código Python entre ambos procesos: la única relación es el archivo \texttt{config.toml} compartido en disco (flechas punteadas), que cada proceso lee y/o escribe de forma independiente. El servicio \texttt{ngrok.service} tampoco depende del código de \texttt{web.py}; únicamente reenvía tráfico de red hacia el puerto que este último expone.}
+\caption[Relación entre el proceso de control y el proceso de configuración web.]{Relación entre el proceso de control y el proceso de configuración web (\texttt{indoor\_web.service}). A diferencia de la Figura \ref{fig:arquitectura_control}, aquí no existe ninguna dependencia de código Python entre ambos procesos: la única relación es el archivo \texttt{config.toml} compartido en disco (flechas punteadas), que cada proceso lee y/o escribe de forma independiente. El servicio \texttt{ngrok.service} tampoco depende del código de \texttt{web.py}; únicamente reenvía tráfico de red hacia el puerto que este último expone.}
 \label{fig:arquitectura_web}
 \end{figure}
 
@@ -1206,22 +1206,21 @@ Tras procesar una solicitud de guardado exitosa, el servidor redirige al usuario
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.95\textwidth]{Imagenes/Screenshot 2026-08-09 203535.png}
-\caption{Vista de la interfaz de control desde el navegador web en una computadora: Formulario de ajuste de parámetros (\texttt{config.toml}). Fuente: Elaboración propia.}
+\caption[Vista de la interfaz de control desde el navegador web.]{Vista de la interfaz de control desde el navegador web en una computadora: Formulario de ajuste de parámetros (\texttt{config.toml}). Fuente: Elaboración propia.}
 \label{fig:web_parametros}
 \end{figure}
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.95\textwidth]{Imagenes/Screenshot 2026-08-09 203555.png}
-\caption{Vista de la interfaz de monitoreo desde el navegador web en una computadora: Gráficos históricos de humedad de suelo e intensidad de luz. Fuente: Elaboración propia.}
+\caption[Vista de la interfaz de monitoreo desde el navegador web.]{Vista de la interfaz de monitoreo desde el navegador web en una computadora: Gráficos históricos de humedad de suelo e intensidad de luz. Fuente: Elaboración propia.}
 \label{fig:web_historico_1}
 \end{figure}
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.95\textwidth]{Imagenes/Screenshot 2026-08-09 203609.png}
-\caption{Vista de la interfaz de monitoreo desde el navegador web en una computadora: Gráficos históricos de temperatura y humedad ambiente, desplegada mediante el túnel inverso en \url{https://democrat-unrobed-excess.ngrok-free.dev/?success=1}. Fuente: Elaboración propia.}
-\label{fig:web_historico_2}
+\caption[Vista de la interfaz de monitoreo desde el navegador web.]{Vista de la interfaz de monitoreo desde el navegador web en una computadora: Gráficos históricos de temperatura y humedad ambiente, desplegada mediante el túnel inverso en \url{https://democrat-unrobed-excess.ngrok-free.dev/?success=1}. Fuente: Elaboración propia.}\label{fig:web_historico_2}
 \end{figure}
 
 % ================================================================
