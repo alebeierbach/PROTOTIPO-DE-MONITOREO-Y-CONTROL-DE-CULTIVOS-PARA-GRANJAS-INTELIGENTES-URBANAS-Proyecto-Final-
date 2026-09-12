@@ -93,11 +93,6 @@ Proyecto Integrador desarrollado en el marco del proyecto de investigación del 
 Presentado para la obtención del título de **Ingeniero/a Electrónico/a** — Facultad de Ciencias Exactas, Físicas y Naturales, Universidad Nacional de Córdoba (UNC).
 
 <!-- AJUSTAR: agregar nombre del autor/es y año -->
-**Autores:** [Ramirez, Valentin Jose y Beierbach, Alejo Adrian]
-**Año:** [2026]
+**Autores:** Ramirez, Valentin Jose y Beierbach, Alejo Adrian
+**Año:** 2026
 
----
-
-## 📄 Licencia
-
-<!-- AJUSTAR: agregar licencia si corresponde, o quitar esta sección -->
